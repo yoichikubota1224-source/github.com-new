@@ -1,0 +1,8 @@
+canonical_id,canonical_label,jockey_L3,sire_L3,trainer_L3,jockey_L2_kindle,sire_L2_kindle,trainer_L2_kindle,surface要否,resolution_note
+CLS_NEW,新馬,新馬,新馬,新馬,新馬,新馬,新馬,JOCKEY:- / SIRE:芝ダ / TRAINER:-,全ソース一致。名寄せ不要
+CLS_MAIDEN,未勝利,未勝利,未勝利,未勝利,未勝利,未勝利,未勝利,JOCKEY:- / SIRE:芝ダ / TRAINER:-,全ソース一致。名寄せ不要
+CLS_WIN1,1勝クラス,1勝クラス,1勝,1勝,1勝,1〜3勝クラス(分離不可),1〜3勝クラス(分離不可),JOCKEY:- / SIRE:芝ダ / TRAINER:-,層3は3ソースとも勝別で到達可(表記ゆれのみ)。Kindle層2はSIRE/TRAINERが1〜3勝一括で勝別に到達不可[粗]
+CLS_WIN2,2勝クラス,2勝クラス,2勝,2勝,2勝,1〜3勝クラス(分離不可),1〜3勝クラス(分離不可),JOCKEY:- / SIRE:芝ダ / TRAINER:-,同上。Kindle層2 SIRE/TRAINERでは2勝クラス単独を引けない
+CLS_WIN3,3勝クラス,3勝クラス,3勝,3勝,3勝,1〜3勝クラス(分離不可),1〜3勝クラス(分離不可),JOCKEY:- / SIRE:芝ダ / TRAINER:-,同上
+CLS_OP,オープン(非重賞),重賞・OP(分離不可),重賞・OP(分離不可),重賞・OP(分離不可),OP,OP（重賞含む）(分離不可),OP(重賞含む)(分離不可),JOCKEY:- / SIRE:芝ダ / TRAINER:-,層3は3ソースとも重賞・OP一括でOP単独に到達不可[粗]。Kindle層2はJOCKEYのみOPを重賞と分離可
+CLS_GRADE,重賞,重賞・OP(分離不可),重賞・OP(分離不可),重賞・OP(分離不可),重賞,OP（重賞含む）(分離不可),重賞,JOCKEY:- / SIRE:芝ダ / TRAINER:-,層3は重賞・OP一括。Kindle層2はJOCKEY・TRAINERが重賞単独を持つがSIREは持たない[非対称]
