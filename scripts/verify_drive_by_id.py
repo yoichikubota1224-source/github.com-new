@@ -12,6 +12,10 @@ PROJ = '/root/.claude/projects/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f
 PATHS = [PROJ + '.jsonl'] + sorted(glob.glob(os.path.join(PROJ, 'subagents', '*.jsonl')))
 
 want = dict(a.split('=', 1) for a in sys.argv[1:])
+if not want:
+    # 引数ゼロで実行すると照合対象が空になり、何も検証していないのに
+    # ALL MATCH と表示されてしまう。空の合格は合格ではないので、ここで止める。
+    sys.exit('usage: verify_drive_by_id.py <fileId>=<ローカルパス> ...  (照合対象が0件)')
 seen = {}
 
 
