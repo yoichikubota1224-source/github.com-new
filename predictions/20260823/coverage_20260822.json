@@ -1,0 +1,290 @@
+{
+ "day": "2026-08-22",
+ "races": [
+  {
+   "venue": "札幌",
+   "r": 1,
+   "marked": 7,
+   "field": 12,
+   "covered": 3,
+   "expected": 1.75
+  },
+  {
+   "venue": "札幌",
+   "r": 2,
+   "marked": 5,
+   "field": 6,
+   "covered": 3,
+   "expected": 2.5
+  },
+  {
+   "venue": "札幌",
+   "r": 3,
+   "marked": 8,
+   "field": 14,
+   "covered": 3,
+   "expected": 1.71
+  },
+  {
+   "venue": "札幌",
+   "r": 4,
+   "marked": 8,
+   "field": 16,
+   "covered": 2,
+   "expected": 1.5
+  },
+  {
+   "venue": "札幌",
+   "r": 5,
+   "marked": 7,
+   "field": 14,
+   "covered": 3,
+   "expected": 1.5
+  },
+  {
+   "venue": "札幌",
+   "r": 6,
+   "marked": 7,
+   "field": 13,
+   "covered": 2,
+   "expected": 1.62
+  },
+  {
+   "venue": "札幌",
+   "r": 7,
+   "marked": 8,
+   "field": 12,
+   "covered": 3,
+   "expected": 2.0
+  },
+  {
+   "venue": "札幌",
+   "r": 8,
+   "marked": 8,
+   "field": 10,
+   "covered": 3,
+   "expected": 2.4
+  },
+  {
+   "venue": "札幌",
+   "r": 9,
+   "marked": 7,
+   "field": 14,
+   "covered": 3,
+   "expected": 1.5
+  },
+  {
+   "venue": "札幌",
+   "r": 10,
+   "marked": 8,
+   "field": 14,
+   "covered": 3,
+   "expected": 1.71
+  },
+  {
+   "venue": "札幌",
+   "r": 11,
+   "marked": 7,
+   "field": 13,
+   "covered": 2,
+   "expected": 1.62
+  },
+  {
+   "venue": "札幌",
+   "r": 12,
+   "marked": 7,
+   "field": 11,
+   "covered": 3,
+   "expected": 1.91
+  },
+  {
+   "venue": "新潟",
+   "r": 1,
+   "marked": 5,
+   "field": 7,
+   "covered": 2,
+   "expected": 2.14
+  },
+  {
+   "venue": "新潟",
+   "r": 2,
+   "marked": 6,
+   "field": 12,
+   "covered": 2,
+   "expected": 1.5
+  },
+  {
+   "venue": "新潟",
+   "r": 3,
+   "marked": 5,
+   "field": 12,
+   "covered": 1,
+   "expected": 1.25
+  },
+  {
+   "venue": "新潟",
+   "r": 4,
+   "marked": 7,
+   "field": 15,
+   "covered": 2,
+   "expected": 1.4
+  },
+  {
+   "venue": "新潟",
+   "r": 5,
+   "marked": 8,
+   "field": 18,
+   "covered": 3,
+   "expected": 1.33
+  },
+  {
+   "venue": "新潟",
+   "r": 6,
+   "marked": 7,
+   "field": 18,
+   "covered": 3,
+   "expected": 1.17
+  },
+  {
+   "venue": "新潟",
+   "r": 7,
+   "marked": 8,
+   "field": 18,
+   "covered": 2,
+   "expected": 1.33
+  },
+  {
+   "venue": "新潟",
+   "r": 8,
+   "marked": 6,
+   "field": 15,
+   "covered": 2,
+   "expected": 1.2
+  },
+  {
+   "venue": "新潟",
+   "r": 9,
+   "marked": 6,
+   "field": 13,
+   "covered": 2,
+   "expected": 1.38
+  },
+  {
+   "venue": "新潟",
+   "r": 10,
+   "marked": 6,
+   "field": 15,
+   "covered": 2,
+   "expected": 1.2
+  },
+  {
+   "venue": "新潟",
+   "r": 11,
+   "marked": 8,
+   "field": 12,
+   "covered": 2,
+   "expected": 2.0
+  },
+  {
+   "venue": "新潟",
+   "r": 12,
+   "marked": 6,
+   "field": 15,
+   "covered": 3,
+   "expected": 1.2
+  },
+  {
+   "venue": "中京",
+   "r": 1,
+   "marked": 6,
+   "field": 9,
+   "covered": 3,
+   "expected": 2.0
+  },
+  {
+   "venue": "中京",
+   "r": 2,
+   "marked": 6,
+   "field": 10,
+   "covered": 2,
+   "expected": 1.8
+  },
+  {
+   "venue": "中京",
+   "r": 3,
+   "marked": 6,
+   "field": 8,
+   "covered": 3,
+   "expected": 2.25
+  },
+  {
+   "venue": "中京",
+   "r": 4,
+   "marked": 7,
+   "field": 18,
+   "covered": 2,
+   "expected": 1.17
+  },
+  {
+   "venue": "中京",
+   "r": 5,
+   "marked": 8,
+   "field": 16,
+   "covered": 3,
+   "expected": 1.5
+  },
+  {
+   "venue": "中京",
+   "r": 6,
+   "marked": 7,
+   "field": 14,
+   "covered": 2,
+   "expected": 1.5
+  },
+  {
+   "venue": "中京",
+   "r": 7,
+   "marked": 7,
+   "field": 16,
+   "covered": 1,
+   "expected": 1.31
+  },
+  {
+   "venue": "中京",
+   "r": 8,
+   "marked": 6,
+   "field": 10,
+   "covered": 2,
+   "expected": 1.8
+  },
+  {
+   "venue": "中京",
+   "r": 10,
+   "marked": 7,
+   "field": 12,
+   "covered": 3,
+   "expected": 1.75
+  },
+  {
+   "venue": "中京",
+   "r": 11,
+   "marked": 7,
+   "field": 15,
+   "covered": 3,
+   "expected": 1.4
+  },
+  {
+   "venue": "中京",
+   "r": 12,
+   "marked": 8,
+   "field": 17,
+   "covered": 2,
+   "expected": 1.41
+  }
+ ],
+ "covered": 85,
+ "expected": 56.7,
+ "slots": 105,
+ "rate": 81.0,
+ "lift": 1.5
+}
