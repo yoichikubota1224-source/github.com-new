@@ -8,7 +8,9 @@ import os
 WORK = os.environ.get("CHOKYO_WORK", "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/rev")
 os.makedirs(WORK, exist_ok=True)
 
-SP = '/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/race_day_20260823'
+# 入力CSVの置き場。既定はリポジトリに取り込んだ data/chokyo。
+SP = os.environ.get('CHOKYO_CSV',
+                    os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'chokyo'))
 FILES = [('坂路8.15－8.21.csv', 'HANRO'), ('坂路8.22.csv', 'HANRO'),
          ('ウッド8.15－8.21..csv', 'WOOD'), ('ウッド8.22..csv', 'WOOD')]
 
