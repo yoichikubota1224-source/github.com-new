@@ -2,17 +2,28 @@
 # 坂路/ウッドの生ラップCSV(その週に追い切った全馬)を読み、
 # 「日 × 調教場 × コース」ごとの終い1Fベースラインを自前で作る。
 # JRDBのCHA(馬場差・位置補正済み指数)が使えないので、補正を自分で作れるかを確かめるのが目的。
-import csv, io, json, os, statistics as st, collections
+import csv, io, json, os, glob, sys, statistics as st, collections
 import os
 # 中間成果物の置き場。作業領域が変わる場合は CHOKYO_WORK で上書きする。
 WORK = os.environ.get("CHOKYO_WORK", "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/rev")
 os.makedirs(WORK, exist_ok=True)
 
 # 入力CSVの置き場。既定はリポジトリに取り込んだ data/chokyo。
+# レイアウトは scripts/chokyo_ingest.py が作る hanro/YYYYMMDD.csv と wood/YYYYMMDD.csv。
+# 週次ファイルは範囲が重複するので、日付単位に割り直したものを読む。
 SP = os.environ.get('CHOKYO_CSV',
                     os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'chokyo'))
-FILES = [('坂路8.15－8.21.csv', 'HANRO'), ('坂路8.22.csv', 'HANRO'),
-         ('ウッド8.15－8.21..csv', 'WOOD'), ('ウッド8.22..csv', 'WOOD')]
+# 期間を絞りたいときは CHOKYO_SINCE / CHOKYO_UNTIL (YYYYMMDD, 両端を含む)。既定は全期間。
+SINCE = os.environ.get('CHOKYO_SINCE') or '00000000'
+UNTIL = os.environ.get('CHOKYO_UNTIL') or '99999999'
+
+FILES = ([(p, 'HANRO') for p in sorted(glob.glob(os.path.join(SP, 'hanro', '*.csv')))] +
+         [(p, 'WOOD') for p in sorted(glob.glob(os.path.join(SP, 'wood', '*.csv')))])
+FILES = [(p, k) for p, k in FILES
+         if SINCE <= os.path.splitext(os.path.basename(p))[0] <= UNTIL]
+if not FILES:
+    sys.exit('入力CSVが無い: %s/{hanro,wood}/*.csv  '
+             '(先に python3 scripts/chokyo_ingest.py を実行すること)' % SP)
 
 
 def f(x):
@@ -24,8 +35,8 @@ def f(x):
 
 
 rows = []
-for name, kind in FILES:
-    data = open(os.path.join(SP, name), 'rb').read().decode('cp932', errors='replace')
+for path, kind in FILES:
+    data = open(path, 'rb').read().decode('cp932', errors='replace')
     rr = list(csv.reader(io.StringIO(data)))
     if kind == 'WOOD':
         rr = rr[1:]                                    # ウッドだけヘッダ行がある
@@ -45,6 +56,9 @@ for name, kind in FILES:
         if rec['name'] and rec['date'] and rec['f1']:
             rows.append(rec)
 
+span = ('全期間' if (SINCE, UNTIL) == ('00000000', '99999999') else f'{SINCE}〜{UNTIL}')
+print(f'入力 {len(FILES)}ファイル ({span}): '
+      f"坂路{sum(1 for _, k in FILES if k == 'HANRO')}日 / ウッド{sum(1 for _, k in FILES if k == 'WOOD')}日")
 print(f'読み込み {len(rows)}本 (終い1Fが取れた追切のみ)')
 by_day = collections.Counter((x['date'], x['place'], x['surface']) for x in rows)
 print('日×場×コース種別の本数(上位10):')
