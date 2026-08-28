@@ -1,0 +1,140 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""ウルトラ該当馬抽出(新潟/中京/札幌)。
+⚠ 条件表の出所は _archive の退避CSV。正本WB(ウルトラ回収率2026.02.22.xlsx)には
+   No.059以降が収録されておらず、退避理由の「xlsxへ統合済み」記載と実態が食い違う。
+   よって本抽出は全件 [要確認:正本外] であり、昇格には羊一様の承認が要る。
+"""
+import csv, re, sys, json
+sys.path.insert(0, '/home/user/github.com-new/scripts')
+from ultra_mb_extract import (D_BA, D_R, D_UMA, D_CLS, D_TD, D_DIST, D_NAME, D_SEX,
+                              D_AGE, D_JOCKEY, D_KIN, D_TRAINER, D_BELONG, D_SIRE,
+                              D_WAKU, D_ATAMA, norm_jockey, jockey_match, sire_rule_match)
+
+# 退避CSVのOCR由来と思われる表記ゆれ → 実在騎手名
+JOCKEY_FIX = {'億野極': '荻野極', '高杉吏麒': '高杉史麒', '鮫島-克駿': '鮫島克駿'}
+
+def parse_course(s):
+    """『新潟芝1200～1600m』→ (場, 芝ダ, lo, hi, 内外注記)"""
+    m = re.match(r'(新潟|中京|札幌|東京|京都|阪神|中山|小倉|福島|函館)(芝|ダ)(.+)', s)
+    if not m:
+        return None
+    ba, td, rest = m.group(1), m.group(2), m.group(3)
+    naigai = ''.join(ch for ch in rest if ch in '内外直')
+    nums = [int(x) for x in re.findall(r'\d{3,4}', rest)]
+    if not nums:
+        return None
+    return ba, td, min(nums), max(nums), naigai
+
+def eval_cond(c, h, race):
+    c = c.strip()
+    if not c or c in ('-',):
+        return (True, '[実]', '無条件')
+    m = re.search(r'(\d+)[〜～](\d+)番', c)
+    if m:
+        lo, hi = sorted((int(m.group(1)), int(m.group(2))))
+        return (lo <= h['uma'] <= hi, '[実]', f'馬番{h["uma"]}∈{lo}-{hi}')
+    m = re.search(r'(\d+)[〜～](\d+)枠', c)
+    if m:
+        lo, hi = sorted((int(m.group(1)), int(m.group(2))))
+        return (lo <= h['waku'] <= hi, '[実]', f'枠{h["waku"]}∈{lo}-{hi}')
+    m = re.search(r'(\d+)歳以下', c)
+    if m and '前走' not in c:
+        return (h['age'] <= int(m.group(1)), '[実]', f'{h["age"]}歳≤{m.group(1)}')
+    m = re.search(r'(\d+)頭立て以上', c)
+    if m and '前走' not in c:
+        return (race['atama'] >= int(m.group(1)), '[実]', f'{race["atama"]}頭≥{m.group(1)}')
+    m = re.search(r'(\d+)頭立て以下', c)
+    if m and '前走' not in c:
+        return (race['atama'] <= int(m.group(1)), '[実]', f'{race["atama"]}頭≤{m.group(1)}')
+    m = re.search(r'負担重量([\d.]+)kg以下', c)
+    if m:
+        return (h['kin'] <= float(m.group(1)), '[実]', f'斤{h["kin"]}≤{m.group(1)}')
+    if '牡・セン' in c or '牡・セ' in c:
+        return (h['sex'] in ('牡', 'セ'), '[実]', f'性{h["sex"]}')
+    if '関西馬' in c:
+        return (h['belong'] == '栗', '[実]', f'所属{h["belong"]}')
+    if '調教師美浦' in c or '美浦' in c:
+        return (h['belong'] == '美', '[実]', f'所属{h["belong"]}')
+    if '前走' in c:
+        if race['shinba']:
+            return (False, '[実]', '新馬=前走なし→条件不成立')
+        return (None, '[不足]', c + '=DEに前走情報なし')
+    return (None, '[要確認]', c)
+
+def main():
+    de_path, tmpl_path = sys.argv[1], sys.argv[2]
+    rows = [r for r in csv.reader(open(de_path, encoding='cp932'))]
+    trows = [r for r in csv.reader(open(tmpl_path, encoding='cp932'))]
+    venues = {r[D_BA] for r in rows}
+
+    rules = []
+    for r in trows:
+        pc = parse_course(r[1])
+        if not pc or pc[0] not in venues:
+            continue
+        ba, td, lo, hi, naigai = pc
+        rules.append({'no': r[0], 'course': r[1], 'ba': ba, 'td': td, 'lo': lo, 'hi': hi,
+                      'naigai': naigai, 'c1': r[2], 'c2': r[3], 'chaku': r[4],
+                      'p3': r[7], 'tan': r[8], 'fuku': r[9], 'ken': r[10]})
+
+    races = {}
+    for r in rows:
+        races.setdefault((r[D_BA], int(r[D_R])), []).append(r)
+
+    out = []
+    for key in sorted(races, key=lambda k: (k[0], k[1])):
+        rs = races[key]; head = rs[0]
+        race = {'ba': key[0], 'r': key[1], 'cls': head[D_CLS], 'td': head[D_TD],
+                'dist': int(head[D_DIST]), 'atama': int(head[D_ATAMA]),
+                'shinba': '新馬' in head[D_CLS], 'jump': '障害' in head[D_CLS]}
+        hits, applicable = [], []
+        for ru in rules:
+            if ru['ba'] != race['ba'] or ru['td'] != race['td']:
+                continue
+            if not (ru['lo'] <= race['dist'] <= ru['hi']):
+                continue
+            applicable.append(ru)
+            # 条件①が対象(騎手/血統/馬番枠/前走場)、条件②が付帯条件
+            c1 = ru['c1'].strip()
+            for r in rs:
+                h = {'uma': int(r[D_UMA]), 'waku': int(r[D_WAKU]), 'name': r[D_NAME],
+                     'sex': r[D_SEX], 'age': int(r[D_AGE]), 'jockey': r[D_JOCKEY],
+                     'sire': r[D_SIRE], 'belong': r[D_BELONG], 'kin': float(r[D_KIN])}
+                base_tag, base_note = '[実]', ''
+                jm = re.match(r'(.+?)騎手$', c1)
+                sm = re.match(r'父が?(.+)$', c1)
+                if jm:
+                    nm = JOCKEY_FIX.get(jm.group(1), jm.group(1))
+                    if not jockey_match(h['jockey'], nm):
+                        continue
+                    base_note = f'鞍上:{norm_jockey(h["jockey"])}'
+                    if jm.group(1) in JOCKEY_FIX:
+                        base_note += f'(表記ゆれ {jm.group(1)}→{nm})'
+                elif sm:
+                    ok, base_tag, base_note = sire_rule_match(h['sire'], sm.group(1))
+                    if ok is not True:
+                        continue
+                else:
+                    v, t, n = eval_cond(c1, h, race)
+                    if v is not True:
+                        continue
+                    base_tag, base_note = t, n
+                conds = [c for c in re.split(r'[＋+]', ru['c2']) if c.strip()]
+                results = [eval_cond(c, h, race) for c in conds] or [(True, '[実]', '無条件')]
+                if any(v is False for v, _, _ in results):
+                    continue
+                hits.append({'no': ru['no'], 'course': ru['course'], 'uma': h['uma'],
+                             'waku': h['waku'], 'name': h['name'],
+                             'jockey': norm_jockey(h['jockey']), 'sire': h['sire'],
+                             'c1': ru['c1'], 'c2': ru['c2'], 'p3': ru['p3'],
+                             'tan': ru['tan'], 'fuku': ru['fuku'], 'ken': ru['ken'],
+                             'chaku': ru['chaku'], 'base_tag': base_tag, 'base_note': base_note,
+                             'naigai': ru['naigai'],
+                             'conds': [{'text': c, 'ok': v, 'tag': t, 'note': n}
+                                       for c, (v, t, n) in zip(conds or ['無条件'], results)]})
+        out.append({'race': race, 'applicable_rules': len(applicable), 'hits': hits})
+    print(json.dumps(out, ensure_ascii=False, indent=1))
+
+if __name__ == '__main__':
+    main()
