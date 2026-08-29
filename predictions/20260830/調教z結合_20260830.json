@@ -1,0 +1,2963 @@
+{
+ "中京|3|6": {
+  "name": "アモロロプーロ",
+  "n_works": 5,
+  "best_z": -0.69,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "中京|5|4": {
+  "name": "クラックショット",
+  "n_works": 4,
+  "best_z": -3.08,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|9|2": {
+  "name": "スプレンドーレ",
+  "n_works": 3,
+  "best_z": -0.4,
+  "last_date": "20260819",
+  "last_z": -0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|4|6": {
+  "name": "グランブリーゼ",
+  "n_works": 6,
+  "best_z": -0.42,
+  "last_date": "20260826",
+  "last_z": 0.73,
+  "last_course": "栗東坂路",
+  "last_f1": 13.4
+ },
+ "中京|2|5": {
+  "name": "シャトンダンス",
+  "n_works": 6,
+  "best_z": -0.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|3|4": {
+  "name": "ポカポカヨウキ",
+  "n_works": 6,
+  "best_z": -2.01,
+  "last_date": "20260826",
+  "last_z": -1.25,
+  "last_course": "栗東坂路",
+  "last_f1": 12.2
+ },
+ "中京|12|13": {
+  "name": "タイセイブロウ",
+  "n_works": 3,
+  "best_z": -2.9,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "中京|4|13": {
+  "name": "サカトクフェイス",
+  "n_works": 6,
+  "best_z": -0.98,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "中京|11|8": {
+  "name": "スイートポメロ",
+  "n_works": 3,
+  "best_z": -1.12,
+  "last_date": "20260819",
+  "last_z": 1.55,
+  "last_course": "栗東C",
+  "last_f1": 12.7
+ },
+ "新潟|9|13": {
+  "name": "ビーアイフォルテ",
+  "n_works": 6,
+  "best_z": -0.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|8|1": {
+  "name": "ブレットパス",
+  "n_works": 6,
+  "best_z": -1.75,
+  "last_date": "20260826",
+  "last_z": -1.25,
+  "last_course": "栗東坂路",
+  "last_f1": 12.2
+ },
+ "中京|5|3": {
+  "name": "ブームバップビート",
+  "n_works": 6,
+  "best_z": -0.57,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "中京|12|7": {
+  "name": "ミスヘンリー",
+  "n_works": 4,
+  "best_z": -0.59,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|2|9": {
+  "name": "メイショウスパーク",
+  "n_works": 5,
+  "best_z": -0.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|4|10": {
+  "name": "ラッキーヴォーグ",
+  "n_works": 6,
+  "best_z": -0.43,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|12|8": {
+  "name": "レジェンダリーデイ",
+  "n_works": 7,
+  "best_z": -2.25,
+  "last_date": "20260826",
+  "last_z": 3.05,
+  "last_course": "栗東C",
+  "last_f1": 13.1
+ },
+ "中京|5|2": {
+  "name": "スコーピオンイメル",
+  "n_works": 4,
+  "best_z": -2.99,
+  "last_date": "20260826",
+  "last_z": -0.04,
+  "last_course": "栗東C",
+  "last_f1": 11.8
+ },
+ "中京|1|7": {
+  "name": "ロンリーマン",
+  "n_works": 3,
+  "best_z": 0.4,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "中京|9|8": {
+  "name": "アンヌグロース",
+  "n_works": 6,
+  "best_z": -0.9,
+  "last_date": "20260826",
+  "last_z": 0.73,
+  "last_course": "栗東坂路",
+  "last_f1": 13.4
+ },
+ "中京|12|11": {
+  "name": "ヒルノプーリア",
+  "n_works": 6,
+  "best_z": -2.15,
+  "last_date": "20260826",
+  "last_z": -1.08,
+  "last_course": "栗東坂路",
+  "last_f1": 12.3
+ },
+ "中京|10|10": {
+  "name": "ロードスタニング",
+  "n_works": 6,
+  "best_z": -1.0,
+  "last_date": "20260826",
+  "last_z": -1.0,
+  "last_course": "栗東C",
+  "last_f1": 11.4
+ },
+ "中京|8|10": {
+  "name": "シャドウマスター",
+  "n_works": 6,
+  "best_z": -1.19,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|9|13": {
+  "name": "バトルセレーネ",
+  "n_works": 4,
+  "best_z": -1.25,
+  "last_date": "20260826",
+  "last_z": -1.25,
+  "last_course": "栗東坂路",
+  "last_f1": 12.2
+ },
+ "中京|6|16": {
+  "name": "ゴッドエスパーダ",
+  "n_works": 6,
+  "best_z": -1.71,
+  "last_date": "20260826",
+  "last_z": -1.71,
+  "last_course": "栗東C",
+  "last_f1": 11.1
+ },
+ "中京|6|3": {
+  "name": "ダンツシタン",
+  "n_works": 5,
+  "best_z": -2.71,
+  "last_date": "20260826",
+  "last_z": 0.19,
+  "last_course": "栗東C",
+  "last_f1": 11.9
+ },
+ "中京|4|14": {
+  "name": "ウェンロック",
+  "n_works": 5,
+  "best_z": -1.47,
+  "last_date": "20260826",
+  "last_z": -1.47,
+  "last_course": "栗東C",
+  "last_f1": 11.2
+ },
+ "中京|10|2": {
+  "name": "エテルノレガーメ",
+  "n_works": 6,
+  "best_z": -1.88,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|11|6": {
+  "name": "ルーセントムーン",
+  "n_works": 6,
+  "best_z": -0.94,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|4|7": {
+  "name": "セッシュウ",
+  "n_works": 3,
+  "best_z": -0.92,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|6|7": {
+  "name": "タイセイカイザー",
+  "n_works": 5,
+  "best_z": -0.9,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "新潟|1|8": {
+  "name": "ブラックシールド",
+  "n_works": 5,
+  "best_z": -1.26,
+  "last_date": "20260826",
+  "last_z": 0.19,
+  "last_course": "栗東C",
+  "last_f1": 11.9
+ },
+ "中京|9|12": {
+  "name": "ローズラフィネ",
+  "n_works": 4,
+  "best_z": -1.34,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "中京|9|14": {
+  "name": "レウコテア",
+  "n_works": 6,
+  "best_z": -1.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|4|12": {
+  "name": "サウンドヴィヴァン",
+  "n_works": 3,
+  "best_z": -0.69,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|7|4": {
+  "name": "シスキンブルーム",
+  "n_works": 4,
+  "best_z": -1.4,
+  "last_date": "20260822",
+  "last_z": 1.27,
+  "last_course": "栗東坂路",
+  "last_f1": 17.4
+ },
+ "中京|4|3": {
+  "name": "オーロラボレアリス",
+  "n_works": 8,
+  "best_z": -1.0,
+  "last_date": "20260828",
+  "last_z": 0.79,
+  "last_course": "栗東坂路",
+  "last_f1": 14.2
+ },
+ "新潟|4|8": {
+  "name": "ダディーズレガリア",
+  "n_works": 6,
+  "best_z": -1.68,
+  "last_date": "20260826",
+  "last_z": 0.07,
+  "last_course": "栗東坂路",
+  "last_f1": 13.0
+ },
+ "中京|6|12": {
+  "name": "クァンタムウェーブ",
+  "n_works": 3,
+  "best_z": -0.62,
+  "last_date": "20260822",
+  "last_z": -0.62,
+  "last_course": "栗東C",
+  "last_f1": 14.5
+ },
+ "中京|10|3": {
+  "name": "サイモンノーブル",
+  "n_works": 4,
+  "best_z": -0.45,
+  "last_date": "20260827",
+  "last_z": -0.45,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|7|7": {
+  "name": "ビスケットサンド",
+  "n_works": 6,
+  "best_z": -1.08,
+  "last_date": "20260826",
+  "last_z": -0.28,
+  "last_course": "栗東C",
+  "last_f1": 11.7
+ },
+ "中京|2|10": {
+  "name": "カフジポポー",
+  "n_works": 8,
+  "best_z": -1.48,
+  "last_date": "20260826",
+  "last_z": 0.19,
+  "last_course": "栗東C",
+  "last_f1": 11.9
+ },
+ "中京|7|6": {
+  "name": "ジャスパートレノ",
+  "n_works": 3,
+  "best_z": -1.13,
+  "last_date": "20260827",
+  "last_z": -1.13,
+  "last_course": "栗東坂路",
+  "last_f1": 12.1
+ },
+ "中京|3|10": {
+  "name": "ルクスアルカード",
+  "n_works": 9,
+  "best_z": -1.21,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "栗東C",
+  "last_f1": 11.5
+ },
+ "中京|2|7": {
+  "name": "ラガッタレアーレ",
+  "n_works": 4,
+  "best_z": -1.47,
+  "last_date": "20260826",
+  "last_z": -1.47,
+  "last_course": "栗東C",
+  "last_f1": 11.2
+ },
+ "中京|4|5": {
+  "name": "ハツアカネ",
+  "n_works": 6,
+  "best_z": -1.08,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|12|6": {
+  "name": "ダノンステート",
+  "n_works": 3,
+  "best_z": -0.0,
+  "last_date": "20260819",
+  "last_z": 0.94,
+  "last_course": "栗東C",
+  "last_f1": 12.4
+ },
+ "中京|11|16": {
+  "name": "ボールドペイト",
+  "n_works": 3,
+  "best_z": 0.33,
+  "last_date": "20260819",
+  "last_z": 0.33,
+  "last_course": "栗東C",
+  "last_f1": 12.1
+ },
+ "新潟|7|11": {
+  "name": "リンフレスカンテ",
+  "n_works": 6,
+  "best_z": -1.21,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|12|4": {
+  "name": "サヨノパララックス",
+  "n_works": 5,
+  "best_z": -0.26,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|5|11": {
+  "name": "ステイクオール",
+  "n_works": 6,
+  "best_z": -0.88,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "栗東C",
+  "last_f1": 11.5
+ },
+ "新潟|7|2": {
+  "name": "ウインデイジー",
+  "n_works": 6,
+  "best_z": -0.9,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|6|10": {
+  "name": "インジケーター",
+  "n_works": 6,
+  "best_z": 0.03,
+  "last_date": "20260826",
+  "last_z": 0.56,
+  "last_course": "栗東坂路",
+  "last_f1": 13.3
+ },
+ "中京|3|8": {
+  "name": "エーテルワーム",
+  "n_works": 5,
+  "best_z": -0.92,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "栗東C",
+  "last_f1": 11.5
+ },
+ "中京|10|9": {
+  "name": "ロードメルヴェイユ",
+  "n_works": 5,
+  "best_z": -2.8,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|11|12": {
+  "name": "ナデシコザクラ",
+  "n_works": 4,
+  "best_z": -1.34,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "中京|5|10": {
+  "name": "アトモス",
+  "n_works": 7,
+  "best_z": -1.74,
+  "last_date": "20260828",
+  "last_z": null,
+  "last_course": "栗東C",
+  "last_f1": 15.4
+ },
+ "中京|8|7": {
+  "name": "カフジエメンタール",
+  "n_works": 7,
+  "best_z": -1.61,
+  "last_date": "20260826",
+  "last_z": -1.41,
+  "last_course": "栗東坂路",
+  "last_f1": 12.1
+ },
+ "中京|1|6": {
+  "name": "ダイメイアゲイン",
+  "n_works": 3,
+  "best_z": 0.51,
+  "last_date": "20260826",
+  "last_z": 0.89,
+  "last_course": "栗東坂路",
+  "last_f1": 13.5
+ },
+ "中京|1|8": {
+  "name": "ヴィヴェローネ",
+  "n_works": 7,
+  "best_z": -1.48,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|3|2": {
+  "name": "ブレイズフォート",
+  "n_works": 7,
+  "best_z": -1.4,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "新潟|9|10": {
+  "name": "キントラダンサー",
+  "n_works": 4,
+  "best_z": -2.8,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "中京|3|3": {
+  "name": "ジェントル",
+  "n_works": 6,
+  "best_z": -0.79,
+  "last_date": "20260826",
+  "last_z": -0.28,
+  "last_course": "栗東C",
+  "last_f1": 11.7
+ },
+ "中京|4|2": {
+  "name": "プペアンビスキュイ",
+  "n_works": 6,
+  "best_z": -1.28,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|6|9": {
+  "name": "リューデスハイム",
+  "n_works": 6,
+  "best_z": -0.92,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|2|6": {
+  "name": "ナイトインチュニス",
+  "n_works": 5,
+  "best_z": -1.5,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|10|5": {
+  "name": "バークシャーシチー",
+  "n_works": 6,
+  "best_z": -0.94,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|1|2": {
+  "name": "ナポリ",
+  "n_works": 6,
+  "best_z": -0.89,
+  "last_date": "20260826",
+  "last_z": 0.89,
+  "last_course": "栗東坂路",
+  "last_f1": 13.5
+ },
+ "中京|3|1": {
+  "name": "サイモンジェセル",
+  "n_works": 5,
+  "best_z": -0.45,
+  "last_date": "20260827",
+  "last_z": -0.45,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|8|8": {
+  "name": "ヤマニンループ",
+  "n_works": 5,
+  "best_z": -0.61,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|6|14": {
+  "name": "レヴァンテシチー",
+  "n_works": 6,
+  "best_z": -1.75,
+  "last_date": "20260826",
+  "last_z": -1.08,
+  "last_course": "栗東坂路",
+  "last_f1": 12.3
+ },
+ "中京|1|4": {
+  "name": "コジアン",
+  "n_works": 4,
+  "best_z": -0.98,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "新潟|7|5": {
+  "name": "サダムオプシス",
+  "n_works": 4,
+  "best_z": -0.92,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|5|1": {
+  "name": "マジックブルー",
+  "n_works": 3,
+  "best_z": -0.79,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "中京|2|8": {
+  "name": "メイショウセイクウ",
+  "n_works": 4,
+  "best_z": -1.22,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|7|5": {
+  "name": "マルモリムソウ",
+  "n_works": 6,
+  "best_z": -1.5,
+  "last_date": "20260826",
+  "last_z": -0.28,
+  "last_course": "栗東C",
+  "last_f1": 11.7
+ },
+ "新潟|2|5": {
+  "name": "ミシェルバローズ",
+  "n_works": 7,
+  "best_z": -1.97,
+  "last_date": "20260828",
+  "last_z": 0.79,
+  "last_course": "栗東坂路",
+  "last_f1": 14.2
+ },
+ "中京|12|12": {
+  "name": "ラヴネヴァーダイズ",
+  "n_works": 3,
+  "best_z": -1.57,
+  "last_date": "20260826",
+  "last_z": -1.23,
+  "last_course": "栗東C",
+  "last_f1": 11.3
+ },
+ "中京|4|8": {
+  "name": "メイショウヒタカミ",
+  "n_works": 4,
+  "best_z": -0.26,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "中京|12|14": {
+  "name": "パワポケビー",
+  "n_works": 7,
+  "best_z": -1.4,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "中京|3|7": {
+  "name": "ゴーイントゥノヴァ",
+  "n_works": 4,
+  "best_z": -1.47,
+  "last_date": "20260826",
+  "last_z": -1.47,
+  "last_course": "栗東C",
+  "last_f1": 11.2
+ },
+ "新潟|11|14": {
+  "name": "アオイハルカ",
+  "n_works": 2,
+  "best_z": -0.15,
+  "last_date": "20260821",
+  "last_z": null,
+  "last_course": "栗東C",
+  "last_f1": 11.2
+ },
+ "新潟|6|10": {
+  "name": "フラッシング",
+  "n_works": 7,
+  "best_z": -0.7,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|3|5": {
+  "name": "コルキス",
+  "n_works": 6,
+  "best_z": -1.52,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "中京|7|3": {
+  "name": "サンタンジェロ",
+  "n_works": 6,
+  "best_z": -1.98,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|9|11": {
+  "name": "スマートエトワール",
+  "n_works": 8,
+  "best_z": -1.28,
+  "last_date": "20260826",
+  "last_z": 0.73,
+  "last_course": "栗東坂路",
+  "last_f1": 13.4
+ },
+ "新潟|8|11": {
+  "name": "ステレンボッシュ",
+  "n_works": 4,
+  "best_z": -1.73,
+  "last_date": "20260823",
+  "last_z": -0.96,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|8|5": {
+  "name": "ゾロアストロ",
+  "n_works": 7,
+  "best_z": -1.73,
+  "last_date": "20260825",
+  "last_z": null,
+  "last_course": "美浦坂路",
+  "last_f1": 13.5
+ },
+ "新潟|5|11": {
+  "name": "オンナキュヌヴィ",
+  "n_works": 3,
+  "best_z": -0.26,
+  "last_date": "20260826",
+  "last_z": 0.39,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|11|1": {
+  "name": "ブルバンビーナ",
+  "n_works": 8,
+  "best_z": -1.32,
+  "last_date": "20260826",
+  "last_z": 0.16,
+  "last_course": "美浦D",
+  "last_f1": 11.9
+ },
+ "新潟|2|11": {
+  "name": "ギガントシュラーク",
+  "n_works": 7,
+  "best_z": -0.24,
+  "last_date": "20260826",
+  "last_z": 0.85,
+  "last_course": "美浦D",
+  "last_f1": 12.2
+ },
+ "新潟|8|1": {
+  "name": "ボーンディスウェイ",
+  "n_works": 8,
+  "best_z": -0.96,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|5|13": {
+  "name": "ウインテラジーナ",
+  "n_works": 6,
+  "best_z": -1.27,
+  "last_date": "20260826",
+  "last_z": -0.51,
+  "last_course": "美浦坂路",
+  "last_f1": 12.5
+ },
+ "新潟|5|3": {
+  "name": "ゴッドレイ",
+  "n_works": 4,
+  "best_z": -0.74,
+  "last_date": "20260826",
+  "last_z": -0.09,
+  "last_course": "美浦坂路",
+  "last_f1": 12.7
+ },
+ "新潟|6|2": {
+  "name": "ビービーアジャイル",
+  "n_works": 8,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|7|10": {
+  "name": "サトノパトリオット",
+  "n_works": 8,
+  "best_z": -1.32,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|8|6": {
+  "name": "チェルヴィニア",
+  "n_works": 8,
+  "best_z": -1.88,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|4|1": {
+  "name": "ヒズストーリー",
+  "n_works": 5,
+  "best_z": 0.08,
+  "last_date": "20260827",
+  "last_z": 0.15,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|4|5": {
+  "name": "オオルリ",
+  "n_works": 7,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|10|10": {
+  "name": "サングラント",
+  "n_works": 5,
+  "best_z": -1.22,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "新潟|7|1": {
+  "name": "シャドウメテオ",
+  "n_works": 5,
+  "best_z": -1.73,
+  "last_date": "20260827",
+  "last_z": 1.07,
+  "last_course": "美浦D",
+  "last_f1": 12.4
+ },
+ "新潟|4|10": {
+  "name": "リアスハート",
+  "n_works": 6,
+  "best_z": -1.22,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "新潟|12|2": {
+  "name": "アイファージェット",
+  "n_works": 2,
+  "best_z": 1.65,
+  "last_date": "20260822",
+  "last_z": 1.65,
+  "last_course": "美浦坂路",
+  "last_f1": 18.8
+ },
+ "新潟|9|16": {
+  "name": "スペルキャスター",
+  "n_works": 4,
+  "best_z": -1.33,
+  "last_date": "20260826",
+  "last_z": -1.33,
+  "last_course": "美浦坂路",
+  "last_f1": 12.1
+ },
+ "札幌|3|5": {
+  "name": "デルマテイネ",
+  "n_works": 3,
+  "best_z": 0.03,
+  "last_date": "20260819",
+  "last_z": 0.03,
+  "last_course": "美浦D",
+  "last_f1": 11.8
+ },
+ "新潟|5|12": {
+  "name": "ネオアンボウ",
+  "n_works": 6,
+  "best_z": -0.91,
+  "last_date": "20260826",
+  "last_z": -0.09,
+  "last_course": "美浦坂路",
+  "last_f1": 12.7
+ },
+ "新潟|8|4": {
+  "name": "ドゥレッツァ",
+  "n_works": 6,
+  "best_z": -2.06,
+  "last_date": "20260826",
+  "last_z": -1.68,
+  "last_course": "美浦D",
+  "last_f1": 11.1
+ },
+ "新潟|12|5": {
+  "name": "ゴーゴーパンチ",
+  "n_works": 4,
+  "best_z": 0.27,
+  "last_date": "20260826",
+  "last_z": 1.56,
+  "last_course": "美浦坂路",
+  "last_f1": 13.5
+ },
+ "中京|6|4": {
+  "name": "ビップスコーピオン",
+  "n_works": 8,
+  "best_z": -1.13,
+  "last_date": "20260826",
+  "last_z": -0.71,
+  "last_course": "美浦坂路",
+  "last_f1": 12.4
+ },
+ "中京|1|1": {
+  "name": "ビップルーチェ",
+  "n_works": 4,
+  "best_z": -0.71,
+  "last_date": "20260826",
+  "last_z": -0.71,
+  "last_course": "美浦坂路",
+  "last_f1": 12.4
+ },
+ "新潟|5|14": {
+  "name": "ワインレッドハート",
+  "n_works": 5,
+  "best_z": -1.01,
+  "last_date": "20260826",
+  "last_z": 0.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.9
+ },
+ "新潟|7|9": {
+  "name": "タイセイフェリーク",
+  "n_works": 5,
+  "best_z": -0.63,
+  "last_date": "20260826",
+  "last_z": 1.31,
+  "last_course": "美浦D",
+  "last_f1": 12.4
+ },
+ "新潟|7|3": {
+  "name": "チャリングクロス",
+  "n_works": 6,
+  "best_z": -1.22,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "札幌|4|8": {
+  "name": "ネクストドア",
+  "n_works": 4,
+  "best_z": -1.15,
+  "last_date": "20260823",
+  "last_z": -1.15,
+  "last_course": "美浦D",
+  "last_f1": 11.5
+ },
+ "新潟|2|13": {
+  "name": "タイセイリッター",
+  "n_works": 3,
+  "best_z": -1.27,
+  "last_date": "20260822",
+  "last_z": 0.28,
+  "last_course": "美浦坂路",
+  "last_f1": 16.8
+ },
+ "新潟|6|13": {
+  "name": "クロドラバール",
+  "n_works": 6,
+  "best_z": -1.22,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "新潟|8|3": {
+  "name": "ロデオドライブ",
+  "n_works": 8,
+  "best_z": -0.94,
+  "last_date": "20260826",
+  "last_z": 0.62,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "新潟|9|2": {
+  "name": "サトノアルペジオ",
+  "n_works": 4,
+  "best_z": -1.33,
+  "last_date": "20260826",
+  "last_z": -1.33,
+  "last_course": "美浦坂路",
+  "last_f1": 12.1
+ },
+ "新潟|3|5": {
+  "name": "エクスマキナ",
+  "n_works": 4,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "中京|2|2": {
+  "name": "シーラーステート",
+  "n_works": 6,
+  "best_z": -1.29,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "美浦D",
+  "last_f1": 11.5
+ },
+ "札幌|9|3": {
+  "name": "フクシマブリルハム",
+  "n_works": 2,
+  "best_z": -0.76,
+  "last_date": "20260819",
+  "last_z": -0.27,
+  "last_course": "美浦坂路",
+  "last_f1": 12.7
+ },
+ "新潟|2|12": {
+  "name": "エコロゲラン",
+  "n_works": 5,
+  "best_z": -0.71,
+  "last_date": "20260826",
+  "last_z": -0.71,
+  "last_course": "美浦坂路",
+  "last_f1": 12.4
+ },
+ "中京|8|12": {
+  "name": "スイートオレンジ",
+  "n_works": 5,
+  "best_z": -1.54,
+  "last_date": "20260826",
+  "last_z": -1.33,
+  "last_course": "美浦坂路",
+  "last_f1": 12.1
+ },
+ "新潟|5|5": {
+  "name": "エナノムスメ",
+  "n_works": 5,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|10|9": {
+  "name": "ウモラダエピカ",
+  "n_works": 7,
+  "best_z": -1.45,
+  "last_date": "20260826",
+  "last_z": -1.45,
+  "last_course": "美浦D",
+  "last_f1": 11.2
+ },
+ "新潟|7|7": {
+  "name": "オストラヴァ",
+  "n_works": 9,
+  "best_z": -2.57,
+  "last_date": "20260826",
+  "last_z": -1.45,
+  "last_course": "美浦D",
+  "last_f1": 11.2
+ },
+ "新潟|11|10": {
+  "name": "タッセルノット",
+  "n_works": 8,
+  "best_z": -2.17,
+  "last_date": "20260826",
+  "last_z": -1.91,
+  "last_course": "美浦D",
+  "last_f1": 11.0
+ },
+ "札幌|10|1": {
+  "name": "カガラプンツェル",
+  "n_works": 3,
+  "best_z": -0.19,
+  "last_date": "20260819",
+  "last_z": -0.19,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|1|13": {
+  "name": "ゴールデンステップ",
+  "n_works": 5,
+  "best_z": -0.05,
+  "last_date": "20260826",
+  "last_z": 2.0,
+  "last_course": "美浦D",
+  "last_f1": 12.7
+ },
+ "新潟|2|1": {
+  "name": "ゴールドバーニング",
+  "n_works": 5,
+  "best_z": -1.83,
+  "last_date": "20260826",
+  "last_z": 0.53,
+  "last_course": "美浦坂路",
+  "last_f1": 13.0
+ },
+ "新潟|5|10": {
+  "name": "ソルティアーラ",
+  "n_works": 5,
+  "best_z": -0.47,
+  "last_date": "20260826",
+  "last_z": 2.23,
+  "last_course": "美浦D",
+  "last_f1": 12.8
+ },
+ "新潟|4|11": {
+  "name": "ライヴテキーラ",
+  "n_works": 6,
+  "best_z": -0.63,
+  "last_date": "20260826",
+  "last_z": 0.85,
+  "last_course": "美浦D",
+  "last_f1": 12.2
+ },
+ "中京|8|13": {
+  "name": "オルトパラティウム",
+  "n_works": 5,
+  "best_z": -1.49,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "美浦D",
+  "last_f1": 11.5
+ },
+ "新潟|12|14": {
+  "name": "ラベンダーヘイズ",
+  "n_works": 5,
+  "best_z": -2.57,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "札幌|10|7": {
+  "name": "セイウンデセオ",
+  "n_works": 4,
+  "best_z": -1.95,
+  "last_date": "20260819",
+  "last_z": -1.95,
+  "last_course": "美浦D",
+  "last_f1": 10.9
+ },
+ "新潟|3|6": {
+  "name": "ウイニングレイ",
+  "n_works": 4,
+  "best_z": -0.63,
+  "last_date": "20260826",
+  "last_z": 0.16,
+  "last_course": "美浦D",
+  "last_f1": 11.9
+ },
+ "新潟|9|6": {
+  "name": "エリカカリーナ",
+  "n_works": 6,
+  "best_z": -2.11,
+  "last_date": "20260826",
+  "last_z": -1.33,
+  "last_course": "美浦坂路",
+  "last_f1": 12.1
+ },
+ "新潟|9|17": {
+  "name": "ラトルシェ",
+  "n_works": 4,
+  "best_z": -0.33,
+  "last_date": "20260826",
+  "last_z": 0.85,
+  "last_course": "美浦D",
+  "last_f1": 12.2
+ },
+ "新潟|4|9": {
+  "name": "テキサス",
+  "n_works": 5,
+  "best_z": -1.27,
+  "last_date": "20260827",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|3|7": {
+  "name": "ハンデンブレイズ",
+  "n_works": 7,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|12|1": {
+  "name": "ガルディーノ",
+  "n_works": 4,
+  "best_z": -0.08,
+  "last_date": "20260826",
+  "last_z": 0.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.9
+ },
+ "新潟|1|9": {
+  "name": "オーサムストローク",
+  "n_works": 4,
+  "best_z": -0.63,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|9|4": {
+  "name": "フレッシュラン",
+  "n_works": 7,
+  "best_z": -1.75,
+  "last_date": "20260826",
+  "last_z": -1.75,
+  "last_course": "美浦坂路",
+  "last_f1": 11.9
+ },
+ "新潟|9|1": {
+  "name": "カレンデュラ",
+  "n_works": 4,
+  "best_z": -0.76,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "美浦D",
+  "last_f1": 11.5
+ },
+ "新潟|8|9": {
+  "name": "アーバンシック",
+  "n_works": 7,
+  "best_z": -1.7,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|11|5": {
+  "name": "カンティーナ",
+  "n_works": 7,
+  "best_z": -1.45,
+  "last_date": "20260826",
+  "last_z": -1.45,
+  "last_course": "美浦D",
+  "last_f1": 11.2
+ },
+ "新潟|12|12": {
+  "name": "ナインオブレター",
+  "n_works": 4,
+  "best_z": 0.25,
+  "last_date": "20260826",
+  "last_z": 0.62,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "中京|6|11": {
+  "name": "フームスムート",
+  "n_works": 5,
+  "best_z": -0.85,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "美浦D",
+  "last_f1": 11.5
+ },
+ "札幌|11|4": {
+  "name": "エフォートレス",
+  "n_works": 3,
+  "best_z": -1.29,
+  "last_date": "20260819",
+  "last_z": -1.29,
+  "last_course": "美浦D",
+  "last_f1": 11.2
+ },
+ "新潟|4|7": {
+  "name": "マイネルウルカヌス",
+  "n_works": 4,
+  "best_z": -0.25,
+  "last_date": "20260826",
+  "last_z": 0.62,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "新潟|6|15": {
+  "name": "ノルドヴェスト",
+  "n_works": 5,
+  "best_z": -1.16,
+  "last_date": "20260826",
+  "last_z": -0.51,
+  "last_course": "美浦坂路",
+  "last_f1": 12.5
+ },
+ "新潟|2|4": {
+  "name": "マイトレーヤー",
+  "n_works": 6,
+  "best_z": -1.04,
+  "last_date": "20260826",
+  "last_z": 0.39,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|4|4": {
+  "name": "キャッチアップ",
+  "n_works": 3,
+  "best_z": -0.18,
+  "last_date": "20260826",
+  "last_z": 2.23,
+  "last_course": "美浦D",
+  "last_f1": 12.8
+ },
+ "新潟|3|2": {
+  "name": "ニシノリリックス",
+  "n_works": 3,
+  "best_z": -0.54,
+  "last_date": "20260826",
+  "last_z": 1.08,
+  "last_course": "美浦D",
+  "last_f1": 12.3
+ },
+ "札幌|5|7": {
+  "name": "ゴルタン",
+  "n_works": 3,
+  "best_z": -1.53,
+  "last_date": "20260819",
+  "last_z": 0.03,
+  "last_course": "美浦D",
+  "last_f1": 11.8
+ },
+ "中京|10|1": {
+  "name": "リアルセンター",
+  "n_works": 6,
+  "best_z": -1.9,
+  "last_date": "20260826",
+  "last_z": -0.71,
+  "last_course": "美浦坂路",
+  "last_f1": 12.4
+ },
+ "新潟|6|1": {
+  "name": "ピコシー",
+  "n_works": 7,
+  "best_z": -1.15,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|10|5": {
+  "name": "クライングナウ",
+  "n_works": 5,
+  "best_z": -0.76,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦坂路",
+  "last_f1": 12.6
+ },
+ "新潟|4|6": {
+  "name": "ペントザリス",
+  "n_works": 5,
+  "best_z": -0.85,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "札幌|4|13": {
+  "name": "ロックフラワー",
+  "n_works": 5,
+  "best_z": -1.07,
+  "last_date": "20260826",
+  "last_z": -0.51,
+  "last_course": "美浦坂路",
+  "last_f1": 12.5
+ },
+ "新潟|1|12": {
+  "name": "スノーリン",
+  "n_works": 4,
+  "best_z": -0.4,
+  "last_date": "20260826",
+  "last_z": 1.77,
+  "last_course": "美浦D",
+  "last_f1": 12.6
+ },
+ "新潟|2|9": {
+  "name": "レッドマウロア",
+  "n_works": 4,
+  "best_z": -0.33,
+  "last_date": "20260826",
+  "last_z": 0.39,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "中京|8|9": {
+  "name": "ジェットブレード",
+  "n_works": 4,
+  "best_z": -0.7,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|1|11": {
+  "name": "トラマンダーレ",
+  "n_works": 5,
+  "best_z": -0.81,
+  "last_date": "20260826",
+  "last_z": 0.62,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "新潟|11|6": {
+  "name": "ニシノコマチムスメ",
+  "n_works": 4,
+  "best_z": -0.81,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|11|8": {
+  "name": "ダーリングハースト",
+  "n_works": 8,
+  "best_z": -2.26,
+  "last_date": "20260826",
+  "last_z": -1.45,
+  "last_course": "美浦D",
+  "last_f1": 11.2
+ },
+ "新潟|5|16": {
+  "name": "ペルウィクトール",
+  "n_works": 4,
+  "best_z": -2.14,
+  "last_date": "20260826",
+  "last_z": -2.14,
+  "last_course": "美浦D",
+  "last_f1": 10.9
+ },
+ "新潟|6|4": {
+  "name": "ニシノケンタマン",
+  "n_works": 4,
+  "best_z": -2.06,
+  "last_date": "20260826",
+  "last_z": 0.16,
+  "last_course": "美浦D",
+  "last_f1": 11.9
+ },
+ "新潟|5|4": {
+  "name": "ステキサプライズ",
+  "n_works": 6,
+  "best_z": -0.6,
+  "last_date": "20260826",
+  "last_z": 0.94,
+  "last_course": "美浦坂路",
+  "last_f1": 13.2
+ },
+ "新潟|1|7": {
+  "name": "バトンロード",
+  "n_works": 3,
+  "best_z": -0.57,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "中京|6|1": {
+  "name": "サンセットブライト",
+  "n_works": 7,
+  "best_z": -0.97,
+  "last_date": "20260826",
+  "last_z": 0.39,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|8|8": {
+  "name": "ダノンシーマ",
+  "n_works": 6,
+  "best_z": -1.68,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|11|1": {
+  "name": "プリモマーレ",
+  "n_works": 5,
+  "best_z": -1.97,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|9|7": {
+  "name": "ダノンプレリュード",
+  "n_works": 7,
+  "best_z": -1.41,
+  "last_date": "20260828",
+  "last_z": 0.93,
+  "last_course": "栗東坂路",
+  "last_f1": 14.3
+ },
+ "中京|8|5": {
+  "name": "ソルパッサーレ",
+  "n_works": 6,
+  "best_z": -1.91,
+  "last_date": "20260826",
+  "last_z": -1.47,
+  "last_course": "栗東C",
+  "last_f1": 11.2
+ },
+ "中京|2|3": {
+  "name": "ベラジオセブン",
+  "n_works": 5,
+  "best_z": -0.42,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|6|2": {
+  "name": "ペンナヴェローチェ",
+  "n_works": 6,
+  "best_z": -1.0,
+  "last_date": "20260826",
+  "last_z": -1.0,
+  "last_course": "栗東C",
+  "last_f1": 11.4
+ },
+ "中京|8|6": {
+  "name": "ニュークレド",
+  "n_works": 6,
+  "best_z": -0.89,
+  "last_date": "20260826",
+  "last_z": -0.04,
+  "last_course": "栗東C",
+  "last_f1": 11.8
+ },
+ "新潟|9|9": {
+  "name": "バンディート",
+  "n_works": 4,
+  "best_z": -1.48,
+  "last_date": "20260826",
+  "last_z": -1.25,
+  "last_course": "栗東坂路",
+  "last_f1": 12.2
+ },
+ "中京|9|6": {
+  "name": "タガノアルテミス",
+  "n_works": 6,
+  "best_z": -0.43,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|11|3": {
+  "name": "シャンデリュイーズ",
+  "n_works": 4,
+  "best_z": -0.56,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "新潟|4|2": {
+  "name": "チェスティーノ",
+  "n_works": 4,
+  "best_z": -2.07,
+  "last_date": "20260826",
+  "last_z": -0.76,
+  "last_course": "美浦D",
+  "last_f1": 11.5
+ },
+ "札幌|10|10": {
+  "name": "ララバニュルス",
+  "n_works": 2,
+  "best_z": -1.73,
+  "last_date": "20260819",
+  "last_z": -1.73,
+  "last_course": "美浦D",
+  "last_f1": 11.0
+ },
+ "札幌|9|2": {
+  "name": "ウヌボレヤサン",
+  "n_works": 3,
+  "best_z": -1.32,
+  "last_date": "20260823",
+  "last_z": -1.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.4
+ },
+ "札幌|5|5": {
+  "name": "トーセンイルン",
+  "n_works": 2,
+  "best_z": -0.41,
+  "last_date": "20260819",
+  "last_z": -0.41,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|12|11": {
+  "name": "マルターズドン",
+  "n_works": 4,
+  "best_z": -0.92,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "美浦坂路",
+  "last_f1": 12.3
+ },
+ "新潟|2|2": {
+  "name": "ゴルトシェーン",
+  "n_works": 4,
+  "best_z": -0.57,
+  "last_date": "20260826",
+  "last_z": 0.39,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|6|5": {
+  "name": "コパノエビータ",
+  "n_works": 5,
+  "best_z": -0.3,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|2|10": {
+  "name": "スタレネルヴェント",
+  "n_works": 4,
+  "best_z": -0.36,
+  "last_date": "20260826",
+  "last_z": -0.07,
+  "last_course": "美浦D",
+  "last_f1": 11.8
+ },
+ "中京|4|15": {
+  "name": "サンロンブル",
+  "n_works": 4,
+  "best_z": -0.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|12|10": {
+  "name": "グラスゴー",
+  "n_works": 4,
+  "best_z": -1.12,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|11|18": {
+  "name": "エコロディアン",
+  "n_works": 3,
+  "best_z": -1.0,
+  "last_date": "20260826",
+  "last_z": 0.73,
+  "last_course": "栗東坂路",
+  "last_f1": 13.4
+ },
+ "中京|4|11": {
+  "name": "メイショウドキョウ",
+  "n_works": 5,
+  "best_z": -0.77,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "新潟|8|7": {
+  "name": "ジュンブロッサム",
+  "n_works": 6,
+  "best_z": -1.52,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|12|5": {
+  "name": "モノノケ",
+  "n_works": 2,
+  "best_z": -0.43,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "新潟|8|2": {
+  "name": "サヴォーナ",
+  "n_works": 4,
+  "best_z": -0.59,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "札幌|7|11": {
+  "name": "プルミエールパス",
+  "n_works": 1,
+  "best_z": -0.9,
+  "last_date": "20260819",
+  "last_z": -0.9,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|10|6": {
+  "name": "レッドヴァリアート",
+  "n_works": 3,
+  "best_z": -0.1,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "新潟|6|8": {
+  "name": "スターシップ",
+  "n_works": 3,
+  "best_z": 0.04,
+  "last_date": "20260827",
+  "last_z": 0.69,
+  "last_course": "栗東坂路",
+  "last_f1": 13.7
+ },
+ "中京|1|5": {
+  "name": "コスモルミナ",
+  "n_works": 3,
+  "best_z": -0.24,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "新潟|12|7": {
+  "name": "クラウンフリード",
+  "n_works": 3,
+  "best_z": -1.02,
+  "last_date": "20260826",
+  "last_z": 0.11,
+  "last_course": "美浦坂路",
+  "last_f1": 12.8
+ },
+ "新潟|5|8": {
+  "name": "カラーオブサクセス",
+  "n_works": 4,
+  "best_z": -1.39,
+  "last_date": "20260826",
+  "last_z": 0.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.9
+ },
+ "新潟|10|11": {
+  "name": "ヴァルク",
+  "n_works": 4,
+  "best_z": -0.64,
+  "last_date": "20260826",
+  "last_z": 0.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.9
+ },
+ "新潟|12|13": {
+  "name": "コンパクトファイト",
+  "n_works": 1,
+  "best_z": 1.79,
+  "last_date": "20260819",
+  "last_z": 1.79,
+  "last_course": "美浦坂路",
+  "last_f1": 13.8
+ },
+ "新潟|12|4": {
+  "name": "エテオクロス",
+  "n_works": 4,
+  "best_z": -0.27,
+  "last_date": "20260826",
+  "last_z": 0.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.9
+ },
+ "新潟|11|13": {
+  "name": "ココソラーレ",
+  "n_works": 1,
+  "best_z": 1.04,
+  "last_date": "20260819",
+  "last_z": 1.04,
+  "last_course": "美浦坂路",
+  "last_f1": 13.4
+ },
+ "中京|4|9": {
+  "name": "デュードロップ",
+  "n_works": 5,
+  "best_z": -1.0,
+  "last_date": "20260828",
+  "last_z": 1.48,
+  "last_course": "栗東坂路",
+  "last_f1": 14.7
+ },
+ "中京|6|6": {
+  "name": "ビービークローサー",
+  "n_works": 4,
+  "best_z": -0.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "新潟|2|8": {
+  "name": "ウィザードシチー",
+  "n_works": 5,
+  "best_z": -0.81,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "新潟|7|4": {
+  "name": "シュバルツマサムネ",
+  "n_works": 4,
+  "best_z": -0.8,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "中京|2|1": {
+  "name": "サトノボルテクス",
+  "n_works": 4,
+  "best_z": -0.57,
+  "last_date": "20260827",
+  "last_z": -0.56,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|8|15": {
+  "name": "メイショウナルカミ",
+  "n_works": 4,
+  "best_z": -0.59,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|9|15": {
+  "name": "ラミアスペランツァ",
+  "n_works": 4,
+  "best_z": -1.48,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "中京|11|15": {
+  "name": "ミッキーラヴィータ",
+  "n_works": 2,
+  "best_z": -0.45,
+  "last_date": "20260822",
+  "last_z": -0.45,
+  "last_course": "栗東C",
+  "last_f1": 15.6
+ },
+ "中京|4|16": {
+  "name": "メイショウケンゴウ",
+  "n_works": 4,
+  "best_z": -0.44,
+  "last_date": "20260826",
+  "last_z": 0.56,
+  "last_course": "栗東坂路",
+  "last_f1": 13.3
+ },
+ "中京|2|4": {
+  "name": "コスモクラウン",
+  "n_works": 5,
+  "best_z": -1.34,
+  "last_date": "20260826",
+  "last_z": -0.43,
+  "last_course": "栗東坂路",
+  "last_f1": 12.7
+ },
+ "中京|9|4": {
+  "name": "オーブフレッシュ",
+  "n_works": 3,
+  "best_z": -0.26,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "新潟|5|9": {
+  "name": "アリアス",
+  "n_works": 3,
+  "best_z": -0.83,
+  "last_date": "20260826",
+  "last_z": -0.71,
+  "last_course": "美浦坂路",
+  "last_f1": 12.4
+ },
+ "新潟|11|11": {
+  "name": "シェーンシュティア",
+  "n_works": 2,
+  "best_z": -0.65,
+  "last_date": "20260823",
+  "last_z": -0.57,
+  "last_course": "美浦坂路",
+  "last_f1": 12.8
+ },
+ "新潟|9|3": {
+  "name": "ゼンダンタカ",
+  "n_works": 4,
+  "best_z": -0.3,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦坂路",
+  "last_f1": 12.6
+ },
+ "新潟|12|15": {
+  "name": "ジェイエルライナー",
+  "n_works": 4,
+  "best_z": -1.2,
+  "last_date": "20260826",
+  "last_z": 0.32,
+  "last_course": "美浦坂路",
+  "last_f1": 12.9
+ },
+ "新潟|6|6": {
+  "name": "アルベリック",
+  "n_works": 2,
+  "best_z": -0.97,
+  "last_date": "20260827",
+  "last_z": -0.56,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|8|4": {
+  "name": "ショウナンハウル",
+  "n_works": 2,
+  "best_z": -1.07,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|11|4": {
+  "name": "メイショウトライオ",
+  "n_works": 3,
+  "best_z": -0.88,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "札幌|8|3": {
+  "name": "トリスティ",
+  "n_works": 2,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|9|12": {
+  "name": "レジーナローズ",
+  "n_works": 3,
+  "best_z": -1.06,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "美浦坂路",
+  "last_f1": 12.3
+ },
+ "新潟|10|8": {
+  "name": "ザンテソーロ",
+  "n_works": 3,
+  "best_z": -0.4,
+  "last_date": "20260827",
+  "last_z": 1.07,
+  "last_course": "美浦D",
+  "last_f1": 12.4
+ },
+ "中京|11|7": {
+  "name": "ハピネスサンライズ",
+  "n_works": 2,
+  "best_z": -0.9,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "中京|12|3": {
+  "name": "アーガイルショア",
+  "n_works": 2,
+  "best_z": -0.26,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|11|10": {
+  "name": "プリュスエクラ",
+  "n_works": 2,
+  "best_z": -0.43,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "新潟|8|10": {
+  "name": "バレエマスター",
+  "n_works": 5,
+  "best_z": -1.01,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|4|1": {
+  "name": "キングズテイル",
+  "n_works": 2,
+  "best_z": 0.14,
+  "last_date": "20260826",
+  "last_z": 0.19,
+  "last_course": "栗東C",
+  "last_f1": 11.9
+ },
+ "中京|1|10": {
+  "name": "ヤマトデュノール",
+  "n_works": 3,
+  "best_z": -0.02,
+  "last_date": "20260827",
+  "last_z": 2.4,
+  "last_course": "栗東坂路",
+  "last_f1": 15.2
+ },
+ "中京|4|4": {
+  "name": "カツラコマチ",
+  "n_works": 3,
+  "best_z": -0.94,
+  "last_date": "20260827",
+  "last_z": 1.46,
+  "last_course": "栗東C",
+  "last_f1": 12.6
+ },
+ "中京|10|8": {
+  "name": "ゼンノインヴォーク",
+  "n_works": 2,
+  "best_z": 0.04,
+  "last_date": "20260826",
+  "last_z": 0.43,
+  "last_course": "栗東C",
+  "last_f1": 12.0
+ },
+ "中京|6|13": {
+  "name": "メイショウシナノ",
+  "n_works": 3,
+  "best_z": -0.52,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "中京|1|9": {
+  "name": "スターオブザイヤー",
+  "n_works": 3,
+  "best_z": -0.41,
+  "last_date": "20260826",
+  "last_z": 0.89,
+  "last_course": "栗東坂路",
+  "last_f1": 13.5
+ },
+ "中京|11|9": {
+  "name": "デルニエジョイ",
+  "n_works": 2,
+  "best_z": -0.59,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|8|2": {
+  "name": "サガルマータ",
+  "n_works": 4,
+  "best_z": -0.28,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "中京|11|17": {
+  "name": "カルロット",
+  "n_works": 4,
+  "best_z": -1.17,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "中京|1|3": {
+  "name": "スピーディスピン",
+  "n_works": 2,
+  "best_z": 0.32,
+  "last_date": "20260826",
+  "last_z": 0.56,
+  "last_course": "栗東坂路",
+  "last_f1": 13.3
+ },
+ "中京|7|8": {
+  "name": "ピコジャック",
+  "n_works": 1,
+  "best_z": 0.61,
+  "last_date": "20260822",
+  "last_z": 0.61,
+  "last_course": "栗東坂路",
+  "last_f1": 16.7
+ },
+ "中京|9|3": {
+  "name": "キミガスキダ",
+  "n_works": 2,
+  "best_z": 0.32,
+  "last_date": "20260826",
+  "last_z": 0.4,
+  "last_course": "栗東坂路",
+  "last_f1": 13.2
+ },
+ "中京|6|15": {
+  "name": "キーチパルフェ",
+  "n_works": 3,
+  "best_z": -0.75,
+  "last_date": "20260826",
+  "last_z": -0.75,
+  "last_course": "栗東坂路",
+  "last_f1": 12.5
+ },
+ "新潟|9|5": {
+  "name": "ファイツオン",
+  "n_works": 2,
+  "best_z": -1.23,
+  "last_date": "20260826",
+  "last_z": -1.23,
+  "last_course": "栗東C",
+  "last_f1": 11.3
+ },
+ "中京|12|2": {
+  "name": "オンザノアール",
+  "n_works": 3,
+  "best_z": -1.95,
+  "last_date": "20260826",
+  "last_z": -1.95,
+  "last_course": "栗東C",
+  "last_f1": 11.0
+ },
+ "新潟|7|6": {
+  "name": "ナムラフッカー",
+  "n_works": 3,
+  "best_z": -1.34,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "中京|3|9": {
+  "name": "ロードフローリス",
+  "n_works": 5,
+  "best_z": -0.67,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "中京|11|11": {
+  "name": "リントゥラウル",
+  "n_works": 2,
+  "best_z": 1.65,
+  "last_date": "20260826",
+  "last_z": 2.21,
+  "last_course": "栗東坂路",
+  "last_f1": 14.3
+ },
+ "中京|3|11": {
+  "name": "ワンダーラヴグッド",
+  "n_works": 4,
+  "best_z": -0.38,
+  "last_date": "20260826",
+  "last_z": 1.72,
+  "last_course": "栗東坂路",
+  "last_f1": 14.0
+ },
+ "中京|8|14": {
+  "name": "ジュンライデン",
+  "n_works": 2,
+  "best_z": -1.76,
+  "last_date": "20260826",
+  "last_z": -0.26,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "新潟|10|2": {
+  "name": "ソナタムーンライト",
+  "n_works": 4,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|10|14": {
+  "name": "マジギレカレン",
+  "n_works": 3,
+  "best_z": -2.16,
+  "last_date": "20260826",
+  "last_z": -2.16,
+  "last_course": "美浦坂路",
+  "last_f1": 11.7
+ },
+ "新潟|5|7": {
+  "name": "エフティヴェント",
+  "n_works": 4,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|10|3": {
+  "name": "アーティキュレート",
+  "n_works": 4,
+  "best_z": -1.29,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|5|18": {
+  "name": "ミクロスギガース",
+  "n_works": 3,
+  "best_z": -0.19,
+  "last_date": "20260826",
+  "last_z": 1.77,
+  "last_course": "美浦D",
+  "last_f1": 12.6
+ },
+ "新潟|6|14": {
+  "name": "コスモコンフェルマ",
+  "n_works": 2,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|10|15": {
+  "name": "カフェプラウド",
+  "n_works": 3,
+  "best_z": -0.33,
+  "last_date": "20260827",
+  "last_z": 1.3,
+  "last_course": "美浦D",
+  "last_f1": 12.5
+ },
+ "新潟|12|3": {
+  "name": "スリーコーズ",
+  "n_works": 4,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|9|11": {
+  "name": "ビップムーラン",
+  "n_works": 3,
+  "best_z": -2.37,
+  "last_date": "20260826",
+  "last_z": -2.37,
+  "last_course": "美浦坂路",
+  "last_f1": 11.6
+ },
+ "新潟|5|6": {
+  "name": "ラウンドヒル",
+  "n_works": 2,
+  "best_z": -0.3,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|12|8": {
+  "name": "サトノエスケープ",
+  "n_works": 3,
+  "best_z": -1.54,
+  "last_date": "20260826",
+  "last_z": -1.54,
+  "last_course": "美浦坂路",
+  "last_f1": 12.0
+ },
+ "新潟|6|11": {
+  "name": "ジェーケーボンバー",
+  "n_works": 5,
+  "best_z": -1.1,
+  "last_date": "20260827",
+  "last_z": -0.31,
+  "last_course": "美浦D",
+  "last_f1": 11.8
+ },
+ "中京|10|7": {
+  "name": "シュエットアムール",
+  "n_works": 2,
+  "best_z": -0.51,
+  "last_date": "20260826",
+  "last_z": -0.51,
+  "last_course": "美浦坂路",
+  "last_f1": 12.5
+ },
+ "新潟|10|6": {
+  "name": "ロジキセキ",
+  "n_works": 1,
+  "best_z": 0.01,
+  "last_date": "20260822",
+  "last_z": 0.01,
+  "last_course": "美浦坂路",
+  "last_f1": 16.4
+ },
+ "新潟|3|3": {
+  "name": "イカルステソーロ",
+  "n_works": 2,
+  "best_z": -0.3,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦D",
+  "last_f1": 11.7
+ },
+ "新潟|3|8": {
+  "name": "ルークスイテルム",
+  "n_works": 2,
+  "best_z": 0.76,
+  "last_date": "20260827",
+  "last_z": 1.98,
+  "last_course": "美浦D",
+  "last_f1": 12.8
+ },
+ "新潟|12|9": {
+  "name": "スマートブル",
+  "n_works": 3,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|3|1": {
+  "name": "ケイジャーダ",
+  "n_works": 2,
+  "best_z": -0.51,
+  "last_date": "20260826",
+  "last_z": -0.51,
+  "last_course": "美浦坂路",
+  "last_f1": 12.5
+ },
+ "新潟|11|9": {
+  "name": "ケイツールピア",
+  "n_works": 2,
+  "best_z": -0.13,
+  "last_date": "20260826",
+  "last_z": 1.77,
+  "last_course": "美浦D",
+  "last_f1": 12.6
+ },
+ "新潟|10|4": {
+  "name": "パワポケウォーズ",
+  "n_works": 1,
+  "best_z": -0.4,
+  "last_date": "20260822",
+  "last_z": -0.4,
+  "last_course": "美浦坂路",
+  "last_f1": 15.8
+ },
+ "中京|8|11": {
+  "name": "ビップチェイス",
+  "n_works": 2,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|11|3": {
+  "name": "スカイダンスタイム",
+  "n_works": 3,
+  "best_z": 0.35,
+  "last_date": "20260826",
+  "last_z": 0.85,
+  "last_course": "美浦D",
+  "last_f1": 12.2
+ },
+ "新潟|7|12": {
+  "name": "クリニクラウン",
+  "n_works": 3,
+  "best_z": -1.08,
+  "last_date": "20260826",
+  "last_z": 0.62,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "新潟|9|8": {
+  "name": "ハニーローリエ",
+  "n_works": 3,
+  "best_z": -0.94,
+  "last_date": "20260826",
+  "last_z": 1.15,
+  "last_course": "美浦坂路",
+  "last_f1": 13.3
+ },
+ "新潟|1|1": {
+  "name": "フレイムジョーカー",
+  "n_works": 5,
+  "best_z": -1.23,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "中京|9|1": {
+  "name": "ベリベリハッピー",
+  "n_works": 3,
+  "best_z": -1.34,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "中京|7|9": {
+  "name": "ジーティーマイカ",
+  "n_works": 2,
+  "best_z": -1.09,
+  "last_date": "20260823",
+  "last_z": -1.08,
+  "last_course": "栗東坂路",
+  "last_f1": 12.8
+ },
+ "中京|8|3": {
+  "name": "ノチェセラーダ",
+  "n_works": 5,
+  "best_z": -1.3,
+  "last_date": "20260826",
+  "last_z": -0.59,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "新潟|1|4": {
+  "name": "メイショウブレゲ",
+  "n_works": 3,
+  "best_z": -0.68,
+  "last_date": "20260826",
+  "last_z": 0.43,
+  "last_course": "栗東C",
+  "last_f1": 12.0
+ },
+ "中京|12|9": {
+  "name": "メラヴィリオーザ",
+  "n_works": 2,
+  "best_z": -1.23,
+  "last_date": "20260826",
+  "last_z": -1.23,
+  "last_course": "栗東C",
+  "last_f1": 11.3
+ },
+ "新潟|12|6": {
+  "name": "ジャックナダル",
+  "n_works": 4,
+  "best_z": -2.17,
+  "last_date": "20260826",
+  "last_z": -0.3,
+  "last_course": "美浦坂路",
+  "last_f1": 12.6
+ },
+ "新潟|3|4": {
+  "name": "タイセイソアリング",
+  "n_works": 4,
+  "best_z": -1.32,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|1|3": {
+  "name": "ニシノクードクール",
+  "n_works": 3,
+  "best_z": -0.39,
+  "last_date": "20260827",
+  "last_z": 0.38,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "新潟|5|1": {
+  "name": "セリエンクーニゲン",
+  "n_works": 2,
+  "best_z": -0.09,
+  "last_date": "20260826",
+  "last_z": -0.09,
+  "last_course": "美浦坂路",
+  "last_f1": 12.7
+ },
+ "新潟|1|5": {
+  "name": "マルディランダ",
+  "n_works": 3,
+  "best_z": -1.68,
+  "last_date": "20260826",
+  "last_z": -1.68,
+  "last_course": "美浦D",
+  "last_f1": 11.1
+ },
+ "新潟|6|9": {
+  "name": "ヴァイヴァーイ",
+  "n_works": 1,
+  "best_z": 0.07,
+  "last_date": "20260826",
+  "last_z": 0.07,
+  "last_course": "栗東坂路",
+  "last_f1": 13.0
+ },
+ "中京|5|8": {
+  "name": "ビービーバザーク",
+  "n_works": 1,
+  "best_z": 0.07,
+  "last_date": "20260826",
+  "last_z": 0.07,
+  "last_course": "栗東坂路",
+  "last_f1": 13.0
+ },
+ "中京|9|10": {
+  "name": "アキノビューティー",
+  "n_works": 1,
+  "best_z": 2.21,
+  "last_date": "20260826",
+  "last_z": 2.21,
+  "last_course": "栗東坂路",
+  "last_f1": 14.3
+ },
+ "中京|11|14": {
+  "name": "モカプウイング",
+  "n_works": 1,
+  "best_z": 0.73,
+  "last_date": "20260826",
+  "last_z": 0.73,
+  "last_course": "栗東坂路",
+  "last_f1": 13.4
+ },
+ "中京|11|2": {
+  "name": "トウカイジーク",
+  "n_works": 1,
+  "best_z": 0.23,
+  "last_date": "20260826",
+  "last_z": 0.23,
+  "last_course": "栗東坂路",
+  "last_f1": 13.1
+ },
+ "中京|5|12": {
+  "name": "ルシタニア",
+  "n_works": 1,
+  "best_z": -0.1,
+  "last_date": "20260826",
+  "last_z": -0.1,
+  "last_course": "栗東坂路",
+  "last_f1": 12.9
+ },
+ "中京|5|9": {
+  "name": "メイショウマドロス",
+  "n_works": 1,
+  "best_z": -0.92,
+  "last_date": "20260826",
+  "last_z": -0.92,
+  "last_course": "栗東坂路",
+  "last_f1": 12.4
+ },
+ "新潟|11|12": {
+  "name": "ヴァリスマリネリス",
+  "n_works": 3,
+  "best_z": -1.54,
+  "last_date": "20260826",
+  "last_z": -1.54,
+  "last_course": "美浦坂路",
+  "last_f1": 12.0
+ },
+ "新潟|10|13": {
+  "name": "エイシンキーウィ",
+  "n_works": 2,
+  "best_z": -0.63,
+  "last_date": "20260826",
+  "last_z": -0.09,
+  "last_course": "美浦坂路",
+  "last_f1": 12.7
+ },
+ "新潟|9|15": {
+  "name": "ミスエル",
+  "n_works": 1,
+  "best_z": 1.15,
+  "last_date": "20260826",
+  "last_z": 1.15,
+  "last_course": "美浦坂路",
+  "last_f1": 13.3
+ },
+ "新潟|10|1": {
+  "name": "カーボフリオ",
+  "n_works": 1,
+  "best_z": -1.13,
+  "last_date": "20260826",
+  "last_z": -1.13,
+  "last_course": "美浦坂路",
+  "last_f1": 12.2
+ },
+ "新潟|7|8": {
+  "name": "ベンサレム",
+  "n_works": 4,
+  "best_z": -1.54,
+  "last_date": "20260826",
+  "last_z": -1.54,
+  "last_course": "美浦坂路",
+  "last_f1": 12.0
+ },
+ "中京|7|2": {
+  "name": "バクソウシャチョウ",
+  "n_works": 1,
+  "best_z": -0.56,
+  "last_date": "20260827",
+  "last_z": -0.56,
+  "last_course": "栗東坂路",
+  "last_f1": 12.6
+ },
+ "新潟|6|12": {
+  "name": "マハナ",
+  "n_works": 6,
+  "best_z": -0.52,
+  "last_date": "20260826",
+  "last_z": -0.04,
+  "last_course": "栗東C",
+  "last_f1": 11.8
+ },
+ "中京|12|1": {
+  "name": "ヴォンドゥ",
+  "n_works": 3,
+  "best_z": -0.6,
+  "last_date": "20260826",
+  "last_z": 0.91,
+  "last_course": "栗東C",
+  "last_f1": 12.2
+ },
+ "新潟|9|18": {
+  "name": "ヴェントゥーラ",
+  "n_works": 5,
+  "best_z": -1.16,
+  "last_date": "20260823",
+  "last_z": -1.16,
+  "last_course": "栗東C",
+  "last_f1": 11.5
+ },
+ "中京|6|8": {
+  "name": "インザモーメント",
+  "n_works": 4,
+  "best_z": -0.6,
+  "last_date": "20260826",
+  "last_z": 0.19,
+  "last_course": "栗東C",
+  "last_f1": 11.9
+ },
+ "中京|11|5": {
+  "name": "バルフルール",
+  "n_works": 4,
+  "best_z": -0.73,
+  "last_date": "20260826",
+  "last_z": 1.38,
+  "last_course": "栗東C",
+  "last_f1": 12.4
+ },
+ "新潟|4|3": {
+  "name": "ガヤーズサムライ",
+  "n_works": 3,
+  "best_z": -1.14,
+  "last_date": "20260822",
+  "last_z": -1.14,
+  "last_course": "美浦D",
+  "last_f1": 12.2
+ },
+ "新潟|2|6": {
+  "name": "ニシノマキロイ",
+  "n_works": 3,
+  "best_z": -1.19,
+  "last_date": "20260822",
+  "last_z": -1.19,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|6|7": {
+  "name": "トゥーザムーン",
+  "n_works": 4,
+  "best_z": -0.19,
+  "last_date": "20260826",
+  "last_z": 0.62,
+  "last_course": "美浦D",
+  "last_f1": 12.1
+ },
+ "中京|9|9": {
+  "name": "スマイルガーデン",
+  "n_works": 3,
+  "best_z": -0.89,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "新潟|2|3": {
+  "name": "ウラノグラフィア",
+  "n_works": 4,
+  "best_z": -1.04,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "中京|5|7": {
+  "name": "トワイライトサイト",
+  "n_works": 4,
+  "best_z": 0.31,
+  "last_date": "20260826",
+  "last_z": 1.54,
+  "last_course": "美浦D",
+  "last_f1": 12.5
+ },
+ "中京|6|5": {
+  "name": "シャルクハフト",
+  "n_works": 3,
+  "best_z": -1.1,
+  "last_date": "20260826",
+  "last_z": -0.52,
+  "last_course": "栗東C",
+  "last_f1": 11.6
+ },
+ "中京|10|4": {
+  "name": "バーバラップ",
+  "n_works": 1,
+  "best_z": -0.48,
+  "last_date": "20260819",
+  "last_z": -0.48,
+  "last_course": "栗東C",
+  "last_f1": 11.7
+ },
+ "新潟|5|2": {
+  "name": "チョコブラウニー",
+  "n_works": 2,
+  "best_z": -0.63,
+  "last_date": "20260826",
+  "last_z": 0.16,
+  "last_course": "美浦D",
+  "last_f1": 11.9
+ },
+ "新潟|1|6": {
+  "name": "エポカスピーガ",
+  "n_works": 2,
+  "best_z": -1.07,
+  "last_date": "20260826",
+  "last_z": 0.16,
+  "last_course": "美浦D",
+  "last_f1": 11.9
+ },
+ "新潟|10|7": {
+  "name": "カノープス",
+  "n_works": 1,
+  "best_z": 0.47,
+  "last_date": "20260819",
+  "last_z": 0.47,
+  "last_course": "美浦D",
+  "last_f1": 12.0
+ },
+ "新潟|12|10": {
+  "name": "ガンバレベアー",
+  "n_works": 2,
+  "best_z": -1.22,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "新潟|1|2": {
+  "name": "ニシノインヴィクタ",
+  "n_works": 3,
+  "best_z": -0.53,
+  "last_date": "20260826",
+  "last_z": -0.53,
+  "last_course": "美浦D",
+  "last_f1": 11.6
+ },
+ "新潟|1|10": {
+  "name": "ヨシノヤッタルデー",
+  "n_works": 1,
+  "best_z": 0.09,
+  "last_date": "20260820",
+  "last_z": 0.09,
+  "last_course": "栗東C",
+  "last_f1": 11.7
+ },
+ "新潟|11|2": {
+  "name": "シアブリス",
+  "n_works": 3,
+  "best_z": -1.52,
+  "last_date": "20260826",
+  "last_z": -1.22,
+  "last_course": "美浦D",
+  "last_f1": 11.3
+ },
+ "新潟|2|7": {
+  "name": "ピーエムリンダ",
+  "n_works": 2,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "中京|5|6": {
+  "name": "オーレアミスト",
+  "n_works": 2,
+  "best_z": -0.45,
+  "last_date": "20260826",
+  "last_z": 0.43,
+  "last_course": "栗東C",
+  "last_f1": 12.0
+ },
+ "中京|11|13": {
+  "name": "パトローナス",
+  "n_works": 1,
+  "best_z": 0.53,
+  "last_date": "20260822",
+  "last_z": 0.53,
+  "last_course": "栗東C",
+  "last_f1": 22.0
+ },
+ "新潟|5|17": {
+  "name": "エイシンイクサボシ",
+  "n_works": 1,
+  "best_z": 0.64,
+  "last_date": "20260822",
+  "last_z": 0.64,
+  "last_course": "美浦D",
+  "last_f1": 19.6
+ },
+ "新潟|6|3": {
+  "name": "オクトーバーナイン",
+  "n_works": 2,
+  "best_z": -1.68,
+  "last_date": "20260826",
+  "last_z": -1.68,
+  "last_course": "美浦D",
+  "last_f1": 11.1
+ },
+ "中京|5|13": {
+  "name": "シンギタイ",
+  "n_works": 2,
+  "best_z": -0.98,
+  "last_date": "20260826",
+  "last_z": 0.67,
+  "last_course": "栗東C",
+  "last_f1": 12.1
+ },
+ "新潟|11|4": {
+  "name": "ナックホワイト",
+  "n_works": 2,
+  "best_z": -1.71,
+  "last_date": "20260826",
+  "last_z": -1.68,
+  "last_course": "美浦D",
+  "last_f1": 11.1
+ },
+ "中京|5|5": {
+  "name": "タリスマン",
+  "n_works": 1,
+  "best_z": 0.85,
+  "last_date": "20260826",
+  "last_z": 0.85,
+  "last_course": "美浦D",
+  "last_f1": 12.2
+ },
+ "新潟|9|14": {
+  "name": "ケンキョ",
+  "n_works": 1,
+  "best_z": -0.99,
+  "last_date": "20260826",
+  "last_z": -0.99,
+  "last_course": "美浦D",
+  "last_f1": 11.4
+ },
+ "新潟|10|12": {
+  "name": "サンタピア",
+  "n_works": 1,
+  "best_z": 1.54,
+  "last_date": "20260826",
+  "last_z": 1.54,
+  "last_course": "美浦D",
+  "last_f1": 12.5
+ },
+ "新潟|5|15": {
+  "name": "ルディドゥゲンジ",
+  "n_works": 1,
+  "best_z": 1.07,
+  "last_date": "20260827",
+  "last_z": 1.07,
+  "last_course": "美浦D",
+  "last_f1": 12.4
+ }
+}

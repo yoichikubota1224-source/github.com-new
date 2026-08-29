@@ -61,11 +61,12 @@ def eval_cond(c, h, race):
     if '前走' in c:
         if race['shinba']:
             return (False, '[実]', '新馬=前走なし→条件不成立')
-        if h.get('mishutsu'):
-            return (False, '[推:列同定]', 'DE23/24/25が全て0・賞金も0=未出走→条件不成立')
-        if h.get('zen_zero_conflict'):
-            # 23/24/25が全て0だが賞金は非0=出走歴あり。0を未出走と断定しない。
-            return (None, '[要確認]', '前走列が全て0だが賞金は非0=矛盾。未出走と断定しない')
+        if h.get('zen_missing'):
+            # ⚠ 2026-08-30 訂正: DE23/24/25=0/0/0 は「未出走」ではなく
+            #   「前走情報が取得できていない」。タイム指数CSVとの交差検証で、
+            #   0/0/0の9頭中4頭(中京9R8番・新潟5R2番/14番・札幌9R3番)に
+            #   前走の実測タイム指数が存在した[実]。よって0を不成立に変換しない。
+            return (None, '[不足]', 'DE23/24/25が全て0=前走情報なし(未出走とは断定しない)')
         m = re.search(r'前走(\d+)着以内', c)
         if m and h.get('zen_chaku'):
             k = int(m.group(1))
@@ -128,10 +129,8 @@ def main():
                      'sire': r[D_SIRE], 'belong': r[D_BELONG], 'kin': float(r[D_KIN]),
                      'zen_kan': iz(r[D_ZEN_KAN]), 'zen_ninki': iz(r[D_ZEN_NIN]),
                      'zen_chaku': iz(r[D_ZEN_CHAKU])}
-                _z0 = (h['zen_kan'] == 0 and h['zen_ninki'] == 0 and h['zen_chaku'] == 0)
-                _pz = (iz(r[D_PRIZE1]) == 0 and iz(r[D_PRIZE2]) == 0)
-                h['mishutsu'] = _z0 and _pz
-                h['zen_zero_conflict'] = _z0 and not _pz
+                h['zen_missing'] = (h['zen_kan'] == 0 and h['zen_ninki'] == 0
+                                    and h['zen_chaku'] == 0)
                 base_tag, base_note = '[実]', ''
                 jm = re.match(r'(.+?)騎手$', c1)
                 sm = re.match(r'父が?(.+)$', c1)
