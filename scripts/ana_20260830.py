@@ -42,12 +42,20 @@ for x in F:
     tr = avg_rank(hs)
     s = sum(1/h['kijun_fuku'] for h in hs if h.get('kijun_fuku'))
     mkt = {h['uma']: (1/h['kijun_fuku'])*3/s for h in hs if h.get('kijun_fuku')}
+    # ⚠ 較正表は人気別で頭数を見ていないため、Σ較正p3 は頭数依存で 265%(8頭)〜324%(18頭)と
+    #   3.0からずれる[実]。市場p3はΣ=3.0に正規化済みなので、そのまま引くとレースごとに
+    #   +4.3pt〜−1.3ptの系統バイアスが乗る。第10報の申し送りに従い較正側もΣ=3.0へ正規化する。
+    cal_sum = sum(DRIFT[min(int(h['kijun_ninki']), 16)]
+                  for h in hs if h.get('kijun_ninki'))
+    cal_k = 3.0 / cal_sum if cal_sum else 1.0
     rows = []
     for h in hs:
         u = h['uma']
         nin = int(h['kijun_ninki']) if h.get('kijun_ninki') else None
-        cal = DRIFT.get(min(nin, 16)) if nin else None
+        cal_raw = DRIFT.get(min(nin, 16)) if nin else None
+        cal = cal_raw * cal_k if cal_raw is not None else None
         hosei = 100*(mkt[u] - cal) if (u in mkt and cal is not None) else None
+        hosei_raw = 100*(mkt[u] - cal_raw) if (u in mkt and cal_raw is not None) else None
         cr, t = h.get('compi_rank'), tr.get(u)
         s_ = sl.get((x['ba'], x['r'], u), {})
         rows.append({
@@ -56,7 +64,8 @@ for x in F:
             'nsup': h['nsup'], 'support': h.get('support', []),
             'compi_rank': cr, 'total_rank': t,
             'kairi': (cr - t) if (cr is not None and t is not None) else None,
-            'hosei': hosei, 'unsei': h.get('unsei'), 'roi': h.get('roi'),
+            'hosei': hosei, 'hosei_raw': hosei_raw, 'cal_k': round(cal_k, 4),
+            'unsei': h.get('unsei'), 'roi': h.get('roi'),
             'kin': num(s_.get('斤量')), 'tenkai': num(s_.get('展開順位')),
             'senkou': (s_.get('先行力') or '').strip(), 'okure': num(s_.get('出遅率', '').replace('%','')),
             'omo': h.get('omo'), 'kyakusitu': h.get('kyakusitu'), 'sav': h.get('SAV'),
