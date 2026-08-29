@@ -9,7 +9,9 @@ import csv, re, sys, json
 sys.path.insert(0, '/home/user/github.com-new/scripts')
 from ultra_mb_extract import (D_BA, D_R, D_UMA, D_CLS, D_TD, D_DIST, D_NAME, D_SEX,
                               D_AGE, D_JOCKEY, D_KIN, D_TRAINER, D_BELONG, D_SIRE,
-                              D_WAKU, D_ATAMA, norm_jockey, jockey_match, sire_rule_match)
+                              D_WAKU, D_ATAMA, D_ZEN_KAN, D_ZEN_NIN, D_ZEN_CHAKU,
+                              D_PRIZE1, D_PRIZE2,
+                              norm_jockey, jockey_match, sire_rule_match, iz)
 
 # 退避CSVのOCR由来と思われる表記ゆれ → 実在騎手名
 JOCKEY_FIX = {'億野極': '荻野極', '高杉吏麒': '高杉史麒', '鮫島-克駿': '鮫島克駿'}
@@ -59,7 +61,30 @@ def eval_cond(c, h, race):
     if '前走' in c:
         if race['shinba']:
             return (False, '[実]', '新馬=前走なし→条件不成立')
-        return (None, '[不足]', c + '=DEに前走情報なし')
+        if h.get('mishutsu'):
+            return (False, '[推:列同定]', 'DE23/24/25が全て0・賞金も0=未出走→条件不成立')
+        if h.get('zen_zero_conflict'):
+            # 23/24/25が全て0だが賞金は非0=出走歴あり。0を未出走と断定しない。
+            return (None, '[要確認]', '前走列が全て0だが賞金は非0=矛盾。未出走と断定しない')
+        m = re.search(r'前走(\d+)着以内', c)
+        if m and h.get('zen_chaku'):
+            k = int(m.group(1))
+            return (h['zen_chaku'] <= k, '[推:列同定]', f'前走{h["zen_chaku"]}着≤{k}着')
+        m = re.search(r'前走(\d+)番?人気以内', c)
+        if m and h.get('zen_ninki'):
+            k = int(m.group(1))
+            return (h['zen_ninki'] <= k, '[推:列同定]', f'前走{h["zen_ninki"]}人気≤{k}人気')
+        m = re.search(r'前走(?:から)?中(\d+)週以上', c)
+        if m and h.get('zen_kan'):
+            k = int(m.group(1))
+            return (h['zen_kan'] >= k + 1, '[推:中週換算]',
+                    f'前走から{h["zen_kan"]}週(中{max(h["zen_kan"]-1,0)}週)≥中{k}週')
+        m = re.search(r'前走(?:から)?中(\d+)週以内', c)
+        if m and h.get('zen_kan'):
+            k = int(m.group(1))
+            return (h['zen_kan'] <= k + 1, '[推:中週換算]',
+                    f'前走から{h["zen_kan"]}週(中{max(h["zen_kan"]-1,0)}週)≤中{k}週')
+        return (None, '[不足]', c + '=DE33列に該当項目なし')
     return (None, '[要確認]', c)
 
 def main():
@@ -88,7 +113,7 @@ def main():
         race = {'ba': key[0], 'r': key[1], 'cls': head[D_CLS], 'td': head[D_TD],
                 'dist': int(head[D_DIST]), 'atama': int(head[D_ATAMA]),
                 'shinba': '新馬' in head[D_CLS], 'jump': '障害' in head[D_CLS]}
-        hits, applicable = [], []
+        hits, applicable, undecided = [], [], []
         for ru in rules:
             if ru['ba'] != race['ba'] or ru['td'] != race['td']:
                 continue
@@ -100,7 +125,13 @@ def main():
             for r in rs:
                 h = {'uma': int(r[D_UMA]), 'waku': int(r[D_WAKU]), 'name': r[D_NAME],
                      'sex': r[D_SEX], 'age': int(r[D_AGE]), 'jockey': r[D_JOCKEY],
-                     'sire': r[D_SIRE], 'belong': r[D_BELONG], 'kin': float(r[D_KIN])}
+                     'sire': r[D_SIRE], 'belong': r[D_BELONG], 'kin': float(r[D_KIN]),
+                     'zen_kan': iz(r[D_ZEN_KAN]), 'zen_ninki': iz(r[D_ZEN_NIN]),
+                     'zen_chaku': iz(r[D_ZEN_CHAKU])}
+                _z0 = (h['zen_kan'] == 0 and h['zen_ninki'] == 0 and h['zen_chaku'] == 0)
+                _pz = (iz(r[D_PRIZE1]) == 0 and iz(r[D_PRIZE2]) == 0)
+                h['mishutsu'] = _z0 and _pz
+                h['zen_zero_conflict'] = _z0 and not _pz
                 base_tag, base_note = '[実]', ''
                 jm = re.match(r'(.+?)騎手$', c1)
                 sm = re.match(r'父が?(.+)$', c1)
@@ -113,11 +144,26 @@ def main():
                         base_note += f'(表記ゆれ {jm.group(1)}→{nm})'
                 elif sm:
                     ok, base_tag, base_note = sire_rule_match(h['sire'], sm.group(1))
-                    if ok is not True:
+                    if ok is False:
+                        continue
+                    if ok is None:
+                        undecided.append({'no': ru['no'], 'course': ru['course'],
+                                          'uma': h['uma'], 'name': h['name'], 'sire': h['sire'],
+                                          'jockey': norm_jockey(h['jockey']),
+                                          'c1': ru['c1'], 'c2': ru['c2'],
+                                          'base_tag': base_tag, 'base_note': base_note})
                         continue
                 else:
                     v, t, n = eval_cond(c1, h, race)
-                    if v is not True:
+                    if v is False:
+                        continue
+                    if v is None:
+                        # [不足]/[要確認]を無言で0に変換しない。別枠へ退避。
+                        undecided.append({'no': ru['no'], 'course': ru['course'],
+                                          'uma': h['uma'], 'name': h['name'], 'sire': h['sire'],
+                                          'jockey': norm_jockey(h['jockey']),
+                                          'c1': ru['c1'], 'c2': ru['c2'],
+                                          'base_tag': t, 'base_note': n})
                         continue
                     base_tag, base_note = t, n
                 conds = [c for c in re.split(r'[＋+]', ru['c2']) if c.strip()]
@@ -133,7 +179,8 @@ def main():
                              'naigai': ru['naigai'],
                              'conds': [{'text': c, 'ok': v, 'tag': t, 'note': n}
                                        for c, (v, t, n) in zip(conds or ['無条件'], results)]})
-        out.append({'race': race, 'applicable_rules': len(applicable), 'hits': hits})
+        out.append({'race': race, 'applicable_rules': len(applicable), 'hits': hits,
+                    'base_undecided': undecided})
     print(json.dumps(out, ensure_ascii=False, indent=1))
 
 if __name__ == '__main__':

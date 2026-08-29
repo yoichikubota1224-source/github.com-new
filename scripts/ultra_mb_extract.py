@@ -12,7 +12,16 @@ import openpyxl
 D_DATE, D_BA, D_R, D_UMA, D_CLS, D_TD, D_DIST = 0, 1, 2, 3, 4, 5, 6
 D_NAME, D_SEX, D_AGE, D_JOCKEY, D_KIN, D_TRAINER, D_BELONG = 7, 8, 9, 10, 11, 12, 13
 D_SIRE, D_DAM, D_KETTO, D_BMS, D_WAKU, D_ATAMA = 16, 17, 18, 20, 22, 26
-# 23,24,25 は内容未同定(値域0〜125)。前走着順とは一致しないため使用しない=[要確認]
+# 2026-08-30 同定: 23=前走との間隔(週) / 24=前走人気 / 25=前走着順 [推:列同定]
+#   根拠(8/29・8/30の2日で再現):
+#     ・新馬戦の全馬が col23==0(8/29 44/44, 8/30 53/53)
+#     ・未勝利戦で col25==1 が 0件(8/29 0/213, 8/30 0/163)。勝てば未勝利を出るので当然。
+#       勝クラスでは 8/29 27/228, 8/30 45/254 と多数出る
+#     ・col24≤18・col25≤18(人気/着順の値域)、corr(col24,col25)=0.586
+#     ・2歳馬の col23 最大は 11〜12週(2歳に長期休養はない)
+#   ※DE仕様書での裏取りは未実施のためタグは [推:列同定]。確定後 [実] へ昇格する。
+D_ZEN_KAN, D_ZEN_NIN, D_ZEN_CHAKU = 23, 24, 25
+D_PRIZE1, D_PRIZE2 = 27, 28   # 賞金系(未出走判定の裏取りに使用)
 
 # 騎手名: DEは4〜5文字に丸められる。正本のフルネームとの対応表(DE表記→正本表記)
 JOCKEY_ALIAS = {
@@ -54,6 +63,18 @@ KEITO = {
       # 2026-08-30 追加: 8/30出走馬の父を機械点検し、父の父が既収載の種牡馬を補った。
       # 'ダノンスマッシュ'(父ロードカナロア) / 'タイセイレジェンド'(父キングカメハメハ)
       'ダノンスマッシュ','タイセイレジェンド'},
+  # 2026-08-30 追加: 系統キー自体が欠落しており、該当レースの全馬が無言で除外されていた。
+  # 収載は当方の系統知識による [推:系統]。正本側の父系列提供までは要確認のまま。
+  'ストームキャット系': {'ストームキャット','Storm Cat','ヘネシー','Hennessy','ヘニーヒューズ',
+      'Henny Hughes','アジアエクスプレス','モーニン','ヨハネスブルグ','Johannesburg',
+      'スキャットダディ','Scat Daddy','ジャイアンツコーズウェイ',"Giant's Causeway",
+      'フォレストリー','Forestry','ディスクリートキャット','Discreet Cat',
+      'ハーランズホリデー',"Harlan's Holiday",'イントゥミスチーフ','Into Mischief'},
+  'エーピーインディ系': {'エーピーインディ','A.P. Indy','A.P.Indy','パルピット','Pulpit',
+      'タピット','Tapit','ベルナルディーニ','Bernardini','マリブムーン','Malibu Moon',
+      'コングラッツ','Congrats','マジェスティックウォリアー','Majestic Warrior',
+      'ベストウォーリア','マインシャフト','Mineshaft','カジノドライヴ','パイロ','Pyro',
+      'オールドトリエステ','Old Trieste','シニスターミニスター'},
   'ディープインパクト系': {'ディープインパクト','キズナ','リアルスティール','サトノダイヤモンド','ミッキーアイル',
       'シルバーステート','フィエールマン','ダノンバラード','ワールドエース','トーセンホマレボシ','アルアイン',
       'ダノンキングリー','サトノアラジン','スピルバーグ','トーセンラー','ディーマジェスティ','リアルインパクト',
@@ -115,6 +136,11 @@ def sire_rule_match(sire, target):
 COND_SPLIT = re.compile(r'、かつ、|、また、')
 KANSUJI = {'牡':'牡','牝':'牝','セ':'セ'}
 
+def iz(x):
+    x = (x or '').strip()
+    return int(x) if x.lstrip('-').isdigit() else 0
+
+
 def eval_cond(c, h, race):
     """1条件を評価。戻り値 (True/False/None, タグ, 表示文)。None=判定不能。"""
     c = c.strip().strip('（）()')
@@ -151,10 +177,38 @@ def eval_cond(c, h, race):
         return (h['belong'] == want, '[実]', f'所属{h["belong"]}')
     if '父がサンデーサイレンス系以外' in c:
         return ss_kei_gai(h['sire'])
+    # ---- 前走条件 ----
     if '前走' in c:
         if race['shinba']:
             return (False, '[実]', '新馬=前走なし→条件不成立')
-        return (None, '[不足]', c + '=DEに前走情報なし')
+        if h.get('mishutsu'):
+            return (False, '[推:列同定]', 'DE23/24/25が全て0・賞金も0=未出走→条件不成立')
+        if h.get('zen_zero_conflict'):
+            # 23/24/25が全て0だが賞金は非0=出走歴あり。0を未出走と断定しない。
+            return (None, '[要確認]', '前走列が全て0だが賞金は非0=矛盾。未出走と断定しない')
+        # 前走着順(DE25列) [推:列同定]
+        m = re.search(r'前走の?着順が(\d+)着(以内|以下)', c)
+        if m and h.get('zen_chaku'):
+            k = int(m.group(1))
+            return (h['zen_chaku'] <= k, '[推:列同定]', f'前走{h["zen_chaku"]}着≤{k}着')
+        # 前走人気(DE24列) [推:列同定]
+        m = re.search(r'前走の?人気が(\d+)番?人気(以内|以下)', c)
+        if m and h.get('zen_ninki'):
+            k = int(m.group(1))
+            return (h['zen_ninki'] <= k, '[推:列同定]', f'前走{h["zen_ninki"]}人気≤{k}人気')
+        # レース間隔(DE23列) [推:列同定]＋「中N週」の換算は[推:中週換算]
+        m = re.search(r'間隔が中(\d+)週以内', c)
+        if m and h.get('zen_kan'):
+            k = int(m.group(1))
+            return (h['zen_kan'] <= k + 1, '[推:中週換算]',
+                    f'前走から{h["zen_kan"]}週(中{max(h["zen_kan"]-1,0)}週)≤中{k}週')
+        m = re.search(r'間隔が中(\d+)週以上', c)
+        if m and h.get('zen_kan'):
+            k = int(m.group(1))
+            return (h['zen_kan'] >= k + 1, '[推:中週換算]',
+                    f'前走から{h["zen_kan"]}週(中{max(h["zen_kan"]-1,0)}週)≥中{k}週')
+        # 前走場・上がり3F・馬体重・4角通過順・前走コース・前走頭数は33列に存在しない
+        return (None, '[不足]', c + '=DE33列に該当項目なし')
     return (None, '[要確認]', c)
 
 def parse_dist(s):
@@ -205,6 +259,7 @@ def main():
                 'dist': int(head[D_DIST]), 'atama': int(head[D_ATAMA]),
                 'jump': ('障害' in head[D_CLS]), 'shinba': ('新馬' in head[D_CLS])}
         hits = []
+        undecided = []
         applicable = []
         for ru in rules:
             if ru['ba'] != race['ba'] or ru['td'] != race['td']:
@@ -216,14 +271,29 @@ def main():
             for r in rs:
                 h = {'uma': int(r[D_UMA]), 'waku': int(r[D_WAKU]), 'name': r[D_NAME],
                      'sex': r[D_SEX], 'age': int(r[D_AGE]), 'jockey': r[D_JOCKEY],
-                     'sire': r[D_SIRE], 'trainer': r[D_TRAINER], 'belong': r[D_BELONG]}
+                     'sire': r[D_SIRE], 'trainer': r[D_TRAINER], 'belong': r[D_BELONG],
+                     'zen_kan': iz(r[D_ZEN_KAN]), 'zen_ninki': iz(r[D_ZEN_NIN]),
+                     'zen_chaku': iz(r[D_ZEN_CHAKU])}
+                _z0 = (iz(r[D_ZEN_KAN]) == 0 and iz(r[D_ZEN_NIN]) == 0
+                       and iz(r[D_ZEN_CHAKU]) == 0)
+                _pz = (iz(r[D_PRIZE1]) == 0 and iz(r[D_PRIZE2]) == 0)
+                h['mishutsu'] = _z0 and _pz
+                h['zen_zero_conflict'] = _z0 and not _pz
                 if ru['kind'] == 'ジョッキー':
                     if not jockey_match(h['jockey'], ru['target']):
                         continue
                     base_tag, base_note = '[実]', f'鞍上:{norm_jockey(h["jockey"])}'
                 else:
                     ok, base_tag, base_note = sire_rule_match(h['sire'], ru['target'])
-                    if ok is not True:
+                    if ok is False:
+                        continue
+                    if ok is None:
+                        # [要確認]を無言で0に変換しない。別枠に退避して明示する。
+                        undecided.append({'uma': h['uma'], 'name': h['name'],
+                                          'sire': h['sire'], 'jockey': norm_jockey(h['jockey']),
+                                          'rule': f"{ru['kind']}／{ru['target']}",
+                                          'rule_cond': ru['cond'], 'base_tag': base_tag,
+                                          'base_note': base_note})
                         continue
                 conds = [c for c in COND_SPLIT.split(ru['cond']) if c.strip()]
                 results = [eval_cond(c, h, race) for c in conds] or [(True, '[実]', '無条件')]
@@ -257,6 +327,7 @@ def main():
         for hh in hits:
             hh.setdefault('W', '')
         out.append({'race': race, 'applicable_rules': len(applicable), 'hits': hits,
+                    'base_undecided': undecided,
                     'shinba': race['shinba'], 'jump': race['jump']})
     print(json.dumps(out, ensure_ascii=False, indent=1))
 
