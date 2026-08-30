@@ -7,9 +7,29 @@ from collections import Counter
 
 XLSX, PACK, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
 
+TARGET_DATE = '2026-08-30'
+# ⚠ 2026-08-30 追加: 8/29版からsedで複製した際、表示文だけを直しデータ経路(eval側の
+#   f['m29'])を直し忘れ、8/30の運勢に8/29列を使っていた(ChatGPT監査で発覚)。
+#   同種の再発を防ぐため、列ヘッダのExcelシリアルを対象日でassertする。
+#   Excelシリアル = (対象日 - 1899-12-30).days  例: 2026-08-30 → 46264
+import datetime
+_serial = (datetime.date(*map(int, TARGET_DATE.split('-'))) - datetime.date(1899, 12, 30)).days
+
 wb = openpyxl.load_workbook(XLSX, read_only=True, data_only=True)
 ws = wb['2026.08.29']
-entries = []          # (星人帯, 8/29マーク, 8/30マーク, 騎手トークン, ROI指数)
+_hdr = None
+for _row in ws.iter_rows(values_only=True):
+    _c = [('' if x is None else str(x)).strip() for x in _row]
+    if _c and _c[0] == '2026年':
+        _hdr = _c
+        break
+assert _hdr is not None, 'ヘッダ行(2026年)が見つかりません'
+assert _hdr[2] == str(_serial), (
+    f'⚠ 列の対象日が一致しません: C列={_hdr[2]!r} 期待={_serial}({TARGET_DATE})。'
+    f' B列={_hdr[1]!r}。日付列の取り違えです')
+print(f'[assert] C列 = {_hdr[2]} = {TARGET_DATE} を確認(B列={_hdr[1]})')
+
+entries = []          # (星人帯, B列マーク, C列=対象日マーク, 騎手トークン, ROI指数)
 for row in ws.iter_rows(values_only=True):
     c = [('' if x is None else str(x)) for x in row]
     if not c or not c[0] or c[0] in ('2026年',) or '青字' in c[0]:

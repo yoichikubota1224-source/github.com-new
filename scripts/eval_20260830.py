@@ -34,7 +34,7 @@ for R in D:
     for h in hs:
         u = h['uma']
         f = U.get(h['jockey'])
-        h['unsei'] = f['m29'] if f else None
+        h['unsei'] = f['m30'] if f else None
         h['unsei_roi'] = f['roi'] if f else None
         h['unsei_note'] = f['note'] if f else None
         s = []

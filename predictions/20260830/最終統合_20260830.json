@@ -61,7 +61,7 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 86,
     "unsei_note": "86永島まなみ（福・新○）",
     "support": [],
@@ -134,14 +134,13 @@
     "lap": "超高速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 97,
     "unsei_note": "97川端（短ダ",
     "support": [
-     "運勢◎◎",
      "③厩舎ROI(単93/複102)"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 8,
      "time": 10,
@@ -292,7 +291,7 @@
     "lap": "低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -524,16 +523,15 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
     "support": [
      "⑧タイム3位",
-     "運勢◎",
      "⑦STRIDE(合計6位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 4,
      "time": 3,
@@ -602,7 +600,7 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -682,17 +680,16 @@
     "lap": "高速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
      "⑧前走時計3位",
      "④コンピ2位",
-     "運勢◎◎",
      "③厩舎ROI(単93/複102)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 5,
      "time": 4,
@@ -761,11 +758,13 @@
     "lap": "超高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 115,
     "unsei_note": "115森田誠也",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 6,
@@ -1022,7 +1021,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 117,
     "unsei_note": "117国分恭（福・新・小・京都○",
     "support": [],
@@ -1095,7 +1094,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -1174,7 +1173,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -1329,14 +1328,15 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
+     "運勢◎",
      "③厩舎ROI(単107/複78)",
      "⑦STRIDE(合計7位/妙味Ｓ)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 5,
      "time": null,
@@ -1405,15 +1405,14 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
-     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計4位/妙味ＡＡ)"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": null,
@@ -1482,13 +1481,11 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 8,
      "time": null,
@@ -1670,7 +1667,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [],
@@ -1743,17 +1740,18 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
      "⑧IDM4位",
      "④コンピ2位",
+     "運勢◎",
      "⑥調教1位",
      "⑦STRIDE(合計4位/妙味Ｓ)",
      "激走(印3.0/指数4位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 4,
      "time": null,
@@ -1897,19 +1895,18 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
      "⑧IDM1位",
      "④コンピ1位",
-     "運勢◎◎",
      "③厩舎ROI(単109/複79)",
      "⑥調教2位",
      "⑦STRIDE(合計1位/妙味Ｓ)",
      "激走(印0/指数2位)"
     ],
-    "nsup": 7,
+    "nsup": 6,
     "ranks": {
      "IDM": 1,
      "time": null,
@@ -2051,7 +2048,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 86,
     "unsei_note": "86永島まなみ（福・新○）",
     "support": [],
@@ -2234,7 +2231,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -2309,18 +2306,17 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
     "support": [
      "⑧IDM2位",
      "④コンピ3位",
-     "運勢◎",
      "⑥調教4位",
      "⑦STRIDE(合計2位/妙味ＡＡ)",
      "激走(印0/指数1位)"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 2,
      "time": null,
@@ -2389,16 +2385,17 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
     "support": [
      "⑧IDM3位",
      "④コンピ4位",
+     "運勢◎",
      "⑦STRIDE(合計3位/妙味Ｓ)",
      "激走(印2.0/指数3位)"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 3,
      "time": null,
@@ -2581,7 +2578,7 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -2741,14 +2738,15 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
      "⑧IDM5位",
+     "運勢◎",
      "激走(印4.0/指数5位)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 5,
      "time": 10,
@@ -2817,7 +2815,7 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 117,
     "unsei_note": "117国分恭（福・新・小・京都○",
     "support": [
@@ -2892,13 +2890,11 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 11,
      "time": 6,
@@ -2967,11 +2963,13 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100加藤祥",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 15,
      "time": 11,
@@ -3203,7 +3201,7 @@
     "lap": "高速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 86,
     "unsei_note": "86永島まなみ（福・新○）",
     "support": [],
@@ -3357,11 +3355,13 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 16,
      "time": 12,
@@ -3430,11 +3430,13 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 115,
     "unsei_note": "115森田誠也",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 14,
      "time": null,
@@ -3503,13 +3505,14 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 105,
     "unsei_note": "105長岡禎（札・凾・新・中京・小○",
     "support": [
-     "⑧タイム5位"
+     "⑧タイム5位",
+     "運勢◎"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 8,
      "time": 5,
@@ -3724,15 +3727,14 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
     "support": [
      "⑧前走時計5位",
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 9,
      "time": 7,
@@ -3841,14 +3843,13 @@
     "lap": "超低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
     "support": [
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 8,
@@ -4067,17 +4068,18 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
      "⑧IDM2位",
      "⑧前走時計1位",
+     "運勢◎",
      "⑬展開3位/出遅20%",
      "⑦STRIDE(合計9位/妙味Ｓ)",
      "激走(印3.0/指数2位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 2,
      "time": 7,
@@ -4642,16 +4644,17 @@
     "lap": "超低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
     "support": [
      "⑧タイム4位",
      "④コンピ4位",
+     "運勢◎",
      "⑦STRIDE(合計4位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 6,
      "time": 4,
@@ -4720,11 +4723,13 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 115,
     "unsei_note": "115森田誠也",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 5,
@@ -4793,13 +4798,11 @@
     "lap": "低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 13,
      "time": 13,
@@ -5018,16 +5021,17 @@
      }
     ],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
      "⑧タイム2位",
      "④コンピ5位",
+     "運勢◎",
      "⑤MB1",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 9,
      "time": 2,
@@ -5096,15 +5100,14 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
     "support": [
      "④コンピ2位",
-     "運勢◎",
      "⑥調教1位"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 12,
      "time": 14,
@@ -5244,7 +5247,7 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -5922,16 +5925,15 @@
     "lap": "超低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
     "support": [
      "⑧IDM4位",
-     "運勢◎",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 4,
      "time": 8,
@@ -6000,7 +6002,7 @@
     "lap": "低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -6073,15 +6075,14 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
      "⑧前走時計5位",
-     "運勢◎◎",
      "⑦STRIDE(合計7位/妙味Ｓ)"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": 12,
@@ -6268,14 +6269,13 @@
     "lap": "超高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
     "support": [
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 8,
      "time": 7,
@@ -6340,18 +6340,17 @@
     "lap": "超高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
      "⑧タイム3位",
-     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ａ)",
      "激走(印3.0/指数5位)",
      "①適性"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 5,
      "time": 3,
@@ -6581,13 +6580,11 @@
     "lap": "高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 104,
     "unsei_note": "104泉谷（小130",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 7,
      "time": 6,
@@ -6729,16 +6726,17 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
      "④コンピ3位",
+     "運勢◎",
      "③厩舎ROI(単103/複95)",
      "⑬展開3位/出遅0%",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 4,
      "time": 5,
@@ -6807,7 +6805,7 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [],
@@ -6880,7 +6878,7 @@
     "lap": "超高速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -6997,7 +6995,7 @@
     "lap": "高速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -7074,7 +7072,7 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -7233,11 +7231,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 15,
@@ -7382,16 +7382,15 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
      "⑧タイム2位",
-     "運勢◎◎",
      "激走(印4.0/指数6位)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 7,
      "time": 2,
@@ -7541,14 +7540,13 @@
     "lap": "中速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
     "support": [
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 8,
      "time": 14,
@@ -7613,14 +7611,13 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
     "support": [
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 15,
      "time": 7,
@@ -7689,13 +7686,14 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
-     "④コンピ5位"
+     "④コンピ5位",
+     "運勢◎"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 13,
      "time": 11,
@@ -8182,7 +8180,7 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 117,
     "unsei_note": "117国分恭（福・新・小・京都○",
     "support": [],
@@ -8255,7 +8253,7 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96国分優（ﾀﾞ・新・未）",
     "support": [
@@ -8330,7 +8328,7 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -8412,14 +8410,15 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 105,
     "unsei_note": "105長岡禎（札・凾・新・中京・小○",
     "support": [
      "④コンピ5位",
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 7,
      "time": 6,
@@ -8484,13 +8483,14 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 90,
     "unsei_note": "90柴田裕一郎",
     "support": [
-     "⑧前走時計5位"
+     "⑧前走時計5位",
+     "運勢◎"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 9,
      "time": null,
@@ -8585,7 +8585,7 @@
       ]
      }
     ],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -8742,7 +8742,7 @@
     "lap": "超低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 86,
     "unsei_note": "86永島まなみ（福・新○）",
     "support": [],
@@ -8891,21 +8891,20 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 113,
     "unsei_note": "113鮫島良太（福・小",
     "support": [
      "⑧IDM1位",
      "⑧タイム1位",
      "④コンピ3位",
-     "運勢◎",
      "⑬展開1位/出遅20%",
      "⑥調教5位",
      "⑦STRIDE(合計2位/妙味ＡＡ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 9,
+    "nsup": 8,
     "ranks": {
      "IDM": 1,
      "time": 1,
@@ -8970,14 +8969,13 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 97,
     "unsei_note": "97川端（短ダ",
     "support": [
-     "⑧IDM5位",
-     "運勢◎◎"
+     "⑧IDM5位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 5,
      "time": 8,
@@ -9121,13 +9119,11 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 15,
      "time": null,
@@ -9196,14 +9192,15 @@
     "lap": "低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
     "support": [
      "⑧タイム5位",
+     "運勢◎",
      "激走(印4.0/指数7位)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 8,
      "time": 5,
@@ -9272,16 +9269,17 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
+     "運勢◎",
      "⑥調教2位",
      "⑦STRIDE(合計5位/妙味Ｓ)",
      "激走(印3.0/指数5位)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 6,
      "time": 7,
@@ -9509,14 +9507,15 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
     "support": [
      "⑧タイム1位",
+     "運勢◎",
      "激走(印0/指数3位)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 5,
      "time": 1,
@@ -9585,13 +9584,14 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 115,
     "unsei_note": "115森田誠也",
     "support": [
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 10,
      "time": 6,
@@ -9737,15 +9737,14 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
     "support": [
-     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計4位/妙味Ｓ)"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 4,
      "time": 8,
@@ -10119,7 +10118,7 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [],
@@ -10496,11 +10495,13 @@
     "lap": "高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97富田",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 16,
      "time": 13,
@@ -10606,15 +10607,14 @@
      }
     ],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 107,
     "unsei_note": "107太宰(短距離○",
     "support": [
-     "運勢◎",
      "⑥調教6位",
      "⑤MB1"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 18,
      "time": null,
@@ -10761,11 +10761,13 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 115,
     "unsei_note": "115森田誠也",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 15,
      "time": 16,
@@ -10871,7 +10873,7 @@
      }
     ],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -11028,15 +11030,14 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
     "support": [
      "⑧前走時計6位",
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 11,
      "time": 7,
@@ -11339,7 +11340,7 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": null,
     "unsei_note": "吉村",
     "support": [
@@ -11576,13 +11577,11 @@
     "lap": "超高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 108,
     "unsei_note": "108松若（短距離102",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 8,
      "time": 15,
@@ -11847,19 +11846,20 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 115,
     "unsei_note": "115森田誠也",
     "support": [
      "⑧IDM2位",
      "⑧タイム4位",
+     "運勢◎",
      "⑬展開3位/出遅0%",
      "⑥調教2位",
      "⑦STRIDE(合計1位/妙味Ｓ)",
      "激走(印2.0/指数3位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 2,
      "time": 4,
@@ -12005,17 +12005,18 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 101,
     "unsei_note": "101北村友一（札・凾・阪・京○）",
     "support": [
      "⑧IDM4位",
      "⑧タイム3位",
      "④コンピ3位",
+     "運勢◎",
      "⑥調教4位",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 4,
      "time": 3,
@@ -12341,13 +12342,14 @@
      }
     ],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 90,
     "unsei_note": "90柴田裕一郎",
     "support": [
+     "運勢◎",
      "⑤MB1"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 11,
      "time": 8,
@@ -12491,14 +12493,13 @@
     "lap": "高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 97,
     "unsei_note": "97川端（短ダ",
     "support": [
-     "運勢◎◎",
      "③厩舎ROI(単107/複78)"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 13,
      "time": 7,
@@ -12725,7 +12726,7 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99松山（ﾀ102",
     "support": [
@@ -12807,17 +12808,16 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 105,
     "unsei_note": "105田口（ダ・小・阪）",
     "support": [
      "⑧タイム2位",
-     "運勢◎",
      "⑥調教3位",
      "⑦STRIDE(合計6位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 7,
      "time": 2,
@@ -13074,14 +13074,13 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 92,
     "unsei_note": "92今村聖奈（中山140",
     "support": [
-     "運勢◎",
      "激走(印2.0/指数4位)"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 6,
      "time": null,
@@ -13150,17 +13149,18 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧IDM2位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑥調教3位",
      "⑦STRIDE(合計2位/妙味Ｃ)",
      "激走(印0/指数2位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 2,
      "time": null,
@@ -13229,13 +13229,14 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
+     "運勢◎◎",
      "⑦STRIDE(合計7位/妙味Ｓ)"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": null,
@@ -13300,17 +13301,18 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧IDM3位",
      "④コンピ3位",
+     "運勢◎",
      "⑥調教1位",
      "⑦STRIDE(合計3位/妙味Ｓ)",
      "激走(印0/指数3位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 3,
      "time": null,
@@ -13375,7 +13377,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 93,
     "unsei_note": "93野中（京・中山・阪神○）",
     "support": [],
@@ -13594,18 +13596,17 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 101,
     "unsei_note": "101川田（函67",
     "support": [
      "⑧IDM1位",
      "④コンピ1位",
-     "運勢◎",
      "⑥調教2位",
      "⑦STRIDE(合計1位/妙味Ａ)",
      "激走(印1.0/指数1位)"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 1,
      "time": null,
@@ -13775,7 +13776,7 @@
       ]
      }
     ],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 103,
     "unsei_note": "103丸山（ﾀﾞ重103",
     "support": [
@@ -13850,13 +13851,11 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 5,
      "time": null,
@@ -13921,17 +13920,18 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97石田拓郎（ダ短逃げ）",
     "support": [
      "⑧IDM4位",
      "④コンピ4位",
+     "運勢◎",
      "⑥調教4位",
      "⑦STRIDE(合計4位/妙味Ｓ)",
      "激走(印3.0/指数5位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 4,
      "time": null,
@@ -14040,13 +14040,14 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 93,
     "unsei_note": "93柴田大（新馬",
     "support": [
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": 4,
@@ -14115,7 +14116,7 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 101,
     "unsei_note": "101石橋脩（京106",
     "support": [],
@@ -14188,19 +14189,20 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧IDM3位",
      "⑧タイム2位",
      "④コンピ1位",
+     "運勢◎◎",
      "⑥調教3位",
      "⑦STRIDE(合計3位/妙味Ｃ)",
      "激走(印0/指数3位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 3,
      "time": 2,
@@ -14269,19 +14271,18 @@
     "lap": "低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
      "⑧IDM2位",
      "④コンピ3位",
-     "運勢◎◎",
      "⑬展開1位/出遅0%",
      "⑦STRIDE(合計2位/妙味Ｂ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 6,
     "ranks": {
      "IDM": 2,
      "time": 5,
@@ -14350,20 +14351,21 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧IDM1位",
      "⑧タイム1位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑬展開3位/出遅0%",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ａ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 1,
      "time": 1,
@@ -14428,16 +14430,17 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 100,
     "unsei_note": "100岩田康（京104",
     "support": [
+     "運勢◎◎",
      "⑬展開2位/出遅0%",
      "⑥調教2位",
      "⑦STRIDE(合計5位/妙味ＡＡ)",
      "激走(印3.0/指数5位)"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 5,
      "time": 7,
@@ -14506,14 +14509,15 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
     "support": [
      "⑧タイム3位",
+     "運勢◎",
      "激走(印2.0/指数4位)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 4,
      "time": 3,
@@ -14687,13 +14691,11 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 107,
     "unsei_note": "107嶋田（東・函・福・小",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 8,
      "time": null,
@@ -14837,11 +14839,13 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102田辺（新・OP✖）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 6,
      "time": null,
@@ -14910,13 +14914,11 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 7,
      "time": null,
@@ -15058,16 +15060,17 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 100,
     "unsei_note": "100岩田康（京104",
     "support": [
      "⑧IDM3位",
      "④コンピ4位",
+     "運勢◎◎",
      "⑥調教3位",
      "⑦STRIDE(合計3位/妙味Ｃ)"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 3,
      "time": null,
@@ -15136,11 +15139,13 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 93,
     "unsei_note": "93柴田大（新馬",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": null,
@@ -15209,15 +15214,16 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧IDM4位",
      "④コンピ3位",
+     "運勢◎◎",
      "⑥調教4位"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 4,
      "time": null,
@@ -15286,17 +15292,18 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧IDM2位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計2位/妙味Ｓ)",
      "激走(印2.0/指数2位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 2,
      "time": null,
@@ -15553,21 +15560,20 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 101,
     "unsei_note": "101川田（函67",
     "support": [
      "⑧IDM4位",
      "⑧前走時計2位",
      "④コンピ4位",
-     "運勢◎",
      "⑬展開2位/出遅0%",
      "⑥調教2位",
      "⑦STRIDE(合計3位/妙味Ｄ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 9,
+    "nsup": 8,
     "ranks": {
      "IDM": 4,
      "time": 9,
@@ -15709,20 +15715,21 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97石田拓郎（ダ短逃げ）",
     "support": [
      "⑧IDM6位",
      "⑧タイム5位",
      "④コンピ5位",
+     "運勢◎",
      "⑬展開5位/出遅0%",
      "⑥調教3位",
      "⑦STRIDE(合計5位/妙味Ｓ)",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 6,
      "time": 5,
@@ -15870,7 +15877,7 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 103,
     "unsei_note": "103丸田（重芝・ﾀﾞ◎",
     "support": [],
@@ -15943,15 +15950,14 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
      "⑧IDM5位",
-     "⑧タイム6位",
-     "運勢◎◎"
+     "⑧タイム6位"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 5,
      "time": 6,
@@ -16093,13 +16099,14 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
     "support": [
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 13,
      "time": 8,
@@ -16168,15 +16175,16 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧タイム2位",
+     "運勢◎",
      "激走(印4.0/指数5位)",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 11,
      "time": 2,
@@ -16320,17 +16328,18 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102田辺（新・OP✖）",
     "support": [
      "⑧前走時計6位",
      "④コンピ1位",
+     "運勢◎",
      "⑥調教4位",
      "⑦STRIDE(合計7位/妙味Ａ)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 7,
      "time": 12,
@@ -16399,7 +16408,7 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 93,
     "unsei_note": "93野中（京・中山・阪神○）",
     "support": [],
@@ -16468,19 +16477,20 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧IDM2位",
      "⑧タイム1位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ｄ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 2,
      "time": 1,
@@ -16549,13 +16559,11 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102上里",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 18,
      "time": null,
@@ -16624,13 +16632,11 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 107,
     "unsei_note": "107嶋田（東・函・福・小",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 8,
      "time": 15,
@@ -16699,18 +16705,19 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧IDM3位",
      "⑧タイム3位",
      "④コンピ3位",
+     "運勢◎◎",
      "⑬展開1位/出遅0%",
      "⑥調教5位",
      "激走(印2.0/指数3位)"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 3,
      "time": 3,
@@ -17247,20 +17254,19 @@
      }
     ],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 92,
     "unsei_note": "92今村聖奈（中山140",
     "support": [
      "⑧IDM5位",
      "④コンピ5位",
-     "運勢◎",
      "⑬展開5位/出遅0%",
      "⑥調教3位",
      "⑤MB1",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 5,
      "time": 10,
@@ -17329,13 +17335,11 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 107,
     "unsei_note": "107嶋田（東・函・福・小",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 11,
      "time": 7,
@@ -17400,14 +17404,15 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧前走時計2位",
+     "運勢◎",
      "⑦STRIDE(合計8位/妙味Ａ)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 9,
      "time": 8,
@@ -17476,15 +17481,16 @@
     "lap": "低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 100,
     "unsei_note": "100岩田康（京104",
     "support": [
      "⑧タイム4位",
      "④コンピ4位",
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 8,
      "time": 4,
@@ -17553,20 +17559,19 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 101,
     "unsei_note": "101川田（函67",
     "support": [
      "⑧IDM3位",
      "⑧タイム1位",
      "④コンピ3位",
-     "運勢◎",
      "⑬展開1位/出遅0%",
      "⑥調教4位",
      "⑦STRIDE(合計3位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 3,
      "time": 1,
@@ -17635,13 +17640,14 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
     "support": [
+     "運勢◎",
      "激走(印4.0/指数6位)"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": 13,
@@ -17710,7 +17716,7 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 103,
     "unsei_note": "103丸田（重芝・ﾀﾞ◎",
     "support": [
@@ -17822,14 +17828,13 @@
      }
     ],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
-     "運勢◎◎",
      "⑤MB1"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 15,
      "time": 15,
@@ -17898,7 +17903,7 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 101,
     "unsei_note": "101石橋脩（京106",
     "support": [
@@ -18087,19 +18092,20 @@
      }
     ],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 93,
     "unsei_note": "93柴田大（新馬",
     "support": [
      "⑧IDM1位",
      "⑧前走時計4位",
+     "運勢◎",
      "⑥調教5位",
      "⑦STRIDE(合計2位/妙味Ｓ)",
      "⑤MB1",
      "激走(印2.0/指数2位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 1,
      "time": 6,
@@ -18277,15 +18283,16 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧前走時計3位",
+     "運勢◎",
      "⑥調教3位",
      "激走(印3.0/指数4位)"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 6,
      "time": 8,
@@ -18354,14 +18361,15 @@
     "lap": "低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 100,
     "unsei_note": "100岩田康（京104",
     "support": [
      "⑧タイム4位",
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 7,
      "time": 4,
@@ -18740,19 +18748,20 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧IDM3位",
      "⑧前走時計2位",
      "④コンピ1位",
+     "運勢◎◎",
      "⑬展開4位/出遅0%",
      "⑥調教2位",
      "⑦STRIDE(合計3位/妙味Ｄ)",
      "激走(印0/指数3位)"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 3,
      "time": 7,
@@ -18817,11 +18826,13 @@
     "lap": "低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 12,
      "time": 9,
@@ -18890,11 +18901,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 11,
@@ -18963,17 +18976,16 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 101,
     "unsei_note": "101川田（函67",
     "support": [
      "⑧IDM1位",
      "④コンピ3位",
-     "運勢◎",
      "⑦STRIDE(合計2位/妙味Ｓ)",
      "激走(印2.0/指数1位)"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 1,
      "time": 5,
@@ -19042,7 +19054,7 @@
     "lap": "低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 101,
     "unsei_note": "101石橋脩（京106",
     "support": [
@@ -19117,14 +19129,13 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
-     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 5,
      "time": 10,
@@ -19233,7 +19244,7 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 103,
     "unsei_note": "103丸山（ﾀﾞ重103",
     "support": [
@@ -19467,15 +19478,16 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102田辺（新・OP✖）",
     "support": [
+     "運勢◎",
      "⑥調教3位",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 6,
      "time": 5,
@@ -19544,15 +19556,16 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧前走時計2位",
      "④コンピ3位",
+     "運勢◎◎",
      "⑥調教2位"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 7,
      "time": 6,
@@ -19621,14 +19634,15 @@
     "lap": "高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧タイム4位",
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 9,
      "time": 4,
@@ -19773,20 +19787,19 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 101,
     "unsei_note": "101川田（函67",
     "support": [
      "⑧IDM1位",
      "⑧タイム1位",
      "④コンピ1位",
-     "運勢◎",
      "⑬展開1位/出遅10%",
      "⑦STRIDE(合計1位/妙味Ｓ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 1,
@@ -19851,13 +19864,14 @@
     "lap": "低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
-     "④コンピ4位"
+     "④コンピ4位",
+     "運勢◎"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 8,
      "time": 8,
@@ -19926,14 +19940,13 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
-     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 7,
@@ -20151,20 +20164,19 @@
       ]
      }
     ],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 107,
     "unsei_note": "107嶋田（東・函・福・小",
     "support": [
      "⑧IDM3位",
      "⑧前走時計2位",
      "④コンピ2位",
-     "運勢◎",
      "⑬展開3位/出遅0%",
      "⑥調教5位",
      "⑤UL1",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 3,
      "time": 9,
@@ -20449,13 +20461,14 @@
       ]
      }
     ],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97石田拓郎（ダ短逃げ）",
     "support": [
+     "運勢◎",
      "⑤UL1"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 17,
      "time": 15,
@@ -20524,18 +20537,19 @@
     "lap": "高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧IDM1位",
      "⑧タイム2位",
+     "運勢◎",
      "⑬展開2位/出遅0%",
      "⑥調教4位",
      "⑦STRIDE(合計2位/妙味Ｓ)",
      "激走(印4.0/指数5位)"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 2,
@@ -20684,13 +20698,11 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102上里",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 12,
      "time": 8,
@@ -20822,21 +20834,20 @@
       ]
      }
     ],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
      "⑧IDM2位",
      "⑧タイム5位",
      "④コンピ1位",
-     "運勢◎◎",
      "⑬展開1位/出遅7%",
      "⑥調教6位",
      "⑦STRIDE(合計4位/妙味Ａ)",
      "⑤UL2",
      "①適性"
     ],
-    "nsup": 9,
+    "nsup": 8,
     "ranks": {
      "IDM": 2,
      "time": 5,
@@ -20905,13 +20916,14 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
     "support": [
+     "運勢◎",
      "③厩舎ROI(単109/複79)"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 18,
      "time": 10,
@@ -21014,7 +21026,7 @@
       ]
      }
     ],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 93,
     "unsei_note": "93野中（京・中山・阪神○）",
     "support": [
@@ -21123,7 +21135,7 @@
       ]
      }
     ],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 103,
     "unsei_note": "103丸山（ﾀﾞ重103",
     "support": [
@@ -21200,17 +21212,18 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧IDM6位",
      "⑧タイム6位",
+     "運勢◎◎",
      "⑦STRIDE(合計8位/妙味Ｓ)",
      "激走(印2.0/指数2位)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 6,
      "time": 6,
@@ -21313,7 +21326,7 @@
       ]
      }
     ],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 91,
     "unsei_note": "91江田照（札197",
     "support": [
@@ -21390,7 +21403,7 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 103,
     "unsei_note": "103丸田（重芝・ﾀﾞ◎",
     "support": [],
@@ -21536,7 +21549,7 @@
     "lap": "超高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 101,
     "unsei_note": "101石橋脩（京106",
     "support": [
@@ -21650,15 +21663,16 @@
       ]
      }
     ],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 100,
     "unsei_note": "100岩田康（京104",
     "support": [
+     "運勢◎◎",
      "⑤UL1",
      "激走(印3.0/指数3位)",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 11,
      "time": 7,
@@ -21761,18 +21775,19 @@
       ]
      }
     ],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧タイム1位",
      "④コンピ5位",
+     "運勢◎◎",
      "⑬展開5位/出遅14%",
      "⑥調教3位",
      "⑤UL1",
      "激走(印0/指数1位)"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 9,
      "time": 1,
@@ -22106,18 +22121,17 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102上里",
     "support": [
      "⑧IDM2位",
      "⑧タイム5位",
-     "運勢◎◎",
      "⑦STRIDE(合計6位/妙味Ｓ)",
      "激走(印4.0/指数5位)",
      "①適性"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 2,
      "time": 5,
@@ -22186,15 +22200,16 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "④コンピ2位",
+     "運勢◎◎",
      "⑬展開4位/出遅20%",
      "⑥調教2位"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 8,
      "time": 9,
@@ -22344,14 +22359,15 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97石田拓郎（ダ短逃げ）",
     "support": [
      "⑧前走時計5位",
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 7,
      "time": 8,
@@ -22420,16 +22436,17 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 93,
     "unsei_note": "93柴田大（新馬",
     "support": [
      "⑧IDM3位",
      "⑧タイム1位",
+     "運勢◎",
      "激走(印2.0/指数1位)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 5,
     "ranks": {
      "IDM": 3,
      "time": 1,
@@ -22607,20 +22624,21 @@
      }
     ],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧IDM5位",
      "⑧タイム4位",
      "④コンピ1位",
+     "運勢◎",
      "⑥調教5位",
      "⑦STRIDE(合計2位/妙味Ａ)",
      "⑤MB1",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 5,
      "time": 4,
@@ -22762,17 +22780,16 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
      "⑧IDM1位",
-     "運勢◎◎",
      "⑬展開3位/出遅0%",
      "⑦STRIDE(合計3位/妙味Ｓ)",
      "激走(印3.0/指数3位)"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 1,
      "time": 7,
@@ -22837,7 +22854,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 91,
     "unsei_note": "91江田照（札197",
     "support": [],
@@ -22910,7 +22927,7 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 93,
     "unsei_note": "93野中（京・中山・阪神○）",
     "support": [],
@@ -23092,13 +23109,14 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97石田拓郎（ダ短逃げ）",
     "support": [
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 12,
      "time": 10,
@@ -23167,18 +23185,19 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 100,
     "unsei_note": "100三浦（ﾀﾞ104",
     "support": [
      "⑧IDM4位",
      "⑧前走時計3位",
      "④コンピ5位",
+     "運勢◎",
      "⑬展開4位/出遅14%",
      "⑥調教5位",
      "①適性"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 4,
      "time": 7,
@@ -23316,7 +23335,7 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 93,
     "unsei_note": "93野中（京・中山・阪神○）",
     "support": [
@@ -23463,15 +23482,14 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 105,
     "unsei_note": "105菊沢（函・阪・小✖",
     "support": [
      "⑧タイム3位",
-     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 6,
      "time": 3,
@@ -23536,11 +23554,13 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 14,
      "time": null,
@@ -23605,15 +23625,16 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧IDM5位",
      "⑧前走時計4位",
-     "④コンピ2位"
+     "④コンピ2位",
+     "運勢◎◎"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 5,
      "time": 8,
@@ -23682,15 +23703,14 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102上里",
     "support": [
      "⑧タイム2位",
-     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 11,
      "time": 2,
@@ -23914,18 +23934,19 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102津村（小・凾・阪✖）",
     "support": [
      "⑧IDM3位",
      "⑧タイム4位",
+     "運勢◎◎",
      "⑥調教3位",
      "⑦STRIDE(合計3位/妙味Ｃ)",
      "激走(印0/指数3位)",
      "①適性"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 3,
      "time": 4,
@@ -24067,15 +24088,14 @@
     "lap": "中速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 92,
     "unsei_note": "92今村聖奈（中山140",
     "support": [
-     "運勢◎",
      "⑥調教4位",
      "激走(印3.0/指数4位)"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 8,
      "time": 12,
@@ -24180,14 +24200,15 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 97,
     "unsei_note": "97石田拓郎（ダ短逃げ）",
     "support": [
      "⑧IDM4位",
+     "運勢◎",
      "激走(印4.0/指数6位)"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 4,
      "time": 12,
@@ -24256,7 +24277,7 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "×",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96小幡育（阪354・福・函",
     "support": [],
@@ -24325,17 +24346,18 @@
     "lap": "低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 103,
     "unsei_note": "103岩田望（札156",
     "support": [
      "⑧IDM3位",
      "④コンピ3位",
+     "運勢◎◎",
      "⑬展開3位/出遅11%",
      "⑥調教4位",
      "⑦STRIDE(合計4位/妙味Ａ)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 3,
      "time": 8,
@@ -24563,20 +24585,19 @@
     "lap": "中速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 101,
     "unsei_note": "101川田（函67",
     "support": [
      "⑧IDM1位",
      "⑧タイム1位",
      "④コンピ1位",
-     "運勢◎",
      "⑬展開1位/出遅20%",
      "⑥調教3位",
      "⑦STRIDE(合計2位/妙味ＡＡ)",
      "激走(印0/指数1位)"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 1,
@@ -24645,13 +24666,11 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102上里",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 15,
      "time": 15,
@@ -24720,20 +24739,21 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102田辺（新・OP✖）",
     "support": [
      "⑧IDM2位",
      "⑧前走時計3位",
      "④コンピ2位",
+     "運勢◎",
      "⑬展開2位/出遅14%",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ｃ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 2,
      "time": 6,
@@ -24870,7 +24890,7 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 93,
     "unsei_note": "93野中（京・中山・阪神○）",
     "support": [
@@ -24942,13 +24962,11 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 107,
     "unsei_note": "107嶋田（東・函・福・小",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 9,
      "time": 9,
@@ -25164,17 +25182,18 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 104,
     "unsei_note": "104小崎（芝・中・長距離）",
     "support": [
      "⑧タイム3位",
      "④コンピ4位",
+     "運勢◎",
      "⑬展開5位/出遅0%",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 8,
      "time": 3,
@@ -25356,20 +25375,19 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102横山和（新潟85）",
     "support": [
      "⑧IDM1位",
      "⑧タイム1位",
      "④コンピ1位",
-     "運勢◎◎",
      "⑬展開3位/出遅0%",
      "⑥調教4位",
      "⑦STRIDE(合計2位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 1,
@@ -25583,7 +25601,7 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [],
@@ -25683,16 +25701,15 @@
      }
     ],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧前走時計4位",
-     "運勢◎",
      "⑦STRIDE(合計11位/妙味Ａ)",
      "⑤MB1"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 12,
      "time": null,
@@ -25757,13 +25774,14 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
+     "運勢◎",
      "⑦STRIDE(合計7位/妙味Ｓ)"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": 9,
@@ -25828,17 +25846,18 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
      "⑧タイム5位",
      "④コンピ4位",
+     "運勢◎◎",
      "⑬展開1位/出遅0%",
      "⑥調教2位",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 6,
      "time": 5,
@@ -25903,11 +25922,13 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 11,
@@ -25972,11 +25993,13 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 95,
     "unsei_note": "95荻野琢真（函",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 10,
@@ -26041,13 +26064,11 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 13,
      "time": 12,
@@ -26258,17 +26279,16 @@
     "lap": "超低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 99,
     "unsei_note": "99小林美駒（ダ重108",
     "support": [
      "⑧IDM5位",
      "⑧タイム3位",
-     "運勢◎◎",
      "⑦STRIDE(合計6位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 5,
      "time": 3,
@@ -26447,13 +26467,11 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 13,
      "time": 14,
@@ -26593,18 +26611,19 @@
     "lap": "高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
      "⑧IDM5位",
      "⑧タイム5位",
+     "運勢◎",
      "⑬展開5位/出遅0%",
      "⑦STRIDE(合計6位/妙味Ｓ)",
      "激走(印2.0/指数4位)",
      "①適性"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 5,
      "time": 5,
@@ -26738,13 +26757,11 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 99,
     "unsei_note": "99小林美駒（ダ重108",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 9,
      "time": 10,
@@ -26878,7 +26895,7 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99原田（東・中山・京・阪・小○",
     "support": [],
@@ -26947,19 +26964,20 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
      "⑧IDM2位",
      "⑧タイム1位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑥調教2位",
      "⑦STRIDE(合計2位/妙味Ａ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 2,
      "time": 1,
@@ -27024,17 +27042,16 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102横山和（新潟85）",
     "support": [
      "⑧IDM4位",
      "④コンピ5位",
-     "運勢◎◎",
      "⑥調教3位",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 4,
      "time": 7,
@@ -27099,11 +27116,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 14,
      "time": 11,
@@ -27168,14 +27187,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 8,
@@ -27240,7 +27258,7 @@
     "lap": "超高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -27424,21 +27442,20 @@
     "lap": "高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM3位",
      "⑧タイム3位",
      "④コンピ4位",
-     "運勢◎",
      "⑬展開3位/出遅0%",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味ＡＡ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 9,
+    "nsup": 8,
     "ranks": {
      "IDM": 3,
      "time": 3,
@@ -27539,19 +27556,20 @@
     "lap": "低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
      "⑧IDM2位",
      "⑧タイム4位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑬展開3位/出遅0%",
      "⑥調教5位",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 8,
     "ranks": {
      "IDM": 2,
      "time": 4,
@@ -27616,14 +27634,15 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
      "⑧タイム5位",
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 7,
      "time": 5,
@@ -27684,13 +27703,11 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 104,
     "unsei_note": "104長浜",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 9,
      "time": 11,
@@ -27755,20 +27772,19 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 84,
     "unsei_note": "84河原田菜々（中京",
     "support": [
      "⑧IDM1位",
      "⑧タイム2位",
      "④コンピ1位",
-     "運勢◎◎",
      "⑥調教3位",
      "⑦STRIDE(合計1位/妙味Ｓ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 2,
@@ -27898,16 +27914,15 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
     "support": [
      "⑧前走時計4位",
-     "運勢◎",
      "⑦STRIDE(合計13位/妙味Ｓ)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 8,
      "time": 8,
@@ -28031,13 +28046,12 @@
       ]
      }
     ],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM4位",
      "④コンピ4位",
-     "運勢◎",
      "⑬展開1位/出遅0%",
      "⑥調教1位",
      "⑦STRIDE(合計2位/妙味Ｓ)",
@@ -28045,7 +28059,7 @@
      "激走(印3.0/指数5位)",
      "①適性"
     ],
-    "nsup": 9,
+    "nsup": 8,
     "ranks": {
      "IDM": 4,
      "time": 6,
@@ -28321,14 +28335,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "×",
     "unsei_roi": 104,
     "unsei_note": "104黛（ﾀﾞ100",
     "support": [
-     "⑧前走時計3位",
-     "運勢◎◎"
+     "⑧前走時計3位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 13,
      "time": 7,
@@ -28525,18 +28538,17 @@
       ]
      }
     ],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
      "⑧IDM5位",
-     "運勢◎",
      "⑥調教2位",
      "⑦STRIDE(合計3位/妙味Ｓ)",
      "⑤MB1+UL1",
      "①適性"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 5,
      "time": 10,
@@ -28601,7 +28613,7 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -28912,11 +28924,13 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 12,
      "time": 13,
@@ -29156,20 +29170,19 @@
     "lap": "低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM1位",
      "⑧タイム1位",
      "④コンピ3位",
-     "運勢◎",
      "⑥調教4位",
      "⑦STRIDE(合計2位/妙味Ｓ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 1,
@@ -29234,16 +29247,15 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 99,
     "unsei_note": "99小林美駒（ダ重108",
     "support": [
      "⑧前走時計3位",
-     "運勢◎◎",
      "激走(印2.0/指数3位)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 11,
      "time": 7,
@@ -29308,13 +29320,11 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 14,
      "time": 12,
@@ -29383,7 +29393,7 @@
     "lap": "低速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -29459,20 +29469,21 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
     "support": [
      "⑧IDM4位",
      "⑧前走時計4位",
      "④コンピ1位",
+     "運勢◎",
      "⑬展開4位/出遅17%",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ｄ)",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 4,
      "time": 8,
@@ -29533,11 +29544,13 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 9,
@@ -29671,13 +29684,11 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 16,
      "time": 14,
@@ -30002,13 +30013,14 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
+     "運勢◎",
      "激走(印3.0/指数5位)"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 5,
      "time": null,
@@ -30073,13 +30085,11 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 6,
      "time": null,
@@ -30144,18 +30154,17 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM1位",
      "④コンピ1位",
-     "運勢◎",
      "⑥調教3位",
      "⑦STRIDE(合計1位/妙味Ｂ)",
      "激走(印5.0/指数1位)"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 1,
      "time": null,
@@ -30220,13 +30229,11 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 7,
      "time": null,
@@ -30291,17 +30298,16 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 104,
     "unsei_note": "104長浜",
     "support": [
      "⑧IDM2位",
-     "運勢◎◎",
      "⑥調教2位",
      "⑦STRIDE(合計2位/妙味Ａ)",
      "激走(印0/指数2位)"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 2,
      "time": null,
@@ -30366,7 +30372,7 @@
     "lap": "",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -30692,15 +30698,16 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102佐藤",
     "support": [
      "⑧タイム3位",
      "④コンピ3位",
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 7,
      "time": 3,
@@ -30765,15 +30772,14 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
      "⑧タイム4位",
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 8,
      "time": 4,
@@ -30838,14 +30844,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 84,
     "unsei_note": "84河原田菜々（中京",
     "support": [
-     "⑧前走時計4位",
-     "運勢◎◎"
+     "⑧前走時計4位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 9,
      "time": null,
@@ -30910,14 +30915,15 @@
     "lap": "低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
     "support": [
      "⑧タイム2位",
+     "運勢◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 10,
      "time": 2,
@@ -30978,19 +30984,18 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102横山和（新潟85）",
     "support": [
      "⑧IDM2位",
      "⑧タイム1位",
-     "運勢◎◎",
      "⑥調教2位",
      "⑦STRIDE(合計3位/妙味Ｄ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 6,
     "ranks": {
      "IDM": 2,
      "time": 1,
@@ -31055,18 +31060,17 @@
     "lap": "低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 99,
     "unsei_note": "99小林美駒（ダ重108",
     "support": [
      "④コンピ4位",
-     "運勢◎◎",
      "⑬展開3位/出遅0%",
      "⑥調教3位",
      "⑦STRIDE(合計6位/妙味Ａ)",
      "激走(印2.0/指数4位)"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 5,
      "time": 9,
@@ -31131,11 +31135,13 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 98,
     "unsei_note": "98古川奈穂（芝103）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 10,
@@ -31278,15 +31284,16 @@
     "lap": "超低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
+     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ａ)",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 6,
      "time": 6,
@@ -31426,7 +31433,7 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -31543,13 +31550,14 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 83,
     "unsei_note": "83大久保",
     "support": [
-     "⑧前走時計4位"
+     "⑧前走時計4位",
+     "運勢◎"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 5,
      "time": null,
@@ -31614,14 +31622,13 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "×",
     "unsei_roi": 104,
     "unsei_note": "104黛（ﾀﾞ100",
     "support": [
-     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 9,
@@ -31686,20 +31693,19 @@
     "lap": "中速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
     "support": [
      "⑧IDM2位",
      "⑧前走時計2位",
      "④コンピ3位",
-     "運勢◎",
      "⑬展開1位/出遅2%",
      "⑥調教1位",
      "⑦STRIDE(合計2位/妙味Ｂ)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 2,
      "time": 10,
@@ -31760,15 +31766,14 @@
     "lap": "高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
      "⑧タイム4位",
-     "運勢◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 8,
      "time": 4,
@@ -31902,17 +31907,18 @@
     "lap": "中速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
     "support": [
      "⑧前走時計1位",
      "④コンピ2位",
+     "運勢◎",
      "⑬展開4位/出遅0%",
      "⑥調教2位",
      "激走(印0/指数2位)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 6,
      "time": 7,
@@ -32005,15 +32011,14 @@
       ]
      }
     ],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 104,
     "unsei_note": "104長浜",
     "support": [
-     "運勢◎◎",
      "⑤UL1",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 10,
      "time": 5,
@@ -32078,7 +32083,7 @@
     "lap": "高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -32370,15 +32375,16 @@
     "lap": "低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 98,
     "unsei_note": "98古川奈穂（芝103）",
     "support": [
      "⑧IDM4位",
      "⑧前走時計3位",
+     "運勢◎",
      "激走(印2.0/指数3位)"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 4,
      "time": 8,
@@ -32483,7 +32489,7 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99原田（東・中山・京・阪・小○",
     "support": [],
@@ -32552,14 +32558,13 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
-     "運勢◎",
      "⑥調教5位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 6,
      "time": 9,
@@ -32624,13 +32629,14 @@
     "lap": "高速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102佐藤",
     "support": [
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 8,
      "time": 6,
@@ -32699,13 +32705,11 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 14,
      "time": null,
@@ -32770,20 +32774,19 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 104,
     "unsei_note": "104長浜",
     "support": [
      "⑧IDM3位",
      "⑧タイム1位",
      "④コンピ4位",
-     "運勢◎◎",
      "⑥調教2位",
      "⑦STRIDE(合計3位/妙味Ｂ)",
      "激走(印2.0/指数3位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 3,
      "time": 1,
@@ -32924,11 +32927,13 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 7,
@@ -33134,17 +33139,18 @@
     "lap": "低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
     "support": [
      "⑧IDM4位",
      "⑧前走時計4位",
+     "運勢◎",
      "⑦STRIDE(合計6位/妙味Ｓ)",
      "激走(印3.0/指数4位)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 4,
      "time": 8,
@@ -33209,14 +33215,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "×",
     "unsei_roi": 104,
     "unsei_note": "104黛（ﾀﾞ100",
     "support": [
-     "④コンピ5位",
-     "運勢◎◎"
+     "④コンピ5位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 7,
      "time": 10,
@@ -33281,7 +33286,7 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -33542,19 +33547,18 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102横山和（新潟85）",
     "support": [
      "⑧IDM3位",
      "⑧タイム1位",
-     "運勢◎◎",
      "⑬展開4位/出遅8%",
      "⑥調教3位",
      "激走(印3.0/指数5位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 6,
     "ranks": {
      "IDM": 3,
      "time": 1,
@@ -33619,13 +33623,11 @@
     "lap": "超低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 104,
     "unsei_note": "104長浜",
-    "support": [
-     "運勢◎◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 11,
      "time": 9,
@@ -33806,7 +33808,7 @@
     "lap": "超低速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -33881,17 +33883,16 @@
     "lap": "低速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
     "support": [
      "⑧タイム3位",
-     "運勢◎",
      "⑬展開2位/出遅10%",
      "⑦STRIDE(合計7位/妙味ＡＡ)",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 6,
      "time": 3,
@@ -34094,20 +34095,19 @@
     "lap": "超低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 84,
     "unsei_note": "84河原田菜々（中京",
     "support": [
      "⑧IDM2位",
      "⑧タイム2位",
      "④コンピ2位",
-     "運勢◎◎",
      "⑥調教1位",
      "⑦STRIDE(合計1位/妙味Ｄ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 2,
      "time": 2,
@@ -34168,18 +34168,19 @@
     "lap": "低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102佐藤",
     "support": [
      "⑧IDM1位",
      "④コンピ3位",
+     "運勢◎◎",
      "⑬展開1位/出遅17%",
      "⑥調教4位",
      "⑦STRIDE(合計2位/妙味Ｃ)",
      "激走(印2.0/指数1位)"
     ],
-    "nsup": 6,
+    "nsup": 7,
     "ranks": {
      "IDM": 1,
      "time": 6,
@@ -34303,21 +34304,20 @@
       ]
      }
     ],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM4位",
      "⑧前走時計1位",
      "④コンピ1位",
-     "運勢◎",
      "⑬展開3位/出遅17%",
      "⑦STRIDE(合計5位/妙味Ａ)",
      "⑤MB1+UL1",
      "激走(印0/指数3位)",
      "①適性"
     ],
-    "nsup": 9,
+    "nsup": 8,
     "ranks": {
      "IDM": 4,
      "time": 5,
@@ -34382,11 +34382,13 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 98,
     "unsei_note": "98古川奈穂（芝103）",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 10,
      "time": 11,
@@ -34490,7 +34492,7 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 99,
     "unsei_note": "99原田（東・中山・京・阪・小○",
     "support": [
@@ -34789,14 +34791,15 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
      "⑧タイム4位",
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 2,
+    "nsup": 3,
     "ranks": {
      "IDM": 10,
      "time": 4,
@@ -34930,19 +34933,18 @@
     "lap": "超高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM3位",
      "⑧タイム3位",
-     "運勢◎",
      "⑥調教4位",
      "⑦STRIDE(合計3位/妙味Ｃ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 7,
+    "nsup": 6,
     "ranks": {
      "IDM": 3,
      "time": 3,
@@ -35011,11 +35013,13 @@
     "lap": "高速スタミナ",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102佐藤",
-    "support": [],
-    "nsup": 0,
+    "support": [
+     "運勢◎◎"
+    ],
+    "nsup": 1,
     "ranks": {
      "IDM": 16,
      "time": 16,
@@ -35232,13 +35236,14 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
+     "運勢◎",
      "⑦STRIDE(合計6位/妙味Ａ)"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 7,
      "time": 8,
@@ -35303,18 +35308,17 @@
     "lap": "超高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102横山和（新潟85）",
     "support": [
      "⑧IDM5位",
      "④コンピ1位",
-     "運勢◎◎",
      "⑬展開3位/出遅0%",
      "⑥調教5位",
      "⑦STRIDE(合計5位/妙味Ａ)"
     ],
-    "nsup": 6,
+    "nsup": 5,
     "ranks": {
      "IDM": 5,
      "time": 15,
@@ -35448,14 +35452,13 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
     "support": [
-     "⑧前走時計1位",
-     "運勢◎"
+     "⑧前走時計1位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 12,
      "time": 9,
@@ -35520,17 +35523,16 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 99,
     "unsei_note": "99小林美駒（ダ重108",
     "support": [
      "⑧タイム1位",
      "④コンピ4位",
-     "運勢◎◎",
      "⑬展開5位/出遅0%",
      "①適性"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 8,
      "time": 1,
@@ -35595,7 +35597,7 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -35711,15 +35713,16 @@
     "lap": "超高速底力",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
      "⑧前走時計4位",
+     "運勢◎",
      "⑥調教5位",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 4,
     "ranks": {
      "IDM": 10,
      "time": 6,
@@ -35784,16 +35787,15 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 99,
     "unsei_note": "99小林美駒（ダ重108",
     "support": [
      "⑧IDM5位",
-     "運勢◎◎",
      "激走(印3.0/指数3位)",
      "①適性"
     ],
-    "nsup": 4,
+    "nsup": 3,
     "ranks": {
      "IDM": 5,
      "time": 13,
@@ -35858,17 +35860,16 @@
     "lap": "低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 96,
     "unsei_note": "96武豊（新潟✖）",
     "support": [
      "⑧IDM1位",
      "⑧前走時計1位",
      "④コンピ5位",
-     "運勢◎",
      "⑬展開5位/出遅14%"
     ],
-    "nsup": 5,
+    "nsup": 4,
     "ranks": {
      "IDM": 1,
      "time": null,
@@ -35929,15 +35930,14 @@
     "lap": "高速持続",
     "MB": [],
     "UL": [],
-    "unsei": "◎◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102横山和（新潟85）",
     "support": [
      "⑧タイム4位",
-     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 3,
+    "nsup": 2,
     "ranks": {
      "IDM": 6,
      "time": 4,
@@ -36006,7 +36006,7 @@
     "lap": "中速持続",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [],
@@ -36293,19 +36293,18 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
     "support": [
      "⑧IDM3位",
      "⑧タイム2位",
      "④コンピ1位",
-     "運勢◎",
      "⑬展開2位/出遅0%",
      "⑥調教4位",
      "⑦STRIDE(合計2位/妙味Ｓ)"
     ],
-    "nsup": 7,
+    "nsup": 6,
     "ranks": {
      "IDM": 3,
      "time": 2,
@@ -36370,17 +36369,18 @@
     "lap": "高速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
      "⑧前走時計5位",
      "④コンピ2位",
+     "運勢◎◎",
      "⑬展開4位/出遅17%",
      "⑥調教1位",
      "⑦STRIDE(合計3位/妙味Ｄ)"
     ],
-    "nsup": 5,
+    "nsup": 6,
     "ranks": {
      "IDM": 7,
      "time": 9,
@@ -36514,14 +36514,13 @@
     "lap": "中速瞬発",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
-     "⑧タイム1位",
-     "運勢◎"
+     "⑧タイム1位"
     ],
-    "nsup": 2,
+    "nsup": 1,
     "ranks": {
      "IDM": 11,
      "time": 1,
@@ -36776,20 +36775,21 @@
     "lap": "低速持続",
     "MB": [],
     "UL": [],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 102,
     "unsei_note": "102丹内（阪・東・中京・福島✖）",
     "support": [
      "⑧IDM1位",
      "⑧タイム5位",
      "④コンピ5位",
+     "運勢◎",
      "⑬展開3位/出遅10%",
      "⑥調教3位",
      "⑦STRIDE(合計3位/妙味Ｂ)",
      "激走(印0/指数1位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 1,
      "time": 5,
@@ -36988,20 +36988,21 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 102,
     "unsei_note": "102鮫島駿（重◎",
     "support": [
      "⑧IDM2位",
      "⑧タイム2位",
      "④コンピ1位",
+     "運勢◎◎",
      "⑬展開1位/出遅0%",
      "⑥調教2位",
      "⑦STRIDE(合計2位/妙味ＡＡ)",
      "激走(印0/指数2位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 9,
     "ranks": {
      "IDM": 2,
      "time": 2,
@@ -37139,13 +37140,14 @@
     "lap": "中速底力",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "◎◎",
     "unsei_roi": 95,
     "unsei_note": "95荻野琢真（函",
     "support": [
+     "運勢◎◎",
      "①適性"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 9,
      "time": 10,
@@ -37206,13 +37208,11 @@
     "lap": "中速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "×",
     "unsei_roi": 100,
     "unsei_note": "100石川（中京123",
-    "support": [
-     "運勢◎"
-    ],
-    "nsup": 1,
+    "support": [],
+    "nsup": 0,
     "ranks": {
      "IDM": 12,
      "time": 11,
@@ -37368,13 +37368,14 @@
       ]
      }
     ],
-    "unsei": "○",
+    "unsei": "◎",
     "unsei_roi": 99,
     "unsei_note": "99和田陽希",
     "support": [
+     "運勢◎",
      "⑤UL1"
     ],
-    "nsup": 1,
+    "nsup": 2,
     "ranks": {
      "IDM": 14,
      "time": null,
@@ -37439,7 +37440,7 @@
     "lap": "超低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "△",
+    "unsei": "○",
     "unsei_roi": 96,
     "unsei_note": "96横山武(未勝利103",
     "support": [
@@ -37657,20 +37658,19 @@
     "lap": "低速バランス",
     "MB": [],
     "UL": [],
-    "unsei": "◎",
+    "unsei": "△",
     "unsei_roi": 102,
     "unsei_note": "102古川吉洋（芝112",
     "support": [
      "⑧IDM3位",
      "⑧タイム4位",
      "④コンピ2位",
-     "運勢◎",
      "⑬展開4位/出遅0%",
      "⑥調教5位",
      "激走(印3.0/指数5位)",
      "①適性"
     ],
-    "nsup": 8,
+    "nsup": 7,
     "ranks": {
      "IDM": 3,
      "time": 4,
