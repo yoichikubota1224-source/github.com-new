@@ -91,7 +91,7 @@ for rid, t in tg.items():
         for h in horses: h.setdefault('passing_from', 'netkeiba')
     dm = re.search(r'<div[^>]*class="RaceData01"[^>]*>(.*?)</div>', doc, re.S)
     meta = txt(dm.group(1)) if dm else ''
-    races.append({'racekey': t['racekey'], 'race_id': rid, 'date': '2026-08-29',
+    races.append({'racekey': t['racekey'], 'race_id': rid, 'date': '2026-08-30',
                   'venue': t['venue'], 'r': t['race'], 'label': t['label'],
                   'meta': meta, 'head_count': len(horses), 'corners': corners, 'horses': horses})
 races.sort(key=lambda r: (r['venue'], r['r']))
