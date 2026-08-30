@@ -78,5 +78,24 @@ for x in F:
                 'haran': hs[0]['haran'], 'c1': c['c1'], 't6': c['t6'], 'pattern': c['pattern'],
                 'ryoritsu': (c['c1'] <= 76 and c['pattern'] in ('P1','P2','P3')),
                 'shinba': '新馬' in x['cls'], 'rows': rows})
+# ---- 人気帯トレンドの除去(診断用) ----
+# 補正差は正規化後も基準人気と ρ=+0.35 で連動する。帯平均を引いた残差が馬固有成分。
+# ⚠ 帯平均は当日35Rから算出しており循環的。補正ではなく診断=[要確認]。
+import statistics as st
+band = {}
+for o in out:
+    for h in o['rows']:
+        if h['ninki'] and h['hosei'] is not None:
+            band.setdefault(h['ninki'], []).append(h['hosei'])
+mu = {k: sum(v)/len(v) for k, v in band.items()}
+sd = {k: (st.pstdev(v) if len(v) > 1 else 1.0) or 1.0 for k, v in band.items()}
+for o in out:
+    for h in o['rows']:
+        if h['ninki'] and h['hosei'] is not None:
+            h['hosei_resid'] = round(h['hosei'] - mu[h['ninki']], 2)
+            h['hosei_z'] = round((h['hosei'] - mu[h['ninki']]) / sd[h['ninki']], 2)
+        else:
+            h['hosei_resid'] = h['hosei_z'] = None
+
 json.dump(out, open(OUT, 'w'), ensure_ascii=False, indent=1)
 print(f"{len(out)}R / {sum(len(o['rows']) for o in out)}頭  両立{sum(1 for o in out if o['ryoritsu'])}R")

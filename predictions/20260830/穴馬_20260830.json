@@ -47,7 +47,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.8,
+    "hosei_z": -0.87
    },
    {
     "uma": 2,
@@ -83,7 +85,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.77,
+    "hosei_z": -0.26
    },
    {
     "uma": 3,
@@ -126,7 +130,9 @@
     "geki_mark": 2.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.96,
+    "hosei_z": 0.65
    },
    {
     "uma": 4,
@@ -163,7 +169,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.78,
+    "hosei_z": 0.79
    },
    {
     "uma": 5,
@@ -205,7 +213,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.64,
+    "hosei_z": 0.13
    },
    {
     "uma": 6,
@@ -241,7 +251,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.94,
+    "hosei_z": 0.42
    },
    {
     "uma": 7,
@@ -279,7 +291,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.29,
+    "hosei_z": -0.45
    },
    {
     "uma": 8,
@@ -320,7 +334,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.74,
+    "hosei_z": 0.76
    },
    {
     "uma": 9,
@@ -359,7 +375,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.07,
+    "hosei_z": 0.86
    },
    {
     "uma": 10,
@@ -395,7 +413,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.09,
+    "hosei_z": -0.98
    }
   ]
  },
@@ -450,7 +470,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.45,
+    "hosei_z": -0.54
    },
    {
     "uma": 2,
@@ -485,7 +507,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.3,
+    "hosei_z": 0.06
    },
    {
     "uma": 3,
@@ -519,7 +543,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.62,
+    "hosei_z": 0.73
    },
    {
     "uma": 4,
@@ -559,7 +585,9 @@
     "geki_mark": 6.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.68,
+    "hosei_z": 0.74
    },
    {
     "uma": 5,
@@ -597,7 +625,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.19,
+    "hosei_z": 0.37
    },
    {
     "uma": 6,
@@ -636,7 +666,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.89,
+    "hosei_z": -0.4
    },
    {
     "uma": 7,
@@ -674,7 +706,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.94,
+    "hosei_z": -0.27
    },
    {
     "uma": 8,
@@ -711,7 +745,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.92,
+    "hosei_z": 0.67
    },
    {
     "uma": 9,
@@ -745,7 +781,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.0,
+    "hosei_z": 0.99
    },
    {
     "uma": 10,
@@ -781,7 +819,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.74,
+    "hosei_z": 0.82
    }
   ]
  },
@@ -833,7 +873,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.25,
+    "hosei_z": -0.08
    },
    {
     "uma": 2,
@@ -874,7 +916,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.49,
+    "hosei_z": -0.11
    },
    {
     "uma": 3,
@@ -910,7 +954,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.51,
+    "hosei_z": 0.24
    },
    {
     "uma": 4,
@@ -951,7 +997,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -6.66,
+    "hosei_z": -1.84
    },
    {
     "uma": 5,
@@ -985,7 +1033,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.04,
+    "hosei_z": -0.01
    },
    {
     "uma": 6,
@@ -1019,7 +1069,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.55,
+    "hosei_z": 0.25
    },
    {
     "uma": 7,
@@ -1056,7 +1108,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 7.95,
+    "hosei_z": 2.77
    },
    {
     "uma": 8,
@@ -1092,7 +1146,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 6.95,
+    "hosei_z": 2.15
    },
    {
     "uma": 9,
@@ -1132,7 +1188,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -6.17,
+    "hosei_z": -1.31
    },
    {
     "uma": 10,
@@ -1172,7 +1230,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.55,
+    "hosei_z": 1.3
    },
    {
     "uma": 11,
@@ -1208,7 +1268,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.73,
+    "hosei_z": -1.22
    }
   ]
  },
@@ -1269,7 +1331,9 @@
     "geki_mark": 1.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.27,
+    "hosei_z": -0.48
    },
    {
     "uma": 2,
@@ -1308,7 +1372,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.19,
+    "hosei_z": -0.25
    },
    {
     "uma": 3,
@@ -1346,7 +1412,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.27,
+    "hosei_z": 0.44
    },
    {
     "uma": 4,
@@ -1382,7 +1450,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.04,
+    "hosei_z": 0.02
    },
    {
     "uma": 5,
@@ -1416,7 +1486,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.39,
+    "hosei_z": -0.66
    },
    {
     "uma": 6,
@@ -1452,7 +1524,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.46,
+    "hosei_z": -0.37
    },
    {
     "uma": 7,
@@ -1495,7 +1569,9 @@
     "geki_mark": 5.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 6.18,
+    "hosei_z": 1.71
    },
    {
     "uma": 8,
@@ -1537,7 +1613,9 @@
     "geki_mark": 2.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.66,
+    "hosei_z": -0.19
    },
    {
     "uma": 9,
@@ -1571,7 +1649,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.04,
+    "hosei_z": 0.03
    },
    {
     "uma": 10,
@@ -1613,7 +1693,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.49,
+    "hosei_z": -0.55
    },
    {
     "uma": 11,
@@ -1649,7 +1731,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.59,
+    "hosei_z": -0.63
    },
    {
     "uma": 12,
@@ -1685,7 +1769,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.39,
+    "hosei_z": 0.34
    },
    {
     "uma": 13,
@@ -1722,7 +1808,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.07,
+    "hosei_z": -0.77
    },
    {
     "uma": 14,
@@ -1760,7 +1848,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.17,
+    "hosei_z": -0.67
    },
    {
     "uma": 15,
@@ -1790,7 +1880,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.72,
+    "hosei_z": -0.24
    },
    {
     "uma": 16,
@@ -1827,7 +1919,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.69,
+    "hosei_z": -0.4
    }
   ]
  },
@@ -1881,7 +1975,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.38,
+    "hosei_z": -0.18
    },
    {
     "uma": 2,
@@ -1917,7 +2013,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.31,
+    "hosei_z": 0.1
    },
    {
     "uma": 3,
@@ -1953,7 +2051,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.9,
+    "hosei_z": 0.53
    },
    {
     "uma": 4,
@@ -1994,7 +2094,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.93,
+    "hosei_z": -0.29
    },
    {
     "uma": 5,
@@ -2035,7 +2137,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.08,
+    "hosei_z": -0.73
    },
    {
     "uma": 6,
@@ -2074,7 +2178,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.48,
+    "hosei_z": 0.67
    },
    {
     "uma": 7,
@@ -2110,7 +2216,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.35,
+    "hosei_z": -0.21
    },
    {
     "uma": 8,
@@ -2148,7 +2256,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.42,
+    "hosei_z": -0.31
    },
    {
     "uma": 9,
@@ -2189,7 +2299,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.49,
+    "hosei_z": -0.53
    },
    {
     "uma": 10,
@@ -2225,7 +2337,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.88,
+    "hosei_z": 0.19
    },
    {
     "uma": 11,
@@ -2265,7 +2379,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.27,
+    "hosei_z": 0.65
    },
    {
     "uma": 12,
@@ -2301,7 +2417,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.8,
+    "hosei_z": 0.57
    },
    {
     "uma": 13,
@@ -2335,7 +2453,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.23,
+    "hosei_z": 0.16
    }
   ]
  },
@@ -2387,7 +2507,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.59,
+    "hosei_z": 0.47
    },
    {
     "uma": 2,
@@ -2427,7 +2549,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.67,
+    "hosei_z": -0.58
    },
    {
     "uma": 3,
@@ -2460,7 +2584,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.4,
+    "hosei_z": -1.14
    },
    {
     "uma": 4,
@@ -2496,7 +2622,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.9,
+    "hosei_z": 1.7
    },
    {
     "uma": 5,
@@ -2533,7 +2661,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.12,
+    "hosei_z": -0.09
    },
    {
     "uma": 6,
@@ -2575,7 +2705,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.17,
+    "hosei_z": 1.43
    },
    {
     "uma": 7,
@@ -2613,7 +2745,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 2.37,
+    "hosei_z": 1.12
    },
    {
     "uma": 8,
@@ -2653,7 +2787,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.54,
+    "hosei_z": 1.79
    },
    {
     "uma": 9,
@@ -2694,7 +2830,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.75,
+    "hosei_z": -0.79
    },
    {
     "uma": 10,
@@ -2730,7 +2868,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.04,
+    "hosei_z": 0.04
    },
    {
     "uma": 11,
@@ -2767,7 +2907,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.25,
+    "hosei_z": 0.22
    },
    {
     "uma": 12,
@@ -2797,7 +2939,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.11,
+    "hosei_z": 1.03
    },
    {
     "uma": 13,
@@ -2835,7 +2979,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.89,
+    "hosei_z": 1.3
    },
    {
     "uma": 14,
@@ -2869,7 +3015,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.26,
+    "hosei_z": -1.16
    },
    {
     "uma": 15,
@@ -2906,7 +3054,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.38,
+    "hosei_z": 0.12
    },
    {
     "uma": 16,
@@ -2945,7 +3095,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -10.83,
+    "hosei_z": -2.29
    }
   ]
  },
@@ -2999,7 +3151,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.63,
+    "hosei_z": -0.29
    },
    {
     "uma": 2,
@@ -3039,7 +3193,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.14,
+    "hosei_z": -1.1
    },
    {
     "uma": 3,
@@ -3080,7 +3236,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.93,
+    "hosei_z": 1.04
    },
    {
     "uma": 4,
@@ -3122,7 +3280,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.5,
+    "hosei_z": 0.77
    },
    {
     "uma": 5,
@@ -3156,7 +3316,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.59,
+    "hosei_z": -1.31
    },
    {
     "uma": 6,
@@ -3190,7 +3352,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.45,
+    "hosei_z": -1.37
    },
    {
     "uma": 7,
@@ -3230,7 +3394,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 11.52,
+    "hosei_z": 2.44
    },
    {
     "uma": 8,
@@ -3264,7 +3430,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.68,
+    "hosei_z": -0.56
    },
    {
     "uma": 9,
@@ -3305,7 +3473,9 @@
     "geki_mark": 1.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.67,
+    "hosei_z": 1.02
    }
   ]
  },
@@ -3361,7 +3531,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.09,
+    "hosei_z": 0.03
    },
    {
     "uma": 2,
@@ -3401,7 +3573,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 6.84,
+    "hosei_z": 1.51
    },
    {
     "uma": 3,
@@ -3442,7 +3616,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.16,
+    "hosei_z": 0.03
    },
    {
     "uma": 4,
@@ -3478,7 +3654,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.2,
+    "hosei_z": -1.05
    },
    {
     "uma": 5,
@@ -3515,7 +3693,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.24,
+    "hosei_z": -0.74
    },
    {
     "uma": 6,
@@ -3553,7 +3733,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.67,
+    "hosei_z": -1.28
    },
    {
     "uma": 7,
@@ -3595,7 +3777,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.11,
+    "hosei_z": 0.45
    },
    {
     "uma": 8,
@@ -3627,7 +3811,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.77,
+    "hosei_z": -0.55
    },
    {
     "uma": 9,
@@ -3663,7 +3849,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.73,
+    "hosei_z": -1.01
    },
    {
     "uma": 10,
@@ -3700,7 +3888,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.7,
+    "hosei_z": -0.2
    },
    {
     "uma": 11,
@@ -3740,7 +3930,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.57,
+    "hosei_z": -0.45
    },
    {
     "uma": 12,
@@ -3772,7 +3964,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.58,
+    "hosei_z": 1.11
    },
    {
     "uma": 13,
@@ -3813,7 +4007,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.45,
+    "hosei_z": -0.2
    },
    {
     "uma": 14,
@@ -3847,7 +4043,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.22,
+    "hosei_z": 0.1
    },
    {
     "uma": 15,
@@ -3883,7 +4081,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.49,
+    "hosei_z": -1.08
    }
   ]
  },
@@ -3935,7 +4135,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.15,
+    "hosei_z": -0.11
    },
    {
     "uma": 2,
@@ -3971,7 +4173,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.82,
+    "hosei_z": 0.37
    },
    {
     "uma": 3,
@@ -4014,7 +4218,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.37,
+    "hosei_z": 0.52
    },
    {
     "uma": 4,
@@ -4048,7 +4254,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.84,
+    "hosei_z": 0.39
    },
    {
     "uma": 5,
@@ -4081,7 +4289,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.89,
+    "hosei_z": 0.78
    },
    {
     "uma": 6,
@@ -4124,7 +4334,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 4.47,
+    "hosei_z": 0.95
    },
    {
     "uma": 7,
@@ -4160,7 +4372,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.24,
+    "hosei_z": 0.08
    },
    {
     "uma": 8,
@@ -4194,7 +4408,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.37,
+    "hosei_z": -0.96
    },
    {
     "uma": 9,
@@ -4231,7 +4447,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.31,
+    "hosei_z": -0.71
    },
    {
     "uma": 10,
@@ -4270,7 +4488,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.66,
+    "hosei_z": 0.35
    },
    {
     "uma": 11,
@@ -4302,7 +4522,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.09,
+    "hosei_z": 0.07
    },
    {
     "uma": 12,
@@ -4342,7 +4564,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.82,
+    "hosei_z": -0.23
    },
    {
     "uma": 13,
@@ -4376,7 +4600,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.14,
+    "hosei_z": -0.08
    },
    {
     "uma": 14,
@@ -4414,7 +4640,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.4,
+    "hosei_z": -1.53
    },
    {
     "uma": 15,
@@ -4454,7 +4682,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.98,
+    "hosei_z": -1.71
    }
   ]
  },
@@ -4515,7 +4745,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.71,
+    "hosei_z": 0.24
    },
    {
     "uma": 2,
@@ -4553,7 +4785,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.55,
+    "hosei_z": 0.19
    },
    {
     "uma": 3,
@@ -4590,7 +4824,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.47,
+    "hosei_z": -1.11
    },
    {
     "uma": 4,
@@ -4628,7 +4864,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.01,
+    "hosei_z": -0.31
    },
    {
     "uma": 5,
@@ -4665,7 +4903,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.58,
+    "hosei_z": -0.45
    },
    {
     "uma": 6,
@@ -4706,7 +4946,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.09,
+    "hosei_z": 0.87
    },
    {
     "uma": 7,
@@ -4742,7 +4984,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.94,
+    "hosei_z": -1.38
    },
    {
     "uma": 8,
@@ -4785,7 +5029,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.8,
+    "hosei_z": 1.02
    },
    {
     "uma": 9,
@@ -4819,7 +5065,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.48,
+    "hosei_z": 0.33
    },
    {
     "uma": 10,
@@ -4857,7 +5105,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.54,
+    "hosei_z": 0.98
    }
   ]
  },
@@ -4909,7 +5159,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.32,
+    "hosei_z": -0.23
    },
    {
     "uma": 2,
@@ -4949,7 +5201,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.4,
+    "hosei_z": -1.13
    },
    {
     "uma": 3,
@@ -4985,7 +5239,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.94,
+    "hosei_z": 1.54
    },
    {
     "uma": 4,
@@ -5022,7 +5278,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.24,
+    "hosei_z": 0.56
    },
    {
     "uma": 5,
@@ -5061,7 +5319,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.29,
+    "hosei_z": -0.66
    },
    {
     "uma": 6,
@@ -5097,7 +5357,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.28,
+    "hosei_z": 0.46
    },
    {
     "uma": 7,
@@ -5140,7 +5402,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ａ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.86,
+    "hosei_z": 0.26
    },
    {
     "uma": 8,
@@ -5176,7 +5440,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.59,
+    "hosei_z": 1.7
    },
    {
     "uma": 9,
@@ -5213,7 +5479,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.69,
+    "hosei_z": 1.21
    },
    {
     "uma": 10,
@@ -5251,7 +5519,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.76,
+    "hosei_z": -0.36
    },
    {
     "uma": 11,
@@ -5293,7 +5563,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.28,
+    "hosei_z": 0.45
    },
    {
     "uma": 12,
@@ -5330,7 +5602,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.51,
+    "hosei_z": 0.3
    },
    {
     "uma": 13,
@@ -5372,7 +5646,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.81,
+    "hosei_z": 0.18
    },
    {
     "uma": 14,
@@ -5408,7 +5684,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.17,
+    "hosei_z": -0.53
    },
    {
     "uma": 15,
@@ -5450,7 +5728,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.73,
+    "hosei_z": -1.31
    },
    {
     "uma": 16,
@@ -5484,7 +5764,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.65,
+    "hosei_z": 1.44
    },
    {
     "uma": 17,
@@ -5522,7 +5804,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.33,
+    "hosei_z": -0.92
    },
    {
     "uma": 18,
@@ -5559,7 +5843,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.82,
+    "hosei_z": -0.17
    }
   ]
  },
@@ -5620,7 +5906,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.45,
+    "hosei_z": -0.32
    },
    {
     "uma": 2,
@@ -5658,7 +5946,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.88,
+    "hosei_z": -0.25
    },
    {
     "uma": 3,
@@ -5695,7 +5985,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.76,
+    "hosei_z": 0.16
    },
    {
     "uma": 4,
@@ -5729,7 +6021,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.04,
+    "hosei_z": -0.02
    },
    {
     "uma": 5,
@@ -5765,7 +6059,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.87,
+    "hosei_z": -0.51
    },
    {
     "uma": 6,
@@ -5802,7 +6098,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.44,
+    "hosei_z": -0.44
    },
    {
     "uma": 7,
@@ -5839,7 +6137,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.1,
+    "hosei_z": 0.5
    },
    {
     "uma": 8,
@@ -5875,7 +6175,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.98,
+    "hosei_z": 0.69
    },
    {
     "uma": 9,
@@ -5911,7 +6213,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.29,
+    "hosei_z": -0.2
    },
    {
     "uma": 10,
@@ -5950,7 +6254,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.05,
+    "hosei_z": 0.35
    },
    {
     "uma": 11,
@@ -5991,7 +6297,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.4,
+    "hosei_z": 0.72
    },
    {
     "uma": 12,
@@ -6034,7 +6342,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.94,
+    "hosei_z": -0.54
    },
    {
     "uma": 13,
@@ -6073,7 +6383,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.1,
+    "hosei_z": -1.08
    },
    {
     "uma": 14,
@@ -6109,7 +6421,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.6,
+    "hosei_z": 0.48
    }
   ]
  },
@@ -6161,7 +6475,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.13,
+    "hosei_z": -0.37
    },
    {
     "uma": 2,
@@ -6197,7 +6513,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.96,
+    "hosei_z": -1.03
    },
    {
     "uma": 3,
@@ -6238,7 +6556,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 9.08,
+    "hosei_z": 1.92
    },
    {
     "uma": 4,
@@ -6271,7 +6591,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.4,
+    "hosei_z": -1.26
    },
    {
     "uma": 5,
@@ -6308,7 +6630,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.16,
+    "hosei_z": 0.88
    },
    {
     "uma": 6,
@@ -6342,7 +6666,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.76,
+    "hosei_z": -0.54
    },
    {
     "uma": 7,
@@ -6376,7 +6702,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.05,
+    "hosei_z": -0.02
    },
    {
     "uma": 8,
@@ -6410,7 +6738,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.27,
+    "hosei_z": 0.6
    },
    {
     "uma": 9,
@@ -6450,7 +6780,9 @@
     "geki_mark": 1.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.69,
+    "hosei_z": 1.02
    },
    {
     "uma": 10,
@@ -6484,7 +6816,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.62,
+    "hosei_z": 0.44
    },
    {
     "uma": 11,
@@ -6520,7 +6854,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 0.49,
+    "hosei_z": 0.29
    },
    {
     "uma": 12,
@@ -6550,7 +6886,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.56,
+    "hosei_z": 1.8
    },
    {
     "uma": 13,
@@ -6591,7 +6929,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -11.36,
+    "hosei_z": -2.51
    }
   ]
  },
@@ -6646,7 +6986,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.58,
+    "hosei_z": -0.9
    },
    {
     "uma": 2,
@@ -6680,7 +7022,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.22,
+    "hosei_z": -1.3
    },
    {
     "uma": 3,
@@ -6723,7 +7067,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 8.52,
+    "hosei_z": 1.8
    },
    {
     "uma": 4,
@@ -6764,7 +7110,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 6.8,
+    "hosei_z": 1.44
    },
    {
     "uma": 5,
@@ -6804,7 +7152,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.48,
+    "hosei_z": 0.69
    },
    {
     "uma": 6,
@@ -6844,7 +7194,9 @@
     "geki_mark": 3.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 7.66,
+    "hosei_z": 1.69
    },
    {
     "uma": 7,
@@ -6882,7 +7234,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.53,
+    "hosei_z": -0.44
    },
    {
     "uma": 8,
@@ -6912,7 +7266,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -7.08,
+    "hosei_z": -2.35
    }
   ]
  },
@@ -6960,7 +7316,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.57,
+    "hosei_z": -0.52
    },
    {
     "uma": 2,
@@ -7000,7 +7358,9 @@
     "geki_mark": 5.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.68,
+    "hosei_z": 0.74
    },
    {
     "uma": 3,
@@ -7036,7 +7396,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.02,
+    "hosei_z": -0.7
    },
    {
     "uma": 4,
@@ -7070,7 +7432,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.14,
+    "hosei_z": -1.48
    },
    {
     "uma": 5,
@@ -7104,7 +7468,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.09,
+    "hosei_z": -1.47
    },
    {
     "uma": 6,
@@ -7144,7 +7510,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.06,
+    "hosei_z": -0.44
    },
    {
     "uma": 7,
@@ -7180,7 +7548,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.35,
+    "hosei_z": 0.11
    },
    {
     "uma": 8,
@@ -7219,7 +7589,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.07,
+    "hosei_z": 0.86
    },
    {
     "uma": 9,
@@ -7260,7 +7632,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 8.35,
+    "hosei_z": 1.85
    },
    {
     "uma": 10,
@@ -7297,7 +7671,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.3,
+    "hosei_z": 1.52
    },
    {
     "uma": 11,
@@ -7331,7 +7707,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.7,
+    "hosei_z": -2.12
    }
   ]
  },
@@ -7392,7 +7770,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.26,
+    "hosei_z": 0.69
    },
    {
     "uma": 2,
@@ -7426,7 +7806,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.84,
+    "hosei_z": -1.39
    },
    {
     "uma": 3,
@@ -7470,7 +7852,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.0,
+    "hosei_z": -0.0
    },
    {
     "uma": 4,
@@ -7510,7 +7894,9 @@
     "geki_mark": 1.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.53,
+    "hosei_z": 0.57
    },
    {
     "uma": 5,
@@ -7544,7 +7930,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.19,
+    "hosei_z": -0.15
    },
    {
     "uma": 6,
@@ -7581,7 +7969,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.98,
+    "hosei_z": -0.92
    },
    {
     "uma": 7,
@@ -7615,7 +8005,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.61,
+    "hosei_z": -1.4
    },
    {
     "uma": 8,
@@ -7652,7 +8044,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.81,
+    "hosei_z": -1.27
    },
    {
     "uma": 9,
@@ -7691,7 +8085,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.79,
+    "hosei_z": -0.23
    },
    {
     "uma": 10,
@@ -7727,7 +8123,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.76,
+    "hosei_z": -0.45
    },
    {
     "uma": 11,
@@ -7768,7 +8166,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.92,
+    "hosei_z": -0.53
    },
    {
     "uma": 12,
@@ -7798,7 +8198,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.51,
+    "hosei_z": 0.45
    },
    {
     "uma": 13,
@@ -7841,7 +8243,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.15,
+    "hosei_z": 0.24
    },
    {
     "uma": 14,
@@ -7875,7 +8279,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.94,
+    "hosei_z": -0.67
    },
    {
     "uma": 15,
@@ -7909,7 +8315,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.59,
+    "hosei_z": -1.22
    },
    {
     "uma": 16,
@@ -7951,7 +8359,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 7.72,
+    "hosei_z": 1.71
    },
    {
     "uma": 17,
@@ -7988,7 +8398,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.8,
+    "hosei_z": -1.59
    },
    {
     "uma": 18,
@@ -8025,7 +8437,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.9,
+    "hosei_z": -0.64
    }
   ]
  },
@@ -8079,7 +8493,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.01,
+    "hosei_z": 0.0
    },
    {
     "uma": 2,
@@ -8121,7 +8537,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.34,
+    "hosei_z": 0.92
    },
    {
     "uma": 3,
@@ -8163,7 +8581,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.2,
+    "hosei_z": -0.25
    },
    {
     "uma": 4,
@@ -8205,7 +8625,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｃ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.78,
+    "hosei_z": -0.39
    },
    {
     "uma": 5,
@@ -8235,7 +8657,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.99,
+    "hosei_z": -1.58
    },
    {
     "uma": 6,
@@ -8273,7 +8697,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.48,
+    "hosei_z": -1.12
    },
    {
     "uma": 7,
@@ -8312,7 +8738,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.92,
+    "hosei_z": 0.26
    },
    {
     "uma": 8,
@@ -8354,7 +8782,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.0,
+    "hosei_z": 0.42
    },
    {
     "uma": 9,
@@ -8391,7 +8821,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.92,
+    "hosei_z": 1.21
    },
    {
     "uma": 10,
@@ -8427,7 +8859,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.17,
+    "hosei_z": -1.27
    },
    {
     "uma": 11,
@@ -8463,7 +8897,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.86,
+    "hosei_z": -1.63
    },
    {
     "uma": 12,
@@ -8501,7 +8937,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.39,
+    "hosei_z": -0.99
    },
    {
     "uma": 13,
@@ -8537,7 +8975,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.36,
+    "hosei_z": -1.11
    },
    {
     "uma": 14,
@@ -8580,7 +9020,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.62,
+    "hosei_z": 0.91
    },
    {
     "uma": 15,
@@ -8610,7 +9052,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.4,
+    "hosei_z": -0.98
    }
   ]
  },
@@ -8667,7 +9111,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.71,
+    "hosei_z": 1.35
    },
    {
     "uma": 2,
@@ -8705,7 +9151,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.13,
+    "hosei_z": -0.04
    },
    {
     "uma": 3,
@@ -8744,7 +9192,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.14,
+    "hosei_z": 0.04
    },
    {
     "uma": 4,
@@ -8780,7 +9230,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.71,
+    "hosei_z": -0.5
    },
    {
     "uma": 5,
@@ -8822,7 +9274,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.17,
+    "hosei_z": 1.09
    },
    {
     "uma": 6,
@@ -8859,7 +9313,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.63,
+    "hosei_z": -0.95
    },
    {
     "uma": 7,
@@ -8898,7 +9354,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.18,
+    "hosei_z": 0.46
    },
    {
     "uma": 8,
@@ -8934,7 +9392,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.0,
+    "hosei_z": -1.23
    },
    {
     "uma": 9,
@@ -8970,7 +9430,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.23,
+    "hosei_z": -1.73
    },
    {
     "uma": 10,
@@ -9009,7 +9471,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 7.02,
+    "hosei_z": 1.55
    },
    {
     "uma": 11,
@@ -9045,7 +9509,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.59,
+    "hosei_z": -0.75
    },
    {
     "uma": 12,
@@ -9081,7 +9547,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.22,
+    "hosei_z": -1.45
    }
   ]
  },
@@ -9136,7 +9604,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.84,
+    "hosei_z": 0.6
    },
    {
     "uma": 2,
@@ -9174,7 +9644,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.7,
+    "hosei_z": 1.23
    },
    {
     "uma": 3,
@@ -9216,7 +9688,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.0,
+    "hosei_z": -0.21
    },
    {
     "uma": 4,
@@ -9255,7 +9729,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.08,
+    "hosei_z": -1.12
    },
    {
     "uma": 5,
@@ -9294,7 +9770,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.28,
+    "hosei_z": 0.48
    },
    {
     "uma": 6,
@@ -9332,7 +9810,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.36,
+    "hosei_z": 0.42
    },
    {
     "uma": 7,
@@ -9369,7 +9849,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.86,
+    "hosei_z": 0.41
    },
    {
     "uma": 8,
@@ -9407,7 +9889,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.48,
+    "hosei_z": 0.13
    },
    {
     "uma": 9,
@@ -9444,7 +9928,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.21,
+    "hosei_z": 0.42
    },
    {
     "uma": 10,
@@ -9480,7 +9966,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.24,
+    "hosei_z": 0.11
    },
    {
     "uma": 11,
@@ -9517,7 +10005,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.27,
+    "hosei_z": 0.08
    }
   ]
  },
@@ -9573,7 +10063,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": -1.59,
+    "hosei_z": -0.34
    },
    {
     "uma": 2,
@@ -9607,7 +10099,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.06,
+    "hosei_z": 0.05
    },
    {
     "uma": 3,
@@ -9647,7 +10141,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 0.59,
+    "hosei_z": 0.41
    },
    {
     "uma": 4,
@@ -9684,7 +10180,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 0.56,
+    "hosei_z": 0.93
    },
    {
     "uma": 5,
@@ -9726,7 +10224,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.18,
+    "hosei_z": 0.72
    },
    {
     "uma": 6,
@@ -9767,7 +10267,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.54,
+    "hosei_z": -0.17
    },
    {
     "uma": 7,
@@ -9801,7 +10303,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.56,
+    "hosei_z": 0.49
    },
    {
     "uma": 8,
@@ -9844,7 +10348,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 2
+    "UL": 2,
+    "hosei_resid": -0.92,
+    "hosei_z": -0.26
    },
    {
     "uma": 9,
@@ -9881,7 +10387,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.49,
+    "hosei_z": 0.52
    },
    {
     "uma": 10,
@@ -9917,7 +10425,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 0.37,
+    "hosei_z": 0.85
    },
    {
     "uma": 11,
@@ -9955,7 +10465,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": -4.24,
+    "hosei_z": -0.94
    },
    {
     "uma": 12,
@@ -9996,7 +10508,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.49,
+    "hosei_z": -0.52
    },
    {
     "uma": 13,
@@ -10034,7 +10548,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 1.18,
+    "hosei_z": 0.69
    },
    {
     "uma": 14,
@@ -10068,7 +10584,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.01,
+    "hosei_z": -0.01
    },
    {
     "uma": 15,
@@ -10102,7 +10620,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.05,
+    "hosei_z": 1.91
    },
    {
     "uma": 16,
@@ -10143,7 +10663,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.76,
+    "hosei_z": -1.65
    },
    {
     "uma": 17,
@@ -10182,7 +10704,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 3.35,
+    "hosei_z": 1.51
    },
    {
     "uma": 18,
@@ -10224,7 +10748,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": -5.82,
+    "hosei_z": -1.23
    }
   ]
  },
@@ -10279,7 +10805,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.4,
+    "hosei_z": -0.31
    },
    {
     "uma": 2,
@@ -10313,7 +10841,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.21,
+    "hosei_z": -1.76
    },
    {
     "uma": 3,
@@ -10348,7 +10878,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.71,
+    "hosei_z": 0.77
    },
    {
     "uma": 4,
@@ -10388,7 +10920,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.31,
+    "hosei_z": 1.09
    },
    {
     "uma": 5,
@@ -10427,7 +10961,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.19,
+    "hosei_z": 0.67
    },
    {
     "uma": 6,
@@ -10469,7 +11005,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 7.0,
+    "hosei_z": 1.48
    },
    {
     "uma": 7,
@@ -10507,7 +11045,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.16,
+    "hosei_z": -2.44
    },
    {
     "uma": 8,
@@ -10547,7 +11087,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.63,
+    "hosei_z": 0.19
    },
    {
     "uma": 9,
@@ -10580,7 +11122,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.46,
+    "hosei_z": -0.51
    },
    {
     "uma": 10,
@@ -10624,7 +11168,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.71,
+    "hosei_z": 0.47
    },
    {
     "uma": 11,
@@ -10658,7 +11204,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.08,
+    "hosei_z": -2.2
    },
    {
     "uma": 12,
@@ -10693,7 +11241,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.65,
+    "hosei_z": -1.33
    },
    {
     "uma": 13,
@@ -10727,7 +11277,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.8,
+    "hosei_z": -0.27
    },
    {
     "uma": 14,
@@ -10757,7 +11309,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.45,
+    "hosei_z": -1.02
    },
    {
     "uma": 15,
@@ -10791,7 +11345,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.15,
+    "hosei_z": -1.0
    }
   ]
  },
@@ -10846,7 +11402,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.33,
+    "hosei_z": -0.78
    },
    {
     "uma": 2,
@@ -10884,7 +11442,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.64,
+    "hosei_z": 0.75
    },
    {
     "uma": 3,
@@ -10918,7 +11478,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.44,
+    "hosei_z": 0.35
    },
    {
     "uma": 4,
@@ -10950,7 +11512,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.3,
+    "hosei_z": 1.42
    },
    {
     "uma": 5,
@@ -10987,7 +11551,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 8.11,
+    "hosei_z": 2.5
    },
    {
     "uma": 6,
@@ -11020,7 +11586,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.61,
+    "hosei_z": -0.73
    },
    {
     "uma": 7,
@@ -11056,7 +11624,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.63,
+    "hosei_z": -1.24
    },
    {
     "uma": 8,
@@ -11095,7 +11665,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -6.63,
+    "hosei_z": -1.4
    },
    {
     "uma": 9,
@@ -11132,7 +11704,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.21,
+    "hosei_z": -0.85
    },
    {
     "uma": 10,
@@ -11171,7 +11745,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.53,
+    "hosei_z": 0.7
    },
    {
     "uma": 11,
@@ -11209,7 +11785,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.97,
+    "hosei_z": 2.08
    },
    {
     "uma": 12,
@@ -11251,7 +11829,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -9.03,
+    "hosei_z": -1.91
    },
    {
     "uma": 13,
@@ -11285,7 +11865,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.1,
+    "hosei_z": -0.07
    },
    {
     "uma": 14,
@@ -11318,7 +11900,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.55,
+    "hosei_z": -0.78
    }
   ]
  },
@@ -11374,7 +11958,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.79,
+    "hosei_z": 0.4
    },
    {
     "uma": 2,
@@ -11404,7 +11990,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.81,
+    "hosei_z": -1.58
    },
    {
     "uma": 3,
@@ -11445,7 +12033,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.19,
+    "hosei_z": -0.25
    },
    {
     "uma": 4,
@@ -11484,7 +12074,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.75,
+    "hosei_z": -0.26
    },
    {
     "uma": 5,
@@ -11526,7 +12118,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.74,
+    "hosei_z": 0.23
    },
    {
     "uma": 6,
@@ -11568,7 +12162,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.0,
+    "hosei_z": 0.55
    },
    {
     "uma": 7,
@@ -11602,7 +12198,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.63,
+    "hosei_z": -0.96
    },
    {
     "uma": 8,
@@ -11642,7 +12240,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 7.29,
+    "hosei_z": 1.54
    },
    {
     "uma": 9,
@@ -11675,7 +12275,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.9,
+    "hosei_z": -0.86
    },
    {
     "uma": 10,
@@ -11708,7 +12310,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.86,
+    "hosei_z": -1.33
    },
    {
     "uma": 11,
@@ -11738,7 +12342,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.22,
+    "hosei_z": -1.4
    },
    {
     "uma": 12,
@@ -11774,7 +12380,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.56,
+    "hosei_z": -1.81
    },
    {
     "uma": 13,
@@ -11811,7 +12419,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.65,
+    "hosei_z": -2.11
    },
    {
     "uma": 14,
@@ -11852,7 +12462,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.9,
+    "hosei_z": 1.4
    },
    {
     "uma": 15,
@@ -11886,7 +12498,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.96,
+    "hosei_z": -0.92
    }
   ]
  },
@@ -11946,7 +12560,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -7.69,
+    "hosei_z": -2.13
    },
    {
     "uma": 2,
@@ -11989,7 +12605,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.27,
+    "hosei_z": 1.01
    },
    {
     "uma": 3,
@@ -12025,7 +12643,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.39,
+    "hosei_z": 0.28
    },
    {
     "uma": 4,
@@ -12059,7 +12679,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.79,
+    "hosei_z": 0.23
    },
    {
     "uma": 5,
@@ -12097,7 +12719,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.13,
+    "hosei_z": 0.39
    },
    {
     "uma": 6,
@@ -12134,7 +12758,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.28,
+    "hosei_z": 1.93
    },
    {
     "uma": 7,
@@ -12175,7 +12801,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.57,
+    "hosei_z": -0.97
    },
    {
     "uma": 8,
@@ -12211,7 +12839,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.49,
+    "hosei_z": 0.87
    },
    {
     "uma": 9,
@@ -12247,7 +12877,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.45,
+    "hosei_z": 0.36
    },
    {
     "uma": 10,
@@ -12281,7 +12913,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.59,
+    "hosei_z": -0.42
    },
    {
     "uma": 11,
@@ -12319,7 +12953,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -10.35,
+    "hosei_z": -2.19
    },
    {
     "uma": 12,
@@ -12357,7 +12993,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.09,
+    "hosei_z": -0.46
    },
    {
     "uma": 13,
@@ -12396,7 +13034,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.42,
+    "hosei_z": 2.55
    },
    {
     "uma": 14,
@@ -12435,7 +13075,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.96,
+    "hosei_z": 1.97
    }
   ]
  },
@@ -12487,7 +13129,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.16,
+    "hosei_z": -0.12
    },
    {
     "uma": 2,
@@ -12527,7 +13171,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.48,
+    "hosei_z": -0.46
    },
    {
     "uma": 3,
@@ -12569,7 +13215,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.15,
+    "hosei_z": -0.75
    },
    {
     "uma": 4,
@@ -12603,7 +13251,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.67,
+    "hosei_z": -0.3
    },
    {
     "uma": 5,
@@ -12637,7 +13287,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.65,
+    "hosei_z": 0.31
    },
    {
     "uma": 6,
@@ -12671,7 +13323,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.78,
+    "hosei_z": -0.26
    },
    {
     "uma": 7,
@@ -12705,7 +13359,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.69,
+    "hosei_z": 0.55
    },
    {
     "uma": 8,
@@ -12748,7 +13404,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.56,
+    "hosei_z": -0.33
    },
    {
     "uma": 9,
@@ -12787,7 +13445,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.72,
+    "hosei_z": -0.16
    },
    {
     "uma": 10,
@@ -12823,7 +13483,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.27,
+    "hosei_z": -0.19
    },
    {
     "uma": 11,
@@ -12859,7 +13521,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.69,
+    "hosei_z": -0.4
    },
    {
     "uma": 12,
@@ -12898,7 +13562,9 @@
     "geki_mark": 1.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.79,
+    "hosei_z": -0.22
    },
    {
     "uma": 13,
@@ -12939,7 +13605,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 4.12,
+    "hosei_z": 1.18
    },
    {
     "uma": 14,
@@ -12978,7 +13646,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.71,
+    "hosei_z": 0.36
    }
   ]
  },
@@ -13039,7 +13709,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.11,
+    "hosei_z": -0.24
    },
    {
     "uma": 2,
@@ -13073,7 +13745,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.39,
+    "hosei_z": -0.09
    },
    {
     "uma": 3,
@@ -13107,7 +13781,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.76,
+    "hosei_z": -0.36
    },
    {
     "uma": 4,
@@ -13145,7 +13821,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.57,
+    "hosei_z": -0.99
    },
    {
     "uma": 5,
@@ -13175,7 +13853,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.12,
+    "hosei_z": -0.08
    },
    {
     "uma": 6,
@@ -13213,7 +13893,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.52,
+    "hosei_z": 0.37
    },
    {
     "uma": 7,
@@ -13252,7 +13934,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 1,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 4.43,
+    "hosei_z": 1.27
    },
    {
     "uma": 8,
@@ -13294,7 +13978,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.83,
+    "hosei_z": -0.26
    },
    {
     "uma": 9,
@@ -13328,7 +14014,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.88,
+    "hosei_z": 0.66
    },
    {
     "uma": 10,
@@ -13362,7 +14050,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.09,
+    "hosei_z": 0.05
    },
    {
     "uma": 11,
@@ -13394,7 +14084,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.84,
+    "hosei_z": 0.67
    },
    {
     "uma": 12,
@@ -13430,7 +14122,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.14,
+    "hosei_z": -0.96
    },
    {
     "uma": 13,
@@ -13470,7 +14164,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 1,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 1.2,
+    "hosei_z": 0.4
    },
    {
     "uma": 14,
@@ -13509,7 +14205,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.15,
+    "hosei_z": -0.45
    }
   ]
  },
@@ -13559,7 +14257,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 1.3,
+    "hosei_z": 1.14
    },
    {
     "uma": 2,
@@ -13598,7 +14298,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": -2.68,
+    "hosei_z": -0.83
    },
    {
     "uma": 3,
@@ -13634,7 +14336,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.49,
+    "hosei_z": 1.05
    },
    {
     "uma": 4,
@@ -13677,7 +14381,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 3.5,
+    "hosei_z": 0.74
    },
    {
     "uma": 5,
@@ -13711,7 +14417,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.58,
+    "hosei_z": -1.69
    },
    {
     "uma": 6,
@@ -13753,7 +14461,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -7.4,
+    "hosei_z": -2.05
    },
    {
     "uma": 7,
@@ -13791,7 +14501,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.11,
+    "hosei_z": -0.05
    },
    {
     "uma": 8,
@@ -13825,7 +14537,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.73,
+    "hosei_z": 1.02
    },
    {
     "uma": 9,
@@ -13866,7 +14580,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.15,
+    "hosei_z": -0.45
    },
    {
     "uma": 10,
@@ -13906,7 +14622,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.02,
+    "hosei_z": 0.86
    },
    {
     "uma": 11,
@@ -13942,7 +14660,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.86,
+    "hosei_z": -0.62
    },
    {
     "uma": 12,
@@ -13976,7 +14696,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.16,
+    "hosei_z": 0.54
    },
    {
     "uma": 13,
@@ -14010,7 +14732,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.65,
+    "hosei_z": 1.18
    },
    {
     "uma": 14,
@@ -14049,7 +14773,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.73,
+    "hosei_z": -1.65
    },
    {
     "uma": 15,
@@ -14086,7 +14812,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.74,
+    "hosei_z": 2.18
    },
    {
     "uma": 16,
@@ -14121,7 +14849,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.89,
+    "hosei_z": -0.42
    }
   ]
  },
@@ -14176,7 +14906,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.47,
+    "hosei_z": -0.42
    },
    {
     "uma": 2,
@@ -14210,7 +14942,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.59,
+    "hosei_z": 1.73
    },
    {
     "uma": 3,
@@ -14250,7 +14984,9 @@
     "geki_mark": 5.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.17,
+    "hosei_z": 0.05
    },
    {
     "uma": 4,
@@ -14284,7 +15020,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.67,
+    "hosei_z": 0.93
    },
    {
     "uma": 5,
@@ -14319,7 +15057,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.01,
+    "hosei_z": -0.85
    },
    {
     "uma": 6,
@@ -14359,7 +15099,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.72,
+    "hosei_z": 0.36
    },
    {
     "uma": 7,
@@ -14393,7 +15135,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.31,
+    "hosei_z": 1.43
    },
    {
     "uma": 8,
@@ -14431,7 +15175,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.07,
+    "hosei_z": 0.24
    }
   ]
  },
@@ -14483,7 +15229,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.55,
+    "hosei_z": -1.09
    },
    {
     "uma": 2,
@@ -14522,7 +15270,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.88,
+    "hosei_z": 1.51
    },
    {
     "uma": 3,
@@ -14559,7 +15309,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.43,
+    "hosei_z": 0.14
    },
    {
     "uma": 4,
@@ -14595,7 +15347,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.22,
+    "hosei_z": -0.55
    },
    {
     "uma": 5,
@@ -14629,7 +15383,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.25,
+    "hosei_z": -0.15
    },
    {
     "uma": 6,
@@ -14670,7 +15426,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.78,
+    "hosei_z": -0.16
    },
    {
     "uma": 7,
@@ -14710,7 +15468,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.56,
+    "hosei_z": 1.24
    },
    {
     "uma": 8,
@@ -14746,7 +15506,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.44,
+    "hosei_z": -0.21
    },
    {
     "uma": 9,
@@ -14789,7 +15551,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -6.39,
+    "hosei_z": -1.41
    },
    {
     "uma": 10,
@@ -14828,7 +15592,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.05,
+    "hosei_z": -0.3
    },
    {
     "uma": 11,
@@ -14868,7 +15634,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.57,
+    "hosei_z": 0.33
    },
    {
     "uma": 12,
@@ -14910,7 +15678,9 @@
     "geki_mark": 5.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.98,
+    "hosei_z": 1.1
    }
   ]
  },
@@ -14965,7 +15735,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.89,
+    "hosei_z": 0.63
    },
    {
     "uma": 2,
@@ -15001,7 +15773,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.01,
+    "hosei_z": 1.18
    },
    {
     "uma": 3,
@@ -15039,7 +15813,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.93,
+    "hosei_z": 0.41
    },
    {
     "uma": 4,
@@ -15076,7 +15852,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.3,
+    "hosei_z": 1.55
    },
    {
     "uma": 5,
@@ -15110,7 +15888,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.51,
+    "hosei_z": -1.0
    },
    {
     "uma": 6,
@@ -15151,7 +15931,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.66,
+    "hosei_z": -0.56
    },
    {
     "uma": 7,
@@ -15188,7 +15970,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": 0.98,
+    "hosei_z": 0.32
    },
    {
     "uma": 8,
@@ -15226,7 +16010,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.14,
+    "hosei_z": 0.04
    },
    {
     "uma": 9,
@@ -15260,7 +16046,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.01,
+    "hosei_z": -0.0
    },
    {
     "uma": 10,
@@ -15298,7 +16086,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.18,
+    "hosei_z": 1.44
    },
    {
     "uma": 11,
@@ -15336,7 +16126,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.88,
+    "hosei_z": -0.86
    },
    {
     "uma": 12,
@@ -15375,7 +16167,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.33,
+    "hosei_z": 0.12
    }
   ]
  },
@@ -15427,7 +16221,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.67,
+    "hosei_z": 0.53
    },
    {
     "uma": 2,
@@ -15463,7 +16259,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.91,
+    "hosei_z": -0.9
    },
    {
     "uma": 3,
@@ -15500,7 +16298,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.9,
+    "hosei_z": -0.86
    },
    {
     "uma": 4,
@@ -15534,7 +16334,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.36,
+    "hosei_z": 0.21
    },
    {
     "uma": 5,
@@ -15576,7 +16378,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.76,
+    "hosei_z": 1.05
    },
    {
     "uma": 6,
@@ -15617,7 +16421,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.01,
+    "hosei_z": -0.0
    },
    {
     "uma": 7,
@@ -15653,7 +16459,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.9,
+    "hosei_z": -1.11
    },
    {
     "uma": 8,
@@ -15690,7 +16498,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.65,
+    "hosei_z": -0.46
    },
    {
     "uma": 9,
@@ -15724,7 +16534,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.87,
+    "hosei_z": -1.0
    },
    {
     "uma": 10,
@@ -15765,7 +16577,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -3.01,
+    "hosei_z": -1.0
    },
    {
     "uma": 11,
@@ -15801,7 +16615,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.23,
+    "hosei_z": -1.31
    },
    {
     "uma": 12,
@@ -15844,7 +16660,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.02,
+    "hosei_z": 0.43
    },
    {
     "uma": 13,
@@ -15878,7 +16696,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.76,
+    "hosei_z": 0.55
    },
    {
     "uma": 14,
@@ -15917,7 +16737,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 7.8,
+    "hosei_z": 1.65
    }
   ]
  },
@@ -15976,7 +16798,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 8.93,
+    "hosei_z": 2.55
    },
    {
     "uma": 2,
@@ -16010,7 +16834,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.96,
+    "hosei_z": -0.45
    },
    {
     "uma": 3,
@@ -16046,7 +16872,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 1,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.83,
+    "hosei_z": -0.94
    },
    {
     "uma": 4,
@@ -16086,7 +16914,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.46,
+    "hosei_z": -0.1
    },
    {
     "uma": 5,
@@ -16125,7 +16955,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.63,
+    "hosei_z": 0.57
    },
    {
     "uma": 6,
@@ -16159,7 +16991,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.32,
+    "hosei_z": -0.23
    },
    {
     "uma": 7,
@@ -16193,7 +17027,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.36,
+    "hosei_z": -1.34
    },
    {
     "uma": 8,
@@ -16231,7 +17067,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -1.59,
+    "hosei_z": -0.34
    },
    {
     "uma": 9,
@@ -16273,7 +17111,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 6.45,
+    "hosei_z": 1.42
    },
    {
     "uma": 10,
@@ -16316,7 +17156,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 1,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": -0.69,
+    "hosei_z": -0.19
    },
    {
     "uma": 11,
@@ -16352,7 +17194,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.63,
+    "hosei_z": -0.28
    }
   ]
  },
@@ -16410,7 +17254,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.71,
+    "hosei_z": 1.91
    },
    {
     "uma": 2,
@@ -16448,7 +17294,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.45,
+    "hosei_z": -0.16
    },
    {
     "uma": 3,
@@ -16484,7 +17332,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 5.66,
+    "hosei_z": 2.55
    },
    {
     "uma": 4,
@@ -16525,7 +17375,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.59,
+    "hosei_z": 0.49
    },
    {
     "uma": 5,
@@ -16563,7 +17415,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.53,
+    "hosei_z": 1.19
    },
    {
     "uma": 6,
@@ -16597,7 +17451,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.04,
+    "hosei_z": 0.03
    },
    {
     "uma": 7,
@@ -16638,7 +17494,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -11.06,
+    "hosei_z": -2.34
    },
    {
     "uma": 8,
@@ -16674,7 +17532,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.48,
+    "hosei_z": -0.51
    },
    {
     "uma": 9,
@@ -16713,7 +17573,9 @@
     "geki_mark": 4.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.03,
+    "hosei_z": -0.58
    },
    {
     "uma": 10,
@@ -16752,7 +17614,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.71,
+    "hosei_z": 1.23
    },
    {
     "uma": 11,
@@ -16789,7 +17653,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.27,
+    "hosei_z": 1.92
    },
    {
     "uma": 12,
@@ -16829,7 +17695,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.18,
+    "hosei_z": -1.16
    },
    {
     "uma": 13,
@@ -16863,7 +17731,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.04,
+    "hosei_z": 1.46
    },
    {
     "uma": 14,
@@ -16899,7 +17769,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.46,
+    "hosei_z": 0.4
    },
    {
     "uma": 15,
@@ -16938,7 +17810,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.45,
+    "hosei_z": -1.2
    },
    {
     "uma": 16,
@@ -16979,7 +17853,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -4.16,
+    "hosei_z": -0.88
    }
   ]
  },
@@ -17036,7 +17912,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.95,
+    "hosei_z": 0.45
    },
    {
     "uma": 2,
@@ -17074,7 +17952,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.77,
+    "hosei_z": 1.62
    },
    {
     "uma": 3,
@@ -17109,7 +17989,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.31,
+    "hosei_z": 1.5
    },
    {
     "uma": 4,
@@ -17146,7 +18028,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｃ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.15,
+    "hosei_z": -0.04
    },
    {
     "uma": 5,
@@ -17180,7 +18064,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.59,
+    "hosei_z": 0.8
    },
    {
     "uma": 6,
@@ -17220,7 +18106,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.11,
+    "hosei_z": 1.03
    },
    {
     "uma": 7,
@@ -17256,7 +18144,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.01,
+    "hosei_z": -0.01
    },
    {
     "uma": 8,
@@ -17293,7 +18183,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.65,
+    "hosei_z": 2.61
    },
    {
     "uma": 9,
@@ -17334,7 +18226,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -7.7,
+    "hosei_z": -2.13
    },
    {
     "uma": 10,
@@ -17375,7 +18269,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -8.65,
+    "hosei_z": -1.83
    },
    {
     "uma": 11,
@@ -17409,7 +18305,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.1,
+    "hosei_z": 0.04
    },
    {
     "uma": 12,
@@ -17445,7 +18343,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.89,
+    "hosei_z": 1.33
    },
    {
     "uma": 13,
@@ -17488,7 +18388,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.87,
+    "hosei_z": -0.61
    },
    {
     "uma": 14,
@@ -17525,7 +18427,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.1,
+    "hosei_z": -0.46
    }
   ]
  },
@@ -17587,7 +18491,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.16,
+    "hosei_z": -0.46
    },
    {
     "uma": 2,
@@ -17617,7 +18523,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.42,
+    "hosei_z": -0.25
    },
    {
     "uma": 3,
@@ -17651,7 +18559,9 @@
     "geki_mark": 2.0,
     "myoumi": "Ａ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 4.09,
+    "hosei_z": 1.35
    },
    {
     "uma": 4,
@@ -17695,7 +18605,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.3,
+    "hosei_z": -0.08
    },
    {
     "uma": 5,
@@ -17733,7 +18645,9 @@
     "geki_mark": 0.0,
     "myoumi": "ＡＡ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 3.27,
+    "hosei_z": 1.01
    },
    {
     "uma": 6,
@@ -17766,7 +18680,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -2.22,
+    "hosei_z": -1.05
    },
    {
     "uma": 7,
@@ -17796,7 +18712,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.48,
+    "hosei_z": -0.34
    },
    {
     "uma": 8,
@@ -17828,7 +18746,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.82,
+    "hosei_z": -0.58
    },
    {
     "uma": 9,
@@ -17865,7 +18785,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 1
+    "UL": 1,
+    "hosei_resid": -1.06,
+    "hosei_z": -0.84
    },
    {
     "uma": 10,
@@ -17907,7 +18829,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｓ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -5.92,
+    "hosei_z": -1.25
    },
    {
     "uma": 11,
@@ -17941,7 +18865,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 2.67,
+    "hosei_z": 0.93
    },
    {
     "uma": 12,
@@ -17978,7 +18904,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 0.18,
+    "hosei_z": 0.08
    },
    {
     "uma": 13,
@@ -18020,7 +18948,9 @@
     "geki_mark": 3.0,
     "myoumi": "Ｄ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": 1.09,
+    "hosei_z": 0.24
    },
    {
     "uma": 14,
@@ -18057,7 +18987,9 @@
     "geki_mark": 0.0,
     "myoumi": "Ｂ",
     "MB": 0,
-    "UL": 0
+    "UL": 0,
+    "hosei_resid": -0.03,
+    "hosei_z": -0.01
    }
   ]
  }
