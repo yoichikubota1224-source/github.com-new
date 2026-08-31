@@ -191,3 +191,24 @@ json.dump({'version': VERSION, 'generated_for': '次走監視',
            'horses': allout},
           open(OUT, 'w'), ensure_ascii=False, indent=1)
 print(f'\n  → {OUT}')
+
+# ─────────────────────────────────────────────────────────────
+# v1.3 提案(第11報)。⚠ 未承認のため既定では動きません。
+#   JISOU_V13=1 を指定したときだけ、抽出結果へ v1.3 の判定を併記します。
+#   根拠: 8月865ペアの検証(第11報§3)
+#     前走3着以内 z=4.20 / 上がり最速 z=2.64  → 中核
+#     上がり2〜3位 z=1.77(中2週限定なら2.88) → 中2週のみ
+#     勝ち馬から0.3秒以内 z=0.13             → 情報価値なし
+def v13_core(rec):
+    """v1.3の中核候補か。⚠ 判定のみ。印・軸・買い目は一切生成しない。"""
+    return rec['tier'] == '確定枠' or any('上がり最速' in s for s in rec['signals'])
+
+def v13_expiry_days():
+    """監視リストの寿命(日)。中3週で効果が消えるため22日目に失効。第11報§2。"""
+    return 21
+
+if os.environ.get('JISOU_V13'):
+    n = sum(1 for x in allout if v13_core(x))
+    print(f'\n■ v1.3(提案・未承認): 中核候補 {n}/{len(allout)}頭 '
+          f'({n/len(allout)*100:.0f}%) / 監視寿命 {v13_expiry_days()}日')
+    print('  ⚠ CANONICAL_RULE_CHANGE=NOT_EXECUTED — 抽出本体はv1.2のままです')
