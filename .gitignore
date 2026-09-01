@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# Caniの原本スナップショットは本リポジトリへ置かない（公開リポジトリのため）
+scripts/cani_snapshot/*.xlsx
+scripts/cani_snapshot/_manifest.tsv
+**/allnews*.xlsx
