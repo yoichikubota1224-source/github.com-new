@@ -12,5 +12,7 @@ with open(dest, 'w', encoding='utf-8-sig', newline='') as f:
     w = csv.DictWriter(f, fieldnames=cols, extrasaction='ignore', lineterminator='\n')
     w.writeheader()
     for h in J['hits']:
-        w.writerow({c: ('' if h.get(c) is None else h.get(c)) for c in cols})
+        row = {c: ('' if h.get(c) is None else h.get(c)) for c in cols}
+        row['signals'] = '・'.join(h.get('signals') or [])   # v1.3のCSVと同じ「・」区切り
+        w.writerow(row)
 print(J['version'], len(J['hits']), '頭 →', dest, os.path.getsize(dest), 'bytes')
