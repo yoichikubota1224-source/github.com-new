@@ -6,8 +6,10 @@
 ⚠ 取消馬(札幌8R②リテラシー)は出走頭数から除き、候補からも外す。ただし[不足]でなく[実:取消]と記録する。
 """
 import json, math, os, collections
-D = os.path.dirname(os.path.abspath(__file__))
-P = json.load(open(os.path.join(D,'pack.json')))
+D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'predictions', '20260905')
+# pack.json = 6CSVをそのまま辞書化したもの。原本(6CSV)はリポジトリに置かないため作業領域から読む。
+PACK = os.environ.get('PACK905', '/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack.json')
+P = json.load(open(PACK))
 S = json.load(open(os.path.join(D,'shutuba_20260905.json')))
 H = json.load(open(os.path.join(D,'hits_20260905.json')))
 J = json.load(open(os.path.join(D,'jisou905.json')))
@@ -78,6 +80,20 @@ for rid, r in sh.items():
             SAV=num(st.get('SAV')), total=num(st.get('合計値')), total_rank=num(st.get('合計値順位')),
             tenkai=num(st.get('展開順位')), sinrai=str(st.get('信頼度','')).strip() or None,
             myoumi=str(st.get('妙味度','')).strip() or None,
+            # --- v2 追加: 第4報の14係再確認で「正本にあるのに統合JSONへ取り込んでいない」と指摘された列 ---
+            st_idx=num(st.get('ST指数')), shiage=num(st.get('仕上指数')),
+            lap_tekisei=str(st.get('ラップ適性','')).strip() or None, lap_chara=str(st.get('ラップキャラ','')).strip() or None,
+            deokure=num(st.get('出遅率')), senko=num(st.get('先行力')), tsuiso=num(st.get('追走力')),
+            jikyu=num(st.get('持久力')), jizoku=num(st.get('持続力')), shunpatsu=num(st.get('瞬発力')),
+            zen3f_rank=num(st.get('前3F順位')), zen3f_diff=num(st.get('前3F差')), zen3f_pos=str(st.get('前3F内外','')).strip() or None,
+            shobu_rank=num(st.get('勝負所順位')), shobu_diff=num(st.get('勝負所差')), shobu_pos=str(st.get('勝負所内外','')).strip() or None,
+            gmae_rank=num(st.get('G前順位')), gmae_diff=num(st.get('G前差')), gmae_pos=str(st.get('G前内外','')).strip() or None,
+            jk_type=str(st.get('騎手タイプ','')).strip() or None, jk_idx=num(st.get('騎手指数')),
+            time_3=num(tm.get('3走')), time_2=num(tm.get('2走')), time_1=num(tm.get('前走')),
+            geki_mark=str(um.get('激印','')).strip() or None,
+            geki_f=[x for x in (str(um.get(f'激走要因{i}','')).strip() for i in (1,2,3)) if x],
+            haran=num(um.get('波乱度')), fav_sinrai=num(um.get('1番人気信頼度')), fav_myoumi=num(um.get('1番人気妙味度')),
+            weight=num(um.get('馬体重')), weight_diff=str(um.get('増減','')).strip() or None,
             MB=mbh.get((r['ba'],r['r'],h['uma']),[]), UL=ulh.get((r['ba'],r['r'],h['uma']),[]),
             JISOU=jis.get((r['ba'],r['r'],h['uma'])),
         ))
@@ -91,7 +107,10 @@ for rid, r in sh.items():
     o1=min([h['kijun_tan'] for h in live if h['kijun_tan'] is not None], default=None)
     races.append(dict(race_id=rid, ba=r['ba'], r=r['r'], title=r['title'], meta=r['meta'],
                       td=r['td'], dist=r['dist'], uchisoto=('外' if '外' in r['meta'] else '内'),
-                      n_entry=len(horses), n_live=n, o1=o1, v21=are_v21(o1,n), horses=horses))
+                      n_entry=len(horses), n_live=n, o1=o1, v21=are_v21(o1,n),
+                      # v21の学習域は頭数8〜18。域外(N<8)は _cell が末尾セル(N15〜18)を流用するため値を序列に使わない＝[要確認]
+                      v21_domain=('域内' if 8 <= n <= 18 else f'域外(N={n}: 末尾セルを流用)'),
+                      horses=horses))
 races.sort(key=lambda x:(x['ba'],x['r']))
 json.dump(races, open(os.path.join(D,'toukei_20260905.json'),'w'), ensure_ascii=False, indent=1)
 

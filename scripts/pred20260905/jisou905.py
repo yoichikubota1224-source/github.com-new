@@ -12,7 +12,7 @@
 """
 import json, re, os, sys, collections
 
-D = os.path.dirname(os.path.abspath(__file__))
+D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'predictions', '20260905')
 K = '/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/k5/full'
 sys.path.insert(0, D)
 from jisou import diff_sec, band, score, first_pass
@@ -29,8 +29,10 @@ def eval_past(p, race):
     if race is None: return None
     fin = [h for h in race['horses'] if h.get('chaku')]
     if not fin: return None
-    vals = sorted({h['last3f'] for h in fin if h.get('last3f') is not None})
-    rk = {v: i + 1 for i, v in enumerate(vals)}
+    # v1.4: 上がり順位はJRA/netkeibaの慣例（同値は同順位、次の順位は飛ばす＝競走順位）で付ける。
+    #       v1.3までは同値を詰める順位(dense rank)で付けており、「3位以内」が実態より甘く出ていた。
+    allv = [h['last3f'] for h in fin if h.get('last3f') is not None]
+    rk = {v: 1 + sum(1 for x in allv if x < v) for v in set(allv)}
     fin = sorted(fin, key=lambda h: h['chaku'])
     cum = {}; acc = 0.0; ok = True
     for h in fin:
@@ -53,11 +55,14 @@ def eval_past(p, race):
 
 def main():
     S = json.load(open(os.path.join(D, 'shutuba_20260905.json')))
+    T = json.load(open(os.path.join(D, 'toukei_20260905.json')))
+    SCR = {(rc['ba'], rc['r'], h['uma']) for rc in T for h in rc['horses'] if h.get('scratched')}
     idx = load_index()
     out, nomatch, nopast = [], [], 0
     for r in S:
         if r['jump']: continue
         for h in r['horses']:
+            if (r['ba'], r['r'], h['uma']) in SCR: continue   # v1.4: 取消馬(札幌8R②リテラシー)は機械可読の正本からも外す
             if not h['past']: nopast += 1; continue
             p = h['past'][0]
             race = idx.get(p.get('race_id'))
@@ -122,7 +127,7 @@ def main():
     if nomatch:
         print(f"\n■ [不足] 前走を照合できなかった {len(nomatch)}頭")
         for m in nomatch: print('   ', m)
-    json.dump({'version':'jisou_v1.3_20260905','hits':out,'unmatched':nomatch,'no_past':nopast},
+    json.dump({'version':'jisou_v1.4_20260905','hits':out,'unmatched':nomatch,'no_past':nopast},
               open(os.path.join(D,'jisou905.json'),'w'), ensure_ascii=False, indent=1)
 
 main()

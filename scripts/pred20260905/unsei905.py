@@ -20,18 +20,33 @@ TMAP = os.path.join(SP, 'trainer_seijin.tsv')
 grp = {}          # 星人グループ -> (9/5記号, 9/5運気)
 jockey_grp = {}   # 騎手名(表記ゆれ含む) -> 星人グループ
 jockey_note = {}
+def split_d(text):
+    """D列を騎手ごとに分ける。区切りは「、」「，」「　」「 」だが、括弧（ ）の内側の「、」では切らない。"""
+    out, buf, depth = [], '', 0
+    for ch in text:
+        if ch in '（(': depth += 1
+        elif ch in '）)': depth = max(0, depth - 1)
+        if depth == 0 and ch in '、,　 ':
+            if buf.strip(): out.append(buf.strip())
+            buf = ''
+        else:
+            buf += ch
+    if buf.strip(): out.append(buf.strip())
+    return out
+
+def norm(s):
+    """全角英字→半角、長音・空白の揺れを吸収（Ｍデム / Mデムーロ など）"""
+    return ''.join(chr(ord(c) - 0xFEE0) if 0xFF21 <= ord(c) <= 0xFF5A else c for c in s).replace('ﾃﾞ', 'デ')
+
 for r in csv.DictReader(open(UNSEI, encoding='utf-8-sig')):
     g = r['星人グループ'].strip()
     grp[g] = (r['9/5記号'].strip(), r['9/5運気'].strip())
-    for tok in re.split(r'[、,]', r.get('D列原文(騎手名・ROI注記)', '')):
-        tok = tok.strip().strip('　')
-        if not tok:
-            continue
+    for tok in split_d(r.get('D列原文(騎手名・ROI注記)', '')):
         nm = re.sub(r'^\d+', '', tok)              # 先頭のROI数値を落とす
         nm = re.sub(r'[（(].*$', '', nm).strip()    # 括弧内の注記を落とす
         if nm:
-            jockey_grp[nm] = g
-            jockey_note[nm] = tok
+            jockey_grp[norm(nm)] = g
+            jockey_note[norm(nm)] = tok             # 注記は括弧の内側も含めて丸ごと保持する
 print(f'[実] 星人グループ {len(grp)}件 / 運勢CSVから拾えた騎手名 {len(jockey_grp)}件')
 
 tmap = {}
@@ -46,17 +61,31 @@ else:
 
 def lookup(name, table):
     """netkeibaの略記(2〜3字)と正本の氏名(4字)を、前方一致でだけ結ぶ。
-    候補が2件以上あれば[要確認]として結ばない(静かに潰さない)。"""
+    候補が2件以上あれば[要確認]として結ばない(静かに潰さない)。返り値は(値, 結合方法, 当たったキー)。"""
     if not name:
-        return None, '[不足]_名前が無い'
-    if name in table:
-        return table[name], '完全一致'
-    cand = [k for k in table if k.startswith(name)]
+        return None, '[不足]_名前が無い', None
+    q = norm(name)
+    if q in table:
+        return table[q], '完全一致', q
+    cand = [k for k in table if k.startswith(q)]
     if len(cand) == 1:
-        return table[cand[0]], f'前方一致({cand[0]})'
+        return table[cand[0]], f'前方一致({cand[0]})', cand[0]
     if len(cand) > 1:
-        return None, '[要確認]_前方一致が' + str(len(cand)) + '件'
-    return None, '[不足]_対応表に無い'
+        return None, '[要確認]_前方一致が' + str(len(cand)) + '件', None
+    # 逆方向: 対応表側が短い（例: 表「戸崎」← 出馬表「戸崎圭」）。一意なときだけ結ぶ
+    cand = [k for k in table if len(k) >= 2 and q.startswith(k)]
+    if len(cand) == 1:
+        return table[cand[0]], f'逆前方一致({cand[0]})', cand[0]
+    if len(cand) > 1:
+        return None, '[要確認]_逆前方一致が' + str(len(cand)) + '件', None
+    # netkeiba略記「姓2字＋名の末尾1字」（例: 石神道 ← 石神深道）。一意なときだけ結ぶ
+    if len(q) == 3:
+        cand = [k for k in table if len(k) >= 4 and k.startswith(q[:2]) and k.endswith(q[2])]
+        if len(cand) == 1:
+            return table[cand[0]], f'略記一致({cand[0]})', cand[0]
+        if len(cand) > 1:
+            return None, '[要確認]_略記一致が' + str(len(cand)) + '件', None
+    return None, '[不足]_対応表に無い', None
 
 races = json.load(open(os.path.join(REPO, 'predictions', '20260905', 'toukei_20260905.json')))
 out = {}
@@ -64,8 +93,8 @@ st = collections.Counter()
 for rc in races:
     for h in rc['horses']:
         key = f"{rc['ba']}|{rc['r']}|{h['uma']}"
-        jg, jhow = lookup(h.get('jockey'), jockey_grp)
-        tg, thow = lookup(h.get('trainer'), tmap)
+        jg, jhow, jkey = lookup(h.get('jockey'), jockey_grp)
+        tg, thow, _ = lookup(h.get('trainer'), tmap)
         jm = grp.get(jg) if jg else None
         tm = grp.get(tg) if tg else None
         st['騎手_結合' if jm else '騎手_' + jhow.split('_')[0]] += 1
@@ -74,7 +103,7 @@ for rc in races:
             name=h['name'], jockey=h.get('jockey'), trainer=h.get('trainer'),
             jockey_group=jg, jockey_join=jhow,
             jockey_mark=jm[0] if jm else None, jockey_unki=jm[1] if jm else None,
-            jockey_note=jockey_note.get(h.get('jockey')) if jg else None,
+            jockey_note=jockey_note.get(jkey) if jkey else None,
             trainer_group=tg, trainer_join=thow,
             trainer_mark=tm[0] if tm else None, trainer_unki=tm[1] if tm else None,
         )
@@ -89,7 +118,7 @@ print('[実] 調教師運勢記号の分布:', dict(tm))
 print('⚠ ×は「押し上げが無い」の意味であり、消し根拠・減点材料ではない')
 
 dest = os.path.join(REPO, 'predictions', '20260905', 'unsei_20260905.json')
-json.dump(dict(version='unsei905_v1', raceday='20260905',
-               note='運勢×は消し根拠にしない。調教師の生年月日は保持していない。',
+json.dump(dict(version='unsei905_v2', raceday='20260905',
+               note='運勢×は消し根拠にしない。騎手=運勢_20260905-06_結合用.csv(星人グループ×9/5記号)。調教師=Obsidian正本 調教師運勢_lookup_20260704_星人変換済み.csv の星人グループのみ(生年月日は保持していない)。',
                horses=out), open(dest, 'w'), ensure_ascii=False, indent=1)
 print(f'\n書き出し: {dest}')

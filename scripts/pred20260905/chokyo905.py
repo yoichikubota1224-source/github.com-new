@@ -159,6 +159,10 @@ for e in entries:
         continue
     got.sort(key=lambda x: (x['date'], x['kind']))
     last = got[-1]
+    # 第2報(20260823)§1の定義「最終追切＝競走日の2日前(D-2)以前で最新」に合わせた版。
+    # D-1(9/4)の追切は軽め調整であることが多く、lastと別に持つ（どちらも消さない）。
+    d2 = [x for x in got if x['date'] <= '20260903']
+    last_d2 = d2[-1] if d2 else None
     hz = [x['z1f'] for x in got if x['z1f'] is not None]
     c2s = [x['c2'] for x in got if x['c2']]            # 坂路のみ（ウッドはNone）
     han = [x for x in got if x['kind'] == '坂路']
@@ -170,6 +174,8 @@ for e in entries:
         last=dict(date=last['date'], kind=last['kind'], place=last['place'], course=last['course'],
                   f4=last['f4'], f3=last['f3'], f2=last['f2'], f1=last['f1'],
                   laps=last['laps'], z1f=last['z1f'], c2=last['c2']),
+        last_d2=(dict(date=last_d2['date'], kind=last_d2['kind'], place=last_d2['place'], course=last_d2['course'],
+                      f4=last_d2['f4'], f1=last_d2['f1'], z1f=last_d2['z1f'], c2=last_d2['c2']) if last_d2 else None),
         best_z1f=min(hz) if hz else None,
         best_c2=(sorted(c2s, key=lambda g: ['A3', 'A2', 'A1', 'B'].index(g))[0] if c2s else None),
         c2_source=('坂路' if c2s else '[不足]_坂路の追切なし'),
@@ -191,7 +197,7 @@ if zz:
     print(f'[実] best_z1f: n={len(zz)} 中央値{st.median(zz):+.2f} 範囲[{min(zz):+.2f},{max(zz):+.2f}]（負=その日その場で速い）')
 
 dest = os.path.join(REPO, 'predictions', RACEDAY, f'chokyo_{RACEDAY}.json')
-json.dump(dict(version='chokyo905_v1', raceday=RACEDAY, window=[SINCE, UNTIL],
+json.dump(dict(version='chokyo905_v2', c2_order='A3>A2>A1>B（A3=終い1F11秒台+加速 / A2=終い2Fとも12秒台+加速 / A1=終い1Fのみ12秒台+加速 / B=減速）。best_c2はこの順で最良、坂路のみ', last_rule='last=期間内で最新(D-1含む) / last_d2=D-2(9/3)以前で最新', coverage_note='調教CSVは美浦・栗東の追切のみ。札幌滞在馬は収録範囲外＝[不足]は「追切が無い」ではなく「収録されていない」', raceday=RACEDAY, window=[SINCE, UNTIL],
                n_entries=len(entries), n_joined=joined, horses=out),
           open(dest, 'w'), ensure_ascii=False, indent=1)
 print(f'\n書き出し: {dest}')
