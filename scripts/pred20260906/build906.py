@@ -136,6 +136,11 @@ for rc in S:
             hizume=str(st.get('蹄','')).strip() or None, omo_tekisei=str(st.get('重適性','')).strip() or None,
             tokki=[x for x in (str(st.get(f'特記{i}','')).strip() for i in (1,2,3)) if x],
             sire_n=num(st.get('血統総数')), sire_win=num(st.get('血統勝率')), sire_ren=num(st.get('血統連対率')), sire_fuku=num(st.get('血統複勝率')),
+            # --- v1.1: 9/6から新聞CSVに追加された末尾8列（Codex 06記録）。14係の再確認後に追加取込。穴帯照合には未使用 ---
+            crs_kyusha_n=num(st.get('コース厩舎総数')), crs_kyusha_win=num(st.get('コース厩舎勝率')),
+            crs_kyusha_ren=num(st.get('コース厩舎連対率')), crs_kyusha_fuku=num(st.get('コース厩舎複勝率')),
+            chokyoP_kyusha_n=num(st.get('調教P厩舎総数')), chokyoP_kyusha_win=num(st.get('調教P厩舎勝率')),
+            chokyoP_kyusha_ren=num(st.get('調教P厩舎連対率')), chokyoP_kyusha_fuku=num(st.get('調教P厩舎複勝率')),
             time_3=num(tm.get('3走')), time_2=num(tm.get('2走')), time_1=num(tm.get('前走')),
             geki_mark=str(um.get('激印','')).strip() or None,
             geki_f=[x for x in (str(um.get(f'激走要因{i}','')).strip() for i in (1,2,3)) if x],
@@ -182,7 +187,7 @@ for rc in S:
                       v21_flag_inputs='[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）',
                       horses=horses))
 races.sort(key=lambda x:(x['ba'],x['r']))
-out = dict(version='toukei906_v1', raceday='20260906', def_version=DEF_VERSION,
+out = dict(version='toukei906_v1.1', raceday='20260906', def_version=DEF_VERSION,
            source='6CSV(SHA256SUMS_20260906と6/6一致)＋shutuba_20260906.json(DE260906正本由来)＋hits_20260906.json＋jisou906.json',
            races=races)
 json.dump(out, open(os.path.join(D,'toukei_20260906.json'),'w'), ensure_ascii=False, indent=1)
