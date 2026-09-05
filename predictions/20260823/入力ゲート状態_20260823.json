@@ -1,0 +1,77 @@
+{
+ "date": "2026-08-23",
+ "races_total": 35,
+ "races_selected": 13,
+ "horses": 458,
+ "scope_note": "全レース予想は不要との指示により、荒れるレース・穴馬がいるレースのみを機械選定して対象とした",
+ "selection_rule": "(荒れ度>=6.0 かつ 穴馬>=9.0) / 荒れ度>=9.0 / 穴馬>=15.0 / EP黄金律該当 のいずれか",
+ "sha256_gate": "PASS (5指数すべて取得マニフェスト一致・不一致0)",
+ "source_data_mutation": "NO",
+ "restore_method": "エージェント生トランスクリプトからMCP Drive結果(base64)を直接抽出(モデル出力中継なし)。fileIdで識別し異本衝突0件",
+ "de_mismatch": 0,
+ "jockey_change": 0,
+ "unsei_matched": 418,
+ "chokyo_matched": 296,
+ "unsei_missing_jockeys": [
+  "コレット",
+  "ナレドゥ",
+  "フーリー",
+  "ヘルナン",
+  "ロイド",
+  "伊藤工真",
+  "木幡初也",
+  "木幡育也",
+  "菅原隆一"
+ ],
+ "time_index_missing": [
+  "新潟2R",
+  "新潟3R",
+  "中京2R",
+  "中京3R",
+  "札幌5R"
+ ],
+ "chokyo_window": "坂路/ウッド 8.15-8.21 + 8.22 の2ファイルを統合",
+ "known_insufficient": {
+  "ウルトラMB照合台帳": "[不足](未登録・識別力ゼロ)",
+  "細分化ROI×卍": "[不足]HOLD",
+  "JockeyROI DB": "[不足]",
+  "ROI AZ:BA/CB/CJ/DA": "[不足]HOLD",
+  "馬体重・増減(umatoku bataiju/zogen)": "[不足](当日発表・前日取得時点で未公表)",
+  "8/22結果データ": "[不足](Drive未登録・netkeibaはJSレンダリングでWebFetch不可。Playwrightで取得試行中)"
+ },
+ "odds_basis": "前日8/22取得基準(当日オッズではない)",
+ "race_gate_status": "BLOCKED",
+ "purchase_status": "PROHIBITED",
+ "final_mark_confirmation": "NOT_AUTHORIZED",
+ "purchase_confirmation": "NOT_AUTHORIZED",
+ "unsei_note": "8/23の運勢配置は8/22と異なる。◎◎=金星＋/水星－、×=火星＋/火星霊＋/天王星－/天王星＋/天王星霊－/天王星霊＋",
+ "selected_races": [
+  "中京6R(P4/荒7.0/穴14.0/荒れ×穴)",
+  "中京8R(P4/荒5.0/穴15.0/穴強)",
+  "新潟2R(P2/荒9.0/穴10.0/荒れ×穴,荒れ強)",
+  "新潟4R(P1/荒9.3/穴9.0/荒れ×穴,荒れ強)",
+  "新潟5R(P3/荒4.3/穴13.0/黄金律)",
+  "新潟6R(P3/荒7.5/穴16.0/荒れ×穴,穴強)",
+  "新潟9R(P4/荒7.5/穴20.5/荒れ×穴,穴強)",
+  "札幌4R(P2/荒6.0/穴18.0/荒れ×穴,穴強)",
+  "札幌6R(P4/荒6.3/穴10.5/荒れ×穴)",
+  "札幌7R(P2/荒9.0/穴4.5/荒れ強)",
+  "札幌10R(P4/荒6.3/穴12.0/荒れ×穴)",
+  "札幌11R(P3/荒4.3/穴18.5/穴強)",
+  "札幌12R(P1/荒9.5/穴7.5/荒れ強)"
+ ],
+ "watchlist_hits": [
+  {
+   "name": "ステイアンビシャス",
+   "race": "札幌7R",
+   "umaban": 9,
+   "pop": 5
+  },
+  {
+   "name": "マクアケ",
+   "race": "中京12R",
+   "umaban": 14,
+   "pop": 4
+  }
+ ]
+}

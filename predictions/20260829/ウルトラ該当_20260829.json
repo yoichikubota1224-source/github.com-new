@@ -1,0 +1,787 @@
+[
+ {
+  "race": {
+   "ba": "中京",
+   "r": 1,
+   "cls": "未勝利*",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 11,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 3,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 2,
+   "cls": "未勝利*",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 12,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 4,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 3,
+   "cls": "新馬・牝",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 12,
+   "shinba": true,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 4,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 2200,
+   "atama": 16,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 0,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 5,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 13,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 3,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 6,
+   "cls": "清洲特別･2勝",
+   "td": "ダ",
+   "dist": 1200,
+   "atama": 13,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "no": "084",
+    "course": "中京ダ1200m",
+    "uma": 5,
+    "waku": 4,
+    "name": "ルクスレイモンド",
+    "jockey": "坂井瑠星",
+    "sire": "ヘニーヒューズ",
+    "c1": "坂井瑠星騎手",
+    "c2": "前走8着以内＋中5週以内",
+    "p3": "83.3",
+    "tan": "113",
+    "fuku": "165",
+    "ken": "複勝",
+    "chaku": "8-7-5-4/24",
+    "base_tag": "[実]",
+    "base_note": "鞍上:坂井瑠星",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "前走8着以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走8着以内=DEに前走情報なし"
+     },
+     {
+      "text": "中5週以内",
+      "ok": null,
+      "tag": "[要確認]",
+      "note": "中5週以内"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 7,
+   "cls": "長篠Ｓ･3勝",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 15,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 8,
+   "cls": "桑名特別･2勝",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 14,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 9,
+   "cls": "１勝ｸﾗｽ・牝",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 9,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 4,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 10,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1400,
+   "atama": 16,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 11,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 1600,
+   "atama": 13,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 3,
+  "hits": [
+   {
+    "no": "080",
+    "course": "中京芝1600m",
+    "uma": 2,
+    "waku": 2,
+    "name": "エンベッカ",
+    "jockey": "西村淳也",
+    "sire": "サトノダイヤモンド",
+    "c1": "西村淳也騎手",
+    "c2": "1～10番＋関西馬",
+    "p3": "52.5",
+    "tan": "157",
+    "fuku": "151",
+    "ken": "単勝可",
+    "chaku": "11-6-4-19/40",
+    "base_tag": "[実]",
+    "base_note": "鞍上:西村淳也",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "1～10番",
+      "ok": true,
+      "tag": "[実]",
+      "note": "馬番2∈1-10"
+     },
+     {
+      "text": "関西馬",
+      "ok": true,
+      "tag": "[実]",
+      "note": "所属栗"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 12,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 14,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 4,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 1,
+   "cls": "障害未勝利",
+   "td": "芝",
+   "dist": 2850,
+   "atama": 12,
+   "shinba": false,
+   "jump": true
+  },
+  "applicable_rules": 0,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 2,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 15,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 3,
+   "cls": "未勝利*",
+   "td": "芝",
+   "dist": 1600,
+   "atama": 11,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 4,
+   "cls": "新馬",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 18,
+   "shinba": true,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 5,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 2200,
+   "atama": 18,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": [
+   {
+    "no": "073",
+    "course": "新潟芝2200m内",
+    "uma": 1,
+    "waku": 1,
+    "name": "ローレルエース",
+    "jockey": "江田照男",
+    "sire": "ヤマカツエース",
+    "c1": "父がキングカメハメハ系種牡馬",
+    "c2": "3歳以下＋前走中5週以上",
+    "p3": "37.8",
+    "tan": "761",
+    "fuku": "227",
+    "ken": "単勝可",
+    "chaku": "6-6-5-28/45",
+    "base_tag": "[推:系統]",
+    "base_note": "父ヤマカツエース→キングカメハメハ系(当方推定・要確認)",
+    "naigai": "内",
+    "conds": [
+     {
+      "text": "3歳以下",
+      "ok": true,
+      "tag": "[実]",
+      "note": "3歳≤3"
+     },
+     {
+      "text": "前走中5週以上",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走中5週以上=DEに前走情報なし"
+     }
+    ]
+   },
+   {
+    "no": "073",
+    "course": "新潟芝2200m内",
+    "uma": 11,
+    "waku": 6,
+    "name": "キコリータ",
+    "jockey": "今村聖奈",
+    "sire": "レイデオロ",
+    "c1": "父がキングカメハメハ系種牡馬",
+    "c2": "3歳以下＋前走中5週以上",
+    "p3": "37.8",
+    "tan": "761",
+    "fuku": "227",
+    "ken": "単勝可",
+    "chaku": "6-6-5-28/45",
+    "base_tag": "[推:系統]",
+    "base_note": "父レイデオロ→キングカメハメハ系(当方推定・要確認)",
+    "naigai": "内",
+    "conds": [
+     {
+      "text": "3歳以下",
+      "ok": true,
+      "tag": "[実]",
+      "note": "3歳≤3"
+     },
+     {
+      "text": "前走中5週以上",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走中5週以上=DEに前走情報なし"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 6,
+   "cls": "新発田城･1勝",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 15,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "no": "077",
+    "course": "新潟ダ1800m",
+    "uma": 12,
+    "waku": 7,
+    "name": "サウジバラード",
+    "jockey": "丸山元気",
+    "sire": "ジャスタウェイ",
+    "c1": "丸山元気騎手",
+    "c2": "5～8枠",
+    "p3": "40",
+    "tan": "100",
+    "fuku": "165",
+    "ken": "複勝",
+    "chaku": "6-7-5-27/45",
+    "base_tag": "[実]",
+    "base_note": "鞍上:丸山元気",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "5～8枠",
+      "ok": true,
+      "tag": "[実]",
+      "note": "枠7∈5-8"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 7,
+   "cls": "赤倉特Ｈ･2勝",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 17,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 8,
+   "cls": "ＢＳＮ賞(L)",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 11,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 9,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 2200,
+   "atama": 13,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 10,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 18,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 11,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 18,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 12,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1200,
+   "atama": 15,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 0,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 1,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 14,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 2,
+   "cls": "未勝利・牝*",
+   "td": "芝",
+   "dist": 1500,
+   "atama": 13,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 3,
+  "hits": [
+   {
+    "no": "099",
+    "course": "札幌芝1200～1500m",
+    "uma": 3,
+    "waku": 3,
+    "name": "フォルトゥナロッサ",
+    "jockey": "浜中俊",
+    "sire": "サートゥルナーリア",
+    "c1": "浜中俊騎手",
+    "c2": "前走8着以内＋4歳以下",
+    "p3": "58.6",
+    "tan": "169",
+    "fuku": "155",
+    "ken": "単勝可",
+    "chaku": "7-6-4-12/29",
+    "base_tag": "[実]",
+    "base_note": "鞍上:浜中俊",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "前走8着以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走8着以内=DEに前走情報なし"
+     },
+     {
+      "text": "4歳以下",
+      "ok": true,
+      "tag": "[実]",
+      "note": "2歳≤4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 3,
+   "cls": "未勝利*",
+   "td": "芝",
+   "dist": 1800,
+   "atama": 11,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": [
+   {
+    "no": "100",
+    "course": "札幌芝1200～2600m",
+    "uma": 1,
+    "waku": 1,
+    "name": "ダノンキューブ",
+    "jockey": "武豊",
+    "sire": "キタサンブラック",
+    "c1": "父がキタサンブラック",
+    "c2": "前走4角11番手以内",
+    "p3": "50.9",
+    "tan": "282",
+    "fuku": "187",
+    "ken": "単勝可",
+    "chaku": "9-9-9-26/53",
+    "base_tag": "[実]",
+    "base_note": "",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "前走4角11番手以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走4角11番手以内=DEに前走情報なし"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 4,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1000,
+   "atama": 12,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 5,
+   "cls": "新馬",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 14,
+   "shinba": true,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "no": "106",
+    "course": "札幌ダ1700m",
+    "uma": 1,
+    "waku": 1,
+    "name": "ユーフォナイト",
+    "jockey": "武豊",
+    "sire": "ドレフォン",
+    "c1": "武豊騎手",
+    "c2": "牡・セン",
+    "p3": "56.8",
+    "tan": "285",
+    "fuku": "150",
+    "ken": "単勝可",
+    "chaku": "9-7-5-16/37",
+    "base_tag": "[実]",
+    "base_note": "鞍上:武豊",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "牡・セン",
+      "ok": true,
+      "tag": "[実]",
+      "note": "性牡"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 6,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 1500,
+   "atama": 14,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 3,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 7,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 1200,
+   "atama": 16,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 8,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 11,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "no": "105",
+    "course": "札幌ダ1000～1700m",
+    "uma": 11,
+    "waku": 8,
+    "name": "ノリノドラゴン",
+    "jockey": "吉田隼人",
+    "sire": "ホッコータルマエ",
+    "c1": "父がホッコータルマエ",
+    "c2": "10頭立て以上",
+    "p3": "46.7",
+    "tan": "355",
+    "fuku": "166",
+    "ken": "単勝可",
+    "chaku": "7-11-3-24/45",
+    "base_tag": "[実]",
+    "base_note": "",
+    "naigai": "",
+    "conds": [
+     {
+      "text": "10頭立て以上",
+      "ok": true,
+      "tag": "[実]",
+      "note": "11頭≥10"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 9,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 1800,
+   "atama": 12,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 1,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 10,
+   "cls": "すずらん",
+   "td": "芝",
+   "dist": 1200,
+   "atama": 12,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 11,
+   "cls": "札幌日刊･2勝",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 14,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 12,
+   "cls": "千歳特別･2勝",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 12,
+   "shinba": false,
+   "jump": false
+  },
+  "applicable_rules": 2,
+  "hits": []
+ }
+]
