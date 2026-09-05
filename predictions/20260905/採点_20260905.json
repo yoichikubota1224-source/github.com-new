@@ -1,0 +1,3205 @@
+{
+ "join": {
+  "n_comp": 446,
+  "n_res_rows": 447,
+  "n_live": 444,
+  "miss_in_res": [],
+  "miss_in_comp": [
+   [
+    "札幌",
+    8,
+    2
+   ]
+  ],
+  "nonrun": [
+   {
+    "ba": "中山",
+    "r": 12,
+    "uma": 8,
+    "name": "ヴェネチアンキング",
+    "status": "取消",
+    "flags": [
+     "穴帯",
+     "調教"
+    ],
+    "MB": false,
+    "UL": false,
+    "jisou": null
+   },
+   {
+    "ba": "札幌",
+    "r": 8,
+    "uma": 2,
+    "name": "リテラシー",
+    "status": "取消",
+    "flags": null,
+    "MB": false,
+    "UL": false,
+    "jisou": null
+   },
+   {
+    "ba": "阪神",
+    "r": 4,
+    "uma": 7,
+    "name": "シャロン",
+    "status": "除外",
+    "flags": [],
+    "MB": false,
+    "UL": false,
+    "jisou": null
+   }
+  ]
+ },
+ "base": {
+  "n": 444,
+  "win": 35,
+  "top3": 105,
+  "top3_rate": 23.6,
+  "tan": 91.9,
+  "pop_rate": {
+   "1": [
+    35,
+    22,
+    62.9
+   ],
+   "2": [
+    35,
+    21,
+    60.0
+   ],
+   "3": [
+    35,
+    18,
+    51.4
+   ],
+   "4": [
+    35,
+    12,
+    34.3
+   ],
+   "5": [
+    35,
+    8,
+    22.9
+   ],
+   "6": [
+    34,
+    10,
+    29.4
+   ],
+   "7": [
+    34,
+    2,
+    5.9
+   ],
+   "8": [
+    33,
+    5,
+    15.2
+   ],
+   "9": [
+    33,
+    4,
+    12.1
+   ],
+   "10": [
+    31,
+    2,
+    6.5
+   ],
+   "11": [
+    30,
+    0,
+    0.0
+   ],
+   "12": [
+    25,
+    1,
+    4.0
+   ],
+   "13": [
+    18,
+    0,
+    0.0
+   ],
+   "14": [
+    13,
+    0,
+    0.0
+   ],
+   "15": [
+    9,
+    0,
+    0.0
+   ],
+   "16": [
+    8,
+    0,
+    0.0
+   ],
+   "17": [
+    1,
+    0,
+    0.0
+   ]
+  }
+ },
+ "k5": {
+  "MB": {
+   "label": "マストバイ",
+   "n": 16,
+   "top3": 7,
+   "rate": 43.75,
+   "exp": 5.5,
+   "diff": 1.5,
+   "win": 4,
+   "exp_win": 1.8,
+   "diff_win": 2.2,
+   "tan": 143.1
+  },
+  "MB_rows": 17,
+  "UL": {
+   "label": "ウルトラ",
+   "n": 3,
+   "top3": 0,
+   "rate": 0.0,
+   "exp": 0.5,
+   "diff": -0.5,
+   "win": 0,
+   "exp_win": 0.1,
+   "diff_win": -0.1,
+   "tan": 0.0
+  },
+  "MB_detail": [
+   {
+    "ba": "中山",
+    "r": 4,
+    "uma": 1,
+    "name": "コスモプルー",
+    "cond": [
+     "父：ディープインパクト系種牡馬／前走の上がり3ハロンタイム順位が3位以内"
+    ],
+    "chaku": 1,
+    "pop": 2,
+    "odds": 2.9
+   },
+   {
+    "ba": "中山",
+    "r": 4,
+    "uma": 8,
+    "name": "ソウカイウォーリア",
+    "cond": [
+     "父：ディープインパクト系種牡馬／前走の上がり3ハロンタイム順位が3位以内"
+    ],
+    "chaku": 2,
+    "pop": 4,
+    "odds": 9.6
+   },
+   {
+    "ba": "中山",
+    "r": 5,
+    "uma": 9,
+    "name": "エーアイラピド",
+    "cond": [
+     "父：リアルスティール／馬番が1〜13番、かつ、負担重量が減量なし"
+    ],
+    "chaku": 10,
+    "pop": 7,
+    "odds": 48.3
+   },
+   {
+    "ba": "中山",
+    "r": 8,
+    "uma": 1,
+    "name": "マサノピンクレディ",
+    "cond": [
+     "鞍上：横山武史／前走の着順が5着以下、かつ、前走の4コーナー通過順が12番手以内"
+    ],
+    "chaku": 1,
+    "pop": 3,
+    "odds": 5.9
+   },
+   {
+    "ba": "中山",
+    "r": 8,
+    "uma": 2,
+    "name": "ローズブーケ",
+    "cond": [
+     "鞍上：津村明秀／前走のコースが今回と異なる競馬場、かつ、前走の着順が12着以内"
+    ],
+    "chaku": 5,
+    "pop": 4,
+    "odds": 6.5
+   },
+   {
+    "ba": "中山",
+    "r": 9,
+    "uma": 5,
+    "name": "スタニングヴュー",
+    "cond": [
+     "父：リアルスティール／馬番が1〜13番、かつ、負担重量が減量なし"
+    ],
+    "chaku": 1,
+    "pop": 5,
+    "odds": 12.3
+   },
+   {
+    "ba": "中山",
+    "r": 9,
+    "uma": 14,
+    "name": "ペプチドドリーム",
+    "cond": [
+     "父：ディープインパクト系種牡馬／前走の上がり3ハロンタイム順位が3位以内",
+     "鞍上：横山武史／前走の上がり3ハロンタイム順位が4位以内"
+    ],
+    "chaku": 15,
+    "pop": 1,
+    "odds": 3.0
+   },
+   {
+    "ba": "中山",
+    "r": 12,
+    "uma": 14,
+    "name": "トモジャシーマ",
+    "cond": [
+     "鞍上：津村明秀／前走のコースが今回と異なる競馬場、かつ、前走の着順が12着以内"
+    ],
+    "chaku": 3,
+    "pop": 3,
+    "odds": 4.7
+   },
+   {
+    "ba": "札幌",
+    "r": 3,
+    "uma": 10,
+    "name": "スマートコーラル",
+    "cond": [
+     "父：マジェスティックウォリアー／枠番が4〜8枠"
+    ],
+    "chaku": 4,
+    "pop": 7,
+    "odds": 19.9
+   },
+   {
+    "ba": "札幌",
+    "r": 4,
+    "uma": 5,
+    "name": "メイショウセンドウ",
+    "cond": [
+     "父：ホッコータルマエ／前走の着順が9着以内、かつ、前走の馬体重が440kg以上"
+    ],
+    "chaku": 1,
+    "pop": 1,
+    "odds": 1.8
+   },
+   {
+    "ba": "札幌",
+    "r": 8,
+    "uma": 8,
+    "name": "ファンタイムギフト",
+    "cond": [
+     "父：ドレフォン／前走の着順が8着以内、かつ、前走の4コーナー通過順が3番手以下"
+    ],
+    "chaku": 6,
+    "pop": 9,
+    "odds": 40.4
+   },
+   {
+    "ba": "阪神",
+    "r": 4,
+    "uma": 1,
+    "name": "ウイングサンライズ",
+    "cond": [
+     "鞍上：岩田望来／枠番が1〜3枠、かつ、馬齢が4歳以下"
+    ],
+    "chaku": 4,
+    "pop": 8,
+    "odds": 27.5
+   },
+   {
+    "ba": "阪神",
+    "r": 4,
+    "uma": 5,
+    "name": "アステルディーヴァ",
+    "cond": [
+     "鞍上：坂井瑠星／馬番が1〜8番"
+    ],
+    "chaku": 2,
+    "pop": 4,
+    "odds": 11.2
+   },
+   {
+    "ba": "阪神",
+    "r": 8,
+    "uma": 1,
+    "name": "キッコベッロ",
+    "cond": [
+     "鞍上：川田将雅／出走頭数が12頭以下"
+    ],
+    "chaku": 6,
+    "pop": 1,
+    "odds": 2.0
+   },
+   {
+    "ba": "阪神",
+    "r": 9,
+    "uma": 7,
+    "name": "ショーダンサー",
+    "cond": [
+     "父：シニスターミニスター／馬齢が4歳以下、かつ、出走頭数が15頭以下"
+    ],
+    "chaku": 4,
+    "pop": 6,
+    "odds": 15.4
+   },
+   {
+    "ba": "阪神",
+    "r": 11,
+    "uma": 7,
+    "name": "グランキングオー",
+    "cond": [
+     "父：シニスターミニスター／馬齢が4歳以下、かつ、出走頭数が15頭以下"
+    ],
+    "chaku": 5,
+    "pop": 7,
+    "odds": 11.7
+   }
+  ],
+  "UL_detail": [
+   {
+    "ba": "阪神",
+    "r": 9,
+    "uma": 7,
+    "name": "ショーダンサー",
+    "cond": [
+     "No.052 父がシニスターミニスター／馬番3～16＋関西馬（栗東）"
+    ],
+    "chaku": 4,
+    "pop": 6,
+    "odds": 15.4
+   },
+   {
+    "ba": "阪神",
+    "r": 9,
+    "uma": 10,
+    "name": "シュヴァルツリーベ",
+    "cond": [
+     "No.053 父がドレフォン／前走上がり（3F順位）4位以内"
+    ],
+    "chaku": 5,
+    "pop": 8,
+    "odds": 34.7
+   },
+   {
+    "ba": "阪神",
+    "r": 11,
+    "uma": 7,
+    "name": "グランキングオー",
+    "cond": [
+     "No.052 父がシニスターミニスター／馬番3～16＋関西馬（栗東）"
+    ],
+    "chaku": 5,
+    "pop": 7,
+    "odds": 11.7
+   }
+  ]
+ },
+ "k14": {
+  "all": {
+   "label": "次走期待",
+   "n": 101,
+   "top3": 34,
+   "rate": 33.663366336633665,
+   "exp": 27.5,
+   "diff": 6.5,
+   "win": 12,
+   "exp_win": 9.4,
+   "diff_win": 2.6,
+   "tan": 90.3
+  },
+  "確定枠": {
+   "label": "確定枠",
+   "n": 58,
+   "top3": 24,
+   "rate": 41.37931034482759,
+   "exp": 19.8,
+   "diff": 4.2,
+   "win": 9,
+   "exp_win": 7.0,
+   "diff_win": 2.0,
+   "tan": 65.0
+  },
+  "優先高": {
+   "label": "優先高",
+   "n": 15,
+   "top3": 4,
+   "rate": 26.666666666666668,
+   "exp": 3.4,
+   "diff": 0.6,
+   "win": 1,
+   "exp_win": 1.1,
+   "diff_win": -0.1,
+   "tan": 136.7
+  },
+  "優先中": {
+   "label": "優先中",
+   "n": 28,
+   "top3": 6,
+   "rate": 21.428571428571427,
+   "exp": 4.3,
+   "diff": 1.7,
+   "win": 2,
+   "exp_win": 1.3,
+   "diff_win": 0.7,
+   "tan": 117.9
+  },
+  "sc7-8": {
+   "label": "sc7-8",
+   "n": 9,
+   "top3": 0,
+   "rate": 0.0,
+   "exp": 2.5,
+   "diff": -2.5,
+   "win": 0,
+   "exp_win": 1.1,
+   "diff_win": -1.1,
+   "tan": 0.0
+  },
+  "sc5-6": {
+   "label": "sc5-6",
+   "n": 22,
+   "top3": 8,
+   "rate": 36.36363636363637,
+   "exp": 6.1,
+   "diff": 1.9,
+   "win": 5,
+   "exp_win": 2.0,
+   "diff_win": 3.0,
+   "tan": 264.5
+  },
+  "sc3-4": {
+   "label": "sc3-4",
+   "n": 49,
+   "top3": 17,
+   "rate": 34.69387755102041,
+   "exp": 12.8,
+   "diff": 4.2,
+   "win": 4,
+   "exp_win": 4.3,
+   "diff_win": -0.3,
+   "tan": 41.8
+  },
+  "sc1-2": {
+   "label": "sc1-2",
+   "n": 21,
+   "top3": 9,
+   "rate": 42.857142857142854,
+   "exp": 6.0,
+   "diff": 3.0,
+   "win": 3,
+   "exp_win": 2.1,
+   "diff_win": 0.9,
+   "tan": 59.5
+  },
+  "band": {
+   "B": {
+    "label": "bandB",
+    "n": 34,
+    "top3": 14,
+    "rate": 41.1764705882353,
+    "exp": 11.7,
+    "diff": 2.3,
+    "win": 5,
+    "exp_win": 3.5,
+    "diff_win": 1.5,
+    "tan": 64.7
+   },
+   "C": {
+    "label": "bandC",
+    "n": 53,
+    "top3": 16,
+    "rate": 30.18867924528302,
+    "exp": 13.3,
+    "diff": 2.7,
+    "win": 7,
+    "exp_win": 5.1,
+    "diff_win": 1.9,
+    "tan": 130.6
+   },
+   "D": {
+    "label": "bandD",
+    "n": 14,
+    "top3": 4,
+    "rate": 28.571428571428573,
+    "exp": 2.5,
+    "diff": 1.5,
+    "win": 0,
+    "exp_win": 0.8,
+    "diff_win": -0.8,
+    "tan": 0.0
+   }
+  }
+ },
+ "nflag": {
+  "0": {
+   "label": "flag0",
+   "n": 111,
+   "top3": 25,
+   "rate": 22.52252252252252,
+   "exp": 33.1,
+   "diff": -8.1,
+   "win": 5,
+   "exp_win": 10.6,
+   "diff_win": -5.6,
+   "tan": 24.4
+  },
+  "1": {
+   "label": "flag1",
+   "n": 172,
+   "top3": 43,
+   "rate": 25.0,
+   "exp": 40.0,
+   "diff": 3.0,
+   "win": 18,
+   "exp_win": 14.1,
+   "diff_win": 3.9,
+   "tan": 146.2
+  },
+  "2": {
+   "label": "flag2",
+   "n": 134,
+   "top3": 33,
+   "rate": 24.62686567164179,
+   "exp": 27.8,
+   "diff": 5.2,
+   "win": 11,
+   "exp_win": 9.1,
+   "diff_win": 1.9,
+   "tan": 77.2
+  },
+  "3": {
+   "label": "flag3",
+   "n": 25,
+   "top3": 3,
+   "rate": 12.0,
+   "exp": 4.0,
+   "diff": -1.0,
+   "win": 0,
+   "exp_win": 1.1,
+   "diff_win": -1.1,
+   "tan": 0.0
+  },
+  "4": {
+   "label": "flag4",
+   "n": 2,
+   "top3": 1,
+   "rate": 50.0,
+   "exp": 0.1,
+   "diff": 0.9,
+   "win": 1,
+   "exp_win": 0.1,
+   "diff_win": 0.9,
+   "tan": 1300.0
+  },
+  "3+": {
+   "label": "flag3以上",
+   "n": 27,
+   "top3": 4,
+   "rate": 14.814814814814815,
+   "exp": 4.1,
+   "diff": -0.1,
+   "win": 1,
+   "exp_win": 1.2,
+   "diff_win": -0.2,
+   "tan": 96.3
+  }
+ },
+ "flag_kind": {
+  "穴帯": {
+   "label": "穴帯",
+   "n": 185,
+   "top3": 22,
+   "rate": 11.891891891891891,
+   "exp": 18.8,
+   "diff": 3.2,
+   "win": 9,
+   "exp_win": 7.2,
+   "diff_win": 1.8,
+   "tan": 135.4
+  },
+  "次走": {
+   "label": "次走",
+   "n": 101,
+   "top3": 34,
+   "rate": 33.663366336633665,
+   "exp": 27.5,
+   "diff": 6.5,
+   "win": 12,
+   "exp_win": 9.4,
+   "diff_win": 2.6,
+   "tan": 90.3
+  },
+  "調教": {
+   "label": "調教",
+   "n": 75,
+   "top3": 25,
+   "rate": 33.333333333333336,
+   "exp": 23.4,
+   "diff": 1.6,
+   "win": 8,
+   "exp_win": 7.3,
+   "diff_win": 0.7,
+   "tan": 124.9
+  },
+  "運勢": {
+   "label": "運勢",
+   "n": 143,
+   "top3": 34,
+   "rate": 23.776223776223777,
+   "exp": 32.2,
+   "diff": 1.8,
+   "win": 11,
+   "exp_win": 10.3,
+   "diff_win": 0.7,
+   "tan": 72.7
+  }
+ },
+ "unsei": {
+  "◎◎": {
+   "label": "◎◎",
+   "n": 37,
+   "top3": 12,
+   "rate": 32.432432432432435,
+   "exp": 10.1,
+   "diff": 1.9,
+   "win": 6,
+   "exp_win": 3.7,
+   "diff_win": 2.3,
+   "tan": 224.6
+  },
+  "◎": {
+   "label": "◎",
+   "n": 115,
+   "top3": 23,
+   "rate": 20.0,
+   "exp": 24.5,
+   "diff": -1.5,
+   "win": 5,
+   "exp_win": 7.3,
+   "diff_win": -2.3,
+   "tan": 18.2
+  },
+  "○": {
+   "label": "○",
+   "n": 135,
+   "top3": 21,
+   "rate": 15.555555555555555,
+   "exp": 25.8,
+   "diff": -4.8,
+   "win": 8,
+   "exp_win": 9.4,
+   "diff_win": -1.4,
+   "tan": 78.7
+  },
+  "△": {
+   "label": "△",
+   "n": 24,
+   "top3": 7,
+   "rate": 29.166666666666668,
+   "exp": 7.0,
+   "diff": 0.0,
+   "win": 2,
+   "exp_win": 2.2,
+   "diff_win": -0.2,
+   "tan": 48.3
+  },
+  "×": {
+   "label": "×",
+   "n": 124,
+   "top3": 39,
+   "rate": 31.451612903225808,
+   "exp": 35.8,
+   "diff": 3.2,
+   "win": 14,
+   "exp_win": 12.0,
+   "diff_win": 2.0,
+   "tan": 150.1
+  },
+  "未結合": {
+   "label": "未結合",
+   "n": 9,
+   "top3": 3,
+   "rate": 33.333333333333336,
+   "exp": 1.8,
+   "diff": 1.2,
+   "win": 0,
+   "exp_win": 0.4,
+   "diff_win": -0.4,
+   "tan": 0.0
+  }
+ },
+ "chokyo": {
+  "-0.3<z<=0.3": {
+   "label": "-0.3<z<=0.3",
+   "n": 58,
+   "top3": 13,
+   "rate": 22.413793103448278,
+   "exp": 13.6,
+   "diff": -0.6,
+   "win": 5,
+   "exp_win": 4.7,
+   "diff_win": 0.3,
+   "tan": 94.3
+  },
+  "-1.0<z<=-0.3": {
+   "label": "-1.0<z<=-0.3",
+   "n": 104,
+   "top3": 25,
+   "rate": 24.03846153846154,
+   "exp": 26.2,
+   "diff": -1.2,
+   "win": 9,
+   "exp_win": 8.7,
+   "diff_win": 0.3,
+   "tan": 80.5
+  },
+  "z<=-1.0": {
+   "label": "z<=-1.0",
+   "n": 68,
+   "top3": 22,
+   "rate": 32.35294117647059,
+   "exp": 20.9,
+   "diff": 1.1,
+   "win": 6,
+   "exp_win": 6.6,
+   "diff_win": -0.6,
+   "tan": 104.4
+  },
+  "z>0.3": {
+   "label": "z>0.3",
+   "n": 51,
+   "top3": 6,
+   "rate": 11.764705882352942,
+   "exp": 6.8,
+   "diff": -0.8,
+   "win": 1,
+   "exp_win": 2.5,
+   "diff_win": -1.5,
+   "tan": 13.9
+  }
+ },
+ "chokyo_c2": {
+  "A2": {
+   "label": "A2",
+   "n": 40,
+   "top3": 13,
+   "rate": 32.5,
+   "exp": 12.6,
+   "diff": 0.4,
+   "win": 5,
+   "exp_win": 4.4,
+   "diff_win": 0.6,
+   "tan": 137.0
+  },
+  "A1": {
+   "label": "A1",
+   "n": 63,
+   "top3": 12,
+   "rate": 19.047619047619047,
+   "exp": 15.6,
+   "diff": -3.6,
+   "win": 5,
+   "exp_win": 5.7,
+   "diff_win": -0.7,
+   "tan": 71.3
+  },
+  "B": {
+   "label": "B",
+   "n": 97,
+   "top3": 21,
+   "rate": 21.649484536082475,
+   "exp": 19.8,
+   "diff": 1.2,
+   "win": 7,
+   "exp_win": 6.7,
+   "diff_win": 0.3,
+   "tan": 89.1
+  },
+  "A3": {
+   "label": "A3",
+   "n": 3,
+   "top3": 2,
+   "rate": 66.66666666666667,
+   "exp": 1.0,
+   "diff": 1.0,
+   "win": 1,
+   "exp_win": 0.4,
+   "diff_win": 0.6,
+   "tan": 233.3
+  }
+ },
+ "races": [
+  {
+   "ba": "中山",
+   "r": 2,
+   "race_id": "202606040102",
+   "title": "３歳未勝利",
+   "sum_pop": 12,
+   "haran": false,
+   "win_pop": 1,
+   "win_uma": 2,
+   "win_name": "バンオンタイム",
+   "win_odds": 2.9,
+   "pay3t": 23040,
+   "pattern": "P4",
+   "c1": 79.0,
+   "t6": 213.0,
+   "ryoritsu": false,
+   "one_audit": 72.9,
+   "fav_out": 52.5,
+   "multi": 30.0,
+   "o1": 3.6,
+   "n": 16,
+   "hit7_12": true
+  },
+  {
+   "ba": "中山",
+   "r": 3,
+   "race_id": "202606040103",
+   "title": "２歳未勝利",
+   "sum_pop": 8,
+   "haran": false,
+   "win_pop": 4,
+   "win_uma": 4,
+   "win_name": "マイセイバー",
+   "win_odds": 7.1,
+   "pay3t": 9430,
+   "pattern": "P4",
+   "c1": 77.0,
+   "t6": 214.0,
+   "ryoritsu": false,
+   "one_audit": 51.4,
+   "fav_out": 31.5,
+   "multi": 8.3,
+   "o1": 2.6,
+   "n": 10,
+   "hit7_12": false
+  },
+  {
+   "ba": "中山",
+   "r": 4,
+   "race_id": "202606040104",
+   "title": "２歳未勝利",
+   "sum_pop": 9,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 1,
+   "win_name": "コスモプルー",
+   "win_odds": 2.9,
+   "pay3t": 9660,
+   "pattern": "P4",
+   "c1": 82.0,
+   "t6": 215.0,
+   "ryoritsu": false,
+   "one_audit": 46.0,
+   "fav_out": 22.3,
+   "multi": 6.4,
+   "o1": 2.2,
+   "n": 11,
+   "hit7_12": false
+  },
+  {
+   "ba": "中山",
+   "r": 5,
+   "race_id": "202606040105",
+   "title": "２歳新馬",
+   "sum_pop": 10,
+   "haran": false,
+   "win_pop": 3,
+   "win_uma": 6,
+   "win_name": "ヴェトロテンペスタ",
+   "win_odds": 4.1,
+   "pay3t": 6380,
+   "pattern": "P3",
+   "c1": 74.0,
+   "t6": 209.0,
+   "ryoritsu": true,
+   "one_audit": 61.5,
+   "fav_out": 41.0,
+   "multi": 13.5,
+   "o1": 3.7,
+   "n": 11,
+   "hit7_12": false
+  },
+  {
+   "ba": "中山",
+   "r": 6,
+   "race_id": "202606040106",
+   "title": "２歳新馬",
+   "sum_pop": 10,
+   "haran": false,
+   "win_pop": 1,
+   "win_uma": 10,
+   "win_name": "ポッドビート",
+   "win_odds": 1.8,
+   "pay3t": 10420,
+   "pattern": "P5",
+   "c1": 82.0,
+   "t6": 217.0,
+   "ryoritsu": false,
+   "one_audit": 58.5,
+   "fav_out": 29.1,
+   "multi": 12.5,
+   "o1": 2.4,
+   "n": 14,
+   "hit7_12": false
+  },
+  {
+   "ba": "中山",
+   "r": 7,
+   "race_id": "202606040107",
+   "title": "３歳未勝利",
+   "sum_pop": 13,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 8,
+   "win_name": "ピードモント",
+   "win_odds": 5.2,
+   "pay3t": 78860,
+   "pattern": "P1",
+   "c1": 66.0,
+   "t6": 195.0,
+   "ryoritsu": true,
+   "one_audit": 72.9,
+   "fav_out": 52.5,
+   "multi": 30.0,
+   "o1": 4.2,
+   "n": 16,
+   "hit7_12": true
+  },
+  {
+   "ba": "中山",
+   "r": 8,
+   "race_id": "202606040108",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 12,
+   "haran": false,
+   "win_pop": 3,
+   "win_uma": 1,
+   "win_name": "マサノピンクレディ",
+   "win_odds": 5.9,
+   "pay3t": 28150,
+   "pattern": "P2",
+   "c1": 71.0,
+   "t6": 208.0,
+   "ryoritsu": true,
+   "one_audit": 72.9,
+   "fav_out": 52.5,
+   "multi": 30.0,
+   "o1": 3.9,
+   "n": 16,
+   "hit7_12": true
+  },
+  {
+   "ba": "中山",
+   "r": 9,
+   "race_id": "202606040109",
+   "title": "古作特別(1勝クラス)",
+   "sum_pop": 12,
+   "haran": true,
+   "win_pop": 5,
+   "win_uma": 5,
+   "win_name": "スタニングヴュー",
+   "win_odds": 12.3,
+   "pay3t": 32380,
+   "pattern": "P5",
+   "c1": 77.0,
+   "t6": 216.0,
+   "ryoritsu": false,
+   "one_audit": 64.0,
+   "fav_out": 42.2,
+   "multi": 20.0,
+   "o1": 2.8,
+   "n": 15,
+   "hit7_12": false
+  },
+  {
+   "ba": "中山",
+   "r": 10,
+   "race_id": "202606040110",
+   "title": "白井特別(2勝クラス)",
+   "sum_pop": 8,
+   "haran": true,
+   "win_pop": 5,
+   "win_uma": 6,
+   "win_name": "ミニョンマルーン",
+   "win_odds": 14.0,
+   "pay3t": 20290,
+   "pattern": "P5",
+   "c1": 84.0,
+   "t6": 219.0,
+   "ryoritsu": false,
+   "one_audit": 58.5,
+   "fav_out": 29.1,
+   "multi": 12.5,
+   "o1": 2.4,
+   "n": 13,
+   "hit7_12": false
+  },
+  {
+   "ba": "中山",
+   "r": 11,
+   "race_id": "202606040111",
+   "title": "京成杯ＡＨ(G3)",
+   "sum_pop": 23,
+   "haran": true,
+   "win_pop": 10,
+   "win_uma": 8,
+   "win_name": "ピコローズ",
+   "win_odds": 19.6,
+   "pay3t": 334980,
+   "pattern": "P1",
+   "c1": 72.0,
+   "t6": 204.0,
+   "ryoritsu": true,
+   "one_audit": 72.9,
+   "fav_out": 52.5,
+   "multi": 30.0,
+   "o1": 4.1,
+   "n": 16,
+   "hit7_12": true
+  },
+  {
+   "ba": "中山",
+   "r": 12,
+   "race_id": "202606040112",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 19,
+   "haran": true,
+   "win_pop": 4,
+   "win_uma": 12,
+   "win_name": "ショウナンタハティ",
+   "win_odds": 5.0,
+   "pay3t": 148670,
+   "pattern": "P6",
+   "c1": 79.0,
+   "t6": 220.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 3.1,
+   "n": 14,
+   "hit7_12": true
+  },
+  {
+   "ba": "札幌",
+   "r": 1,
+   "race_id": "202601020501",
+   "title": "２歳未勝利",
+   "sum_pop": 9,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 11,
+   "win_name": "ロジアコース",
+   "win_odds": 11.2,
+   "pay3t": 11370,
+   "pattern": "P5",
+   "c1": 90.0,
+   "t6": 217.0,
+   "ryoritsu": false,
+   "one_audit": 58.5,
+   "fav_out": 29.1,
+   "multi": 12.5,
+   "o1": 2.1,
+   "n": 12,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 2,
+   "race_id": "202601020502",
+   "title": "２歳未勝利",
+   "sum_pop": 9,
+   "haran": false,
+   "win_pop": 1,
+   "win_uma": 11,
+   "win_name": "ミハテヌユメ",
+   "win_odds": 2.1,
+   "pay3t": 6750,
+   "pattern": "P1",
+   "c1": 78.0,
+   "t6": 203.0,
+   "ryoritsu": false,
+   "one_audit": 51.4,
+   "fav_out": 31.5,
+   "multi": 8.3,
+   "o1": 2.8,
+   "n": 11,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 3,
+   "race_id": "202601020503",
+   "title": "３歳未勝利",
+   "sum_pop": 16,
+   "haran": true,
+   "win_pop": 9,
+   "win_uma": 2,
+   "win_name": "ペイシャクロス",
+   "win_odds": 75.3,
+   "pay3t": 209180,
+   "pattern": "P3",
+   "c1": 80.0,
+   "t6": 211.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 2.9,
+   "n": 12,
+   "hit7_12": true
+  },
+  {
+   "ba": "札幌",
+   "r": 4,
+   "race_id": "202601020504",
+   "title": "３歳未勝利",
+   "sum_pop": 6,
+   "haran": false,
+   "win_pop": 1,
+   "win_uma": 5,
+   "win_name": "メイショウセンドウ",
+   "win_odds": 1.8,
+   "pay3t": 3060,
+   "pattern": "P3",
+   "c1": 76.0,
+   "t6": 209.0,
+   "ryoritsu": true,
+   "one_audit": 58.5,
+   "fav_out": 29.1,
+   "multi": 12.5,
+   "o1": 2.4,
+   "n": 14,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 5,
+   "race_id": "202601020505",
+   "title": "２歳新馬",
+   "sum_pop": 11,
+   "haran": true,
+   "win_pop": 6,
+   "win_uma": 5,
+   "win_name": "シュヴァルツペルレ",
+   "win_odds": 22.2,
+   "pay3t": 74640,
+   "pattern": "P5",
+   "c1": 84.0,
+   "t6": 217.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 3.0,
+   "n": 14,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 6,
+   "race_id": "202601020506",
+   "title": "３歳未勝利",
+   "sum_pop": 19,
+   "haran": true,
+   "win_pop": 9,
+   "win_uma": 15,
+   "win_name": "マジックファイヤー",
+   "win_odds": 17.8,
+   "pay3t": 284640,
+   "pattern": "P1",
+   "c1": 75.0,
+   "t6": 202.0,
+   "ryoritsu": true,
+   "one_audit": 64.0,
+   "fav_out": 42.2,
+   "multi": 20.0,
+   "o1": 3.2,
+   "n": 16,
+   "hit7_12": true
+  },
+  {
+   "ba": "札幌",
+   "r": 7,
+   "race_id": "202601020507",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 6,
+   "haran": false,
+   "win_pop": 3,
+   "win_uma": 6,
+   "win_name": "ジェルブロア",
+   "win_odds": 5.2,
+   "pay3t": 8350,
+   "pattern": "P4",
+   "c1": 75.0,
+   "t6": 214.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 3.3,
+   "n": 12,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 8,
+   "race_id": "202601020508",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 9,
+   "haran": true,
+   "win_pop": 6,
+   "win_uma": 1,
+   "win_name": "メイショウコシュウ",
+   "win_odds": 15.8,
+   "pay3t": 20750,
+   "pattern": "P2",
+   "c1": 70.0,
+   "t6": 207.0,
+   "ryoritsu": true,
+   "one_audit": 72.5,
+   "fav_out": 49.8,
+   "multi": 24.7,
+   "o1": 4.4,
+   "n": 12,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 9,
+   "race_id": "202601020509",
+   "title": "Ｆビレッジ特別(1勝クラス)",
+   "sum_pop": 12,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 6,
+   "win_name": "ハルフロンティア",
+   "win_odds": 5.4,
+   "pay3t": 30830,
+   "pattern": "P1",
+   "c1": 70.0,
+   "t6": 201.0,
+   "ryoritsu": true,
+   "one_audit": 72.5,
+   "fav_out": 49.8,
+   "multi": 24.7,
+   "o1": 4.2,
+   "n": 14,
+   "hit7_12": true
+  },
+  {
+   "ba": "札幌",
+   "r": 10,
+   "race_id": "202601020510",
+   "title": "札幌スポニチ賞(2勝クラス)",
+   "sum_pop": 10,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 14,
+   "win_name": "ファビュラススター",
+   "win_odds": 7.1,
+   "pay3t": 47770,
+   "pattern": "P2",
+   "c1": 79.0,
+   "t6": 206.0,
+   "ryoritsu": false,
+   "one_audit": 64.0,
+   "fav_out": 42.2,
+   "multi": 20.0,
+   "o1": 3.3,
+   "n": 16,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 11,
+   "race_id": "202601020511",
+   "title": "札幌２歳Ｓ(G3)",
+   "sum_pop": 8,
+   "haran": false,
+   "win_pop": 1,
+   "win_uma": 2,
+   "win_name": "ショウナンガレオン",
+   "win_odds": 1.1,
+   "pay3t": 1390,
+   "pattern": "P6",
+   "c1": 90.0,
+   "t6": 221.0,
+   "ryoritsu": false,
+   "one_audit": 46.0,
+   "fav_out": 22.3,
+   "multi": 6.4,
+   "o1": 2.0,
+   "n": 9,
+   "hit7_12": false
+  },
+  {
+   "ba": "札幌",
+   "r": 12,
+   "race_id": "202601020512",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 13,
+   "haran": false,
+   "win_pop": 4,
+   "win_uma": 9,
+   "win_name": "ローゾフィア",
+   "win_odds": 9.6,
+   "pay3t": 80720,
+   "pattern": "P3",
+   "c1": 84.0,
+   "t6": 210.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 2.9,
+   "n": 13,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 1,
+   "race_id": "202609040101",
+   "title": "２歳未勝利",
+   "sum_pop": 10,
+   "haran": false,
+   "win_pop": 1,
+   "win_uma": 11,
+   "win_name": "ベルヴェール",
+   "win_odds": 2.8,
+   "pay3t": 15930,
+   "pattern": "P3",
+   "c1": 79.0,
+   "t6": 210.0,
+   "ryoritsu": false,
+   "one_audit": 51.4,
+   "fav_out": 31.5,
+   "multi": 8.3,
+   "o1": 2.7,
+   "n": 11,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 2,
+   "race_id": "202609040102",
+   "title": "２歳未勝利",
+   "sum_pop": 7,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 2,
+   "win_name": "ティフォシ",
+   "win_odds": 2.2,
+   "pay3t": 1790,
+   "pattern": "P5",
+   "c1": 78.0,
+   "t6": 216.0,
+   "ryoritsu": false,
+   "one_audit": 56.2,
+   "fav_out": 29.0,
+   "multi": 13.2,
+   "o1": 2.0,
+   "n": 5,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 3,
+   "race_id": "202609040103",
+   "title": "３歳未勝利",
+   "sum_pop": 6,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 1,
+   "win_name": "レッドフレーザー",
+   "win_odds": 3.5,
+   "pay3t": 5020,
+   "pattern": "P3",
+   "c1": 80.0,
+   "t6": 210.0,
+   "ryoritsu": false,
+   "one_audit": 58.5,
+   "fav_out": 29.1,
+   "multi": 12.5,
+   "o1": 2.5,
+   "n": 13,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 4,
+   "race_id": "202609040104",
+   "title": "３歳未勝利",
+   "sum_pop": 12,
+   "haran": true,
+   "win_pop": 7,
+   "win_uma": 17,
+   "win_name": "ペアピーターソン",
+   "win_odds": 20.5,
+   "pay3t": 55500,
+   "pattern": "P4",
+   "c1": 82.0,
+   "t6": 214.0,
+   "ryoritsu": false,
+   "one_audit": 59.0,
+   "fav_out": 31.4,
+   "multi": 15.7,
+   "o1": 2.2,
+   "n": 18,
+   "hit7_12": true
+  },
+  {
+   "ba": "阪神",
+   "r": 5,
+   "race_id": "202609040105",
+   "title": "２歳新馬",
+   "sum_pop": 9,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 8,
+   "win_name": "イッソス",
+   "win_odds": 3.7,
+   "pay3t": 12980,
+   "pattern": "P4",
+   "c1": 78.0,
+   "t6": 213.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 2.7,
+   "n": 12,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 6,
+   "race_id": "202609040106",
+   "title": "２歳新馬",
+   "sum_pop": 19,
+   "haran": true,
+   "win_pop": 9,
+   "win_uma": 1,
+   "win_name": "デザートキャンドル",
+   "win_odds": 39.4,
+   "pay3t": 270590,
+   "pattern": "P1",
+   "c1": 79.0,
+   "t6": 200.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 3.0,
+   "n": 13,
+   "hit7_12": true
+  },
+  {
+   "ba": "阪神",
+   "r": 7,
+   "race_id": "202609040107",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 7,
+   "haran": false,
+   "win_pop": 4,
+   "win_uma": 14,
+   "win_name": "マーゴットミスト",
+   "win_odds": 8.1,
+   "pay3t": 24240,
+   "pattern": "P3",
+   "c1": 84.0,
+   "t6": 211.0,
+   "ryoritsu": false,
+   "one_audit": 59.0,
+   "fav_out": 31.4,
+   "multi": 15.7,
+   "o1": 2.5,
+   "n": 16,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 8,
+   "race_id": "202609040108",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 14,
+   "haran": true,
+   "win_pop": 7,
+   "win_uma": 8,
+   "win_name": "オモイヲノセテ",
+   "win_odds": 26.0,
+   "pay3t": 50640,
+   "pattern": "P1",
+   "c1": 77.0,
+   "t6": 205.0,
+   "ryoritsu": false,
+   "one_audit": 46.0,
+   "fav_out": 22.3,
+   "multi": 6.4,
+   "o1": 2.1,
+   "n": 9,
+   "hit7_12": true
+  },
+  {
+   "ba": "阪神",
+   "r": 9,
+   "race_id": "202609040109",
+   "title": "出石特別(2勝クラス)",
+   "sum_pop": 6,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 2,
+   "win_name": "ジャイアンバローズ",
+   "win_odds": 4.3,
+   "pay3t": 7270,
+   "pattern": "P5",
+   "c1": 86.0,
+   "t6": 217.0,
+   "ryoritsu": false,
+   "one_audit": 46.0,
+   "fav_out": 22.3,
+   "multi": 6.4,
+   "o1": 2.4,
+   "n": 11,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 10,
+   "race_id": "202609040110",
+   "title": "西宮Ｓ(3勝クラス)",
+   "sum_pop": 6,
+   "haran": false,
+   "win_pop": 2,
+   "win_uma": 3,
+   "win_name": "コルレオニス",
+   "win_odds": 7.0,
+   "pay3t": 12660,
+   "pattern": "P4",
+   "c1": 86.0,
+   "t6": 213.0,
+   "ryoritsu": false,
+   "one_audit": 53.2,
+   "fav_out": 19.0,
+   "multi": 9.6,
+   "o1": 1.7,
+   "n": 7,
+   "hit7_12": false
+  },
+  {
+   "ba": "阪神",
+   "r": 11,
+   "race_id": "202609040111",
+   "title": "エニフＳ(L)",
+   "sum_pop": 17,
+   "haran": true,
+   "win_pop": 5,
+   "win_uma": 4,
+   "win_name": "ゴッドブルービー",
+   "win_odds": 7.0,
+   "pay3t": 35150,
+   "pattern": "P3",
+   "c1": 79.0,
+   "t6": 209.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 2.9,
+   "n": 12,
+   "hit7_12": true
+  },
+  {
+   "ba": "阪神",
+   "r": 12,
+   "race_id": "202609040112",
+   "title": "３歳以上１勝クラス",
+   "sum_pop": 11,
+   "haran": true,
+   "win_pop": 8,
+   "win_uma": 11,
+   "win_name": "エンヴェロップ",
+   "win_odds": 28.1,
+   "pay3t": 37860,
+   "pattern": "P5",
+   "c1": 84.0,
+   "t6": 216.0,
+   "ryoritsu": false,
+   "one_audit": 63.5,
+   "fav_out": 39.6,
+   "multi": 16.0,
+   "o1": 2.7,
+   "n": 12,
+   "hit7_12": true
+  }
+ ],
+ "race_groups": {
+  "ALL": {
+   "label": "全35R",
+   "n": 35,
+   "haran": 13,
+   "rate": 37.1,
+   "ci": [
+    23.2,
+    53.7
+   ],
+   "pay3t_median": 23040,
+   "hit7_12": 13,
+   "hit_rate": 37.1,
+   "hit_ci": [
+    23.2,
+    53.7
+   ]
+  },
+  "P1": {
+   "label": "P1",
+   "n": 7,
+   "haran": 4,
+   "rate": 57.1,
+   "ci": [
+    25.0,
+    84.2
+   ],
+   "pay3t_median": 78860,
+   "hit7_12": 6,
+   "hit_rate": 85.7,
+   "hit_ci": [
+    48.7,
+    97.4
+   ]
+  },
+  "P1-P3": {
+   "label": "P1-P3",
+   "n": 18,
+   "haran": 7,
+   "rate": 38.9,
+   "ci": [
+    20.3,
+    61.4
+   ],
+   "pay3t_median": 35150,
+   "hit7_12": 9,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    29.0,
+    71.0
+   ]
+  },
+  "P4-P6": {
+   "label": "P4-P6",
+   "n": 17,
+   "haran": 6,
+   "rate": 35.3,
+   "ci": [
+    17.3,
+    58.7
+   ],
+   "pay3t_median": 12660,
+   "hit7_12": 4,
+   "hit_rate": 23.5,
+   "hit_ci": [
+    9.6,
+    47.3
+   ]
+  },
+  "ryoritsu": {
+   "label": "両立(c1<=76 かつ P1-P3)",
+   "n": 8,
+   "haran": 3,
+   "rate": 37.5,
+   "ci": [
+    13.7,
+    69.4
+   ],
+   "pay3t_median": 30830,
+   "hit7_12": 5,
+   "hit_rate": 62.5,
+   "hit_ci": [
+    30.6,
+    86.3
+   ]
+  },
+  "ONE>=63": {
+   "label": "v21監査 ONE_HOLE>=63",
+   "n": 18,
+   "haran": 10,
+   "rate": 55.6,
+   "ci": [
+    33.7,
+    75.4
+   ],
+   "pay3t_median": 47770,
+   "hit7_12": 11,
+   "hit_rate": 61.1,
+   "hit_ci": [
+    38.6,
+    79.7
+   ]
+  },
+  "ONE<63": {
+   "label": "v21監査 ONE_HOLE<63",
+   "n": 17,
+   "haran": 3,
+   "rate": 17.6,
+   "ci": [
+    6.2,
+    41.0
+   ],
+   "pay3t_median": 9660,
+   "hit7_12": 2,
+   "hit_rate": 11.8,
+   "hit_ci": [
+    3.3,
+    34.3
+   ]
+  },
+  "P2": {
+   "label": "P2",
+   "n": 3,
+   "haran": 1,
+   "rate": 33.3,
+   "ci": [
+    6.1,
+    79.2
+   ],
+   "pay3t_median": 28150,
+   "hit7_12": 1,
+   "hit_rate": 33.3,
+   "hit_ci": [
+    6.1,
+    79.2
+   ]
+  },
+  "P3": {
+   "label": "P3",
+   "n": 8,
+   "haran": 2,
+   "rate": 25.0,
+   "ci": [
+    7.1,
+    59.1
+   ],
+   "pay3t_median": 24240,
+   "hit7_12": 2,
+   "hit_rate": 25.0,
+   "hit_ci": [
+    7.1,
+    59.1
+   ]
+  },
+  "P4": {
+   "label": "P4",
+   "n": 7,
+   "haran": 1,
+   "rate": 14.3,
+   "ci": [
+    2.6,
+    51.3
+   ],
+   "pay3t_median": 12660,
+   "hit7_12": 2,
+   "hit_rate": 28.6,
+   "hit_ci": [
+    8.2,
+    64.1
+   ]
+  },
+  "P5": {
+   "label": "P5",
+   "n": 8,
+   "haran": 4,
+   "rate": 50.0,
+   "ci": [
+    21.5,
+    78.5
+   ],
+   "pay3t_median": 20290,
+   "hit7_12": 1,
+   "hit_rate": 12.5,
+   "hit_ci": [
+    2.2,
+    47.1
+   ]
+  },
+  "P6": {
+   "label": "P6",
+   "n": 2,
+   "haran": 1,
+   "rate": 50.0,
+   "ci": [
+    9.5,
+    90.5
+   ],
+   "pay3t_median": 148670,
+   "hit7_12": 1,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    9.5,
+    90.5
+   ]
+  }
+ },
+ "ana_band": {
+  "label": "確定7-12人気",
+  "n": 186,
+  "top3": 14,
+  "rate": 7.526881720430108,
+  "exp": 14.0,
+  "diff": 0.0,
+  "win": 7,
+  "exp_win": 7.0,
+  "diff_win": 0.0,
+  "tan": 121.9
+ },
+ "myoumi": {
+  "n": 42,
+  "all": {
+   "label": "穴帯42頭",
+   "n": 42,
+   "top3": 5,
+   "rate": 11.904761904761905,
+   "exp": 3.7,
+   "diff": 1.3,
+   "win": 1,
+   "exp_win": 1.5,
+   "diff_win": -0.5,
+   "tan": 46.7
+  },
+  "kairi>0": {
+   "label": "乖離>0",
+   "n": 21,
+   "top3": 4,
+   "rate": 19.047619047619047,
+   "exp": 1.6,
+   "diff": 2.4,
+   "win": 1,
+   "exp_win": 0.6,
+   "diff_win": 0.4,
+   "tan": 93.3
+  },
+  "kairi<=0": {
+   "label": "乖離<=0",
+   "n": 21,
+   "top3": 1,
+   "rate": 4.761904761904762,
+   "exp": 2.1,
+   "diff": -1.1,
+   "win": 0,
+   "exp_win": 0.9,
+   "diff_win": -0.9,
+   "tan": 0.0
+  },
+  "kairi_idm>0": {
+   "label": "乖離IDM>0",
+   "n": 16,
+   "top3": 1,
+   "rate": 6.25,
+   "exp": 1.7,
+   "diff": -0.7,
+   "win": 1,
+   "exp_win": 0.8,
+   "diff_win": 0.2,
+   "tan": 122.5
+  },
+  "kairi_idm<=0": {
+   "label": "乖離IDM<=0",
+   "n": 26,
+   "top3": 4,
+   "rate": 15.384615384615385,
+   "exp": 2.1,
+   "diff": 1.9,
+   "win": 0,
+   "exp_win": 0.8,
+   "diff_win": -0.8,
+   "tan": 0.0
+  },
+  "obi<0": {
+   "label": "帯調整<0(市場が弱気)",
+   "n": 20,
+   "top3": 2,
+   "rate": 10.0,
+   "exp": 1.4,
+   "diff": 0.6,
+   "win": 1,
+   "exp_win": 0.6,
+   "diff_win": 0.4,
+   "tan": 98.0
+  },
+  "obi>=0": {
+   "label": "帯調整>=0",
+   "n": 22,
+   "top3": 3,
+   "rate": 13.636363636363637,
+   "exp": 2.4,
+   "diff": 0.6,
+   "win": 0,
+   "exp_win": 0.9,
+   "diff_win": -0.9,
+   "tan": 0.0
+  },
+  "nsup0-1": {
+   "label": "支持0-1",
+   "n": 20,
+   "top3": 1,
+   "rate": 5.0,
+   "exp": 1.1,
+   "diff": -0.1,
+   "win": 0,
+   "exp_win": 0.4,
+   "diff_win": -0.4,
+   "tan": 0.0
+  },
+  "nsup2-3": {
+   "label": "支持2-3",
+   "n": 15,
+   "top3": 3,
+   "rate": 20.0,
+   "exp": 1.5,
+   "diff": 1.5,
+   "win": 0,
+   "exp_win": 0.6,
+   "diff_win": -0.6,
+   "tan": 0.0
+  },
+  "nsup4+": {
+   "label": "支持4以上",
+   "n": 7,
+   "top3": 1,
+   "rate": 14.285714285714286,
+   "exp": 1.2,
+   "diff": -0.2,
+   "win": 1,
+   "exp_win": 0.4,
+   "diff_win": 0.6,
+   "tan": 280.0
+  },
+  "cross": {
+   "label": "二条件クロス(08報の公表定義：補正差<0 かつ 乖離>0)",
+   "n": 4,
+   "top3": 1,
+   "rate": 25.0,
+   "exp": 0.2,
+   "diff": 0.8,
+   "win": 1,
+   "exp_win": 0.1,
+   "diff_win": 0.9,
+   "tan": 490.0
+  },
+  "cross_obi": {
+   "label": "参考(8/30定義：帯調整<0 かつ 乖離>0)",
+   "n": 8,
+   "top3": 1,
+   "rate": 12.5,
+   "exp": 0.5,
+   "diff": 0.5,
+   "win": 1,
+   "exp_win": 0.2,
+   "diff_win": 0.8,
+   "tan": 245.0
+  },
+  "cross_detail": [
+   {
+    "ba": "中山",
+    "r": 7,
+    "uma": 1,
+    "name": "フェンリル",
+    "ninki": 10,
+    "hosei": -2.6,
+    "obi": -5.1,
+    "kairi": 3.0,
+    "kairi_idm": 1.5,
+    "nsup": 0,
+    "chaku": 9,
+    "pop": 11,
+    "odds": 132.6,
+    "pay3t": 78860
+   },
+   {
+    "ba": "中山",
+    "r": 7,
+    "uma": 7,
+    "name": "エースオブゴールド",
+    "ninki": 12,
+    "hosei": -0.6,
+    "obi": -3.78,
+    "kairi": 2.0,
+    "kairi_idm": 0.5,
+    "nsup": 1,
+    "chaku": 12,
+    "pop": 13,
+    "odds": 252.0,
+    "pay3t": 78860
+   },
+   {
+    "ba": "中山",
+    "r": 11,
+    "uma": 8,
+    "name": "ピコローズ",
+    "ninki": 8,
+    "hosei": -0.8,
+    "obi": -1.43,
+    "kairi": 5.5,
+    "kairi_idm": 5.5,
+    "nsup": 4,
+    "chaku": 1,
+    "pop": 10,
+    "odds": 19.6,
+    "pay3t": 334980
+   },
+   {
+    "ba": "札幌",
+    "r": 8,
+    "uma": 6,
+    "name": "デリシュー",
+    "ninki": 7,
+    "hosei": -4.4,
+    "obi": -3.43,
+    "kairi": 1.0,
+    "kairi_idm": -1.0,
+    "nsup": 0,
+    "chaku": 10,
+    "pop": 8,
+    "odds": 36.7,
+    "pay3t": 20750
+   }
+  ],
+  "cross_obi_detail": [
+   {
+    "ba": "中山",
+    "r": 7,
+    "uma": 1,
+    "name": "フェンリル",
+    "ninki": 10,
+    "hosei": -2.6,
+    "obi": -5.1,
+    "kairi": 3.0,
+    "kairi_idm": 1.5,
+    "nsup": 0,
+    "chaku": 9,
+    "pop": 11,
+    "odds": 132.6,
+    "pay3t": 78860
+   },
+   {
+    "ba": "中山",
+    "r": 7,
+    "uma": 7,
+    "name": "エースオブゴールド",
+    "ninki": 12,
+    "hosei": -0.6,
+    "obi": -3.78,
+    "kairi": 2.0,
+    "kairi_idm": 0.5,
+    "nsup": 1,
+    "chaku": 12,
+    "pop": 13,
+    "odds": 252.0,
+    "pay3t": 78860
+   },
+   {
+    "ba": "中山",
+    "r": 8,
+    "uma": 16,
+    "name": "レインボーラッキー",
+    "ninki": 11,
+    "hosei": 1.7,
+    "obi": -0.76,
+    "kairi": 6.0,
+    "kairi_idm": 4.0,
+    "nsup": 5,
+    "chaku": 9,
+    "pop": 10,
+    "odds": 36.9,
+    "pay3t": 28150
+   },
+   {
+    "ba": "中山",
+    "r": 11,
+    "uma": 8,
+    "name": "ピコローズ",
+    "ninki": 8,
+    "hosei": -0.8,
+    "obi": -1.43,
+    "kairi": 5.5,
+    "kairi_idm": 5.5,
+    "nsup": 4,
+    "chaku": 1,
+    "pop": 10,
+    "odds": 19.6,
+    "pay3t": 334980
+   },
+   {
+    "ba": "札幌",
+    "r": 8,
+    "uma": 6,
+    "name": "デリシュー",
+    "ninki": 7,
+    "hosei": -4.4,
+    "obi": -3.43,
+    "kairi": 1.0,
+    "kairi_idm": -1.0,
+    "nsup": 0,
+    "chaku": 10,
+    "pop": 8,
+    "odds": 36.7,
+    "pay3t": 20750
+   },
+   {
+    "ba": "札幌",
+    "r": 8,
+    "uma": 9,
+    "name": "アイムスティルミー",
+    "ninki": 12,
+    "hosei": 1.3,
+    "obi": -1.88,
+    "kairi": 2.0,
+    "kairi_idm": 0.0,
+    "nsup": 1,
+    "chaku": 12,
+    "pop": 12,
+    "odds": 452.4,
+    "pay3t": 20750
+   },
+   {
+    "ba": "阪神",
+    "r": 11,
+    "uma": 8,
+    "name": "トリリオンボーイ",
+    "ninki": 10,
+    "hosei": 1.5,
+    "obi": -1.0,
+    "kairi": 0.5,
+    "kairi_idm": 4.0,
+    "nsup": 2,
+    "chaku": 6,
+    "pop": 9,
+    "odds": 21.4,
+    "pay3t": 35150
+   },
+   {
+    "ba": "阪神",
+    "r": 11,
+    "uma": 12,
+    "name": "ムイ",
+    "ninki": 12,
+    "hosei": 2.6,
+    "obi": -0.58,
+    "kairi": 1.0,
+    "kairi_idm": 0.0,
+    "nsup": 1,
+    "chaku": 12,
+    "pop": 10,
+    "odds": 48.3,
+    "pay3t": 35150
+   }
+  ],
+  "rho_nsup_pop": 0.719,
+  "rho_n": 102
+ },
+ "nsup_all": {
+  "0-1": {
+   "label": "支持0-1",
+   "n": 36,
+   "top3": 1,
+   "rate": 2.7777777777777777,
+   "exp": 1.6,
+   "diff": -0.6,
+   "win": 0,
+   "exp_win": 0.6,
+   "diff_win": -0.6,
+   "tan": 0.0
+  },
+  "2-3": {
+   "label": "支持2-3",
+   "n": 26,
+   "top3": 7,
+   "rate": 26.923076923076923,
+   "exp": 4.8,
+   "diff": 2.2,
+   "win": 1,
+   "exp_win": 1.5,
+   "diff_win": -0.5,
+   "tan": 60.8
+  },
+  "4": {
+   "label": "支持4",
+   "n": 9,
+   "top3": 3,
+   "rate": 33.333333333333336,
+   "exp": 2.5,
+   "diff": 0.5,
+   "win": 2,
+   "exp_win": 1.1,
+   "diff_win": 0.9,
+   "tan": 296.7
+  },
+  "5以上": {
+   "label": "支持5以上",
+   "n": 31,
+   "top3": 10,
+   "rate": 32.25806451612903,
+   "exp": 12.5,
+   "diff": -2.5,
+   "win": 4,
+   "exp_win": 3.9,
+   "diff_win": 0.1,
+   "tan": 75.8
+  }
+ },
+ "total_rank": {
+  "11位以下": {
+   "label": "11位以下",
+   "n": 105,
+   "top3": 5,
+   "rate": 4.761904761904762,
+   "exp": 6.3,
+   "diff": -1.3,
+   "win": 0,
+   "exp_win": 2.4,
+   "diff_win": -2.4,
+   "tan": 0.0
+  },
+  "4-6位": {
+   "label": "4-6位",
+   "n": 104,
+   "top3": 26,
+   "rate": 25.0,
+   "exp": 30.1,
+   "diff": -4.1,
+   "win": 10,
+   "exp_win": 9.4,
+   "diff_win": 0.6,
+   "tan": 89.3
+  },
+  "7-10位": {
+   "label": "7-10位",
+   "n": 130,
+   "top3": 18,
+   "rate": 13.846153846153847,
+   "exp": 16.2,
+   "diff": 1.8,
+   "win": 8,
+   "exp_win": 6.2,
+   "diff_win": 1.8,
+   "tan": 173.5
+  },
+  "1-3位": {
+   "label": "1-3位",
+   "n": 105,
+   "top3": 56,
+   "rate": 53.333333333333336,
+   "exp": 52.3,
+   "diff": 3.7,
+   "win": 17,
+   "exp_win": 17.0,
+   "diff_win": 0.0,
+   "tan": 85.2
+  }
+ },
+ "haran_win": [
+  {
+   "ba": "中山",
+   "r": 9,
+   "uma": 5,
+   "name": "スタニングヴュー",
+   "pop": 5,
+   "odds": 12.3,
+   "sum_pop": 12,
+   "pay3t": 32380,
+   "flags": [
+    "MB",
+    "調教"
+   ],
+   "MB": true,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "中山",
+   "r": 10,
+   "uma": 6,
+   "name": "ミニョンマルーン",
+   "pop": 5,
+   "odds": 14.0,
+   "sum_pop": 8,
+   "pay3t": 20290,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "中山",
+   "r": 11,
+   "uma": 8,
+   "name": "ピコローズ",
+   "pop": 10,
+   "odds": 19.6,
+   "sum_pop": 23,
+   "pay3t": 334980,
+   "flags": [
+    "穴帯",
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "中山",
+   "r": 12,
+   "uma": 12,
+   "name": "ショウナンタハティ",
+   "pop": 4,
+   "odds": 5.0,
+   "sum_pop": 19,
+   "pay3t": 148670,
+   "flags": [
+    "次走",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc2"
+  },
+  {
+   "ba": "札幌",
+   "r": 3,
+   "uma": 2,
+   "name": "ペイシャクロス",
+   "pop": 9,
+   "odds": 75.3,
+   "sum_pop": 16,
+   "pay3t": 209180,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "札幌",
+   "r": 5,
+   "uma": 5,
+   "name": "シュヴァルツペルレ",
+   "pop": 6,
+   "odds": 22.2,
+   "sum_pop": 11,
+   "pay3t": 74640,
+   "flags": [
+    "穴帯",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "札幌",
+   "r": 6,
+   "uma": 15,
+   "name": "マジックファイヤー",
+   "pop": 9,
+   "odds": 17.8,
+   "sum_pop": 19,
+   "pay3t": 284640,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "札幌",
+   "r": 8,
+   "uma": 1,
+   "name": "メイショウコシュウ",
+   "pop": 6,
+   "odds": 15.8,
+   "sum_pop": 9,
+   "pay3t": 20750,
+   "flags": [
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "阪神",
+   "r": 4,
+   "uma": 17,
+   "name": "ペアピーターソン",
+   "pop": 7,
+   "odds": 20.5,
+   "sum_pop": 12,
+   "pay3t": 55500,
+   "flags": [
+    "次走",
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "優先高/sc6"
+  },
+  {
+   "ba": "阪神",
+   "r": 6,
+   "uma": 1,
+   "name": "デザートキャンドル",
+   "pop": 9,
+   "odds": 39.4,
+   "sum_pop": 19,
+   "pay3t": 270590,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  },
+  {
+   "ba": "阪神",
+   "r": 8,
+   "uma": 8,
+   "name": "オモイヲノセテ",
+   "pop": 7,
+   "odds": 26.0,
+   "sum_pop": 14,
+   "pay3t": 50640,
+   "flags": [
+    "次走",
+    "穴帯",
+    "調教",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "優先中/sc5"
+  },
+  {
+   "ba": "阪神",
+   "r": 11,
+   "uma": 4,
+   "name": "ゴッドブルービー",
+   "pop": 5,
+   "odds": 7.0,
+   "sum_pop": 17,
+   "pay3t": 35150,
+   "flags": [
+    "次走",
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "優先中/sc3"
+  },
+  {
+   "ba": "阪神",
+   "r": 12,
+   "uma": 11,
+   "name": "エンヴェロップ",
+   "pop": 8,
+   "odds": 28.1,
+   "sum_pop": 11,
+   "pay3t": 37860,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null
+  }
+ ],
+ "wins": [
+  {
+   "ba": "中山",
+   "r": 2,
+   "uma": 2,
+   "name": "バンオンタイム",
+   "pop": 1,
+   "odds": 2.9,
+   "haran": false,
+   "flags": [
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 3,
+   "uma": 4,
+   "name": "マイセイバー",
+   "pop": 4,
+   "odds": 7.1,
+   "haran": false,
+   "flags": [],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 4,
+   "uma": 1,
+   "name": "コスモプルー",
+   "pop": 2,
+   "odds": 2.9,
+   "haran": false,
+   "flags": [
+    "MB",
+    "次走"
+   ],
+   "MB": true,
+   "UL": false,
+   "jisou": "確定枠/sc4",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": true
+  },
+  {
+   "ba": "中山",
+   "r": 5,
+   "uma": 6,
+   "name": "ヴェトロテンペスタ",
+   "pop": 3,
+   "odds": 4.1,
+   "haran": false,
+   "flags": [],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 6,
+   "uma": 10,
+   "name": "ポッドビート",
+   "pop": 1,
+   "odds": 1.8,
+   "haran": false,
+   "flags": [
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 7,
+   "uma": 8,
+   "name": "ピードモント",
+   "pop": 2,
+   "odds": 5.2,
+   "haran": false,
+   "flags": [],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 8,
+   "uma": 1,
+   "name": "マサノピンクレディ",
+   "pop": 3,
+   "odds": 5.9,
+   "haran": false,
+   "flags": [
+    "MB"
+   ],
+   "MB": true,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": true,
+   "covered_mbul": true
+  },
+  {
+   "ba": "中山",
+   "r": 9,
+   "uma": 5,
+   "name": "スタニングヴュー",
+   "pop": 5,
+   "odds": 12.3,
+   "haran": true,
+   "flags": [
+    "MB",
+    "調教"
+   ],
+   "MB": true,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": true,
+   "covered_mbul": true
+  },
+  {
+   "ba": "中山",
+   "r": 10,
+   "uma": 6,
+   "name": "ミニョンマルーン",
+   "pop": 5,
+   "odds": 14.0,
+   "haran": true,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 11,
+   "uma": 8,
+   "name": "ピコローズ",
+   "pop": 10,
+   "odds": 19.6,
+   "haran": true,
+   "flags": [
+    "穴帯",
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": true,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "中山",
+   "r": 12,
+   "uma": 12,
+   "name": "ショウナンタハティ",
+   "pop": 4,
+   "odds": 5.0,
+   "haran": true,
+   "flags": [
+    "次走",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc2",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 1,
+   "uma": 11,
+   "name": "ロジアコース",
+   "pop": 2,
+   "odds": 11.2,
+   "haran": false,
+   "flags": [
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 2,
+   "uma": 11,
+   "name": "ミハテヌユメ",
+   "pop": 1,
+   "odds": 2.1,
+   "haran": false,
+   "flags": [
+    "次走"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc2",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 3,
+   "uma": 2,
+   "name": "ペイシャクロス",
+   "pop": 9,
+   "odds": 75.3,
+   "haran": true,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 4,
+   "uma": 5,
+   "name": "メイショウセンドウ",
+   "pop": 1,
+   "odds": 1.8,
+   "haran": false,
+   "flags": [
+    "MB"
+   ],
+   "MB": true,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": true,
+   "covered_mbul": true
+  },
+  {
+   "ba": "札幌",
+   "r": 5,
+   "uma": 5,
+   "name": "シュヴァルツペルレ",
+   "pop": 6,
+   "odds": 22.2,
+   "haran": true,
+   "flags": [
+    "穴帯",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 6,
+   "uma": 15,
+   "name": "マジックファイヤー",
+   "pop": 9,
+   "odds": 17.8,
+   "haran": true,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 7,
+   "uma": 6,
+   "name": "ジェルブロア",
+   "pop": 3,
+   "odds": 5.2,
+   "haran": false,
+   "flags": [
+    "次走",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc5",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 8,
+   "uma": 1,
+   "name": "メイショウコシュウ",
+   "pop": 6,
+   "odds": 15.8,
+   "haran": true,
+   "flags": [
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 9,
+   "uma": 6,
+   "name": "ハルフロンティア",
+   "pop": 2,
+   "odds": 5.4,
+   "haran": false,
+   "flags": [
+    "次走"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc2",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 10,
+   "uma": 14,
+   "name": "ファビュラススター",
+   "pop": 2,
+   "odds": 7.1,
+   "haran": false,
+   "flags": [
+    "次走"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc3",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 11,
+   "uma": 2,
+   "name": "ショウナンガレオン",
+   "pop": 1,
+   "odds": 1.1,
+   "haran": false,
+   "flags": [],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "札幌",
+   "r": 12,
+   "uma": 9,
+   "name": "ローゾフィア",
+   "pop": 4,
+   "odds": 9.6,
+   "haran": false,
+   "flags": [],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 1,
+   "uma": 11,
+   "name": "ベルヴェール",
+   "pop": 1,
+   "odds": 2.8,
+   "haran": false,
+   "flags": [
+    "調教",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 2,
+   "uma": 2,
+   "name": "ティフォシ",
+   "pop": 2,
+   "odds": 2.2,
+   "haran": false,
+   "flags": [
+    "次走",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc5",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 3,
+   "uma": 1,
+   "name": "レッドフレーザー",
+   "pop": 2,
+   "odds": 3.5,
+   "haran": false,
+   "flags": [
+    "次走"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc3",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 4,
+   "uma": 17,
+   "name": "ペアピーターソン",
+   "pop": 7,
+   "odds": 20.5,
+   "haran": true,
+   "flags": [
+    "次走",
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "優先高/sc6",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 5,
+   "uma": 8,
+   "name": "イッソス",
+   "pop": 2,
+   "odds": 3.7,
+   "haran": false,
+   "flags": [
+    "調教",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 6,
+   "uma": 1,
+   "name": "デザートキャンドル",
+   "pop": 9,
+   "odds": 39.4,
+   "haran": true,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 7,
+   "uma": 14,
+   "name": "マーゴットミスト",
+   "pop": 4,
+   "odds": 8.1,
+   "haran": false,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 8,
+   "uma": 8,
+   "name": "オモイヲノセテ",
+   "pop": 7,
+   "odds": 26.0,
+   "haran": true,
+   "flags": [
+    "次走",
+    "穴帯",
+    "調教",
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "優先中/sc5",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 9,
+   "uma": 2,
+   "name": "ジャイアンバローズ",
+   "pop": 2,
+   "odds": 4.3,
+   "haran": false,
+   "flags": [
+    "次走"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "確定枠/sc5",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 10,
+   "uma": 3,
+   "name": "コルレオニス",
+   "pop": 2,
+   "odds": 7.0,
+   "haran": false,
+   "flags": [
+    "運勢"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 11,
+   "uma": 4,
+   "name": "ゴッドブルービー",
+   "pop": 5,
+   "odds": 7.0,
+   "haran": true,
+   "flags": [
+    "次走",
+    "調教"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": "優先中/sc3",
+   "cross": false,
+   "covered": true,
+   "covered_mbul": false
+  },
+  {
+   "ba": "阪神",
+   "r": 12,
+   "uma": 11,
+   "name": "エンヴェロップ",
+   "pop": 8,
+   "odds": 28.1,
+   "haran": true,
+   "flags": [
+    "穴帯"
+   ],
+   "MB": false,
+   "UL": false,
+   "jisou": null,
+   "cross": false,
+   "covered": false,
+   "covered_mbul": false
+  }
+ ],
+ "coverage": {
+  "全35R": {
+   "n": 35,
+   "covered": 16,
+   "covered_mbul": 4
+  },
+  "荒れ": {
+   "n": 13,
+   "covered": 6,
+   "covered_mbul": 1
+  },
+  "確定7人気以下": {
+   "n": 7,
+   "covered": 3,
+   "covered_mbul": 0
+  },
+  "確定5-6人気": {
+   "n": 5,
+   "covered": 2,
+   "covered_mbul": 1
+  },
+  "確定1-4人気": {
+   "n": 23,
+   "covered": 11,
+   "covered_mbul": 3
+  }
+ },
+ "lift": {
+  "listed": 117,
+  "live": 444,
+  "share": 26.4,
+  "haran_live": 174,
+  "haran_listed": 46,
+  "haran_share": 26.4,
+  "haran_win_cover": 46.2,
+  "haran_lift": 1.75,
+  "all_win_cover": 45.7,
+  "all_lift": 1.73
+ }
+}
