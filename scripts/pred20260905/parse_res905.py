@@ -67,6 +67,7 @@ for p in sorted(glob.glob(os.path.join(RAW, 'result_*.html'))):
     tm = re.search(r'<title>(.*?)</title>', doc, re.S)
     # 払戻
     pay = {}
+    pay_c = {}
     for blk in re.findall(r'<table[^>]*class="[^"]*Payout_Detail_Table[^"]*"[^>]*>(.*?)</table>', doc, re.S):
         for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', blk, re.S):
             th = re.search(r'<th[^>]*>(.*?)</th>', tr, re.S)
@@ -74,10 +75,14 @@ for p in sorted(glob.glob(os.path.join(RAW, 'result_*.html'))):
             k = txt(th.group(1))
             tds = re.findall(r'<td[^>]*>(.*?)</td>', tr, re.S)
             if len(tds) >= 2:
-                pay[k] = [int(x.replace(',', '')) for x in re.findall(r'([\d,]+)円', tds[1])]
+                # tds[0]=組番（<br>区切り）, tds[1]=配当。券種によっては1行に複数組が入る
+                combos = [c for c in re.split(r'<br\s*/?>', tds[0]) if txt(c)]
+                amts = [int(x.replace(',', '')) for x in re.findall(r'([\d,]+)円', tds[1])]
+                pay[k] = amts
+                pay_c[k] = [txt(c) for c in combos]
     races.append(dict(race_id=rid, date='2026-09-05', meta=txt(dm.group(1)) if dm else '',
                       title=txt(tm.group(1)).split(' | ')[0] if tm else '', corners=corners,
-                      n_rows=len(horses), horses=horses, pay=pay))
+                      n_rows=len(horses), horses=horses, pay=pay, pay_combo=pay_c))
 races.sort(key=lambda r: r['race_id'])
 # ---- 整合検査 ----
 bad = []

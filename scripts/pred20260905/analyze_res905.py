@@ -2,7 +2,7 @@
 """2026-09-05 確定結果による事後採点（読み取り専用）。
 原本・既報は一切変更しない。買い目・点数・資金配分・購入可否・最終印・軸は出力しない。
 """
-import json, os, sys, math
+import json, os, re, sys, math
 from collections import Counter, defaultdict
 
 BASE = os.path.join(os.path.dirname(__file__), '..', '..')
@@ -52,10 +52,33 @@ def expected(hs):
 def expected_w(hs):
     return sum(POP_WRATE.get(h['pop'], 0.0) for h in hs)
 
+# 複勝払戻の索引 (ba, r, uma) -> 円
+# 8/30の裁定依頼①「仮定回収率は単勝・複勝の両方を必須」への対応。
+FUKU = {}
+for rc in res:
+    br = rid2br.get(rc['race_id'])
+    if br is None: continue
+    combo = (rc.get('pay_combo') or {}).get('複勝') or []
+    amts = (rc.get('pay') or {}).get('複勝') or []
+    umas = [int(x) for c in combo for x in re.findall(r'\d+', c)]
+    for u, a in zip(umas, amts):
+        FUKU[(br[0], br[1], u)] = a
+
 def tan_ret(hs):
     """仮定単勝回収率(%)。実購入なし・0円Shadowの仮定計算"""
     if not hs: return None
     got = sum(h['odds'] * 100 for h in hs if win(h) and h['odds'])
+    return 100.0 * got / (100 * len(hs))
+
+def fuku_ret(hs):
+    """仮定複勝回収率(%)。同上"""
+    if not hs: return None
+    got = 0
+    for h in hs:
+        if not top3(h): continue
+        for k, v in R.items():
+            if v is h:
+                got += FUKU.get(k, 0); break
     return 100.0 * got / (100 * len(hs))
 
 def summarize(hs, label):
@@ -68,7 +91,7 @@ def summarize(hs, label):
     return {'label': label, 'n': n, 'top3': t, 'rate': 100.0*t/n,
             'exp': round(e, 1), 'diff': round(t - e, 1),
             'win': w, 'exp_win': round(ew, 1), 'diff_win': round(w - ew, 1),
-            'tan': round(tan_ret(hs), 1)}
+            'tan': round(tan_ret(hs), 1), 'fuku': round(fuku_ret(hs), 1)}
 
 def wilson(k, n):
     if n == 0: return (0.0, 0.0)
@@ -107,6 +130,8 @@ OUT['base'] = {'n': N_POP,
                'top3': sum(1 for h in POP if top3(h)),
                'top3_rate': round(100*sum(1 for h in POP if top3(h))/N_POP, 1),
                'tan': round(tan_ret(POP), 1),
+               'fuku': round(fuku_ret(POP), 1),
+               'n_fuku_rows': len(FUKU),
                'pop_rate': {str(p): [pop_n[p], pop_t3[p], round(100*POP_RATE[p], 1)]
                             for p in sorted(pop_n)}}
 
