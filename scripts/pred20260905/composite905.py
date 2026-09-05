@@ -34,6 +34,9 @@ for rc in T:
                          compi=h['compi_rank'], idm=h['IDM'], uma_idx=h['uma_idx'], total_rank=h['total_rank'],
                          sinrai=h['sinrai'], myoumi=h['myoumi'],
                          jisou=(f"{j['tier']}/sc{j['score']}" if j else None),
+                         # 第5報: 新聞の調教欄（別媒体。TARGETのC-2やz1fへ換算しない。印にもしない）
+                         shinbun_oikiri=h.get('saishu_oikiri'), shinbun_chokyo_idx=h.get('chokyo_idx'),
+                         st_idx=h.get('st_idx'),   # ⚠ ST指数=IDM+3（446/446）。IDMと独立な能力票として二重に数えない
                          MB=h['MB'], UL=h['UL'], chokyo=cho, chokyo_status=c.get('status'),
                          unsei_j=u.get('jockey_mark'), unsei_t=u.get('trainer_mark'),
                          flags=flags, nflag=len(flags)))

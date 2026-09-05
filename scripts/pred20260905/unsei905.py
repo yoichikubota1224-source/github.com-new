@@ -97,6 +97,16 @@ for rc in races:
         tg, thow, _ = lookup(h.get('trainer'), tmap)
         jm = grp.get(jg) if jg else None
         tm = grp.get(tg) if tg else None
+        # 第5報: 現週表の表記ゆれ（小幡初/小幡育 ＝ 木幡初也/木幡育也の誤記とみられる）は自動結合せず候補として残す＝[要確認]
+        cand = None
+        if jm is None and h.get('jockey') and h['jockey'].startswith('木幡'):
+            alt = '小幡' + h['jockey'][2:]
+            cg, chow, ckey = lookup(alt, jockey_grp)
+            if cg and grp.get(cg):
+                cand = dict(group=cg, mark=grp[cg][0], unki=grp[cg][1], reason=f'[要確認]_表記ゆれ候補({ckey}→{h["jockey"]})。自動結合していない')
+        # 第5報: 現週表と7/4マスタで星人グループが競合する騎手（ChatGPT SHADOW監査の指摘）
+        CONFLICT = {'今村聖奈': '7/4マスタ=木星－（現週表=水星－）', '森田誠也': '7/4マスタ=天王星－（現週表=木星－）'}
+        conflict = CONFLICT.get(jkey) if jkey else None
         st['騎手_結合' if jm else '騎手_' + jhow.split('_')[0]] += 1
         st['調教師_結合' if tm else '調教師_' + thow.split('_')[0]] += 1
         out[key] = dict(
@@ -104,6 +114,7 @@ for rc in races:
             jockey_group=jg, jockey_join=jhow,
             jockey_mark=jm[0] if jm else None, jockey_unki=jm[1] if jm else None,
             jockey_note=jockey_note.get(jkey) if jkey else None,
+            jockey_candidate=cand, jockey_master_conflict=('[要確認]_' + conflict) if conflict else None,
             trainer_group=tg, trainer_join=thow,
             trainer_mark=tm[0] if tm else None, trainer_unki=tm[1] if tm else None,
         )
@@ -118,7 +129,7 @@ print('[実] 調教師運勢記号の分布:', dict(tm))
 print('⚠ ×は「押し上げが無い」の意味であり、消し根拠・減点材料ではない')
 
 dest = os.path.join(REPO, 'predictions', '20260905', 'unsei_20260905.json')
-json.dump(dict(version='unsei905_v2', raceday='20260905',
+json.dump(dict(version='unsei905_v3', raceday='20260905',
                note='運勢×は消し根拠にしない。騎手=運勢_20260905-06_結合用.csv(星人グループ×9/5記号)。調教師=Obsidian正本 調教師運勢_lookup_20260704_星人変換済み.csv の星人グループのみ(生年月日は保持していない)。',
                horses=out), open(dest, 'w'), ensure_ascii=False, indent=1)
 print(f'\n書き出し: {dest}')
