@@ -11,14 +11,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 3.6,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 52.5,
    "HEAD_HOLE": 30.7,
    "ONE_HOLE": 72.9,
    "MULTI_HOLE": 30.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -1775,14 +1789,28 @@
   "n_entry": 10,
   "n_live": 10,
   "o1": 2.6,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 31.5,
    "HEAD_HOLE": 12.6,
    "ONE_HOLE": 51.4,
    "MULTI_HOLE": 8.3
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -2826,14 +2854,28 @@
   "n_entry": 11,
   "n_live": 11,
   "o1": 2.2,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 22.3,
    "HEAD_HOLE": 9.5,
    "ONE_HOLE": 46.0,
    "MULTI_HOLE": 6.4
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -4018,14 +4060,28 @@
   "n_entry": 11,
   "n_live": 11,
   "o1": 3.7,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 41.0,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 61.5,
    "MULTI_HOLE": 13.5
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -5121,14 +5177,28 @@
   "n_entry": 14,
   "n_live": 14,
   "o1": 2.4,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 29.1,
    "HEAD_HOLE": 14.7,
    "ONE_HOLE": 58.5,
    "MULTI_HOLE": 12.5
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -6516,14 +6586,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 4.2,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 52.5,
    "HEAD_HOLE": 30.7,
    "ONE_HOLE": 72.9,
    "MULTI_HOLE": 30.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -8220,14 +8304,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 3.9,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 52.5,
    "HEAD_HOLE": 30.7,
    "ONE_HOLE": 72.9,
    "MULTI_HOLE": 30.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -9963,14 +10061,28 @@
   "n_entry": 15,
   "n_live": 15,
   "o1": 2.8,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 42.2,
    "HEAD_HOLE": 21.3,
    "ONE_HOLE": 64.0,
    "MULTI_HOLE": 20.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -11575,14 +11687,28 @@
   "n_entry": 13,
   "n_live": 13,
   "o1": 2.4,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 29.1,
    "HEAD_HOLE": 14.7,
    "ONE_HOLE": 58.5,
    "MULTI_HOLE": 12.5
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -13050,14 +13176,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 4.1,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 52.5,
    "HEAD_HOLE": 30.7,
    "ONE_HOLE": 72.9,
    "MULTI_HOLE": 30.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -14798,14 +14938,28 @@
   "n_entry": 14,
   "n_live": 14,
   "o1": 3.1,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -16405,14 +16559,28 @@
   "n_entry": 12,
   "n_live": 12,
   "o1": 2.1,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 29.1,
    "HEAD_HOLE": 14.7,
    "ONE_HOLE": 58.5,
    "MULTI_HOLE": 12.5
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -17684,14 +17852,28 @@
   "n_entry": 11,
   "n_live": 11,
   "o1": 2.8,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 31.5,
    "HEAD_HOLE": 12.6,
    "ONE_HOLE": 51.4,
    "MULTI_HOLE": 8.3
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -18969,14 +19151,28 @@
   "n_entry": 12,
   "n_live": 12,
   "o1": 2.9,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -20237,14 +20433,28 @@
   "n_entry": 14,
   "n_live": 14,
   "o1": 2.4,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 29.1,
    "HEAD_HOLE": 14.7,
    "ONE_HOLE": 58.5,
    "MULTI_HOLE": 12.5
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -21776,14 +21986,28 @@
   "n_entry": 14,
   "n_live": 14,
   "o1": 3.0,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -23171,14 +23395,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 3.2,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 42.2,
    "HEAD_HOLE": 21.3,
    "ONE_HOLE": 64.0,
    "MULTI_HOLE": 20.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -25012,14 +25250,28 @@
   "n_entry": 12,
   "n_live": 12,
   "o1": 3.3,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -26353,14 +26605,28 @@
   "n_entry": 13,
   "n_live": 12,
   "o1": 4.4,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 49.8,
    "HEAD_HOLE": 27.8,
    "ONE_HOLE": 72.5,
    "MULTI_HOLE": 24.7
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -27762,14 +28028,28 @@
   "n_entry": 14,
   "n_live": 14,
   "o1": 4.2,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 49.8,
    "HEAD_HOLE": 27.8,
    "ONE_HOLE": 72.5,
    "MULTI_HOLE": 24.7
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -29432,14 +29712,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 3.3,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 42.2,
    "HEAD_HOLE": 21.3,
    "ONE_HOLE": 64.0,
    "MULTI_HOLE": 20.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -31252,14 +31546,28 @@
   "n_entry": 9,
   "n_live": 9,
   "o1": 2.0,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 22.3,
    "HEAD_HOLE": 9.5,
    "ONE_HOLE": 46.0,
    "MULTI_HOLE": 6.4
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -32301,14 +32609,28 @@
   "n_entry": 13,
   "n_live": 13,
   "o1": 2.9,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -33804,14 +34126,28 @@
   "n_entry": 11,
   "n_live": 11,
   "o1": 2.7,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 31.5,
    "HEAD_HOLE": 12.6,
    "ONE_HOLE": 51.4,
    "MULTI_HOLE": 8.3
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -35041,14 +35377,29 @@
   "n_entry": 5,
   "n_live": 5,
   "o1": 2.0,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 29.0,
    "HEAD_HOLE": 14.7,
    "ONE_HOLE": 56.2,
    "MULTI_HOLE": 13.2
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認",
+   "OUT_OF_DOMAIN: N=5は学習域(8〜18)外。凍結版lk()と同じくBASEへ退避した監査値"
+  ],
   "v21_domain": "域外(N=5: 凍結版と同じくBASEへ退避)",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -35628,14 +35979,28 @@
   "n_entry": 13,
   "n_live": 13,
   "o1": 2.5,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 29.1,
    "HEAD_HOLE": 14.7,
    "ONE_HOLE": 58.5,
    "MULTI_HOLE": 12.5
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -37123,14 +37488,28 @@
   "n_entry": 18,
   "n_live": 18,
   "o1": 2.2,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 31.4,
    "HEAD_HOLE": 16.5,
    "ONE_HOLE": 59.0,
    "MULTI_HOLE": 15.7
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -39077,14 +39456,28 @@
   "n_entry": 12,
   "n_live": 12,
   "o1": 2.7,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -40276,14 +40669,28 @@
   "n_entry": 13,
   "n_live": 13,
   "o1": 3.0,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -41573,14 +41980,28 @@
   "n_entry": 16,
   "n_live": 16,
   "o1": 2.5,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 31.4,
    "HEAD_HOLE": 16.5,
    "ONE_HOLE": 59.0,
    "MULTI_HOLE": 15.7
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -43246,14 +43667,28 @@
   "n_entry": 9,
   "n_live": 9,
   "o1": 2.1,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 22.3,
    "HEAD_HOLE": 9.5,
    "ONE_HOLE": 46.0,
    "MULTI_HOLE": 6.4
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -44312,14 +44747,28 @@
   "n_entry": 11,
   "n_live": 11,
   "o1": 2.4,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 22.3,
    "HEAD_HOLE": 9.5,
    "ONE_HOLE": 46.0,
    "MULTI_HOLE": 6.4
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -45586,14 +46035,29 @@
   "n_entry": 7,
   "n_live": 7,
   "o1": 1.7,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 19.0,
    "HEAD_HOLE": 13.1,
    "ONE_HOLE": 53.2,
    "MULTI_HOLE": 9.6
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認",
+   "OUT_OF_DOMAIN: N=7は学習域(8〜18)外。凍結版lk()と同じくBASEへ退避した監査値"
+  ],
   "v21_domain": "域外(N=7: 凍結版と同じくBASEへ退避)",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -46354,14 +46818,28 @@
   "n_entry": 12,
   "n_live": 12,
   "o1": 2.9,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,
@@ -47733,14 +48211,28 @@
   "n_entry": 12,
   "n_live": 12,
   "o1": 2.7,
-  "v21": {
+  "v21_audit": {
    "FAV_OUT": 39.6,
    "HEAD_HOLE": 19.1,
    "ONE_HOLE": 63.5,
    "MULTI_HOLE": 16.0
   },
+  "v21_decision": {
+   "FAV_OUT": null,
+   "HEAD_HOLE": null,
+   "ONE_HOLE": null,
+   "MULTI_HOLE": null
+  },
+  "v21_decision_status": "HOLD",
+  "v21_hold_reasons": [
+   "T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD",
+   "LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認"
+  ],
   "v21_domain": "域内",
   "v21_o1_source": "JRDB基準単勝（T-15スナップショットではない＝HOLD）",
+  "v21_flags_applied": false,
+  "v21_flag_inputs": "[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）",
+  "v21_control_note": "are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める",
   "horses": [
    {
     "uma": 1,

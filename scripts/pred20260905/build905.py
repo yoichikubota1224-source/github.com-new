@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """2026-09-05 統合ビルド。6CSV＋当方の出馬表＋当方5年データ＋⑤該当馬 を結合し、
-荒れ選定(are_score_v21)と穴馬候補(基準人気7〜12)を出す。
+穴馬候補(基準人気7〜12)を出す。are_score_v21 は監査値(v21_audit)としてのみ再現し、意思決定用の4列(v21_decision)は空欄＝HOLD。
 ⚠ 確定オッズ・確定人気は使用しない。買い目・点数・資金配分は出力しない。
+v3.2(第7報): 凍結版の主変数はT-15の1番人気オッズ。当方はJRDB基準単勝(前日値)しか持たないため、FAV_OUT/HEAD_HOLE/ONE_HOLE/MULTI_HOLE の
+  4出力すべてを意思決定利用HOLDにする（ONEだけを空欄にして残り3出力で選ぶ運用はしない）。監査値は0へ置換せず保持する。
+  are_v21(o1,n) は凍結版 predict(o1,n) と同じく取得元・取得時刻を引数に取らない＝上流にT-15照合は無く、下流で v21_decision を空欄にして止める。
+  凍結版 __main__ の任意補正フラグ(flag_55heiritsu=全4出力×0.85 / flag_fuku11_kochaku=MULTI×0.85)は入力列が無く未適用。
 ⚠ 取消馬(札幌8R②リテラシー)は出走頭数から除き、候補からも外す。ただし[不足]でなく[実:取消]と記録する。
 """
 import json, math, os, collections
@@ -123,12 +127,20 @@ for rid, r in sh.items():
     o1=min([h['kijun_tan'] for h in live if h['kijun_tan'] is not None], default=None)
     races.append(dict(race_id=rid, ba=r['ba'], r=r['r'], title=r['title'], meta=r['meta'],
                       td=r['td'], dist=r['dist'], uchisoto=('外' if '外' in r['meta'] else '内'),
-                      n_entry=len(horses), n_live=n, o1=o1, v21=are_v21(o1,n),
-                      # v21の学習域は頭数8〜18。域外(N<8)は _cell が末尾セル(N15〜18)を流用するため値を序列に使わない＝[要確認]
+                      n_entry=len(horses), n_live=n, o1=o1,
+                      # v3.2: 監査値(凍結式にJRDB基準単勝を代入した算術再現)。意思決定には使わない。0へ置換しない
+                      v21_audit=are_v21(o1,n),
+                      # 意思決定用の4列は空欄＝HOLD（ONEだけでなく4出力すべて）
+                      v21_decision={'FAV_OUT': None, 'HEAD_HOLE': None, 'ONE_HOLE': None, 'MULTI_HOLE': None},
+                      v21_decision_status='HOLD',
+                      v21_hold_reasons=(['T15_SNAPSHOT_MISSING: o1にJRDB基準単勝(前日値)を代入。凍結版はT-15固定・NO_VALID_SNAPSHOT=HOLD',
+                                         'LABEL_DEF_UNCONFIRMED: 4出力の人気帯定義(6〜12/7〜12)が正本で未確認']
+                                        + ([] if 8 <= n <= 18 else [f'OUT_OF_DOMAIN: N={n}は学習域(8〜18)外。凍結版lk()と同じくBASEへ退避した監査値'])),
                       v21_domain=('域内' if 8 <= n <= 18 else f'域外(N={n}: 凍結版と同じくBASEへ退避)'),
-                      # ⚠ 凍結版の主変数 o1 は「T-15 1番人気オッズ」。当方は JRDB基準単勝(前日値)を代入している＝仕様外の代替。
-                      #   凍結版は NO_VALID_SNAPSHOT=HOLD を定めるため、意思決定への利用は HOLD（第6報）。
                       v21_o1_source='JRDB基準単勝（T-15スナップショットではない＝HOLD）',
+                      v21_flags_applied=False,
+                      v21_flag_inputs='[不足] flag_55heiritsu / flag_fuku11_kochaku の入力列が当方パイプラインに無い（未適用）',
+                      v21_control_note='are_v21(o1,n)は凍結版predict(o1,n)と同じく取得元・取得時刻を引数に取らない。上流にT-15照合処理は無く、下流でv21_decisionを空欄にして利用を止める',
                       horses=horses))
 races.sort(key=lambda x:(x['ba'],x['r']))
 json.dump(races, open(os.path.join(D,'toukei_20260905.json'),'w'), ensure_ascii=False, indent=1)
@@ -137,9 +149,11 @@ print(f'[実] {len(races)}R / 延べ{sum(r["n_entry"] for r in races)}頭 / 取�
 for k in TORIKESHI:
     r=sh[k[0]]; h=next(x for x in r["horses"] if x["uma"]==k[1])
     print(f'   取消: {r["ba"]}{r["r"]}R {k[1]}番 {h["name"]} → 出走頭数 {r["n_entry"]}→{r["n_entry"]-1}頭')
-print('\n=== 荒れ度 are_score_v21（ONE_HOLE降順・上位12R） ===')
-print(f'{"場R":<8}{"頭数":>4}{"1番人気基準単勝":>14}{"FAV_OUT":>9}{"HEAD":>7}{"ONE_HOLE":>10}{"MULTI":>8}  {"レース"}')
-for r in sorted([x for x in races if x['v21']], key=lambda x:-x['v21']['ONE_HOLE'])[:12]:
-    v=r['v21']
-    print(f"{r['ba']}{r['r']:>2}R{'':<2}{r['n_live']:>4}{r['o1']:>14.1f}"
-          f"{v['FAV_OUT']:>8.1f}%{v['HEAD_HOLE']:>6.1f}%{v['ONE_HOLE']:>9.1f}%{v['MULTI_HOLE']:>7.1f}%  {r['title'][:26]}")
+print('\n=== are_score_v21 監査値（レース順・意思決定利用HOLD。序列に使わない） ===')
+print(f'{"場R":<8}{"頭数":>4}{"o1(JRDB基準単勝)":>16}{"FAV_OUT":>9}{"HEAD":>7}{"ONE_HOLE":>10}{"MULTI":>8}  {"状態"}')
+for r in races:
+    v=r['v21_audit']
+    if not v: print(f"{r['ba']}{r['r']:>2}R  監査値なし(o1/N欠) {r['v21_decision_status']}"); continue
+    print(f"{r['ba']}{r['r']:>2}R{'':<2}{r['n_live']:>4}{r['o1']:>16.1f}"
+          f"{v['FAV_OUT']:>8.1f}%{v['HEAD_HOLE']:>6.1f}%{v['ONE_HOLE']:>9.1f}%{v['MULTI_HOLE']:>7.1f}%  {r['v21_decision_status']}/{r['v21_domain']}")
+print('[実] v21_decision は35Rとも4列すべて空欄（HOLD）。監査値は保持し0へ置換していない')

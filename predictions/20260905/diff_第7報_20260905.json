@@ -1,0 +1,117 @@
+{
+ "version": "diff_第7報",
+ "note": "旧版はgit履歴(0e14e3d / 1888304)に保全。新版で上書きしたのはリポジトリの正規ファイル名のみ",
+ "pairs": [
+  {
+   "file": "toukei_20260905.json",
+   "old_version": "v3.1",
+   "old_sha256": "65f8c99e92a7e9d3cbf70945dae129fb439ce385bed98b7591de16a997931dd1",
+   "new_version": "v3.2",
+   "new_sha256": "322c12d893a4a9f17cd768a8f4a7b3cb63fd211a8aee96ad246b45869fe3182d",
+   "race_level": {
+    "added:v21_audit": 35,
+    "added:v21_control_note": 35,
+    "added:v21_decision": 35,
+    "added:v21_decision_status": 35,
+    "added:v21_flag_inputs": 35,
+    "added:v21_flags_applied": 35,
+    "added:v21_hold_reasons": 35,
+    "removed:v21": 35
+   },
+   "horse_level": "変更なし(447頭×96項目)",
+   "v21_audit_equals_old_v21": "35/35"
+  },
+  {
+   "file": "composite.json",
+   "old_version": "v2",
+   "old_sha256": "740b4d08c0be9662f5782132d3d8b2463c0efd0b8778ca3977ba8426470a6256",
+   "new_version": "v3",
+   "new_sha256": "4802e236c603a5e4383c833887f2e081ce248878ac658fd8d9952e08bc6231a3",
+   "diffs": {
+    "added:flags_raw": 446,
+    "added:nflag_raw": 446,
+    "added:one_audit": 446,
+    "added:unsei_j_usable": 446,
+    "added:unsei_kubun": 446,
+    "added:v21_status": 446,
+    "removed:one": 446,
+    "changed:flags": 9,
+    "changed:nflag": 9
+   },
+   "flags_raw": {
+    "運勢": 152,
+    "穴帯": 186,
+    "調教": 76,
+    "次走": 101,
+    "MB": 16,
+    "UL": 3
+   },
+   "flags_usable": {
+    "運勢": 143,
+    "穴帯": 186,
+    "調教": 76,
+    "次走": 101,
+    "MB": 16,
+    "UL": 3
+   },
+   "unsei_dropped_rides": 9,
+   "three_plus_raw": 28,
+   "three_plus_usable": 27,
+   "dropped_from_three_plus": [
+    {
+     "ba": "阪神",
+     "r": 4,
+     "uma": 15,
+     "name": "カステッロトゥーレ",
+     "flags_raw": [
+      "次走",
+      "穴帯",
+      "運勢"
+     ],
+     "kubun": "別ソース参照候補"
+    }
+   ]
+  },
+  {
+   "file": "unsei_20260905.json",
+   "old_version": "v3",
+   "old_sha256": "20e48072ec6ead96731a84ec24a05ebab4aed531b0389411b8bdf4444d4ab19c",
+   "new_version": "v4",
+   "new_sha256": "61fad973621609a7b6dfb4a806a4e99b644897684dea077d72e738c80c575d3e",
+   "diffs": {
+    "added:jockey_book_key": 447,
+    "added:jockey_kubun": 447,
+    "added:jockey_mark_usable": 447,
+    "added:jockey_name_check": 447,
+    "added:jockey_shinbun_name": 447,
+    "added:scratched": 447,
+    "removed:jockey_note": 447,
+    "changed:jockey_candidate": 9
+   }
+  },
+  {
+   "file": "unsei_4kubun_20260905.csv",
+   "old_version": "v1",
+   "old_sha256": "9e7087ce7c28933813575a990b6bcedce0e038b0ad19e869f4ed62025f2eb0f8",
+   "new_version": "v2",
+   "new_sha256": "3e0062111617db980e044e1ed57c9d128c475946f56cbd54aa063907d2e3f497",
+   "kubun_changes": {
+    "素材一致→別ソース参照候補": 9
+   },
+   "removed_cols": [
+    "mark",
+    "note",
+    "source_cell"
+   ],
+   "added_cols": [
+    "book_key",
+    "mark_raw",
+    "mark_usable",
+    "name_check",
+    "scratched",
+    "shinbun_jockey",
+    "source_xlsx_row"
+   ]
+  }
+ ]
+}
