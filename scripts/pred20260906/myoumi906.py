@@ -130,7 +130,7 @@ rho = spearman([x[0] for x in xs], [x[1] for x in xs])
 diag = dict(n_horses=len(xs), rho_ninki_hosei=round(rho, 3), band_mean={k: round(v, 2) for k, v in sorted(mu.items())}, band_n={k: len(v) for k, v in sorted(band.items())})
 sel = [o for o in out if (not SEL) or ((o['ba'], o['r']) in SEL)]
 DEF_VERSION = {'穴帯': '基準人気7〜12 (v1 2026-08-29〜)', '補正差': '100×(市場p3−較正p3)・両者Σ=3.0正規化 (v2 2026-08-30〜)', '帯調整': '補正差−当日35Rの同人気平均 (v1 2026-08-30〜)',
-    '乖離': 'コンピ順位−新聞合計値順位 (v1 2026-08-29〜)', '乖離IDM': '基準単勝順位−IDM順位 (v1 2026-09-05〜。9/5結果で符号逆＝採用保留)',
+    '乖離': 'コンピ順位 − 合計値の当方順位（合計値が同値の馬は平均順位）(v1 2026-08-29〜9/6同一実装)。＋＝指数(新聞合計)が市場(コンピ)より高評価。⚠紙面の合計値順位(同順なし1..n)とは同値馬で差が出る(9/6は483頭中138頭・符号反転11頭)。定義は動かさず、紙面順位は total_rank_paper として併記', '乖離IDM': '基準単勝順位−IDM順位 (v1 2026-09-05〜。9/5結果で符号逆＝採用保留)',
     '二条件クロス': 'v2 = 穴帯 ∧ 補正差<0 ∧ 乖離>0 (2026-09-05〜) / 参考v1 = 穴帯 ∧ 帯調整<0 ∧ 乖離>0 (8/29-8/30。8/30は穴帯6〜14)',
     '支持係数': 'nsup v2 = 8/30定義から黄金律・厩舎ROIを除いた本数 (2026-09-05〜)。序列に使わない（ρ≈+0.72で人気の写し）'}
 res = dict(version='myoumi906_v1', raceday='20260906', def_version=DEF_VERSION, method=__doc__, diag=diag, selected=[list(x) for x in SEL], races=sel, races_all=out)

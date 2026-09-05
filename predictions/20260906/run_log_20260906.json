@@ -2,8 +2,8 @@
  "version": "run906_v1",
  "raceday": "20260906",
  "selected_races": "中山:5,中山:6,中山:8,中山:9,中山:11,札幌:6,札幌:7,札幌:11,阪神:2,阪神:11",
- "started": "2026-09-05T12:09:57.268503Z",
- "git_head_before": "98e969c68101bb93bb03b2f6d603e413abd97501",
+ "started": "2026-09-05T16:57:07.656634Z",
+ "git_head_before": "264d24b8a2cc6148ce5d1be3caa60ba78d4cb1d0",
  "python": "3.11.15",
  "numpy_pandas": "未使用（環境に無い。凍結版はpandas/numpy依存のため実行していない）",
  "source_csv": [
@@ -42,8 +42,8 @@
   {
    "script": {
     "path": "scripts/pred20260906/build906.py",
-    "bytes": 15541,
-    "sha256": "ad08588ea5ea1131c92c7cb8db991b62e87a94954a21e9077a7a1c0ce2f8739b"
+    "bytes": 18105,
+    "sha256": "6705a64612869209cb72f223ff6ec28c1d3bc7b7014cab9759bffd3b8bc2d4a6"
    },
    "inputs": [
     {
@@ -67,8 +67,8 @@
      "sha256": "801d705d8d653b624f6b689bc54a1a3582ea508de80549b14274477cb51215be"
     }
    ],
-   "started": "2026-09-05T12:09:57.276032Z",
-   "finished": "2026-09-05T12:09:57.439481Z",
+   "started": "2026-09-05T16:57:07.667902Z",
+   "finished": "2026-09-05T16:57:07.864336Z",
    "exit_code": 0,
    "stdout_tail": [
     "阪神 1R  10  3.2  78  211 P3 　    51.4  未勝利* 芝1400",
@@ -88,8 +88,8 @@
    "outputs": [
     {
      "path": "predictions/20260906/toukei_20260906.json",
-     "bytes": 1539062,
-     "sha256": "d56b4c275c297a9574eba79f69e0b7de8141f66d90e814bbfe01ae9866ca9b7e"
+     "bytes": 1898430,
+     "sha256": "3352bdb08e750d93a74751ca7807d2745c2b99e7588e28bbd6d73c2b2fd05ce6"
     }
    ]
   },
@@ -102,8 +102,8 @@
    "inputs": [
     {
      "path": "predictions/20260906/toukei_20260906.json",
-     "bytes": 1539062,
-     "sha256": "d56b4c275c297a9574eba79f69e0b7de8141f66d90e814bbfe01ae9866ca9b7e"
+     "bytes": 1898430,
+     "sha256": "3352bdb08e750d93a74751ca7807d2745c2b99e7588e28bbd6d73c2b2fd05ce6"
     },
     {
      "path": "predictions/20260905/運勢_20260905-06_結合用.csv",
@@ -121,8 +121,8 @@
      "sha256": "37df45f1581ba2a43429cfe0becc1f884717aa1f141fc26cd8c4f33ee1bd4ddd"
     }
    ],
-   "started": "2026-09-05T12:09:57.447218Z",
-   "finished": "2026-09-05T12:09:57.572345Z",
+   "started": "2026-09-05T16:57:07.873880Z",
+   "finished": "2026-09-05T16:57:08.021759Z",
    "exit_code": 0,
    "stdout_tail": [
     "  騎手_区分_別ソース参照候補               17",
@@ -155,14 +155,14 @@
   {
    "script": {
     "path": "scripts/pred20260906/chokyo906.py",
-    "bytes": 10684,
-    "sha256": "61ea58c88d710981db8ab5bb9d0200d04cdf96a842be9f1240846d08808cc148"
+    "bytes": 11211,
+    "sha256": "80400b53b558f4c97326ae80024fe6773a205789172c5d0535f02544ea62b789"
    },
    "inputs": [
     {
      "path": "predictions/20260906/toukei_20260906.json",
-     "bytes": 1539062,
-     "sha256": "d56b4c275c297a9574eba79f69e0b7de8141f66d90e814bbfe01ae9866ca9b7e"
+     "bytes": 1898430,
+     "sha256": "3352bdb08e750d93a74751ca7807d2745c2b99e7588e28bbd6d73c2b2fd05ce6"
     },
     {
      "path": "data/chokyo/coverage.json",
@@ -170,8 +170,8 @@
      "sha256": "40441d6991000550a27e832592f382e9d1b5f6a87db8d1068e2a44783723ac03"
     }
    ],
-   "started": "2026-09-05T12:09:57.575649Z",
-   "finished": "2026-09-05T12:09:57.731097Z",
+   "started": "2026-09-05T16:57:08.025139Z",
+   "finished": "2026-09-05T16:57:08.649458Z",
    "exit_code": 0,
    "stdout_tail": [
     "=== 結合の内訳 ===",
@@ -182,7 +182,7 @@
     "  結合方法_馬名                             148",
     "",
     "[実] 結合率 316/484 = 65.3%（取消1頭を含む母数）",
-    "[実] C-2判定(best)の分布: {'A1': 66, 'B': 170, None: 45, 'A2': 32, 'A3': 3}",
+    "[実] C-2判定(best)の分布: {'A1': 66, 'B': 116, None: 99, 'A2': 32, 'A3': 3}",
     "[実] best_z1f: n=315 中央値-0.64 範囲[-2.44,+2.40]（負=その日その場で速い）",
     "",
     "書き出し: /home/user/github.com-new/predictions/20260906/chokyo_20260906.json"
@@ -191,8 +191,8 @@
    "outputs": [
     {
      "path": "predictions/20260906/chokyo_20260906.json",
-     "bytes": 389460,
-     "sha256": "5a7ff03ca76253444dfd5d26c199d4dc178c1353616ddc08bf0456e3d73f8929"
+     "bytes": 404569,
+     "sha256": "e53e04e0fa0e17b472dbaaad0b8a18e892673348b82fdaf860b875fe4cca316e"
     }
    ]
   },
@@ -205,13 +205,13 @@
    "inputs": [
     {
      "path": "predictions/20260906/toukei_20260906.json",
-     "bytes": 1539062,
-     "sha256": "d56b4c275c297a9574eba79f69e0b7de8141f66d90e814bbfe01ae9866ca9b7e"
+     "bytes": 1898430,
+     "sha256": "3352bdb08e750d93a74751ca7807d2745c2b99e7588e28bbd6d73c2b2fd05ce6"
     },
     {
      "path": "predictions/20260906/chokyo_20260906.json",
-     "bytes": 389460,
-     "sha256": "5a7ff03ca76253444dfd5d26c199d4dc178c1353616ddc08bf0456e3d73f8929"
+     "bytes": 404569,
+     "sha256": "e53e04e0fa0e17b472dbaaad0b8a18e892673348b82fdaf860b875fe4cca316e"
     },
     {
      "path": "predictions/20260906/unsei_20260906.json",
@@ -224,8 +224,8 @@
      "sha256": "801d705d8d653b624f6b689bc54a1a3582ea508de80549b14274477cb51215be"
     }
    ],
-   "started": "2026-09-05T12:09:57.734877Z",
-   "finished": "2026-09-05T12:09:57.819426Z",
+   "started": "2026-09-05T16:57:08.653624Z",
+   "finished": "2026-09-05T16:57:08.734835Z",
    "exit_code": 0,
    "stdout_tail": [
     "  阪神 7R  6 リガーレ         基準人気9 次走+穴帯+調教  次走=優先中/sc3 調教=A2/z-0.88 運勢=○(素材一致)",
@@ -245,27 +245,27 @@
    "outputs": [
     {
      "path": "predictions/20260906/composite.json",
-     "bytes": 458885,
-     "sha256": "7ba30583bb0dcd5e3984fc332c18ae4e12662cfeacbece513c7cc9467595ad35"
+     "bytes": 460349,
+     "sha256": "7d63dc0e1ada69ce3e7e8471c2d9be60fd7604f885737700fccdfac39fe0db70"
     }
    ]
   },
   {
    "script": {
     "path": "scripts/pred20260906/myoumi906.py",
-    "bytes": 16363,
-    "sha256": "984468ea5aa3ffed0d41864e3330ccedcc0f68648171f1e80023c8471c0945e9"
+    "bytes": 16687,
+    "sha256": "cb47d7e6b03bbd5f02471e0acb484f42a7f82fd8d6b7b42a62ee0a89d5a03177"
    },
    "inputs": [
     {
      "path": "predictions/20260906/toukei_20260906.json",
-     "bytes": 1539062,
-     "sha256": "d56b4c275c297a9574eba79f69e0b7de8141f66d90e814bbfe01ae9866ca9b7e"
+     "bytes": 1898430,
+     "sha256": "3352bdb08e750d93a74751ca7807d2745c2b99e7588e28bbd6d73c2b2fd05ce6"
     },
     {
      "path": "predictions/20260906/chokyo_20260906.json",
-     "bytes": 389460,
-     "sha256": "5a7ff03ca76253444dfd5d26c199d4dc178c1353616ddc08bf0456e3d73f8929"
+     "bytes": 404569,
+     "sha256": "e53e04e0fa0e17b472dbaaad0b8a18e892673348b82fdaf860b875fe4cca316e"
     },
     {
      "path": "predictions/20260906/unsei_20260906.json",
@@ -274,8 +274,8 @@
     },
     {
      "path": "predictions/20260906/composite.json",
-     "bytes": 458885,
-     "sha256": "7ba30583bb0dcd5e3984fc332c18ae4e12662cfeacbece513c7cc9467595ad35"
+     "bytes": 460349,
+     "sha256": "7d63dc0e1ada69ce3e7e8471c2d9be60fd7604f885737700fccdfac39fe0db70"
     },
     {
      "path": "predictions/20260906/jisou906.json",
@@ -293,8 +293,8 @@
      "sha256": "37df45f1581ba2a43429cfe0becc1f884717aa1f141fc26cd8c4f33ee1bd4ddd"
     }
    ],
-   "started": "2026-09-05T12:09:57.826953Z",
-   "finished": "2026-09-05T12:09:59.256310Z",
+   "started": "2026-09-05T16:57:08.792533Z",
+   "finished": "2026-09-05T16:57:11.041347Z",
    "exit_code": 0,
    "stdout_tail": [
     "  札幌11R 1人気 12 ゴールデンスナップ 単4.3 補正-9.9 帯調-10.13 支持4 ウマトク信頼度D/妙味S 波乱度S T6=210P3 c1=76",
@@ -314,17 +314,17 @@
    "outputs": [
     {
      "path": "predictions/20260906/myoumi_20260906.json",
-     "bytes": 889795,
-     "sha256": "dd7731785228bccada04fe3576b57d2d7f1e421771549e28fb754e22e9243e0e"
+     "bytes": 890195,
+     "sha256": "d0161ddc3bbc2c2e9fef3da262a7c7f750f27b5db8afbda41d1d7e50bb2249aa"
     },
     {
      "path": "predictions/20260906/03_オッズ妙味_選定R_20260906.csv",
-     "bytes": 54121,
-     "sha256": "5bd4c5fb6604677ea60822c066cd4c2a70b0bc8f043451539e17e7735abfa97c"
+     "bytes": 54099,
+     "sha256": "cdb13e7dd95d9fdeb8aaa21d43f1d91a8cad2f4a446e43bcb3b7851bb64a7fa8"
     }
    ]
   }
  ],
- "finished": "2026-09-05T12:09:59.257940Z",
+ "finished": "2026-09-05T16:57:11.042902Z",
  "all_ok": true
 }

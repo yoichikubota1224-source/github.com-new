@@ -9,7 +9,7 @@
 - [不足]は0・消しへ変換しない。タイム指数の未掲載は time_note と4指数の None で保持する。
 - def_version: 本日の定義刻印（9/5第9報 課題#2 への対応。規則の変更ではなく記録）。
 """
-import json, math, os, collections
+import json, re, math, os, collections
 D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'predictions', '20260906')
 SP = '/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0906'
 PACK = os.environ.get('PACK906', os.path.join(SP, 'pack.json'))
@@ -25,6 +25,11 @@ DEF_VERSION = {
     'c1': 'コンピ最高値。両立 = c1≤76 ∧ P1-P3。v1 2026-08-22〜',
     'are_score_v21': '2026-08-02凍結 sha256 c63c3f41…。入力 o1=JRDB基準単勝の最小値(T-15ではない)・n=出走頭数。監査値のみ・意思決定HOLD',
 }
+
+def vr(x):
+    """新聞の「56 (4)」を (値, 順位) に分ける。無ければ (None, None)"""
+    m = re.match(r'\s*(-?\d+(?:\.\d+)?)\s*(?:\((\d+)\))?', str(x or ''))
+    return (float(m.group(1)), (int(m.group(2)) if m.group(2) else None)) if m else (None, None)
 
 def num(x, d=None):
     s = str(x or '').strip().replace('%', '')
@@ -71,7 +76,7 @@ mbh=collections.defaultdict(list); ulh=collections.defaultdict(list); ulref=coll
 for x in H['mustbuy']: mbh[(x['ba'],x['r'],x['uma'])].append(f"{x['対象']}／{x['条件']}")
 for x in H['ultra']:   ulh[(x['ba'],x['r'],x['uma'])].append(f"No.{x['no']} {x['対象']}／{x['条件']}")
 for x in H.get('ultra_ref_sapporo', []):   # 正本外（退避テンプレ由来）。UL には数えない＝[要確認]
-    ulref[(x['ba'],x['r'],x['uma'])].append(f"[要確認]正本外 {x.get('対象')}／{x.get('条件')}")
+    ulref[(x['ba'],x['r'],x['uma'])].append(f"[要確認]正本外 No.{x.get('no')} {x.get('c1')}／{x.get('c2')}（条件2判定={x.get('条件2判定')}）")   # v2: キーは c1/c2（K01・K05指摘）
 jis={(x['ba'],x['r'],x['uma']): x for x in J['hits']}
 
 TORIKESHI = set()
@@ -117,8 +122,17 @@ for rc in S:
             st_status=str(st.get('source_status','')).strip() or None,
             st_idx=num(st.get('ST指数')), shiage=num(st.get('仕上指数')),
             lap_tekisei=str(st.get('ラップ適性','')).strip() or None, lap_chara=str(st.get('ラップキャラ','')).strip() or None,
-            deokure=num(st.get('出遅率')), senko=num(st.get('先行力')), tsuiso=num(st.get('追走力')),
-            jikyu=num(st.get('持久力')), jizoku=num(st.get('持続力')), shunpatsu=num(st.get('瞬発力')),
+            deokure=num(st.get('出遅率')),
+            # v2: 新聞の5指標は「56 (4)」＝値と順位。9/5・9/6 v1は num() で全頭 null になっていた（K13指摘）
+            senko=vr(st.get('先行力'))[0], tsuiso=vr(st.get('追走力'))[0], jikyu=vr(st.get('持久力'))[0],
+            jizoku=vr(st.get('持続力'))[0], shunpatsu=vr(st.get('瞬発力'))[0],
+            senko_rank=vr(st.get('先行力'))[1], tsuiso_rank=vr(st.get('追走力'))[1], jikyu_rank=vr(st.get('持久力'))[1],
+            jizoku_rank=vr(st.get('持続力'))[1], shunpatsu_rank=vr(st.get('瞬発力'))[1],
+            total_rank_paper=num(st.get('合計値順位')), tenkai_rank_paper=num(st.get('展開順位')),   # 紙面順位(同順なし1..n)
+            # v2: 新聞87列化で追加された8列＋外厩4列（率は「27 %」表記。空欄は[不足]のまま None）
+            stable_course=dict(n=num(st.get('コース厩舎総数')), win=num(st.get('コース厩舎勝率')), ren=num(st.get('コース厩舎連対率')), fuku=num(st.get('コース厩舎複勝率'))),
+            stable_chokyoP=dict(n=num(st.get('調教P厩舎総数')), win=num(st.get('調教P厩舎勝率')), ren=num(st.get('調教P厩舎連対率')), fuku=num(st.get('調教P厩舎複勝率'))),
+            stable_gaikyu=dict(n=num(st.get('厩舎外厩総数')), win=num(st.get('厩舎外厩勝率')), ren=num(st.get('厩舎外厩連対率')), fuku=num(st.get('厩舎外厩複勝率'))),
             zen3f_rank=num(st.get('前3F順位')), zen3f_diff=num(st.get('前3F差')), zen3f_pos=str(st.get('前3F内外','')).strip() or None,
             shobu_rank=num(st.get('勝負所順位')), shobu_diff=num(st.get('勝負所差')), shobu_pos=str(st.get('勝負所内外','')).strip() or None,
             gmae_rank=num(st.get('G前順位')), gmae_diff=num(st.get('G前差')), gmae_pos=str(st.get('G前内外','')).strip() or None,
@@ -144,7 +158,7 @@ for rc in S:
             time_3=num(tm.get('3走')), time_2=num(tm.get('2走')), time_1=num(tm.get('前走')),
             geki_mark=str(um.get('激印','')).strip() or None,
             geki_f=[x for x in (str(um.get(f'激走要因{i}','')).strip() for i in (1,2,3)) if x],
-            haran=num(um.get('波乱度')), fav_sinrai=num(um.get('1番人気信頼度')), fav_myoumi=num(um.get('1番人気妙味度')),
+            haran=(str(um.get('波乱度','')).strip() or None), fav_sinrai=(str(um.get('1番人気信頼度','')).strip() or None), fav_myoumi=(str(um.get('1番人気妙味度','')).strip() or None),   # v2: 英字等級を文字列で保持（v1は num() で null。K07指摘）
             weight=num(um.get('馬体重')), weight_diff=str(um.get('増減','')).strip() or None,
             # DE正本由来の前走（当方5年DBで補完）。⑭・⑤の入力と同じ
             zen_chaku=h.get('zen_chaku'), zen_pop=h.get('zen_pop'), zen_dist=h.get('zen_dist'), zen_ba=h.get('zen_ba'),
@@ -171,7 +185,7 @@ for rc in S:
     m=rmeta[rid]
     races.append(dict(race_id=rid, race_key=rc['race_key'], ba=rc['ba'], r=rc['r'], title=rc['cls'],
                       meta=m['banggumi'], hasso=m['hasso'],
-                      td=rc['td'], dist=rc['dist'], uchisoto=rc.get('uchisoto'), uchisoto_src=rc.get('uchisoto_src'),
+                      td=rc['td'], dist=rc['dist'], uchisoto=rc.get('uchisoto'), uchisoto_src=('[実] ダートは内外区分なし(JRA)' if rc['td']=='ダ' and not rc.get('uchisoto') else rc.get('uchisoto_src')),   # v2: K01指摘（[不足]の誤用）
                       shinba=rc.get('shinba'),
                       n_entry=len(horses), n_live=n, o1=o1,
                       c1=c1, t6=t6, pattern=pat, ryoritsu=(c1 is not None and c1<=76 and pat in ('P1','P2','P3')),

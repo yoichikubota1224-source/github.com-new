@@ -177,7 +177,10 @@ for e in entries:
         last_d2=(dict(date=last_d2['date'], kind=last_d2['kind'], place=last_d2['place'], course=last_d2['course'],
                       f4=last_d2['f4'], f1=last_d2['f1'], z1f=last_d2['z1f'], c2=last_d2['c2']) if last_d2 else None),
         best_z1f=min(hz) if hz else None,
-        best_c2=(sorted(c2s, key=lambda g: ['A3', 'A2', 'A1', 'B'].index(g))[0] if c2s else None),
+        # v2(K06指摘): best_c2 は D-2(9/4)以前の坂路のみで取る。D-1(9/5)の軽めだけで付いたBは C-2 [不足] とする
+        best_c2=(sorted([x['c2'] for x in d2 if x.get('c2')], key=lambda g: ['A3', 'A2', 'A1', 'B'].index(g))[0] if [x for x in d2 if x.get('c2')] else None),
+        best_c2_all=(sorted(c2s, key=lambda g: ['A3', 'A2', 'A1', 'B'].index(g))[0] if c2s else None),   # 監査用: D-1を含む旧定義(v1)
+        c2_d1_only=(bool(c2s) and not [x for x in d2 if x.get('c2')]),
         c2_source=('坂路' if c2s else '[不足]_坂路の追切なし'),
         n_hanro=len(han), n_wood=len(got) - len(han),
         works=[dict(date=x['date'], kind=x['kind'], place=x['place'], course=x['course'],
@@ -197,7 +200,7 @@ if zz:
     print(f'[実] best_z1f: n={len(zz)} 中央値{st.median(zz):+.2f} 範囲[{min(zz):+.2f},{max(zz):+.2f}]（負=その日その場で速い）')
 
 dest = os.path.join(REPO, 'predictions', RACEDAY, f'chokyo_{RACEDAY}.json')
-json.dump(dict(version='chokyo906_v1', c2_order='A3>A2>A1>B（A3=終い1F11秒台+加速 / A2=終い2Fとも12秒台+加速 / A1=終い1Fのみ12秒台+加速 / B=減速）。best_c2はこの順で最良、坂路のみ', last_rule='last=期間内で最新(D-1含む) / last_d2=D-2(9/4)以前で最新', coverage_note='調教CSVは美浦・栗東の追切のみ。札幌滞在馬は収録範囲外＝[不足]は「追切が無い」ではなく「収録されていない」', raceday=RACEDAY, window=[SINCE, UNTIL],
+json.dump(dict(version='chokyo906_v2', c2_order='A3>A2>A1>B（A3=終い1F11秒台+加速 / A2=終い2Fとも12秒台+加速 / A1=終い1Fのみ12秒台+加速 / B=減速）。best_c2はこの順で最良、坂路のみ。v2: D-2(9/4)以前の追切に限る（D-1の軽めだけのBは[不足]）。best_c2_all=D-1含む旧定義', last_rule='last=期間内で最新(D-1含む) / last_d2=D-2(9/4)以前で最新', coverage_note='調教CSVは美浦・栗東の追切のみ。札幌滞在馬は収録範囲外＝[不足]は「追切が無い」ではなく「収録されていない」', raceday=RACEDAY, window=[SINCE, UNTIL],
                n_entries=len(entries), n_joined=joined, horses=out),
           open(dest, 'w'), ensure_ascii=False, indent=1)
 print(f'\n書き出し: {dest}')
