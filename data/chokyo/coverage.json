@@ -339,6 +339,11 @@
       "date": "20260904",
       "hanro": 56,
       "wood": 39
+    },
+    {
+      "date": "20260905",
+      "hanro": 1739,
+      "wood": 452
     }
   ],
   "encoding": "cp932",
@@ -350,16 +355,16 @@
     "月曜は調教が無いので日付の切れ目は正常。"
   ],
   "summary": {
-    "days_total": 68,
+    "days_total": 69,
     "first_date": "20260512",
     "hanro": {
-      "days": 68,
-      "rows": 36855
+      "days": 69,
+      "rows": 38594
     },
-    "last_date": "20260904",
+    "last_date": "20260905",
     "wood": {
-      "days": 56,
-      "rows": 13960
+      "days": 57,
+      "rows": 14412
     }
   },
   "wood_missing_days": [
