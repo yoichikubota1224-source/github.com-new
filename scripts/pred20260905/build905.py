@@ -32,9 +32,11 @@ O1_T=[(0.0,1.9,15.2,11.7,50.9,8.0),(1.9,2.6,27.3,13.6,55.0,12.3),
 N_T =[(8,12,24.8,10.4,46.3,6.2),(12,15,34.7,18.3,62.7,15.1),(15,19,38.0,21.2,63.4,20.3)]
 BASE=(34.5,18.3,59.8,16.2)
 def _cell(t,v):
+    # 凍結版 are_score_v21.py (sha256 c63c3f41…, 2026-08-02凍結) の lk() は域外で BASE を返す。
+    # v3.1: 末尾セルを流用していた当方の再実装を凍結版に合わせた（第6報で訂正）。域外は v21_domain で別に印を付ける。
     for row in t:
         if row[0] <= v < row[1]: return row
-    return t[-1]
+    return (None, None) + BASE
 def _logit(p): p=min(max(p,1e-4),1-1e-4); return math.log(p/(1-p))
 def _sig(z): return 1/(1+math.exp(-z))
 def are_v21(o1,n):
@@ -123,7 +125,10 @@ for rid, r in sh.items():
                       td=r['td'], dist=r['dist'], uchisoto=('外' if '外' in r['meta'] else '内'),
                       n_entry=len(horses), n_live=n, o1=o1, v21=are_v21(o1,n),
                       # v21の学習域は頭数8〜18。域外(N<8)は _cell が末尾セル(N15〜18)を流用するため値を序列に使わない＝[要確認]
-                      v21_domain=('域内' if 8 <= n <= 18 else f'域外(N={n}: 末尾セルを流用)'),
+                      v21_domain=('域内' if 8 <= n <= 18 else f'域外(N={n}: 凍結版と同じくBASEへ退避)'),
+                      # ⚠ 凍結版の主変数 o1 は「T-15 1番人気オッズ」。当方は JRDB基準単勝(前日値)を代入している＝仕様外の代替。
+                      #   凍結版は NO_VALID_SNAPSHOT=HOLD を定めるため、意思決定への利用は HOLD（第6報）。
+                      v21_o1_source='JRDB基準単勝（T-15スナップショットではない＝HOLD）',
                       horses=horses))
 races.sort(key=lambda x:(x['ba'],x['r']))
 json.dump(races, open(os.path.join(D,'toukei_20260905.json'),'w'), ensure_ascii=False, indent=1)
