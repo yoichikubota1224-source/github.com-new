@@ -1,0 +1,52 @@
+{
+  "ledger": "ACTUAL_PURCHASE",
+  "date": "2026-08-23",
+  "approver": "羊一様(人間最終承認)",
+  "source": "チャットでのご報告(2026-08-23)",
+  "note": "[不足]は0や「なし」に変換していない。未共有であることを未共有として保持する。",
+  "entries": [
+    {
+      "racekey": "07263208",
+      "race": "中京8R 豊川特別",
+      "result_top3": [
+        {"chaku": 1, "umaban": 11, "name": "カーリキュー", "pop": 3, "odds": 7.1},
+        {"chaku": 2, "umaban": 12, "name": "ケイアイマウンガ", "pop": 6, "odds": 14.9},
+        {"chaku": 3, "umaban": 4, "name": "ワイルドブッター", "pop": 7, "odds": 17.2}
+      ],
+      "purchased": true,
+      "net_profit_jpy": 350000,
+      "net_profit_source": "羊一様の申告値",
+      "total_stake_jpy": "[不足]",
+      "total_payout_jpy": "[不足]",
+      "bet_type": "[不足]",
+      "combinations": "[不足]",
+      "n_combinations": "[不足]",
+      "stake_per_combination_jpy": "[不足]",
+      "purchase_time": "[不足]",
+      "odds_at_purchase": "[不足]",
+      "actual_roi_pct": "NOT_CALCULABLE",
+      "human_final_approval": true,
+      "diff_from_ai_proposal": "[不足](Claude/ChatGPTは買い目を出力していないため差分の定義が未確立)"
+    }
+  ],
+  "other_races": {
+    "status": "[不足]",
+    "note": "中京8R以外の34Rについて、購入の有無自体が未共有。「買っていない」とは記録していない。"
+  },
+  "metrics": {
+    "予想カバー率": {
+      "value_pct": 87.2,
+      "detail": "選定13Rの上位3頭39枠のうち34枠を候補集合(印◎○▲△☆)に含めた",
+      "random_baseline_pct": 54.1,
+      "lift": 1.61,
+      "status": "COMPUTED"
+    },
+    "券集合カバー率": {"value": "[不足]", "requires": "券種・組合せ", "status": "NOT_CALCULABLE"},
+    "資金捕捉率": {"value": "[不足]", "requires": "総投資額・1点金額・組合せ", "status": "NOT_CALCULABLE"},
+    "実回収率": {"value": "[不足]", "requires": "総投資額・総払戻額", "status": "NOT_CALCULABLE"}
+  },
+  "governance": {
+    "PURCHASE_ALLOWED": "NO",
+    "note": "Claude工程は買い目・点数・資金配分・購入可否を出力しない。本台帳は実施済みの購入の記録であり提案ではない。"
+  }
+}

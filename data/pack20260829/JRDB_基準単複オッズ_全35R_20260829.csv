@@ -1,0 +1,483 @@
+﻿日付,開催場,R,race_id,racekey,発走,番組表示,馬番,馬名,基準単勝,基準複勝,オッズ種別,source_url,source_status
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,1,ロマンス,29,6.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,2,オーパパ,69.4,13.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,3,ネイティヴプライド,14,3.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,4,ダイヒョウカーク,46.6,9.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,5,プリヴィマーク,49,10,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,6,ガードオブオナー,4.8,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,7,ゴールドプレイヤー,3,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,8,エターナルホープ,6.3,2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,9,オウケンサクラコ,21.6,4.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,10,マーゴットライズ,14.6,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,11,アデルフィー,5,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,12,ヌビアン,117,22.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,13,バターショコラ,70.8,13.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,14,ハチマン,89.4,17.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,15,カシマライフウ,6.4,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,1,マムダッドベル,44.6,8.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,2,ノルトハウゼン,5,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,3,ルクスマグナ,15.4,3.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,4,ビスクヴィート,28.8,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,5,アルアンダルス,28.1,5.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,6,ホウオウビリーヴ,6.7,2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,7,レーゲンシャウアー,26.4,5.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,8,アウアリイ,3.6,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,9,パープルタウン,14,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,10,サウンドシェリー,3,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,11,キムケンシーサー,7.1,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,1,ポケットブック,78.9,13,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,2,ジェイエルキール,32.9,5.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,3,クラウンロムパイア,99.2,16.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,4,エクラドリオン,2.1,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,5,ショウナンバッカス,19.8,3.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,6,ヨツバ,110,17.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,7,タワーウマザンマイ,40.6,7.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,8,チョトツモウシン,109,17.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,9,ニシノムホウモノ,28.3,5.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,10,レッドアバンドーネ,12.1,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,11,アヴァンデセール,85.4,14,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,12,セレスティナ,5.3,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,13,イントリー,9,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,14,イデアモッコス,83.9,13.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,15,コメットサン,5.8,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,16,ホワイトホール,39.3,7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,17,モチロンコクラ,83.9,13.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,18,ショウナンワンパク,14,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,1,ローレルエース,40.4,7.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,2,イクオクコウネン,5,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,3,レイランディ,64,11.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,4,ブリックアブラック,64.5,11.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,5,ピクシーゲイル,191,33.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,6,サヴマ,12.4,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,7,ヤマメホープ,2.7,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,8,ピグマリオン,111,19.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,9,ゾネブルーム,4.4,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,10,アルティマローネ,20,4.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,11,キコリータ,11.5,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,12,アージェンタイド,120,21.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,13,ゴールドエンバー,11.6,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,14,アティラン,118,21.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,15,アンヴデット,13.6,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,16,ルミナスレイナ,105,18.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,17,ホウライブラック,199,35.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,18,オレンジフィールド,15.3,3.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,1,ボールドタワー,21,4.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,2,コスモシェルベット,34.7,7.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,3,ルーナディサングエ,2.7,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,4,ヨドノタイヨウ,7.5,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,5,トレベルオール,6.8,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,6,ルシャルムール,5.3,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,7,アバレリュウ,24.5,5.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,8,アビヤント,7,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,9,ゴットランド,27.5,5.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,10,リアライズオーラム,21.6,4.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,11,ヴェーヌドール,79.1,14.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,12,サウジバラード,26.5,5.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,13,マルカベント,52.6,10.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,14,ジンガー,36.2,7.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,15,サトノラポール,13.5,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,1,ハギノコラソン,63.7,11.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,2,ボウウィンドウ,2.6,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,3,バンフィエルド,37.9,7.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,4,ツルマウカタチ,47.3,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,5,ロールザダイス,30.2,6.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,6,オリバナム,14,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,7,ジャンビ,73.5,13.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,8,ホウオウタイタン,5.2,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,9,バガン,27.7,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,10,ペッレグリーニ,27.7,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,11,ティムール,56.5,10.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,12,マイネルアズーロ,10.6,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,13,エリーナストーム,12.4,3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,14,カフェアローロ,102,18.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,15,スピンザブラッド,22.4,4.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,16,ピエナフェーヴル,5.2,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,17,マイネルアレス,15.5,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,1,ピカピカサンダー,6.2,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,2,アムールドパリ,6.5,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,3,タガノバビロン,2.2,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,4,フタイテンロック,32.5,5.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,5,ショウナンライシン,26.3,4.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,6,カズタンジャー,3.9,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,7,メイショウズイウン,16.6,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,8,ピースオブザライフ,36.6,6.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,9,ハセドン,41.7,7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,10,ハビレ,6.9,1.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,11,ベルイストワール,53.1,8.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,1,ダンシングアウェイ,48.4,9.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,2,プレイザリード,4.5,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,3,ディーンズリスター,13.4,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,4,シャインフリーリー,27.9,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,5,ノーマジック,64.1,12,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,6,オプレントジュエル,10.9,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,7,ミッドセンチュリー,14.7,3.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,8,ゴンファロニエーレ,3.9,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,9,コウセイケンタロス,57.6,10.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,10,フォーグッド,38.8,7.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,11,ランブルスコ,3.1,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,12,テイキットイージー,29.6,6.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,13,マイネルリーヒム,5.7,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,1,ビリオネアボーイ,77.1,12.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,2,アルシャンティ,113,17.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,3,キャトルエピス,15,3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,4,ソードスレイプニル,18.3,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,5,メイリー,13,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,6,タイセイフレッサ,3.3,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,7,ベレーバスク,11.4,2.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,8,フェーダーローター,30.3,5.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,9,ライネリーベ,2.5,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,10,ワカミヤイリオス,103,16,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,11,ダイユウルミナス,98.5,15.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,12,カシノリアーナ,119,18.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,13,サーロー,28.9,5.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,14,ホットゥトロット,19.6,3.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,15,ディサイドオンミー,73.3,11.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,16,リラベガ,16.2,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,17,ガミーヌ,28.7,5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,18,タイキオーベロン,18.6,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,1,ウィズアツインクル,61.4,10.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,2,ムーングレイル,12.1,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,3,エリュグレイス,5.6,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,4,ジーナグレイス,34.2,6.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,5,グランフルス,52.9,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,6,レインボーワールド,170,27.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,7,ミリオングローリー,20.9,4.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,8,スイートハイデン,26.7,5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,9,ヘルヴィッツ,42.2,7.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,10,ノブステップ,206,33.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,11,ヤマニンリンキング,5.9,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,12,イベリスアマラ,25.4,4.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,13,イノーマル,14.7,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,14,マイネルアルゴー,31.1,5.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,15,レッドレガリア,2.1,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,16,トーアシチフクジン,51,9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,17,コスモアルペジオ,22.9,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,18,ピースフルマインド,22.8,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,1,ペイシャラム,22.8,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,2,リベラル,107,16.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,3,エリースノー,3.5,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,4,チュラヴェール,6,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,5,シカゴキャッツ,117,17.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,6,ペイシャダンシング,32,5.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,7,ロンバスブレス,2.3,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,8,ブライティアロード,19.7,3.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,9,サンシュノジンギ,83.8,12.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,10,ガヤーズベース,57.4,9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,11,ケイツーキップ,23.1,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,12,カフェオドヴィー,35.9,6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,13,テラシエスタ,41.8,6.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,14,トリエンナーレ,8.6,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,15,ライヴマティーニ,12.2,2.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_04263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,1,エンルートフライト,2.5,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,2,ブラックミューズ,5.3,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,3,プッシュザリミット,23.1,4.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,4,ディープナイト,43.4,7.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,5,レイデアルマス,12.5,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,6,ピュアノーブル,11.4,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,7,マンナット,4.1,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,8,ハルカカナタ,13.4,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,9,ゴルディアス,22.8,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,10,ホットロッドハート,14.4,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,11,メモリアデルレ,12.8,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,1,ドリームオブコージ,49.1,8.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,2,ボビーザグレート,9.2,2.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,3,ダノンアズール,4.1,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,4,ゴールドシューター,34.1,6.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,5,バミューダブーケ,13.8,3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,6,ダヌラーサナ,7.7,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,7,オーリエイト,2.5,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,8,アンナモエ,24.9,4.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,9,ルガルデ,26.5,5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,10,ミリオンカラー,17.8,3.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,11,ソリドゥス,7,2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,12,ジュンヴァグネル,14.5,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,1,クリノライジング,30.8,6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,2,ワンキャンパス,40.6,7.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,3,パルフェクシオン,3.2,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,4,リムリックアイル,3.3,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,5,ビンチャリ,8.2,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,6,ジーティーハルカゼ,11.9,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,7,サルーミアモール,9.2,2.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,8,インティサール,4.2,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,9,マイフレダ,21,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,10,ドリームリボン,24.9,5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,11,カラスアゲハ,29.6,5.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,12,ウルウノマーズ,49.3,9.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,1,タイセイグローバル,22.6,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,2,アメジストブリエ,83.2,12.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,3,プロスト,25.5,4.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,4,ヴィスメンティス,17.2,3.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,5,ジュンヴァッテッド,109,16.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,6,カパルア,52.5,8.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,7,クールドリオン,10.7,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,8,スクランプシャス,6.7,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,9,サンタカタリナ,25.4,4.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,10,テイエムプレミラン,51.5,8.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,11,パシフィックドーン,9.3,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,12,チュオンソン,42.6,7.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,13,マイコンプリート,1.9,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,14,マテンロウルクス,68.7,10.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,15,レイアン,91.3,14.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,16,ナムラヴンダー,5.7,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,1,ワンダーデリエール,8.5,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,2,リアライズアリス,24.2,4.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,3,サンスベリア,47.4,7.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,4,コスモフィレンツェ,4.8,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,5,クランズクラウン,14.5,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,6,パンキー,7.3,1.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,7,スリーキズナヒメ,35.1,6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,8,ゴールデンテティス,8.6,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,9,ウインリーブル,40.6,6.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,10,ビクスバイト,2,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,11,ラピス,20.4,3.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,12,クラリノ,34.5,5.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,13,プリティウーマン,58.6,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,1,フィドルファドル,4.1,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,2,ザウリ,23.3,5.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,3,オコタンペ,30.1,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,4,シルフズミスチーフ,3.6,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,5,ルクスレイモンド,3.8,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,6,ダノンモンテローザ,13,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,7,ローマンレイク,27.8,5.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,8,ブルーノート,35.2,7.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,9,シアター,47.8,9.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,10,リードプリンシパル,46.8,9.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,11,アオイレーギーナ,8.7,2.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,12,バッハアルプゼー,6,1.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,13,ゲーベル,30.3,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,1,ボンヌソワレ,4.1,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,2,ロードマイライフ,46.7,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,3,ビップジーニー,45.8,9.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,4,ブルクトーア,19.8,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,5,チャンネルトンネル,5.2,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,6,セシリエプラージュ,24.1,5.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,7,コト,23,4.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,8,ダークエクリプス,45.4,9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,9,モジャーリオ,27.2,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,10,ポッドロワール,3.1,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,11,フライングブレード,32.9,6.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,12,ポエットリー,67.1,12.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,13,ユハンヌス,14.8,3.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,14,ガンマジーティーピ,8.2,2.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,15,ユウファラオ,7.9,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,1,カウンティフェア,34.7,6.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,2,ツーネサーン,17.5,3.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,3,サロニコス,23.4,4.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,4,アムールリーベ,28.7,5.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,5,サクラオーラ,34.3,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,6,トライアンフパス,5,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,7,リアライズ,8.1,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,8,キャッスルレイク,10.6,2.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,9,エーデルヴェーグ,6.7,1.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,10,ワンコールアウェイ,13.2,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,11,アスクキングコング,63.5,11,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,12,サヴァビアン,44,8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,13,モンテディアーナ,30.6,5.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,14,ダガーリング,2.3,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,1,ラグナトーレ,18.9,3.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,2,ブラッドムーン,11.3,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,3,コンテナライン,11.8,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,4,セレーノ,4.8,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,5,クラテロス,11.2,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,6,ラテライト,8.1,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,7,リアンクトワ,15.5,3.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,8,シエーナカラー,3.4,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,9,メイショウアカリ,2.9,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,1,ワイドグンサ,4.5,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,2,パヴィーア,16.7,4.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,3,ハッピーラブソング,63.4,13.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,4,タイニーワンダー,4.2,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,5,ヴィヴァシャス,34.3,7.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,6,ジューンセクレタ,6.5,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,7,ウォーターパラディ,27.4,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,8,メイショウサトノヒ,33.1,7.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,9,ピョイットハレルヤ,22.8,5.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,10,リンゲルブルーメ,14.4,3.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,11,アルプスオジョー,36.7,8.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,12,マダムカマラード,16,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,13,グランメドウ,8.7,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,14,ハンザキ,41,9.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,15,タイセイレグノ,45.1,10.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,16,ジャンヌドゥレーヴ,4.9,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,1,オーバースタンド,11.3,2.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,2,エンベッカ,15.7,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,3,ファルカータ,2.5,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,4,リアンマヒナ,3.6,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,5,メイショウビストロ,20.1,3.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,6,レッドリガーレ,18.3,3.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,7,チャンピオンロード,42.9,7.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,8,フレイムスター,27,4.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,9,ヴォーカライズ,5.1,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,10,エイズルブルーム,25.6,4.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,11,ギザキズラヴ,56.2,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,12,グローブアマランス,16.1,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,13,リオンプライム,34,6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,1,クロレ,5.4,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,2,ゴールデンドラゴン,2.5,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,3,タガノランパート,3.8,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,4,クリコバロー,25.5,4.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,5,シャイニングスター,17.7,3.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,6,ブクブクー,15.4,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,7,ベルラフィネ,36.9,6.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,8,シホノグラツィア,13.1,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,9,クロームクロス,37.3,6.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,10,ガラード,22.2,4.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,11,メイショウハーブス,22.6,4.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,12,トラッドロア,36.3,6.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,13,サマーナジュム,39.7,7.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,14,メイショウジンソウ,16.7,3.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_07263312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,1,アズライトアスール,36.4,8.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,2,ロードステラート,8.8,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,3,アスコットダンス,23.1,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,4,ショウナンタヅナ,8.7,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,5,フロムザムーン,21.9,5.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,6,ワンダーアスク,13.5,3.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,7,ダリアフレイバー,23,5.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,8,アイムスティルミー,27.2,6.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,9,ゴールデンダガー,6.2,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,10,クールフィデル,14.4,3.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,11,メイショウタイザン,12.7,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,12,サンオブザサン,3.9,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,13,ベルアズーロ,7,2.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,14,アーデルブリックス,6.7,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262301.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,1,セールデュクール,46.4,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,2,ロゼハイスクール,35.7,7.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,3,フォルトゥナロッサ,2.6,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,4,セイレイカ,7.9,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,5,タプティ,5.7,1.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,6,ルギッドドランジュ,7.3,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,7,コイゾラ,35.4,7.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,8,リラカリス,24.4,5.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,9,ソーハッピー,8.3,2.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,10,アヴレディール,6.4,2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,11,ルイスイメル,46.3,9.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,12,バタフライ,12.9,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,13,サトノパラディ,18.6,4.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262302.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,1,ダノンキューブ,2,1.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,2,サンゴート,31.7,5.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,3,エコロナイン,5.3,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,4,アイアムツヨスギル,18.7,3.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,5,ロマノヴェリテ,5.2,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,6,チェッリーニ,24.8,4.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,7,マシュマロデイズ,8.9,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,8,トルネードサンダー,15.5,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,9,イドム,9.1,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,10,マイネルサリーレ,24,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,11,シャイニーヒーロー,44.1,7.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262303.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,1,ニシノギャルズ,13.3,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,2,ゲレイロ,17.8,3.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,3,ハクサンレイホウ,24.9,4.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,4,オスロクィーン,25.8,5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,5,アニマレイ,3.2,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,6,ハイティー,3.1,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,7,フェイスリフト,4.4,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,8,ジューンマロン,30.3,5.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,9,ディースカウ,22.8,4.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,10,マッシブショット,24.5,4.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,11,ミスマラッカ,14.9,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,12,スマートコーラル,11.8,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262304.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,1,ユーフォナイト,6.3,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,2,ハイネスプラウド,22,5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,3,ロンバルディア,9.4,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,4,ウィナーズクロノ,24.8,5.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,5,フィールザウィル,16.9,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,6,コスモセイント,18.3,4.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,7,フクノブロッサム,44.2,9.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,8,テンラッキーロード,6.9,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,9,ハリケンライズ,34,7.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,10,ゴーストミステリー,3.4,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,11,モントリオール,4.7,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,12,リュウノタキノボリ,17.6,4.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,13,ルクシエル,23.3,5.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,14,ルボワ,11.9,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262305.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,1,ヒルノボローニャ,29.3,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,2,フレンチブラッサム,14.3,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,3,イトシサ,11.4,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,4,ヒメヒオウギ,14.1,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,5,グリニッジローズ,50.1,10.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,6,エイシンキーンラン,11.6,3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,7,ランウェイミューズ,6.5,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,8,サートゥルチェア,8.8,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,9,ハイバーニアン,33.2,7.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,10,ジャーナーリア,16.6,4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,11,ペカリーナ,4.7,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,12,サウンドファミリエ,3.3,1.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,13,シンデレラカラー,46.9,9.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,14,ビロングトゥミー,13.2,3.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262306.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,1,ハッピーラッキー,8.6,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,2,プリュノワール,8.9,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,3,レッドカメリア,53.5,12.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,4,ニルマーネル,8.6,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,5,グロリアスマーチ,12.9,3.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,6,ロードヴェルテクス,38.8,9.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,7,ミレニアルピンク,24.4,6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,8,ジーティーエスピ,6.7,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,9,ラプランセス,5.5,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,10,ハルヒメ,14.1,3.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,11,ペガサスノース,66.9,14.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,12,ペイシャアーサー,72.7,16.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,13,ナンナンプー,37.6,8.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,14,マグネシアブリック,6.6,2.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,15,ツルノマイハシ,4.3,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,16,スプリングデイ,56.1,12.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262307.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,1,エコロゼルダ,22,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,2,ガビーズメロディ,40.8,7.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,3,ロードアルディート,3.3,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,4,エタンセル,8,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,5,アチーヴァー,3,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,6,レッドフロイデ,7.7,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,7,グローリーバローズ,17.4,3.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,8,ピエナオルカ,5.5,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,9,スターオブロンドン,12,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,10,ルージュエピック,31,5.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,11,ノリノドラゴン,20,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262308.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,1,ミエノストロング,8.6,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,2,マイバラード,29.3,5.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,3,アイドクレース,2.4,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,4,ウインイルネージュ,36.7,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,5,カージオイド,13.1,2.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,6,ブランドブラン,6.8,1.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,7,グランセゾン,3.7,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,8,キタノサリスカ,22,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,9,カイシンパジェント,29.8,5.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,10,エオアリイ,13.8,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,11,エイトスターズ,24.9,4.5,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,12,コスモキャバリエ,15.1,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262309.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,1,ルアシュエル,13.3,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,2,ルベルグラン,24.2,4.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,3,ワールドエンジェル,4.5,1.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,4,スハッチェ,32.2,6.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,5,ピンクゴールド,26.9,5.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,6,トラデスカンティア,25.2,5.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,7,ピクニックマーチ,12.8,3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,8,タイフーンナイン,5.3,1.7,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,9,ムーンベリル,12.5,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,10,ヌーンベルク,7.1,2.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,11,ラビリンスティアラ,25.2,5.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,12,ウインガラハッド,2.7,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262310.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,1,エボルヴィング,13.6,3.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,2,マイネルバーテクス,28.3,6.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,3,マイネルフォルツァ,11.3,2.9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,4,ウィルサヴァイブ,10.7,2.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,5,ハニードレス,36,7.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,6,アリスメティーク,2.8,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,7,メイショウアイル,7.1,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,8,レジェンドシップ,12.2,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,9,ナグルファル,34.5,7.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,10,ドッビアーコ,43.5,9,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,11,フォルテフィオーレ,21.7,4.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,12,バルティカ,5.9,2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,13,コリカンチャ,12.3,3.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,14,バースライト,13.2,3.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262311.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,1,エンプレスフレーム,32.4,5.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,2,ルージュマローネ,22,4.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,3,ディアウス,6.5,1.8,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,4,アラナコア,12.2,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,5,ホレーショ,11.8,2.6,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,6,レディゴディヴァ,40.8,7.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,7,リメンバーヒム,16.6,3.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,8,ヤコブセン,34.5,6.1,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,9,マーゴットサンズ,8.5,2.2,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,10,オンザムービー,2.6,1.3,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,11,タガノエルー,3.5,1.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,12,シャンハイナイト,23.7,4.4,JRDB基準オッズ（確定オッズではない）,https://jrdb.com/member/n_live_20260829_01262312.html,PASS_UI_RACE_SELECTOR_BASE_ODDS

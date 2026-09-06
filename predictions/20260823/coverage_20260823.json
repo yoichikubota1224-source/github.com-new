@@ -1,0 +1,398 @@
+{
+ "day": "2026-08-23",
+ "races": [
+  {
+   "venue": "中京",
+   "r": 6,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 5,
+     "name": "ビップディラン",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 3,
+     "name": "ジーティーマン",
+     "pop": 3,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 2,
+     "name": "テーオーシュタイン",
+     "pop": 9,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "中京",
+   "r": 8,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 11,
+     "name": "カーリキュー",
+     "pop": 3,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 12,
+     "name": "ケイアイマウンガ",
+     "pop": 6,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 4,
+     "name": "ワイルドブッター",
+     "pop": 7,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "新潟",
+   "r": 2,
+   "marked": 7,
+   "top3": 3,
+   "covered": 2,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 7,
+     "name": "タイヴァス",
+     "pop": 5,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 8,
+     "name": "スロノス",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 4,
+     "name": "グランドストーリー",
+     "pop": 7,
+     "marked": false
+    }
+   ]
+  },
+  {
+   "venue": "新潟",
+   "r": 4,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 12,
+     "name": "ミエスタ",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 7,
+     "name": "メビウスロマンス",
+     "pop": 4,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 1,
+     "name": "ミッキーサウザンド",
+     "pop": 3,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "新潟",
+   "r": 5,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 6,
+     "name": "フジサン",
+     "pop": 5,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 4,
+     "name": "バンオンタイム",
+     "pop": 1,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 18,
+     "name": "ピコプリンセス",
+     "pop": 12,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "新潟",
+   "r": 6,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 4,
+     "name": "オンザライン",
+     "pop": 10,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 14,
+     "name": "アラレタバシル",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 7,
+     "name": "ブレトワルダ",
+     "pop": 1,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "新潟",
+   "r": 9,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 15,
+     "name": "ベルゼビュート",
+     "pop": 1,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 12,
+     "name": "カセノアステリア",
+     "pop": 3,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 13,
+     "name": "バルジール",
+     "pop": 7,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "札幌",
+   "r": 4,
+   "marked": 7,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 12,
+     "name": "レッドアイスピア",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 8,
+     "name": "リアララ",
+     "pop": 1,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 16,
+     "name": "アドマイヤパープル",
+     "pop": 3,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "札幌",
+   "r": 6,
+   "marked": 8,
+   "top3": 3,
+   "covered": 2,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 12,
+     "name": "サンセットゴールド",
+     "pop": 8,
+     "marked": false
+    },
+    {
+     "chaku": 2,
+     "umaban": 2,
+     "name": "ルールザウェイヴ",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 5,
+     "name": "ルクスアドラー",
+     "pop": 7,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "札幌",
+   "r": 7,
+   "marked": 7,
+   "top3": 3,
+   "covered": 2,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 5,
+     "name": "ニヒトツーゼーア",
+     "pop": 6,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 10,
+     "name": "ダイシンレアレア",
+     "pop": 1,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 6,
+     "name": "トライゴーニック",
+     "pop": 7,
+     "marked": false
+    }
+   ]
+  },
+  {
+   "venue": "札幌",
+   "r": 10,
+   "marked": 8,
+   "top3": 3,
+   "covered": 1,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 13,
+     "name": "マーシヴィガラス",
+     "pop": 12,
+     "marked": false
+    },
+    {
+     "chaku": 2,
+     "umaban": 1,
+     "name": "ローズマイスター",
+     "pop": 3,
+     "marked": false
+    },
+    {
+     "chaku": 3,
+     "umaban": 11,
+     "name": "アオハルブルース",
+     "pop": 2,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "札幌",
+   "r": 11,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 14,
+     "name": "サウンドモリアーナ",
+     "pop": 5,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 3,
+     "name": "パンジャタワー",
+     "pop": 1,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 8,
+     "name": "ウインカーネリアン",
+     "pop": 3,
+     "marked": true
+    }
+   ]
+  },
+  {
+   "venue": "札幌",
+   "r": 12,
+   "marked": 8,
+   "top3": 3,
+   "covered": 3,
+   "detail": [
+    {
+     "chaku": 1,
+     "umaban": 12,
+     "name": "ミリオンクラウン",
+     "pop": 2,
+     "marked": true
+    },
+    {
+     "chaku": 2,
+     "umaban": 2,
+     "name": "マイネルフォルツァ",
+     "pop": 11,
+     "marked": true
+    },
+    {
+     "chaku": 3,
+     "umaban": 14,
+     "name": "ワザモノ",
+     "pop": 5,
+     "marked": true
+    }
+   ]
+  }
+ ],
+ "covered": 34,
+ "total": 39,
+ "rate": 87.2
+}

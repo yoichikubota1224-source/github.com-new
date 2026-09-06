@@ -1,0 +1,881 @@
+{
+ "races": {
+  "中京1R": {
+   "arare": false,
+   "win_pop": 2,
+   "top3sum": 9,
+   "key": "07263301",
+   "n": 11
+  },
+  "中京2R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 10,
+   "key": "07263302",
+   "n": 12
+  },
+  "中京3R": {
+   "arare": true,
+   "win_pop": 4,
+   "top3sum": 18,
+   "key": "07263303",
+   "n": 12
+  },
+  "中京4R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 14,
+   "key": "07263304",
+   "n": 16
+  },
+  "中京5R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 6,
+   "key": "07263305",
+   "n": 13
+  },
+  "中京6R": {
+   "arare": false,
+   "win_pop": 3,
+   "top3sum": 14,
+   "key": "07263306",
+   "n": 13
+  },
+  "中京7R": {
+   "arare": true,
+   "win_pop": 7,
+   "top3sum": 12,
+   "key": "07263307",
+   "n": 15
+  },
+  "中京8R": {
+   "arare": false,
+   "win_pop": 2,
+   "top3sum": 13,
+   "key": "07263308",
+   "n": 14
+  },
+  "中京9R": {
+   "arare": false,
+   "win_pop": 2,
+   "top3sum": 14,
+   "key": "07263309",
+   "n": 9
+  },
+  "中京10R": {
+   "arare": false,
+   "win_pop": 2,
+   "top3sum": 14,
+   "key": "07263310",
+   "n": 16
+  },
+  "中京11R": {
+   "arare": false,
+   "win_pop": 2,
+   "top3sum": 15,
+   "key": "07263311",
+   "n": 13
+  },
+  "中京12R": {
+   "arare": true,
+   "win_pop": 10,
+   "top3sum": 13,
+   "key": "07263312",
+   "n": 14
+  },
+  "新潟2R": {
+   "arare": false,
+   "win_pop": 4,
+   "top3sum": 7,
+   "key": "04263302",
+   "n": 15
+  },
+  "新潟3R": {
+   "arare": true,
+   "win_pop": 5,
+   "top3sum": 12,
+   "key": "04263303",
+   "n": 11
+  },
+  "新潟4R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 16,
+   "key": "04263304",
+   "n": 18
+  },
+  "新潟5R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 11,
+   "key": "04263305",
+   "n": 18
+  },
+  "新潟6R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 10,
+   "key": "04263306",
+   "n": 15
+  },
+  "新潟7R": {
+   "arare": true,
+   "win_pop": 1,
+   "top3sum": 20,
+   "key": "04263307",
+   "n": 17
+  },
+  "新潟8R": {
+   "arare": false,
+   "win_pop": 4,
+   "top3sum": 8,
+   "key": "04263308",
+   "n": 11
+  },
+  "新潟9R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 9,
+   "key": "04263309",
+   "n": 13
+  },
+  "新潟10R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 11,
+   "key": "04263310",
+   "n": 18
+  },
+  "新潟11R": {
+   "arare": true,
+   "win_pop": 11,
+   "top3sum": 20,
+   "key": "04263311",
+   "n": 18
+  },
+  "新潟12R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 8,
+   "key": "04263312",
+   "n": 15
+  },
+  "札幌1R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 16,
+   "key": "01262301",
+   "n": 14
+  },
+  "札幌2R": {
+   "arare": false,
+   "win_pop": 4,
+   "top3sum": 14,
+   "key": "01262302",
+   "n": 13
+  },
+  "札幌3R": {
+   "arare": false,
+   "win_pop": 3,
+   "top3sum": 9,
+   "key": "01262303",
+   "n": 11
+  },
+  "札幌4R": {
+   "arare": true,
+   "win_pop": 4,
+   "top3sum": 21,
+   "key": "01262304",
+   "n": 12
+  },
+  "札幌5R": {
+   "arare": true,
+   "win_pop": 3,
+   "top3sum": 21,
+   "key": "01262305",
+   "n": 14
+  },
+  "札幌6R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 12,
+   "key": "01262306",
+   "n": 14
+  },
+  "札幌7R": {
+   "arare": true,
+   "win_pop": 1,
+   "top3sum": 27,
+   "key": "01262307",
+   "n": 16
+  },
+  "札幌8R": {
+   "arare": true,
+   "win_pop": 5,
+   "top3sum": 10,
+   "key": "01262308",
+   "n": 11
+  },
+  "札幌9R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 15,
+   "key": "01262309",
+   "n": 12
+  },
+  "札幌10R": {
+   "arare": false,
+   "win_pop": 2,
+   "top3sum": 14,
+   "key": "01262310",
+   "n": 12
+  },
+  "札幌11R": {
+   "arare": true,
+   "win_pop": 5,
+   "top3sum": 14,
+   "key": "01262311",
+   "n": 14
+  },
+  "札幌12R": {
+   "arare": false,
+   "win_pop": 1,
+   "top3sum": 10,
+   "key": "01262312",
+   "n": 12
+  }
+ },
+ "rank": [
+  [
+   1,
+   "中京10R"
+  ],
+  [
+   2,
+   "札幌7R"
+  ],
+  [
+   3,
+   "中京6R"
+  ],
+  [
+   4,
+   "札幌1R"
+  ],
+  [
+   5,
+   "中京7R"
+  ],
+  [
+   6,
+   "新潟2R"
+  ],
+  [
+   7,
+   "新潟5R"
+  ],
+  [
+   8,
+   "新潟6R"
+  ],
+  [
+   9,
+   "新潟7R"
+  ],
+  [
+   10,
+   "中京3R"
+  ],
+  [
+   11,
+   "新潟9R"
+  ],
+  [
+   12,
+   "札幌2R"
+  ],
+  [
+   13,
+   "札幌4R"
+  ],
+  [
+   14,
+   "札幌5R"
+  ],
+  [
+   15,
+   "札幌6R"
+  ],
+  [
+   16,
+   "札幌10R"
+  ],
+  [
+   17,
+   "札幌11R"
+  ],
+  [
+   18,
+   "札幌12R"
+  ],
+  [
+   19,
+   "中京4R"
+  ],
+  [
+   20,
+   "新潟4R"
+  ],
+  [
+   21,
+   "新潟10R"
+  ],
+  [
+   22,
+   "新潟11R"
+  ],
+  [
+   23,
+   "新潟12R"
+  ],
+  [
+   24,
+   "中京2R"
+  ],
+  [
+   25,
+   "中京5R"
+  ],
+  [
+   26,
+   "中京8R"
+  ],
+  [
+   27,
+   "中京11R"
+  ],
+  [
+   28,
+   "中京12R"
+  ],
+  [
+   29,
+   "札幌9R"
+  ],
+  [
+   30,
+   "中京9R"
+  ],
+  [
+   31,
+   "新潟3R"
+  ],
+  [
+   32,
+   "札幌8R"
+  ],
+  [
+   33,
+   "中京1R"
+  ],
+  [
+   34,
+   "新潟8R"
+  ],
+  [
+   35,
+   "札幌3R"
+  ]
+ ],
+ "ana": [
+  {
+   "arank": 2,
+   "race": "札幌7R",
+   "uma": 10,
+   "name": "ハルヒメ",
+   "jockey": "小林美駒",
+   "kninki": 9,
+   "ktan": 14.1,
+   "kfuku": 3.8,
+   "unsei": "◎◎",
+   "shiji": 5,
+   "chaku": 11,
+   "status": null,
+   "pop": 5,
+   "odds": 8.2,
+   "res_name": "ハルヒメ",
+   "arare": true
+  },
+  {
+   "arank": 3,
+   "race": "中京6R",
+   "uma": 10,
+   "name": "リードプリンシパル",
+   "jockey": "川端海翼",
+   "kninki": 12,
+   "ktan": 46.8,
+   "kfuku": 9.5,
+   "unsei": "◎◎",
+   "shiji": 5,
+   "chaku": 7,
+   "status": null,
+   "pop": 12,
+   "odds": 97.1,
+   "res_name": "リードプリンシパル",
+   "arare": false
+  },
+  {
+   "arank": 4,
+   "race": "札幌1R",
+   "uma": 6,
+   "name": "ワンダーアスク",
+   "jockey": "川又賢治",
+   "kninki": 8,
+   "ktan": 13.5,
+   "kfuku": 3.7,
+   "unsei": "×",
+   "shiji": 6,
+   "chaku": 4,
+   "status": null,
+   "pop": 6,
+   "odds": 10.3,
+   "res_name": "ワンダーアスク",
+   "arare": false
+  },
+  {
+   "arank": 4,
+   "race": "札幌1R",
+   "uma": 11,
+   "name": "メイショウタイザン",
+   "jockey": "小沢大仁",
+   "kninki": 7,
+   "ktan": 12.7,
+   "kfuku": 3.5,
+   "unsei": "○",
+   "shiji": 5,
+   "chaku": 12,
+   "status": null,
+   "pop": 5,
+   "odds": 8.4,
+   "res_name": "メイショウタイザン",
+   "arare": false
+  },
+  {
+   "arank": 5,
+   "race": "中京7R",
+   "uma": 4,
+   "name": "ブルクトーア",
+   "jockey": "亀田温心[替]",
+   "kninki": 7,
+   "ktan": 19.8,
+   "kfuku": 4.4,
+   "unsei": "○",
+   "shiji": 4,
+   "chaku": 1,
+   "status": null,
+   "pop": 7,
+   "odds": 23.0,
+   "res_name": "ブルクトーア",
+   "arare": true
+  },
+  {
+   "arank": 5,
+   "race": "中京7R",
+   "uma": 7,
+   "name": "コト",
+   "jockey": "田口貫太[替]",
+   "kninki": 8,
+   "ktan": 23.0,
+   "kfuku": 4.9,
+   "unsei": "◎",
+   "shiji": 4,
+   "chaku": 11,
+   "status": null,
+   "pop": 9,
+   "odds": 31.4,
+   "res_name": "コト",
+   "arare": true
+  },
+  {
+   "arank": 6,
+   "race": "新潟2R",
+   "uma": 9,
+   "name": "オウケンサクラコ",
+   "jockey": "丸田恭介",
+   "kninki": 8,
+   "ktan": 21.6,
+   "kfuku": 4.8,
+   "unsei": "×",
+   "shiji": 4,
+   "chaku": 5,
+   "status": null,
+   "pop": 7,
+   "odds": 22.2,
+   "res_name": "オウケンサクラコ",
+   "arare": false
+  },
+  {
+   "arank": 6,
+   "race": "新潟2R",
+   "uma": 10,
+   "name": "マーゴットライズ",
+   "jockey": "菊沢一樹[替]",
+   "kninki": 7,
+   "ktan": 14.6,
+   "kfuku": 3.5,
+   "unsei": "◎◎",
+   "shiji": 4,
+   "chaku": 6,
+   "status": null,
+   "pop": 6,
+   "odds": 18.0,
+   "res_name": "マーゴットライズ",
+   "arare": false
+  },
+  {
+   "arank": 7,
+   "race": "新潟5R",
+   "uma": 3,
+   "name": "レイランディ",
+   "jockey": "川須栄彦",
+   "kninki": 11,
+   "ktan": 64.0,
+   "kfuku": 11.8,
+   "unsei": "[不足]",
+   "shiji": 5,
+   "chaku": 10,
+   "status": null,
+   "pop": 11,
+   "odds": 105.8,
+   "res_name": "レイランディ",
+   "arare": false
+  },
+  {
+   "arank": 7,
+   "race": "新潟5R",
+   "uma": 15,
+   "name": "アンヴデット",
+   "jockey": "石神深道[替]",
+   "kninki": 7,
+   "ktan": 13.6,
+   "kfuku": 3.1,
+   "unsei": "○",
+   "shiji": 4,
+   "chaku": 5,
+   "status": null,
+   "pop": 7,
+   "odds": 17.6,
+   "res_name": "アンヴデット",
+   "arare": false
+  },
+  {
+   "arank": 7,
+   "race": "新潟5R",
+   "uma": 18,
+   "name": "オレンジフィールド",
+   "jockey": "松山弘平[替]",
+   "kninki": 8,
+   "ktan": 15.3,
+   "kfuku": 3.4,
+   "unsei": "×",
+   "shiji": 4,
+   "chaku": 11,
+   "status": null,
+   "pop": 4,
+   "odds": 8.9,
+   "res_name": "オレンジフィールド",
+   "arare": false
+  },
+  {
+   "arank": 9,
+   "race": "新潟7R",
+   "uma": 10,
+   "name": "ペッレグリーニ",
+   "jockey": "内田博幸[替]",
+   "kninki": 9,
+   "ktan": 27.7,
+   "kfuku": 5.7,
+   "unsei": "◎",
+   "shiji": 6,
+   "chaku": 9,
+   "status": null,
+   "pop": 10,
+   "odds": 42.5,
+   "res_name": "ペッレグリーニ",
+   "arare": true
+  },
+  {
+   "arank": 9,
+   "race": "新潟7R",
+   "uma": 17,
+   "name": "マイネルアレス",
+   "jockey": "菊沢一樹[替]",
+   "kninki": 7,
+   "ktan": 15.5,
+   "kfuku": 3.5,
+   "unsei": "◎◎",
+   "shiji": 4,
+   "chaku": 6,
+   "status": null,
+   "pop": 5,
+   "odds": 11.5,
+   "res_name": "マイネルアレス",
+   "arare": true
+  },
+  {
+   "arank": 11,
+   "race": "新潟9R",
+   "uma": 7,
+   "name": "ミッドセンチュリー",
+   "jockey": "嶋田純次[替]",
+   "kninki": 7,
+   "ktan": 14.7,
+   "kfuku": 3.4,
+   "unsei": "◎",
+   "shiji": 4,
+   "chaku": 3,
+   "status": null,
+   "pop": 5,
+   "odds": 10.5,
+   "res_name": "ミッドセンチュリー",
+   "arare": false
+  },
+  {
+   "arank": 15,
+   "race": "札幌6R",
+   "uma": 4,
+   "name": "ヒメヒオウギ",
+   "jockey": "河原田菜",
+   "kninki": 8,
+   "ktan": 14.1,
+   "kfuku": 3.5,
+   "unsei": "◎◎",
+   "shiji": 5,
+   "chaku": 4,
+   "status": null,
+   "pop": 9,
+   "odds": 19.2,
+   "res_name": "ヒメヒオウギ",
+   "arare": false
+  },
+  {
+   "arank": 19,
+   "race": "中京4R",
+   "uma": 3,
+   "name": "プロスト",
+   "jockey": "田口貫太",
+   "kninki": 9,
+   "ktan": 25.5,
+   "kfuku": 4.5,
+   "unsei": "◎",
+   "shiji": 6,
+   "chaku": 10,
+   "status": null,
+   "pop": 7,
+   "odds": 24.6,
+   "res_name": "プロスト",
+   "arare": false
+  },
+  {
+   "arank": 21,
+   "race": "新潟10R",
+   "uma": 17,
+   "name": "ガミーヌ",
+   "jockey": "石神深道[替]",
+   "kninki": 10,
+   "ktan": 28.7,
+   "kfuku": 5.0,
+   "unsei": "○",
+   "shiji": 7,
+   "chaku": 10,
+   "status": null,
+   "pop": 5,
+   "odds": 13.6,
+   "res_name": "ガミーヌ",
+   "arare": false
+  },
+  {
+   "arank": 21,
+   "race": "新潟10R",
+   "uma": 18,
+   "name": "タイキオーベロン",
+   "jockey": "石田拓郎",
+   "kninki": 8,
+   "ktan": 18.6,
+   "kfuku": 3.5,
+   "unsei": "○",
+   "shiji": 4,
+   "chaku": 8,
+   "status": null,
+   "pop": 10,
+   "odds": 34.3,
+   "res_name": "タイキオーベロン",
+   "arare": false
+  },
+  {
+   "arank": 22,
+   "race": "新潟11R",
+   "uma": 12,
+   "name": "イベリスアマラ",
+   "jockey": "内田博幸[替]",
+   "kninki": 9,
+   "ktan": 25.4,
+   "kfuku": 4.8,
+   "unsei": "◎",
+   "shiji": 4,
+   "chaku": 9,
+   "status": null,
+   "pop": 12,
+   "odds": 98.0,
+   "res_name": "イベリスアマラ",
+   "arare": true
+  },
+  {
+   "arank": 24,
+   "race": "中京2R",
+   "uma": 9,
+   "name": "ルガルデ",
+   "jockey": "柴田裕一",
+   "kninki": 10,
+   "ktan": 26.5,
+   "kfuku": 5.0,
+   "unsei": "○",
+   "shiji": 4,
+   "chaku": 9,
+   "status": null,
+   "pop": 9,
+   "odds": 105.6,
+   "res_name": "ルガルデ",
+   "arare": false
+  },
+  {
+   "arank": 25,
+   "race": "中京5R",
+   "uma": 2,
+   "name": "リアライズアリス",
+   "jockey": "松若風馬",
+   "kninki": 8,
+   "ktan": 24.2,
+   "kfuku": 4.3,
+   "unsei": "◎◎",
+   "shiji": 4,
+   "chaku": 6,
+   "status": null,
+   "pop": 6,
+   "odds": 10.6,
+   "res_name": "リアライズアリス",
+   "arare": false
+  },
+  {
+   "arank": 26,
+   "race": "中京8R",
+   "uma": 1,
+   "name": "カウンティフェア",
+   "jockey": "田山旺佑[替]",
+   "kninki": 12,
+   "ktan": 34.7,
+   "kfuku": 6.5,
+   "unsei": "◎",
+   "shiji": 5,
+   "chaku": 5,
+   "status": null,
+   "pop": 9,
+   "odds": 35.4,
+   "res_name": "カウンティフェア",
+   "arare": false
+  },
+  {
+   "arank": 28,
+   "race": "中京12R",
+   "uma": 10,
+   "name": "ガラード",
+   "jockey": "吉村誠之[替]",
+   "kninki": 8,
+   "ktan": 22.2,
+   "kfuku": 4.3,
+   "unsei": "△",
+   "shiji": 4,
+   "chaku": 14,
+   "status": null,
+   "pop": 13,
+   "odds": 62.5,
+   "res_name": "ガラード",
+   "arare": true
+  },
+  {
+   "arank": 29,
+   "race": "札幌9R",
+   "uma": 12,
+   "name": "コスモキャバリエ",
+   "jockey": "石川倭[替]",
+   "kninki": 7,
+   "ktan": 15.1,
+   "kfuku": 3.1,
+   "unsei": "◎",
+   "shiji": 5,
+   "chaku": 10,
+   "status": null,
+   "pop": 7,
+   "odds": 18.1,
+   "res_name": "コスモキャバリエ",
+   "arare": false
+  },
+  {
+   "arank": 30,
+   "race": "中京9R",
+   "uma": 1,
+   "name": "ラグナトーレ",
+   "jockey": "中井裕二",
+   "kninki": 9,
+   "ktan": 18.9,
+   "kfuku": 3.9,
+   "unsei": "○",
+   "shiji": 4,
+   "chaku": 3,
+   "status": null,
+   "pop": 8,
+   "odds": 28.5,
+   "res_name": "ラグナトーレ",
+   "arare": false
+  },
+  {
+   "arank": 30,
+   "race": "中京9R",
+   "uma": 3,
+   "name": "コンテナライン",
+   "jockey": "鮫島良太[替]",
+   "kninki": 7,
+   "ktan": 11.8,
+   "kfuku": 2.7,
+   "unsei": "◎",
+   "shiji": 4,
+   "chaku": 9,
+   "status": null,
+   "pop": 9,
+   "odds": 29.5,
+   "res_name": "コンテナライン",
+   "arare": false
+  },
+  {
+   "arank": 31,
+   "race": "新潟3R",
+   "uma": 5,
+   "name": "アルアンダルス",
+   "jockey": "石橋脩",
+   "kninki": 9,
+   "ktan": 28.1,
+   "kfuku": 5.6,
+   "unsei": "×",
+   "shiji": 5,
+   "chaku": 6,
+   "status": null,
+   "pop": 7,
+   "odds": 44.0,
+   "res_name": "アルアンダルス",
+   "arare": true
+  }
+ ],
+ "ultra": [],
+ "mb": []
+}

@@ -1,0 +1,1278 @@
+[
+ {
+  "race": {
+   "ba": "中京",
+   "r": 1,
+   "cls": "未勝利*",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 10,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 2,
+   "cls": "新馬",
+   "td": "芝",
+   "dist": 1600,
+   "atama": 10,
+   "jump": false,
+   "shinba": true
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": true,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 3,
+   "cls": "新馬",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 11,
+   "jump": false,
+   "shinba": true
+  },
+  "applicable_rules": 3,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": true,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 4,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1400,
+   "atama": 16,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 1,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 5,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 13,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "uma": 10,
+    "waku": 7,
+    "name": "アトモス",
+    "jockey": "角田大和",
+    "sire": "キタサンブラック",
+    "sex": "牡",
+    "age": 3,
+    "belong": "栗",
+    "rule": "血統／キタサンブラック",
+    "rule_cond": "性が牡・セン",
+    "p3": 0.409,
+    "fuku": 1.48,
+    "tan": 1.42,
+    "chaku": "7-5-6-26/44",
+    "page": 206,
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "性が牡・セン",
+      "ok": true,
+      "tag": "[実]",
+      "note": "性牡"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1800・1900",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 6,
+   "cls": "白川郷Ｈ･3勝",
+   "td": "ダ",
+   "dist": 1900,
+   "atama": 16,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "uma": 2,
+    "waku": 1,
+    "name": "ペンナヴェローチェ",
+    "jockey": "北村友一",
+    "sire": "キズナ",
+    "sex": "牡",
+    "age": 5,
+    "belong": "栗",
+    "rule": "血統／キズナ",
+    "rule_cond": "前走のコースが右回り、かつ、前走のコースが1800m以上",
+    "p3": 0.438,
+    "fuku": 2.32,
+    "tan": 5.21,
+    "chaku": "13-10-9-41/73",
+    "page": 206,
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走のコースが右回り",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走のコースが右回り=DE33列に該当項目なし"
+     },
+     {
+      "text": "前走のコースが1800m以上",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走のコースが1800m以上=DE33列に該当項目なし"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1800・1900",
+    "W": ""
+   },
+   {
+    "uma": 8,
+    "waku": 4,
+    "name": "インザモーメント",
+    "jockey": "田山旺佑",
+    "sire": "キズナ",
+    "sex": "セ",
+    "age": 5,
+    "belong": "栗",
+    "rule": "血統／キズナ",
+    "rule_cond": "前走のコースが右回り、かつ、前走のコースが1800m以上",
+    "p3": 0.438,
+    "fuku": 2.32,
+    "tan": 5.21,
+    "chaku": "13-10-9-41/73",
+    "page": 206,
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走のコースが右回り",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走のコースが右回り=DE33列に該当項目なし"
+     },
+     {
+      "text": "前走のコースが1800m以上",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走のコースが1800m以上=DE33列に該当項目なし"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1800・1900",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 7,
+   "cls": "中京２歳G3",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 9,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 8,
+   "cls": "熊野特別･2勝",
+   "td": "芝",
+   "dist": 2200,
+   "atama": 15,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 9,
+   "cls": "未勝利・牝",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 15,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 10,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 10,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 3,
+  "hits": [
+   {
+    "uma": 8,
+    "waku": 7,
+    "name": "ゼンノインヴォーク",
+    "jockey": "幸英明",
+    "sire": "シルバーステート",
+    "sex": "セ",
+    "age": 7,
+    "belong": "栗",
+    "rule": "血統／父：シルバーステート",
+    "rule_cond": "（無条件）",
+    "p3": 0.4,
+    "fuku": 1.33,
+    "tan": 2.28,
+    "chaku": "7-1-8-24/40",
+    "page": "P194",
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "（無条件）",
+      "ok": true,
+      "tag": "[実]",
+      "note": "無条件"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "2000",
+    "W": ""
+   },
+   {
+    "uma": 1,
+    "waku": 1,
+    "name": "リアルセンター",
+    "jockey": "団野大成",
+    "sire": "ゴールドシップ",
+    "sex": "牝",
+    "age": 5,
+    "belong": "美",
+    "rule": "血統／父：ステイゴールド系",
+    "rule_cond": "前走の上がり3ハロンタイム順位が5位以内、かつ、馬齢が3歳以上",
+    "p3": 0.438,
+    "fuku": 1.22,
+    "tan": 0.97,
+    "chaku": "9-6-13-36/64",
+    "page": "P195",
+    "base_tag": "[推:系統]",
+    "base_note": "父ゴールドシップ→ステイゴールド系(当方推定・要確認)",
+    "conds": [
+     {
+      "text": "前走の上がり3ハロンタイム順位が5位以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走の上がり3ハロンタイム順位が5位以内=DE33列に該当項目なし"
+     },
+     {
+      "text": "馬齢が3歳以上",
+      "ok": true,
+      "tag": "[実]",
+      "note": "5歳≥3"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "2000",
+    "W": ""
+   },
+   {
+    "uma": 7,
+    "waku": 7,
+    "name": "シュエットアムール",
+    "jockey": "角田大和",
+    "sire": "ゴールドシップ",
+    "sex": "牝",
+    "age": 4,
+    "belong": "美",
+    "rule": "血統／父：ステイゴールド系",
+    "rule_cond": "前走の上がり3ハロンタイム順位が5位以内、かつ、馬齢が3歳以上",
+    "p3": 0.438,
+    "fuku": 1.22,
+    "tan": 0.97,
+    "chaku": "9-6-13-36/64",
+    "page": "P195",
+    "base_tag": "[推:系統]",
+    "base_note": "父ゴールドシップ→ステイゴールド系(当方推定・要確認)",
+    "conds": [
+     {
+      "text": "前走の上がり3ハロンタイム順位が5位以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走の上がり3ハロンタイム順位が5位以内=DE33列に該当項目なし"
+     },
+     {
+      "text": "馬齢が3歳以上",
+      "ok": true,
+      "tag": "[実]",
+      "note": "4歳≥3"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "2000",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 11,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 18,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [
+   {
+    "uma": 1,
+    "waku": 1,
+    "name": "プリモマーレ",
+    "jockey": "中井裕二",
+    "sire": "ロードカナロア",
+    "sex": "牝",
+    "age": 3,
+    "belong": "栗",
+    "rule": "血統／父：キングカメハメハ系",
+    "rule_cond": "前走の着順が5着以内、かつ、前走との間隔が中8週以内",
+    "p3": 0.426,
+    "fuku": 1.36,
+    "tan": 2.17,
+    "chaku": "21-14-14-66/115",
+    "page": "P193",
+    "base_tag": "[推:系統]",
+    "base_note": "父ロードカナロア→キングカメハメハ系(当方推定・要確認)",
+    "conds": [
+     {
+      "text": "前走の着順が5着以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "DE23/24/25が全て0=前走情報なし(未出走とは断定しない)"
+     },
+     {
+      "text": "前走との間隔が中8週以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "DE23/24/25が全て0=前走情報なし(未出走とは断定しない)"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200・1400",
+    "W": ""
+   },
+   {
+    "uma": 4,
+    "waku": 2,
+    "name": "メイショウトライオ",
+    "jockey": "太宰啓介",
+    "sire": "リオンディーズ",
+    "sex": "牝",
+    "age": 3,
+    "belong": "栗",
+    "rule": "血統／父：キングカメハメハ系",
+    "rule_cond": "前走の着順が5着以内、かつ、前走との間隔が中8週以内",
+    "p3": 0.426,
+    "fuku": 1.36,
+    "tan": 2.17,
+    "chaku": "21-14-14-66/115",
+    "page": "P193",
+    "base_tag": "[推:系統]",
+    "base_note": "父リオンディーズ→キングカメハメハ系(当方推定・要確認)",
+    "conds": [
+     {
+      "text": "前走の着順が5着以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "DE23/24/25が全て0=前走情報なし(未出走とは断定しない)"
+     },
+     {
+      "text": "前走との間隔が中8週以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "DE23/24/25が全て0=前走情報なし(未出走とは断定しない)"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200・1400",
+    "W": ""
+   },
+   {
+    "uma": 7,
+    "waku": 4,
+    "name": "ハピネスサンライズ",
+    "jockey": "松山弘平",
+    "sire": "ダノンスマッシュ",
+    "sex": "牝",
+    "age": 3,
+    "belong": "栗",
+    "rule": "血統／父：キングカメハメハ系",
+    "rule_cond": "前走の着順が5着以内、かつ、前走との間隔が中8週以内",
+    "p3": 0.426,
+    "fuku": 1.36,
+    "tan": 2.17,
+    "chaku": "21-14-14-66/115",
+    "page": "P193",
+    "base_tag": "[推:系統]",
+    "base_note": "父ダノンスマッシュ→キングカメハメハ系(当方推定・要確認)",
+    "conds": [
+     {
+      "text": "前走の着順が5着以内",
+      "ok": true,
+      "tag": "[推:列同定]",
+      "note": "前走4着≤5着"
+     },
+     {
+      "text": "前走との間隔が中8週以内",
+      "ok": true,
+      "tag": "[推:中週換算]",
+      "note": "前走から2週(中1週)≤中8週"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200・1400",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "中京",
+   "r": 12,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1200,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 4,
+  "hits": [
+   {
+    "uma": 7,
+    "waku": 5,
+    "name": "ミスヘンリー",
+    "jockey": "柴田裕一郎",
+    "sire": "ヘニーヒューズ",
+    "sex": "牝",
+    "age": 3,
+    "belong": "栗",
+    "rule": "血統／ヘニーヒューズ",
+    "rule_cond": "前走の上がり3ハロンタイム順位が7位以内、かつ、前走の出走頭数が12頭以上",
+    "p3": 0.404,
+    "fuku": 1.24,
+    "tan": 0.62,
+    "chaku": "6-10-7-34/57",
+    "page": 204,
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走の上がり3ハロンタイム順位が7位以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走の上がり3ハロンタイム順位が7位以内=DE33列に該当項目なし"
+     },
+     {
+      "text": "前走の出走頭数が12頭以上",
+      "ok": true,
+      "tag": "[実]",
+      "note": "14頭≥12"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 1,
+   "cls": "障害未勝利",
+   "td": "芝",
+   "dist": 2850,
+   "atama": 13,
+   "jump": true,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": true
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 2,
+   "cls": "新馬",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 13,
+   "jump": false,
+   "shinba": true
+  },
+  "applicable_rules": 6,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": true,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 3,
+   "cls": "未勝利*",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 8,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 1,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 4,
+   "cls": "新馬",
+   "td": "芝",
+   "dist": 1800,
+   "atama": 11,
+   "jump": false,
+   "shinba": true
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": true,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 5,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 1400,
+   "atama": 18,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 1,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 6,
+   "cls": "両津湾特･2勝",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 15,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 6,
+  "hits": [
+   {
+    "uma": 11,
+    "waku": 6,
+    "name": "ジェーケーボンバー",
+    "jockey": "菊沢一樹",
+    "sire": "ホッコータルマエ",
+    "sex": "牡",
+    "age": 4,
+    "belong": "美",
+    "rule": "血統／父：ホッコータルマエ",
+    "rule_cond": "前走の着順が10着以内、かつ、前走のコースがローカル",
+    "p3": 0.46,
+    "fuku": 1.45,
+    "tan": 0.95,
+    "chaku": "5-13-5-27/50",
+    "page": "P178",
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走の着順が10着以内",
+      "ok": true,
+      "tag": "[推:列同定]",
+      "note": "前走6着≤10着"
+     },
+     {
+      "text": "前走のコースがローカル",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走のコースがローカル=DE33列に該当項目なし"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200・1800",
+    "W": ""
+   },
+   {
+    "uma": 14,
+    "waku": 8,
+    "name": "コスモコンフェルマ",
+    "jockey": "柴田大知",
+    "sire": "ホッコータルマエ",
+    "sex": "牡",
+    "age": 4,
+    "belong": "美",
+    "rule": "血統／父：ホッコータルマエ",
+    "rule_cond": "前走の着順が10着以内、かつ、前走のコースがローカル",
+    "p3": 0.46,
+    "fuku": 1.45,
+    "tan": 0.95,
+    "chaku": "5-13-5-27/50",
+    "page": "P178",
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走の着順が10着以内",
+      "ok": true,
+      "tag": "[推:列同定]",
+      "note": "前走2着≤10着"
+     },
+     {
+      "text": "前走のコースがローカル",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走のコースがローカル=DE33列に該当項目なし"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200・1800",
+    "W": ""
+   },
+   {
+    "uma": 4,
+    "waku": 3,
+    "name": "ニシノケンタマン",
+    "jockey": "今村聖奈",
+    "sire": "アポロケンタッキー",
+    "sex": "牡",
+    "age": 4,
+    "belong": "美",
+    "rule": "ジョッキー／鞍上：今村聖奈",
+    "rule_cond": "父がサンデーサイレンス系以外の種牡馬、かつ、前走の着順が10着以内",
+    "p3": 0.5,
+    "fuku": 1.26,
+    "tan": 1.25,
+    "chaku": "12-7-6-25/50",
+    "page": "P178",
+    "base_tag": "[実]",
+    "base_note": "鞍上:今村聖奈",
+    "conds": [
+     {
+      "text": "父がサンデーサイレンス系以外の種牡馬",
+      "ok": null,
+      "tag": "[要確認]",
+      "note": "父アポロケンタッキーの系統マスタ未提供"
+     },
+     {
+      "text": "前走の着順が10着以内",
+      "ok": true,
+      "tag": "[推:列同定]",
+      "note": "前走4着≤10着"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1200・1800",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 7,
+   "cls": "日本海Ｓ･3勝",
+   "td": "芝",
+   "dist": 2200,
+   "atama": 12,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 8,
+   "cls": "新潟記念G3",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 11,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 1,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 9,
+   "cls": "閃光特別･2勝",
+   "td": "芝",
+   "dist": 1000,
+   "atama": 18,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 1,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 10,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1800,
+   "atama": 15,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 6,
+  "hits": [
+   {
+    "uma": 10,
+    "waku": 6,
+    "name": "サングラント",
+    "jockey": "三浦皇成",
+    "sire": "ルヴァンスレーヴ",
+    "sex": "牡",
+    "age": 3,
+    "belong": "美",
+    "rule": "ジョッキー／鞍上：三浦皇成",
+    "rule_cond": "父がサンデーサイレンス系以外の種牡馬、かつ、前走の出走頭数が今回と同じ頭数か今回より多い頭数",
+    "p3": 0.5,
+    "fuku": 1.23,
+    "tan": 1.49,
+    "chaku": "5-5-5-15/30",
+    "page": "P180",
+    "base_tag": "[実]",
+    "base_note": "鞍上:三浦皇成",
+    "conds": [
+     {
+      "text": "父がサンデーサイレンス系以外の種牡馬",
+      "ok": null,
+      "tag": "[要確認]",
+      "note": "父ルヴァンスレーヴの系統マスタ未提供"
+     },
+     {
+      "text": "前走の出走頭数が今回と同じ頭数か今回より多い頭数",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走の出走頭数が今回と同じ頭数か今回より多い頭数=DE33列に該当項目なし"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": 1800,
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 11,
+   "cls": "１勝ｸﾗｽ・牝",
+   "td": "芝",
+   "dist": 1800,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "新潟",
+   "r": 12,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1200,
+   "atama": 15,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 4,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 1,
+   "cls": "未勝利・牝",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 4,
+  "hits": [
+   {
+    "uma": 5,
+    "waku": 4,
+    "name": "サンセリテ",
+    "jockey": "武豊",
+    "sire": "コントレイル",
+    "sex": "牝",
+    "age": 3,
+    "belong": "美",
+    "rule": "ジョッキー／鞍上：武豊",
+    "rule_cond": "無条件",
+    "p3": 0.522,
+    "fuku": 1.35,
+    "tan": 2.27,
+    "chaku": "13-5-6-22/46",
+    "page": "P250",
+    "base_tag": "[実]",
+    "base_note": "鞍上:武豊",
+    "conds": [
+     {
+      "text": "無条件",
+      "ok": true,
+      "tag": "[実]",
+      "note": "無条件"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1700",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 2,
+   "cls": "未勝利*",
+   "td": "芝",
+   "dist": 1200,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 3,
+   "cls": "未勝利",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 4,
+  "hits": [
+   {
+    "uma": 13,
+    "waku": 8,
+    "name": "ジャストグレース",
+    "jockey": "古川吉洋",
+    "sire": "ホッコータルマエ",
+    "sex": "牡",
+    "age": 3,
+    "belong": "栗",
+    "rule": "血統／父：ホッコータルマエ",
+    "rule_cond": "前走の着順が9着以内、かつ、前走の馬体重が440kg以上",
+    "p3": 0.424,
+    "fuku": 2.08,
+    "tan": 0.81,
+    "chaku": "1-6-7-19/33",
+    "page": "P250",
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走の着順が9着以内",
+      "ok": true,
+      "tag": "[推:列同定]",
+      "note": "前走3着≤9着"
+     },
+     {
+      "text": "前走の馬体重が440kg以上",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "前走の馬体重が440kg以上=DE33列に該当項目なし"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1700",
+    "W": ""
+   },
+   {
+    "uma": 7,
+    "waku": 5,
+    "name": "チャーチルデュース",
+    "jockey": "武豊",
+    "sire": "Into Mischief",
+    "sex": "牡",
+    "age": 3,
+    "belong": "栗",
+    "rule": "ジョッキー／鞍上：武豊",
+    "rule_cond": "無条件",
+    "p3": 0.522,
+    "fuku": 1.35,
+    "tan": 2.27,
+    "chaku": "13-5-6-22/46",
+    "page": "P250",
+    "base_tag": "[実]",
+    "base_note": "鞍上:武豊",
+    "conds": [
+     {
+      "text": "無条件",
+      "ok": true,
+      "tag": "[実]",
+      "note": "無条件"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1700",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 4,
+   "cls": "未勝利",
+   "td": "芝",
+   "dist": 2000,
+   "atama": 16,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 5,
+   "cls": "新馬",
+   "td": "芝",
+   "dist": 1800,
+   "atama": 8,
+   "jump": false,
+   "shinba": true
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": true,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 6,
+   "cls": "１勝ｸﾗｽ・牝",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 12,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 4,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 7,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1000,
+   "atama": 12,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 2,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 8,
+   "cls": "１勝ｸﾗｽ",
+   "td": "芝",
+   "dist": 1500,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 9,
+   "cls": "１勝ｸﾗｽ",
+   "td": "ダ",
+   "dist": 1700,
+   "atama": 11,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 4,
+  "hits": [
+   {
+    "uma": 3,
+    "waku": 3,
+    "name": "フクシマブリルハム",
+    "jockey": "横山琉人",
+    "sire": "ドレフォン",
+    "sex": "牡",
+    "age": 3,
+    "belong": "美",
+    "rule": "血統／父：ドレフォン",
+    "rule_cond": "前走の着順が8着以内、かつ、前走の4コーナー通過順が3番手以下",
+    "p3": 0.552,
+    "fuku": 1.39,
+    "tan": 0.52,
+    "chaku": "3-6-7-13/29",
+    "page": "P249",
+    "base_tag": "[実]",
+    "base_note": "",
+    "conds": [
+     {
+      "text": "前走の着順が8着以内",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "DE23/24/25が全て0=前走情報なし(未出走とは断定しない)"
+     },
+     {
+      "text": "前走の4コーナー通過順が3番手以下",
+      "ok": null,
+      "tag": "[不足]",
+      "note": "DE23/24/25が全て0=前走情報なし(未出走とは断定しない)"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1000・1700",
+    "W": ""
+   },
+   {
+    "uma": 10,
+    "waku": 8,
+    "name": "ブリオメンテ",
+    "jockey": "武豊",
+    "sire": "ドゥラメンテ",
+    "sex": "牡",
+    "age": 5,
+    "belong": "栗",
+    "rule": "ジョッキー／鞍上：武豊",
+    "rule_cond": "無条件",
+    "p3": 0.522,
+    "fuku": 1.35,
+    "tan": 2.27,
+    "chaku": "13-5-6-22/46",
+    "page": "P250",
+    "base_tag": "[実]",
+    "base_note": "鞍上:武豊",
+    "conds": [
+     {
+      "text": "無条件",
+      "ok": true,
+      "tag": "[実]",
+      "note": "無条件"
+     }
+    ],
+    "naigai": "-",
+    "dist_raw": "1700",
+    "W": ""
+   }
+  ],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 10,
+   "cls": "ＨＢＣＨ･2勝",
+   "td": "芝",
+   "dist": 1200,
+   "atama": 16,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 11,
+   "cls": "日高Ｓ･3勝",
+   "td": "芝",
+   "dist": 1500,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ },
+ {
+  "race": {
+   "ba": "札幌",
+   "r": 12,
+   "cls": "北辰特別･1勝",
+   "td": "芝",
+   "dist": 2600,
+   "atama": 14,
+   "jump": false,
+   "shinba": false
+  },
+  "applicable_rules": 0,
+  "hits": [],
+  "base_undecided": [],
+  "shinba": false,
+  "jump": false
+ }
+]

@@ -1,0 +1,211 @@
+{
+ "version": "run905_v1",
+ "raceday": "20260905",
+ "started": "2026-09-05T01:57:00.406453Z",
+ "git_head_before": "5650b95036b5028e611194487900457e9e38edd8",
+ "python": "3.11.15",
+ "numpy_pandas": "未使用（環境に無い。凍結版はpandas/numpy依存のため実行していない）",
+ "source_csv": [
+  {
+   "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack/IDM_全35R_20260905.csv",
+   "bytes": 119431,
+   "sha256": "1f879917823a5f33ffa875742900af2673b3ecf41b844c8a7211ccb4325e4883"
+  },
+  {
+   "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack/JRDB_基準単複オッズ_全35R_20260905.csv",
+   "bytes": 125657,
+   "sha256": "c5a7f0ca0d9e09e55c975f3ec74b320500e65422826d8731c26f0f4706778fe5"
+  },
+  {
+   "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack/ウマトク_全35R_20260905.csv",
+   "bytes": 108447,
+   "sha256": "8aeed375bc25ad3b18638ac7f4798f28344efc879f707fcafd764bb2719f6c74"
+  },
+  {
+   "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack/コンピ指数_全35R_20260905.csv",
+   "bytes": 110616,
+   "sha256": "68ee4e402183a1f5620153d5747c46ac21bf038b33a749d5f6459c2bc856494a"
+  },
+  {
+   "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack/スライド競馬新聞_全35R_20260905.csv",
+   "bytes": 275568,
+   "sha256": "42928a4e8f09a666322587215ce8f38c178dbb344caec9496a2db1e85556fa6f"
+  },
+  {
+   "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack/タイム指数_全35R_20260905.csv",
+   "bytes": 124897,
+   "sha256": "28a15b514cf02b1cb81d8fc11b71339f5d3b1532c126452625ab5082df1ef3ab"
+  }
+ ],
+ "steps": [
+  {
+   "script": {
+    "path": "scripts/pred20260905/build905.py",
+    "bytes": 12765,
+    "sha256": "0bb81e82b83a9385816366acfaeb8c4431524b879adf2f99ee115cc6f17608b5"
+   },
+   "inputs": [
+    {
+     "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack.json",
+     "bytes": 2340720,
+     "sha256": "41eb1618975b722a57d901972e2bb3b52edde1fb8595ef84b05b1133f9be3b18"
+    },
+    {
+     "path": "predictions/20260905/shutuba_20260905.json",
+     "bytes": 1015535,
+     "sha256": "21b2e42723369960facdd579a351e98d93202b729732f38179a22c876eeef82a"
+    },
+    {
+     "path": "predictions/20260905/hits_20260905.json",
+     "bytes": 15000,
+     "sha256": "59de0d551877cf6463f1bb0b7f51d9438100770ee1df24ee269e77d6fc7908d8"
+    },
+    {
+     "path": "predictions/20260905/jisou905.json",
+     "bytes": 71045,
+     "sha256": "d1db03372a4ff2c869b58e86aee030cdca95b83664c53b9900c6209b9fb973ac"
+    }
+   ],
+   "started": "2026-09-05T01:57:00.604621Z",
+   "finished": "2026-09-05T01:57:00.832642Z",
+   "exit_code": 0,
+   "stdout_tail": [
+    "阪神 2R     5             2.0    29.0%  14.7%     56.2%   13.2%  HOLD/域外(N=5: 凍結版と同じくBASEへ退避)",
+    "阪神 3R    13             2.5    29.1%  14.7%     58.5%   12.5%  HOLD/域内",
+    "阪神 4R    18             2.2    31.4%  16.5%     59.0%   15.7%  HOLD/域内",
+    "阪神 5R    12             2.7    39.6%  19.1%     63.5%   16.0%  HOLD/域内",
+    "阪神 6R    13             3.0    39.6%  19.1%     63.5%   16.0%  HOLD/域内",
+    "阪神 7R    16             2.5    31.4%  16.5%     59.0%   15.7%  HOLD/域内",
+    "阪神 8R     9             2.1    22.3%   9.5%     46.0%    6.4%  HOLD/域内",
+    "阪神 9R    11             2.4    22.3%   9.5%     46.0%    6.4%  HOLD/域内",
+    "阪神10R     7             1.7    19.0%  13.1%     53.2%    9.6%  HOLD/域外(N=7: 凍結版と同じくBASEへ退避)",
+    "阪神11R    12             2.9    39.6%  19.1%     63.5%   16.0%  HOLD/域内",
+    "阪神12R    12             2.7    39.6%  19.1%     63.5%   16.0%  HOLD/域内",
+    "[実] v21_decision は35Rとも4列すべて空欄（HOLD）。監査値は保持し0へ置換していない"
+   ],
+   "stderr_tail": [],
+   "outputs": [
+    {
+     "path": "predictions/20260905/toukei_20260905.json",
+     "bytes": 1160375,
+     "sha256": "322c12d893a4a9f17cd768a8f4a7b3cb63fd211a8aee96ad246b45869fe3182d"
+    }
+   ]
+  },
+  {
+   "script": {
+    "path": "scripts/pred20260905/unsei905.py",
+    "bytes": 12401,
+    "sha256": "c4dfd8f41f3369b15cd6dacb2aa3b4d1377bdecd8c5d2e21866d6c2545139d25"
+   },
+   "inputs": [
+    {
+     "path": "predictions/20260905/toukei_20260905.json",
+     "bytes": 1160375,
+     "sha256": "322c12d893a4a9f17cd768a8f4a7b3cb63fd211a8aee96ad246b45869fe3182d"
+    },
+    {
+     "path": "predictions/20260905/運勢_20260905-06_結合用.csv",
+     "bytes": 6872,
+     "sha256": "5479e0dbcb8174d63d1d80c4917adbe0bc587119c5fc3da0219392db220a993b"
+    },
+    {
+     "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/trainer_seijin.tsv",
+     "bytes": 4610,
+     "sha256": "0a45c91586e427c8c0c3325a974375771a64fa699fd5fe5f76ff8ba84dabf670"
+    },
+    {
+     "path": "/tmp/claude-0/-home-user-github-com-new/47c1892c-ddc4-50e4-8b6f-3403a9782673/scratchpad/d0905/pack.json",
+     "bytes": 2340720,
+     "sha256": "41eb1618975b722a57d901972e2bb3b52edde1fb8595ef84b05b1133f9be3b18"
+    }
+   ],
+   "started": "2026-09-05T01:57:00.844440Z",
+   "finished": "2026-09-05T01:57:00.940040Z",
+   "exit_code": 0,
+   "stdout_tail": [
+    "  騎手_区分_別ソース参照候補               12",
+    "  騎手_区分_未結合                     6",
+    "  騎手_区分_素材一致                  420",
+    "  騎手_結合                       438",
+    "",
+    "[実] 騎手運勢記号の分布  : {'○': 135, '◎◎': 37, '×': 125, '◎': 116, '△': 25, None: 9}",
+    "[実] 調教師運勢記号の分布: {'×': 110, '◎': 87, '◎◎': 44, '○': 132, '△': 61, None: 13}",
+    "⚠ ×は「押し上げが無い」の意味であり、消し根拠・減点材料ではない",
+    "",
+    "書き出し: /home/user/github.com-new/predictions/20260905/unsei_20260905.json",
+    "書き出し: /home/user/github.com-new/predictions/20260905/unsei_4kubun_20260905.csv (447行。取消除く4区分: {'素材一致': 419, 'マスタ競合': 9, '未結合': 6, '別ソース参照候補': 12})",
+    "[実] 氏名整合検査: {'一致': 421, '一致(略記)': 8, '表記差(ブック=田山旺祐／新聞=田山旺佑)': 9}"
+   ],
+   "stderr_tail": [],
+   "outputs": [
+    {
+     "path": "predictions/20260905/unsei_20260905.json",
+     "bytes": 287440,
+     "sha256": "61fad973621609a7b6dfb4a806a4e99b644897684dea077d72e738c80c575d3e"
+    },
+    {
+     "path": "predictions/20260905/unsei_4kubun_20260905.csv",
+     "bytes": 140507,
+     "sha256": "3e0062111617db980e044e1ed57c9d128c475946f56cbd54aa063907d2e3f497"
+    }
+   ]
+  },
+  {
+   "script": {
+    "path": "scripts/pred20260905/composite905.py",
+    "bytes": 5238,
+    "sha256": "cac6824bfa1400694880ec2ae12c5ca82330599967e1e2b96d092aa573f67551"
+   },
+   "inputs": [
+    {
+     "path": "predictions/20260905/toukei_20260905.json",
+     "bytes": 1160375,
+     "sha256": "322c12d893a4a9f17cd768a8f4a7b3cb63fd211a8aee96ad246b45869fe3182d"
+    },
+    {
+     "path": "predictions/20260905/chokyo_20260905.json",
+     "bytes": 329270,
+     "sha256": "89eab0d36ad5fc164ff4451148d765972eecf85da92a2f90681606d7c5da899b"
+    },
+    {
+     "path": "predictions/20260905/unsei_20260905.json",
+     "bytes": 287440,
+     "sha256": "61fad973621609a7b6dfb4a806a4e99b644897684dea077d72e738c80c575d3e"
+    },
+    {
+     "path": "predictions/20260905/jisou905.json",
+     "bytes": 71045,
+     "sha256": "d1db03372a4ff2c869b58e86aee030cdca95b83664c53b9900c6209b9fb973ac"
+    }
+   ],
+   "started": "2026-09-05T01:57:00.943588Z",
+   "finished": "2026-09-05T01:57:01.010038Z",
+   "exit_code": 0,
+   "stdout_tail": [
+    "  札幌10R  1 スイミーユニバンス    基準人気9 次走+穴帯+運勢  次走=確定枠/sc8 調教=None 運勢=◎◎(素材一致)",
+    "  札幌12R  1 クラインシュミット    基準人気12 次走+穴帯+運勢  次走=優先中/sc3 調教=None 運勢=◎(素材一致)",
+    "  阪神 1R  2 ラブシンフォニー     基準人気7 次走+穴帯+運勢  次走=優先高/sc4 調教=None 運勢=◎◎(素材一致)",
+    "  阪神 3R 12 アルムランプシー     基準人気7 穴帯+調教+運勢  次走=None 調教=B/z-1.21 運勢=◎(素材一致)",
+    "  阪神 4R 14 セイロンブリーズ     基準人気7 穴帯+調教+運勢  次走=None 調教=A2/z-0.38 運勢=◎(素材一致)",
+    "  阪神 5R  3 スマートエール      基準人気8 穴帯+調教+運勢  次走=None 調教=B/z-1.33 運勢=◎(素材一致)",
+    "  阪神 7R 11 モズレイラココナ     基準人気8 穴帯+調教+運勢  次走=None 調教=A2/z+1.70 運勢=◎◎(素材一致)",
+    "  阪神 9R  1 ストラーダ        基準人気9 穴帯+調教+運勢  次走=None 調教=B/z-1.12 運勢=◎(素材一致)",
+    "  阪神 9R 10 シュヴァルツリーベ    基準人気11 UL+次走+穴帯  次走=優先中/sc3 調教=None 運勢=None(別ソース参照候補)",
+    "  阪神10R  4 テーオーダグラス     基準人気5 次走+調教+運勢  次走=優先中/sc2 調教=-/z-1.55 運勢=◎◎(素材一致)",
+    "  阪神11R  5 マニバドラ        基準人気8 穴帯+調教+運勢  次走=None 調教=B/z-1.04 運勢=◎(素材一致)",
+    "  阪神11R  8 トリリオンボーイ     基準人気10 次走+穴帯+調教  次走=優先中/sc3 調教=A2/z-0.30 運勢=○(素材一致)"
+   ],
+   "stderr_tail": [],
+   "outputs": [
+    {
+     "path": "predictions/20260905/composite.json",
+     "bytes": 349942,
+     "sha256": "4802e236c603a5e4383c833887f2e081ce248878ac658fd8d9952e08bc6231a3"
+    }
+   ]
+  }
+ ],
+ "finished": "2026-09-05T01:57:01.010558Z",
+ "all_ok": true
+}
