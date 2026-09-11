@@ -89,7 +89,10 @@ def t08():
     return (not zero and not neg, f"週の観測値{len(ws)}件 中0週={len(zero)} 負値={len(neg)}")
 check('T08', '中N週にゼロ・負値が現れない（連闘は連闘と書く）', t08)
 def t09():
-    if not H: return (False, 'TEST_HIST 未設定')
+    # 入力未受領は「検査していない(INPUT_HOLD)」。リークを検出したFAILとは別物にする。
+    if not H:
+        return ('HOLD', 'TEST_HIST 未設定。過去1年CSVの原票が未受領のため検査していない'
+                        '（リークを検出したのではない）')
     hist = collections.defaultdict(list)
     for r in csv.DictReader(open(H, encoding='utf-8-sig')):
         hist[r['馬名'].strip()].append(r['日付'])
@@ -179,10 +182,17 @@ w = max(len(n) for _, n, _, _ in results)
 print('=' * (w + 34))
 print('判定台帳 受入テスト')
 print('=' * (w + 34))
-fail = 0
+fail = hold = 0
 for no, name, ok, detail in results:
-    if not ok: fail += 1
-    print(f"{no} {'PASS' if ok else '*FAIL*':<7} {name:<{w}}  {detail}")
+    if ok == 'HOLD':
+        hold += 1; mark = 'HOLD'
+    elif ok:
+        mark = 'PASS'
+    else:
+        fail += 1; mark = '*FAIL*'
+    print(f"{no} {mark:<7} {name:<{w}}  {detail}")
 print('-' * (w + 34))
-print(f"{len(results)}件中 PASS {len(results)-fail} / FAIL {fail}")
+print(f"{len(results)}件中 PASS {len(results)-fail-hold} / FAIL {fail} / INPUT_HOLD {hold}")
+if hold:
+    print('INPUT_HOLD は入力が未受領で検査していない項目。合格でも不合格でもない。')
 sys.exit(fail)

@@ -140,8 +140,10 @@ def m12():
 check('M12', '必須ゲートから調教師FBを除き、順序が指定どおり', m12)
 def m13():
     """版差表に集約判定と馬別表掲載が別列で存在し、集約判定が同じ版の条件台帳と一致すること（X01の回帰）"""
-    need = ['旧_集約判定','r1_集約判定','r2_集約判定','r3_集約判定','r4_集約判定',
-            '旧_馬別表掲載','r4_馬別表掲載','集約判定の履歴','馬別表掲載の履歴','変化の有無の定義']
+    # 版は成果物名から取る。列名をr4固定にしない。
+    need = ['旧_集約判定','r1_集約判定','r2_集約判定','r3_集約判定',
+            f'{PACK_VER}_集約判定', '旧_馬別表掲載', f'{PACK_VER}_馬別表掲載',
+            '集約判定の履歴','馬別表掲載の履歴','変化の有無の定義']
     miss = [c for c in need if c not in ver[0]]
     if miss: return (False, f"欠けている列={miss}")
     if not cond: return (False, '条件別台帳(15_)が同梱されていないため集約値を検査できない')
@@ -154,7 +156,7 @@ def m13():
         k = (r['開催場'], r['R'], r['馬番'], r['ルールID'])
         want = agg.get(k)
         if want is None: continue
-        if r['r4_集約判定'] != want: bad.append((k, r['r4_集約判定'], want))
+        if r[f'{PACK_VER}_集約判定'] != want: bad.append((k, r[f'{PACK_VER}_集約判定'], want))
     return (not bad, f"{len(ver)}行 / 集約値の不一致={len(bad)} {bad[:3]} / 変化あり{sum(1 for r in ver if r['変化の有無']=='変化あり')}件")
 check('M13', '版差表の集約判定が条件台帳と一致し、掲載有無が別列になっている', m13)
 def m14():

@@ -17,6 +17,7 @@
   LEDGER_SIRE   父系の合議結果JSON(任意。無ければ父系条件は UNKNOWN)
   LEDGER_KINRYO 減量記号を持つCSV(任意)。JRDB IDM の「斤量」列に ☆★▲△◇ が入っている。
                 与えられた場合、減量条件は推定ではなく記号で判定する。
+  LEDGER_STRIDE 同日スライド競馬新聞CSV(騎手の正式名。氏名照合の解決に使う)
   LEDGER_OUT    出力ディレクトリ
 原本は読み取りのみ。値の書き戻しはしない。
 """
@@ -27,6 +28,7 @@ H   = os.environ.get('LEDGER_HIST')
 RJ  = os.environ.get('LEDGER_RULES')
 SJ  = os.environ.get('LEDGER_SIRE')
 KJ  = os.environ.get('LEDGER_KINRYO')
+SD  = os.environ.get('LEDGER_STRIDE')   # 同日STRIDEの正式名(騎手)の供給元
 OUT = os.environ.get('LEDGER_OUT', '.')
 for k, v in [('LEDGER_ENTRY', E), ('LEDGER_HIST', H)]:
     if not v or not os.path.exists(v):
@@ -69,6 +71,20 @@ if KJ and os.path.exists(KJ):
     for r in csv.DictReader(open(KJ, encoding='utf-8-sig')):
         m = ''.join(ch for ch in (r.get('斤量') or '') if ch in KINRYO_SYMBOLS)
         kinryo[(r['開催場'], int(r['R']), int(r['馬番']))] = m
+
+# 氏名の正式名。出走表の騎手・調教師名は4文字で切られるため、前方一致では
+# 「検査氏名」が「検査氏名甲」と「検査氏名乙」の双方に同時一致しうる。
+# 同日STRIDEの racekey+馬番+馬名 で正式名を取り、完全一致で解く。
+# 解けない氏名は UNKNOWN にする（文字数の閾値では解決しない）。
+official_name = {}
+if SD and os.path.exists(SD):
+    for r in csv.DictReader(open(SD, encoding='utf-8-sig')):
+        official_name[(r['開催場'], int(r['R']), int(r['馬番']))] = {
+            '馬名': (r.get('馬名') or '').strip(),
+            '騎手': (r.get('騎手') or '').strip(),
+            # 調教師の正式名は同日STRIDEに列がない。供給されるまで解決しない。
+            '調教師': (r.get('調教師') or '').strip(),
+        }
 
 sire_line = {}
 if SJ and os.path.exists(SJ):
@@ -257,10 +273,14 @@ def evaluate(op, arg, r, hs, p, meta):
         return ((T if v else F), req, obs, unit, tag, ('OK_TRUE' if v else 'OK_FALSE'))
     def unk(req, obs, unit, tag, code): return (U, req, obs, unit, tag, code)
 
-    MIN_PREFIX_CHARS = 3   # これ未満の前方一致は曖昧としてUNKNOWNにする
+    MIN_PREFIX_CHARS = 3   # これ未満の前方一致は「曖昧」として別の理由コードにする
     def name_match(label, want, got):
-        """氏名の照合。空欄と曖昧な前方一致は TRUE/FALSE にしない。
+        """氏名の照合。前方一致だけでは確定しない。
+
            出走表の騎手・調教師名は4文字で切られるため完全一致だけでは落ちるが、
+           切られた名は複数の正式名に同時一致しうる（「検査氏名」は「検査氏名甲」
+           にも「検査氏名乙」にも前方一致する）。そのため前方一致は TRUE にせず、
+           同日の正式名を meta['正式名'] から引けたときだけ完全一致で確定する。
            空文字列は str.startswith('') が常に True になるため必ず除外する。
            この関数は evaluate 内に置き、外部の補助関数に依存させない（外部検査が
            nfkc と evaluate だけを読み込んでも成立させるため）。"""
@@ -269,14 +289,30 @@ def evaluate(op, arg, r, hs, p, meta):
             return unk(f'{label}{want}', '条件側の氏名が空', '名', '[不足]', 'UNK_NAME_ABSENT_IN_RULE')
         if not b:
             return unk(f'{label}{want}', f'{label}欄が空欄', '名', '[不足]', 'UNK_NAME_ABSENT_IN_ENTRY')
+        # 同日の正式名で解決する。馬名が一致した行の正式名だけを使う。
+        # 正式名を先に見る。出走表は4文字で切られるため、切られた表記が条件名と
+        # 一致していても、正式名が別人(例: 4文字が同じで5文字目が違う)でありうる。
+        src = (meta.get('正式名') or {}).get(u) or {}
+        full = nfkc(src.get(label, ''))
+        if full and nfkc(src.get('馬名', '')) == nfkc(r[COL['name']]):
+            # 出走表は4文字で切るため、外国人騎手は頭文字が落ちる（Ｍ．ミシェル→ミシェル）。
+            # 前方一致に限らず、切られた表記が正式名に含まれていれば同一人とみなす。
+            # 馬名の一致が本来の保証で、この検査は取り違えの念のための確認。
+            if not (full.startswith(b) or b in full):
+                return unk(f'{label}{want}', f'{label}{got}(正式名{src[label]}と出走表の表記が整合しない)',
+                           '名', '[不足]', 'UNK_NAME_OFFICIAL_MISMATCH')
+            return ((T if a == full else F), f'{label}{want}',
+                    f"{label}{src[label]}(正式名で{'一致' if a == full else '不一致'}。出走表は{got})",
+                    '名', '[実:提供値]', ('OK_TRUE' if a == full else 'OK_FALSE'))
         if a == b:
-            return ok(True, f'{label}{want}', f'{label}{got}(完全一致)', '名')
+            return ok(True, f'{label}{want}', f'{label}{got}(完全一致。正式名は未取得)', '名')
         if a.startswith(b) or b.startswith(a):
             short = a if len(a) < len(b) else b
-            if len(short) < MIN_PREFIX_CHARS:
-                return unk(f'{label}{want}', f'{label}{got}(前方一致だが{len(short)}文字で曖昧)',
-                           '名', '[不足]', 'UNK_NAME_AMBIGUOUS_PREFIX')
-            return ok(True, f'{label}{want}', f'{label}{got}(前方一致・短縮{len(short)}文字)', '名')
+            code = ('UNK_NAME_AMBIGUOUS_PREFIX' if len(short) < MIN_PREFIX_CHARS
+                    else 'UNK_NAME_PREFIX_NOT_UNIQUE')
+            return unk(f'{label}{want}',
+                       f'{label}{got}(前方一致{len(short)}文字。正式名が引けず一意に解決できない)',
+                       '名', '[不足]', code)
         return ok(False, f'{label}{want}', f'{label}{got}(不一致)', '名')
 
     if op == 'umaban_range':
@@ -415,6 +451,9 @@ for rule in RULES:
                           io出所=('[実:原典表記]' if any(io for _, io in rule['dist_io']) else '-')))
     for k in tgt:
         hs = races[k]; meta = dict(race_meta[k])
+        # 同日STRIDEの正式名を馬番で引けるようにレース単位で渡す
+        meta['正式名'] = {u2: v for (vn, rn, u2), v in official_name.items()
+                       if (vn, rn) == k}
         for r in hs:
             p = prev.get(r[COL['key']], dict(found=False, reason='NO_PREV_ROW'))
             verds = []
