@@ -54,10 +54,18 @@ def t06():
     return (not bad, f"判定と理由コードの接頭辞が食い違う行={len(bad)}")
 check('T06', 'UNKNOWN と UNK_ 接頭辞が1対1', t06)
 def t07():
+    """減量記号が供給されていれば TRUE/FALSE で確定していること。
+       未供給なら UNKNOWN のままであること。どちらでも「推定を確定に使わない」を守る。"""
     w = [r for r in cond if r['条件演算子'] == 'no_weight_allowance']
-    return (bool(w) and all(r['判定'] == 'UNKNOWN' for r in w),
-            f"減量条件{len(w)}行 / 判定={dict(collections.Counter(r['判定'] for r in w))}")
-check('T07', '減量条件は必ずUNKNOWN（出走表に記号列が無い）', t07)
+    supplied = gates['必須ゲート'].get('減量記号', '').startswith('確認済')
+    dist = dict(collections.Counter(r['判定'] for r in w))
+    tags = set(r['出所タグ'] for r in w)
+    if supplied:
+        ok = bool(w) and 'UNKNOWN' not in dist and tags <= {'[実:提供値]'}
+        return (ok, f"記号が供給済 → 減量条件{len(w)}行 判定={dist} 出所タグ={sorted(tags)}")
+    ok = bool(w) and set(dist) == {'UNKNOWN'} and tags <= {'[推:斤量差]', '[不足]'}
+    return (ok, f"記号が未供給 → 減量条件{len(w)}行 判定={dist} 出所タグ={sorted(tags)}")
+check('T07', '減量条件は記号があれば確定し、無ければUNKNOWN（推定で確定しない）', t07)
 def t08():
     ws = [r['観測値'] for r in cond if r['単位'] == '週' and r['判定'] != 'UNKNOWN']
     zero = [v for v in ws if '中0週' in v]

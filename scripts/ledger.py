@@ -15,6 +15,8 @@
   LEDGER_RULES  正規化した条件定義JSON。複数ある場合はカンマ区切り
                 (書籍由来の条件文を含むため公開リポジトリへ置かない)
   LEDGER_SIRE   父系の合議結果JSON(任意。無ければ父系条件は UNKNOWN)
+  LEDGER_KINRYO 減量記号を持つCSV(任意)。JRDB IDM の「斤量」列に ☆★▲△◇ が入っている。
+                与えられた場合、減量条件は推定ではなく記号で判定する。
   LEDGER_OUT    出力ディレクトリ
 原本は読み取りのみ。値の書き戻しはしない。
 """
@@ -24,6 +26,7 @@ E   = os.environ.get('LEDGER_ENTRY')
 H   = os.environ.get('LEDGER_HIST')
 RJ  = os.environ.get('LEDGER_RULES')
 SJ  = os.environ.get('LEDGER_SIRE')
+KJ  = os.environ.get('LEDGER_KINRYO')
 OUT = os.environ.get('LEDGER_OUT', '.')
 for k, v in [('LEDGER_ENTRY', E), ('LEDGER_HIST', H)]:
     if not v or not os.path.exists(v):
@@ -38,8 +41,9 @@ TODAY = datetime.date(2026, 9, 12)
 COL = dict(date=0, venue=1, r=2, umaban=3, cond=4, sd=5, dist=6, name=7, sex=8, age=9,
            jockey=10, kin=11, trainer=12, base=13, waku=22, field=26, key=32)
 
-# 出走表に存在しない列。ここに挙げた情報は原理的に UNKNOWN しか返せない。
-ABSENT_COLUMNS = {'減量記号'}
+# 出走表(DE260912.CSV)に存在しない列。別ファイルで供給されればそちらを使う。
+ABSENT_COLUMNS = {'減量記号(出走表側)'}
+KINRYO_SYMBOLS = set('☆★▲△◇◆')
 
 def nfkc(s): return unicodedata.normalize('NFKC', (s or '').strip())
 
@@ -59,6 +63,13 @@ for path in RJ.split(','):
         RULES.append(rl)
 if len({r['id'] for r in RULES}) != len(RULES):
     raise SystemExit('ルールIDが重複しています')
+# 減量記号。JRDB IDM の「斤量」列に記号が同梱されている（出走表側には列がない）。
+kinryo = {}
+if KJ and os.path.exists(KJ):
+    for r in csv.DictReader(open(KJ, encoding='utf-8-sig')):
+        m = ''.join(ch for ch in (r.get('斤量') or '') if ch in KINRYO_SYMBOLS)
+        kinryo[(r['開催場'], int(r['R']), int(r['馬番']))] = m
+
 sire_line = {}
 if SJ and os.path.exists(SJ):
     for line, sires in json.load(open(SJ, encoding='utf-8')).items():
@@ -87,7 +98,8 @@ for k, hs in races.items():
                         dist=int(hs[0][COL['dist']]), n_csv=len(hs),
                         n_decl=(list(decl)[0] if len(decl) == 1 else None),
                         jump=('障害' in hs[0][COL['cond']]),
-                        klass=class_code(hs[0][COL['cond']]))
+                        klass=class_code(hs[0][COL['cond']]),
+                        venue=k[0], R=k[1])
 
 # ---------- 前走（当該日より厳密に前の最新出走のみ。リークなし） ----------
 hist = collections.defaultdict(list)
@@ -140,8 +152,14 @@ for r in rows:
         klass=h['条件コード'], naka=naka_weeks(d))
 
 # ---------- 減量: 出走表に記号列が無い。斤量差からの導出は推定にとどめる ----------
-def weight_note(hs, r):
-    """(判定, 観測値, 出所タグ, 理由コード)。確定は返さない。"""
+def weight_note(hs, r, vr=None):
+    """(判定, 観測値, 出所タグ, 理由コード)。
+       減量記号が供給されていれば記号で確定する。無ければ斤量差からの推定にとどめる。"""
+    if vr is not None and vr in kinryo:
+        m = kinryo[vr]
+        return (('FALSE' if m else 'TRUE'),
+                f"斤量{r[COL['kin']]}kg/減量記号={m or 'なし'}", '[実:提供値]',
+                ('OK_FALSE' if m else 'OK_TRUE'))
     cond = hs[0][COL['cond']]
     fixed = any(w in cond for w in ('新馬', '未勝利')) or cond.strip().endswith('ｸﾗｽ')
     bysex = collections.defaultdict(list)
@@ -169,7 +187,8 @@ GATES = {'運勢(騎手AB列/調教師FB列)': '未取得',
          '回収率/ROI(自動ROI AZ:BA)': '未取得',
          '回収率/ROI(ウルトラ・マストバイ)': '確認済',
          '本シートCB': '未取得', '本シートCJ': '未取得', '本シートDA': '未取得',
-         '能力(足切り)': '未取得'}
+         '能力(足切り)': '未取得',
+         '減量記号': ('確認済(JRDB IDMの斤量列)' if kinryo else '未取得')}
 CONFIRMED_SYSTEMS = sum(1 for k, v in GATES.items() if v == '確認済' and 'ウルトラ' in k)
 
 def verdict_word(agg):
@@ -238,7 +257,9 @@ def evaluate(op, arg, r, hs, p, meta):
     if op == 'UNMAPPED_TARGET':
         return unk(f'ターゲット種別{arg}', '正規化で写像できず', '-', '[不足]', 'UNK_TARGET_NOT_MAPPED')
     if op == 'no_weight_allowance':
-        v, obs, tag, code = weight_note(hs, r)
+        v, obs, tag, code = weight_note(hs, r, (meta.get('venue'), meta.get('R'), int(r[COL['umaban']])))
+        if v in ('TRUE', 'FALSE'):
+            return (v, '負担重量の減量なし', obs, 'kg', tag, code)
         return unk('負担重量の減量なし', obs, 'kg', tag, code)
     if op == 'prev_venue_central_AMBIGUOUS':
         m = need_prev(p, op)
