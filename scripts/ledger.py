@@ -354,7 +354,9 @@ for rule in RULES:
                           対象頭数=sum(race_meta[k]['n_csv'] for k in tgt),
                           条件数=len(rule['conds']),
                           io要求=','.join(str(io or '-') for _, io in rule['dist_io']),
-                          io出所=('[推:コース]' if any(io for _, io in rule['dist_io']) else '-')))
+                          # 内外テーブルは原典のコース表記(例「中山芝1200m外」)と突合済み。
+                          # 突合できた8件は[実:原典表記]、原典が内外を書いていない距離は[推:コース]のまま。
+                          io出所=('[実:原典表記]' if any(io for _, io in rule['dist_io']) else '-')))
     for k in tgt:
         hs = races[k]; meta = dict(race_meta[k])
         for r in hs:
