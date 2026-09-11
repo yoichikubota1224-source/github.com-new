@@ -4,7 +4,8 @@
 台帳そのものを入力にする。生成スクリプトの内部を再実行しないので、
 生成側の思い込みがそのままテストを通ることを避けられる。
 
-  TEST_LEDGER_DIR  ledger.py の LEDGER_OUT と同じディレクトリ
+  TEST_LEDGER_DIR  ledger.py の LEDGER_OUT と同じディレクトリ、または引渡しパックのディレクトリ
+                   （条件別/馬別/適用範囲ログ/ゲート状態 は連番付きの名前でも読む）
   TEST_ENTRY       出走表CSV（列数と頭数の検査に使う）
   TEST_HIST        過去1年CSV（リーク検査に使う）
 終了コードは失敗数。1件でも落ちたら非ゼロ。
@@ -16,13 +17,23 @@ E = os.environ.get('TEST_ENTRY')
 H = os.environ.get('TEST_HIST')
 TODAY = '2026-09-12'
 
-def rd(name):
-    with open(os.path.join(D, name), encoding='utf-8-sig') as f:
+import glob
+def pick(*pats):
+    """ledger.py の生出力名と、引渡しパックでの連番付き名の両方を受ける。
+       外部で再実行するときにファイル名を直さなくて済むようにする。"""
+    for pat in pats:
+        g = sorted(glob.glob(os.path.join(D, pat)))
+        if g: return g[-1]
+    raise SystemExit(f'入力が見つからない: {pats}')
+def rd(*pats):
+    with open(pick(*pats), encoding='utf-8-sig') as f:
         return list(csv.DictReader(f))
-cond = rd('判定台帳_条件別_20260912.csv')
-horse = rd('判定台帳_馬別_20260912.csv')
-scope = json.load(open(os.path.join(D, '適用範囲ログ_20260912.json'), encoding='utf-8'))
-gates = json.load(open(os.path.join(D, 'ゲートとレース台帳_20260912.json'), encoding='utf-8'))
+def jf(*pats):
+    return json.load(open(pick(*pats), encoding='utf-8'))
+cond  = rd('判定台帳_条件別_20260912.csv', '*ULMB判定台帳_条件別_*.csv')
+horse = rd('判定台帳_馬別_20260912.csv', '*ULMB判定台帳_馬別_*.csv')
+scope = jf('適用範囲ログ_20260912.json', '*適用範囲ログ_*.json')
+gates = jf('ゲートとレース台帳_20260912.json', '*ゲート状態_*.json', '*ゲートとレース台帳_*.json')
 entry = [r for r in csv.reader(open(E, encoding='cp932'))] if E else []
 
 results = []
@@ -57,7 +68,12 @@ def t07():
     """減量記号が供給されていれば TRUE/FALSE で確定していること。
        未供給なら UNKNOWN のままであること。どちらでも「推定を確定に使わない」を守る。"""
     w = [r for r in cond if r['条件演算子'] == 'no_weight_allowance']
-    supplied = gates['必須ゲート'].get('減量記号', '').startswith('確認済')
+    # 減量記号は必須ゲートではなく「ゲートとは別に管理する状態」に置く（X02の是正後）。
+    # 旧版のJSONも読めるよう両方を見る。
+    st = {}
+    st.update(gates.get('ゲートとは別に管理する状態') or {})
+    st.update({k: v for k, v in (gates.get('必須ゲート') or {}).items() if k == '減量記号'})
+    supplied = str(st.get('減量記号', '')).startswith('確認済')
     dist = dict(collections.Counter(r['判定'] for r in w))
     tags = set(r['出所タグ'] for r in w)
     if supplied:

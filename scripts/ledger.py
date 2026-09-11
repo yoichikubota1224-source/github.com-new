@@ -182,14 +182,53 @@ T, F, U = 'TRUE', 'FALSE', 'UNKNOWN'
 VERDICT_WORDS = ('本体で本採用再判定', '保留論点あり', '断念疑い', '軸不可疑い',
                  'ワイド穴として照合', '薄め相手として照合', '人間確認必須')
 
-# 必須ゲートの供給状況。本日は回収率ファクターのみ供給されている。
-GATES = {'運勢(騎手AB列/調教師FB列)': '未取得',
-         '回収率/ROI(自動ROI AZ:BA)': '未取得',
-         '回収率/ROI(ウルトラ・マストバイ)': '確認済',
-         '本シートCB': '未取得', '本シートCJ': '未取得', '本シートDA': '未取得',
-         '能力(足切り)': '未取得',
-         '減量記号': ('確認済(JRDB IDMの斤量列)' if kinryo else '未取得')}
-CONFIRMED_SYSTEMS = sum(1 for k, v in GATES.items() if v == '確認済' and 'ウルトラ' in k)
+# ===== 必須ゲートの唯一の定義 =====
+# 順序は 対象日/キー → 騎手AB → ROI指定範囲 → CB → CJ → DA。
+# 調教師FB列は必須ゲートに含めない（参照は可能だがゲートには数えない）。
+MANDATORY_GATE_ORDER = [
+    '1_対象日とracekey/馬番の確定',
+    '2_騎手六星運勢 RaceInput!AB',
+    '3_ROI 指定範囲(AZ:BA等)',
+    '4_RaceInput!CB',
+    '5_RaceInput!CJ',
+    '6_RaceInput!DA',
+]
+FORBIDDEN_IN_MANDATORY_GATE = ('調教師', 'FB')   # 混入検査用
+
+# ゲートとは別に管理する状態。ここに置いたものは必須ゲートに数えない。
+def build_states(kinryo_supplied):
+    return {
+        'ULMBルール条件一致': 'PASS(ルール条件の一致。ROI実数の照合完了ではない)',
+        'ROI実数の照合': 'HOLD',
+        'ROI集計期間': '未取得',
+        'ROI使用可否列': '一部取得',
+        '減量記号': ('確認済(JRDB IDMの斤量列)' if kinryo_supplied else '未取得'),
+        '調教師FB列': '必須ゲート外(参照可・ゲートに数えない)',
+        '能力(足切り)': '未取得',
+        '当日馬場とトラックバイアス': '未取得',
+        '追切原時計と短評': '未取得',
+    }
+
+def build_gates():
+    """必須ゲートの供給状況。キーは MANDATORY_GATE_ORDER と1対1。"""
+    g = {
+        '1_対象日とracekey/馬番の確定': 'PASS',
+        '2_騎手六星運勢 RaceInput!AB': 'HOLD_UNVERIFIED',
+        '3_ROI 指定範囲(AZ:BA等)': 'HOLD_UNVERIFIED',
+        '4_RaceInput!CB': 'HOLD_UNVERIFIED',
+        '5_RaceInput!CJ': 'HOLD_UNVERIFIED',
+        '6_RaceInput!DA': 'HOLD_UNVERIFIED',
+    }
+    assert list(g) == MANDATORY_GATE_ORDER, '必須ゲートのキーが順序定義と一致しない'
+    for k in g:
+        for bad in FORBIDDEN_IN_MANDATORY_GATE:
+            assert bad not in k, f'必須ゲートに {bad} が混入: {k}'
+    return g
+
+GATES = build_gates()
+STATES = build_states(bool(kinryo))
+# 確認済系統は「ゲートとは別に管理する状態」のうちULMBの条件一致のみ。
+CONFIRMED_SYSTEMS = sum(1 for k, v in STATES.items() if k == 'ULMBルール条件一致' and v.startswith('PASS'))
 
 def verdict_word(agg):
     """限定判定語の割り当て。
@@ -218,6 +257,28 @@ def evaluate(op, arg, r, hs, p, meta):
         return ((T if v else F), req, obs, unit, tag, ('OK_TRUE' if v else 'OK_FALSE'))
     def unk(req, obs, unit, tag, code): return (U, req, obs, unit, tag, code)
 
+    MIN_PREFIX_CHARS = 3   # これ未満の前方一致は曖昧としてUNKNOWNにする
+    def name_match(label, want, got):
+        """氏名の照合。空欄と曖昧な前方一致は TRUE/FALSE にしない。
+           出走表の騎手・調教師名は4文字で切られるため完全一致だけでは落ちるが、
+           空文字列は str.startswith('') が常に True になるため必ず除外する。
+           この関数は evaluate 内に置き、外部の補助関数に依存させない（外部検査が
+           nfkc と evaluate だけを読み込んでも成立させるため）。"""
+        a, b = nfkc(want), nfkc(got)
+        if not a:
+            return unk(f'{label}{want}', '条件側の氏名が空', '名', '[不足]', 'UNK_NAME_ABSENT_IN_RULE')
+        if not b:
+            return unk(f'{label}{want}', f'{label}欄が空欄', '名', '[不足]', 'UNK_NAME_ABSENT_IN_ENTRY')
+        if a == b:
+            return ok(True, f'{label}{want}', f'{label}{got}(完全一致)', '名')
+        if a.startswith(b) or b.startswith(a):
+            short = a if len(a) < len(b) else b
+            if len(short) < MIN_PREFIX_CHARS:
+                return unk(f'{label}{want}', f'{label}{got}(前方一致だが{len(short)}文字で曖昧)',
+                           '名', '[不足]', 'UNK_NAME_AMBIGUOUS_PREFIX')
+            return ok(True, f'{label}{want}', f'{label}{got}(前方一致・短縮{len(short)}文字)', '名')
+        return ok(False, f'{label}{want}', f'{label}{got}(不一致)', '名')
+
     if op == 'umaban_range':
         lo, hi = arg; hi = hi if hi is not None else 99
         return ok(lo <= u <= hi, f'馬番{lo}〜{hi}', f'馬番{u}', '番')
@@ -232,10 +293,7 @@ def evaluate(op, arg, r, hs, p, meta):
     if op == 'field_min':return ok(fld >= arg, f'{arg}頭立て以上', f'{fld}頭', '頭')
     if op == 'field_max':return ok(fld <= arg, f'{arg}頭立て以下', f'{fld}頭', '頭')
     if op == 'jockey_eq':
-        a, b = nfkc(arg), nfkc(r[COL['jockey']])
-        # 出走表の騎手名は4文字で切られる。前方一致で照合し、一致根拠を残す。
-        v = (a == b) or a.startswith(b) or b.startswith(a)
-        return ok(v, f'騎手{arg}', f"騎手{r[COL['jockey']]}(前方一致照合)", '名')
+        return name_match('騎手', arg, r[COL['jockey']])
     if op == 'sire_eq':
         return ok(nfkc(r[16]) == nfkc(arg), f'父{arg}', f'父{r[16]}', '名')
     if op == 'sire_line':
@@ -249,9 +307,7 @@ def evaluate(op, arg, r, hs, p, meta):
     if op == 'no_condition':
         return ok(True, '無条件', '条件②なし', '-')
     if op == 'trainer_eq':
-        a, b = nfkc(arg), nfkc(r[COL['trainer']])
-        return ok(a == b or a.startswith(b) or b.startswith(a), f'調教師{arg}',
-                  f"調教師{r[COL['trainer']]}(前方一致照合)", '名')
+        return name_match('調教師', arg, r[COL['trainer']])
     if op == 'producer_not':
         return ok(nfkc(r[15]) != nfkc(arg), f'生産者が{arg}以外', f'生産者{r[15]}', '名')
     if op == 'UNMAPPED_TARGET':
@@ -400,7 +456,14 @@ f1 = dump(os.path.join(OUT, '判定台帳_条件別_20260912.csv'), cond_rows, l
 f2 = dump(os.path.join(OUT, '判定台帳_馬別_20260912.csv'), horse_rows, list(horse_rows[0].keys()))
 json.dump(scope_log, open(os.path.join(OUT, '適用範囲ログ_20260912.json'), 'w'),
           ensure_ascii=False, indent=1)
-json.dump(dict(必須ゲート=GATES, 確認済系統数=CONFIRMED_SYSTEMS,
+_gate_json = dict(必須ゲートの順序=MANDATORY_GATE_ORDER, 必須ゲート=GATES,
+                  ゲートとは別に管理する状態=STATES,
+                  必須ゲートの注記='調教師FB列は必須ゲートに含めない。唯一の定義は scripts/ledger.py の MANDATORY_GATE_ORDER / build_gates()')
+# 生成直後の自己検査（X02の回帰）
+for _k in list(_gate_json['必須ゲート']) + _gate_json['必須ゲートの順序']:
+    for _bad in FORBIDDEN_IN_MANDATORY_GATE:
+        assert _bad not in _k, f'生成JSONの必須ゲートに {_bad} が混入: {_k}'
+json.dump(dict(**_gate_json, 確認済系統数=CONFIRMED_SYSTEMS,
                限定判定語の語彙=list(VERDICT_WORDS),
                不在の列=sorted(ABSENT_COLUMNS),
                レース=[dict(レースID=f'{k[0]}{k[1]}R', 条件=m['cond'], 芝ダ=m['sd'], 距離=m['dist'],
@@ -435,8 +498,10 @@ for h in sorted([h for h in horse_rows if h['集約判定'] == U], key=lambda x:
     print(f"   {h['ルールID']}  {h['レースID']:>7} {h['馬番']:>2}番 {h['馬名']:<15}"
           f" TRUE{h['TRUE数']}/UNK{h['UNKNOWN数']}/計{h['条件数']}  {h['UNKNOWN理由']}")
 print()
-print('必須ゲートの供給状況（未確認のまま断定していないことの証跡）:')
-for k, v in GATES.items(): print(f"   {k:<32} {v}")
+print('必須ゲートの供給状況（順序は 対象日/キー→騎手AB→ROI指定範囲→CB→CJ→DA。調教師FBは含めない）:')
+for k, v in GATES.items(): print(f"   {k:<34} {v}")
+print('ゲートとは別に管理する状態:')
+for k, v in STATES.items(): print(f"   {k:<34} {v}")
 print(f"   → 確認済系統数={CONFIRMED_SYSTEMS} のため限定判定語は「ワイド穴として照合」までに留める")
 print()
 print('適用範囲が空だったルール（当日に該当コースなし = 「該当馬なし」ではない）:')

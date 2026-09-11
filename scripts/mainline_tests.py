@@ -19,13 +19,20 @@ def rd(name):
 def jf(name):
     return json.load(open(os.path.join(D, name), encoding='utf-8'))
 
-led   = rd('01_本線7R_全頭評価台帳_r3_20260912.csv')
-tdict = rd('02_特記条件辞書_20260912.csv')
-ana   = rd('03_期待値妙味候補_r3_20260912.csv')
-kiken = rd('04_危険馬_来ない疑い_r3_20260912.csv')
-ver   = rd('05_ULMB版差の版付き履歴_r3_20260912.csv')
-gate  = jf('09_ゲート状態_r3_20260912.json')
-cols  = rd('10_列対応表_r1_r2_r3_20260912.csv')
+import glob
+def one(pat):
+    g = sorted(glob.glob(os.path.join(D, pat)))
+    if not g: raise SystemExit(f'入力が見つからない: {pat}')
+    return os.path.basename(g[-1])
+LEDGER = one('01_本線7R_全頭評価台帳_*.csv')
+led   = rd(LEDGER)
+tdict = rd(one('02_特記条件辞書_*.csv'))
+ana   = rd(one('03_期待値妙味候補_*.csv'))
+kiken = rd(one('04_危険馬_来ない疑い_*.csv'))
+ver   = rd(one('05_ULMB版差*.csv'))
+gate  = jf(one('09_ゲート状態_*.json'))
+cols  = rd(one('10_列対応表_*.csv'))
+cond  = rd(one('15_ULMB判定台帳_条件別_*.csv')) if glob.glob(os.path.join(D,'15_ULMB判定台帳_条件別_*.csv')) else []
 
 results = []
 def check(no, name, fn):
@@ -43,9 +50,14 @@ check('M01', '台帳は本線7Rの108頭ちょうど', lambda: (
 check('M02', '開催場+R+馬番のキーが一意', lambda: (
     len({(r['開催場'], r['R'], r['馬番']) for r in led}) == len(led),
     f"一意キー={len({(r['開催場'],r['R'],r['馬番']) for r in led})}/{len(led)}"))
+PACK_VER = (re.search(r'_(r\d+)_', LEDGER) or [None, ''])[1]   # 版は成果物名から取る（r3固定にしない）
 def m03():
-    bad = [r['馬名'] for r in led if r['台帳版ID'] != 'r3' or r['run_id'] != 'r3-20260912-manual']
-    return (not bad, f"版ID/run_idが揃わない行={len(bad)}")
+    """全行が同一の版ID/run_idで、かつ成果物名の版と一致すること"""
+    vs = {(r['台帳版ID'], r['run_id']) for r in led}
+    bad = [r['馬名'] for r in led
+           if r['台帳版ID'] != PACK_VER or not r['run_id'].startswith(PACK_VER + '-')]
+    return (len(vs) == 1 and not bad,
+            f"版ID/run_idが揃わない行={len(bad)} / 成果物名の版={PACK_VER or '(不明)'} / 台帳の値={sorted(vs)}")
 check('M03', '全行に同一の台帳版IDとrun_idがある', m03)
 def m04():
     """派生表は台帳から機械的に導けること（閾値の再現）"""
@@ -117,24 +129,48 @@ check('M11', '限定判定語が許可語彙内で、系統2未満なら本採�
 def m12():
     """必須ゲートに調教師FBが含まれず、順序が指定どおり"""
     order = gate['必須ゲートの順序']
-    has_fb = any('FB' in x or '調教師' in x for x in order) or any('FB' in k or '調教師' in k for k in gate['ゲート状態'])
+    keys = list(gate.get('必須ゲート') or gate.get('ゲート状態') or {})
+    has_fb = any('FB' in x or '調教師' in x for x in order) or any('FB' in k or '調教師' in k for k in keys)
     want = ['対象日','騎手','ROI','CB','CJ','DA']
     seq_ok = all(w in order[i] for i, w in enumerate(want))
-    return (not has_fb and seq_ok, f"調教師FBを含む={has_fb} / 順序一致={seq_ok} / 順序={order}")
+    sep = gate.get('ゲートとは別に管理する状態', {})
+    fb_sep = any('調教師' in k for k in sep)
+    return (not has_fb and seq_ok and fb_sep,
+            f"必須ゲートに調教師FB={has_fb} / 順序一致={seq_ok} / 別状態として分離={fb_sep} / 順序={order}")
 check('M12', '必須ゲートから調教師FBを除き、順序が指定どおり', m12)
 def m13():
-    """版差表が旧→r1→r2→r3の4版すべてを持つ"""
-    need = ['旧_判定','r1_集約判定','r2_集約判定','r3_集約判定','正規化履歴']
-    ok = all(c in ver[0] for c in need)
-    ch = sum(1 for r in ver if r['変化の有無'] == '変化あり')
-    return (ok and len(ver) > 0, f"4版の列={ok} / {len(ver)}行 / 変化あり{ch}件")
-check('M13', '版差表が旧→r1→r2→r3の版付き履歴になっている', m13)
+    """版差表に集約判定と馬別表掲載が別列で存在し、集約判定が同じ版の条件台帳と一致すること（X01の回帰）"""
+    need = ['旧_集約判定','r1_集約判定','r2_集約判定','r3_集約判定','r4_集約判定',
+            '旧_馬別表掲載','r4_馬別表掲載','集約判定の履歴','馬別表掲載の履歴','変化の有無の定義']
+    miss = [c for c in need if c not in ver[0]]
+    if miss: return (False, f"欠けている列={miss}")
+    if not cond: return (False, '条件別台帳(15_)が同梱されていないため集約値を検査できない')
+    g = collections.defaultdict(list)
+    for r in cond: g[(r['開催場'], r['R'], r['馬番'], r['ルールID'])].append(r['判定'])
+    agg = {k: ('TRUE' if all(j=='TRUE' for j in v) else ('FALSE' if 'FALSE' in v else 'UNKNOWN'))
+           for k, v in g.items()}
+    bad = []
+    for r in ver:
+        k = (r['開催場'], r['R'], r['馬番'], r['ルールID'])
+        want = agg.get(k)
+        if want is None: continue
+        if r['r4_集約判定'] != want: bad.append((k, r['r4_集約判定'], want))
+    return (not bad, f"{len(ver)}行 / 集約値の不一致={len(bad)} {bad[:3]} / 変化あり{sum(1 for r in ver if r['変化の有無']=='変化あり')}件")
+check('M13', '版差表の集約判定が条件台帳と一致し、掲載有無が別列になっている', m13)
 def m14():
-    """列対応表が台帳の実列をすべて説明している"""
-    c3 = set(next(csv.reader(open(os.path.join(D, '01_本線7R_全頭評価台帳_r3_20260912.csv'), encoding='utf-8-sig'))))
-    mapped = {r['r3列名'] for r in cols if not r['r3列名'].startswith('(')}
-    return (c3 <= mapped, f"台帳{len(c3)}列 / 対応表が説明{len(mapped)}列 / 未説明={sorted(c3 - mapped)[:6] or '(なし)'}")
-check('M14', '列対応表が台帳の全列を説明している', m14)
+    """列対応表が一意であること（X04の回帰）。
+       宛先列の重複なし・存在しない列名なし・種別が定義語彙内。"""
+    actual = set(next(csv.reader(open(os.path.join(D, LEDGER), encoding='utf-8-sig'))))
+    key = '最終列名_r4' if '最終列名_r4' in cols[0] else 'r3列名'
+    dst = [r[key] for r in cols if not r[key].startswith('(')]
+    dup = [k for k, v in collections.Counter(dst).items() if v > 1]
+    ghost = sorted(set(dst) - actual)
+    miss = sorted(actual - set(dst))
+    kinds = {r['種別'] for r in cols}
+    allow = {'continue','rename','split','merge','add','drop'}
+    return (not dup and not ghost and not miss and kinds <= allow,
+            f"宛先{len(dst)} / 重複={dup or '(なし)'} / 存在しない列={ghost or '(なし)'} / 未説明={miss or '(なし)'} / 種別={sorted(kinds)}")
+check('M14', '列対応表が一意で、矛盾する由来と存在しない列名がない', m14)
 def m15():
     """本文の件数がCSVと一致する（r1で6+17と書いた欠陥の回帰テスト）"""
     if not REPORT or not os.path.exists(REPORT):
@@ -147,6 +183,28 @@ def m15():
     miss = [p for p, _ in pairs if p not in t]
     return (not miss, f"本文に無い表記={miss or '(なし)'} / CSV実数 妙味{len(ana)}・過剰{kc['過剰人気警戒']}・来ない{kc['来ない疑い']}")
 check('M15', '報告書本文の件数が派生CSVと一致する', m15)
+
+def m16():
+    """運勢の意味列がAB未照合中はHOLDで、原記号が保持されていること"""
+    if '運勢_原記号' not in led[0]: return (False, '運勢_原記号 列がない')
+    bad = [r['馬名'] for r in led if r['運勢系_参考'] and 'HOLD' not in r['運勢系_参考']]
+    kept = sum(1 for r in led if r['運勢_原記号'] not in ('', '(空欄)'))
+    return (not bad, f"意味列がHOLD以外の行={len(bad)} / 原記号を保持した行={kept}/108")
+check('M16', '運勢の意味列がHOLDで原記号が保持されている', m16)
+def m17():
+    """互換名であることが注記されていること"""
+    col = '列名_支持系統数_独立バケット_の注記'
+    if col not in led[0]: return (False, f'{col} 列がない')
+    bad = [r['馬名'] for r in led if '互換名' not in r[col] or '未証明' not in r[col]]
+    return (not bad, f"注記が欠ける行={len(bad)}")
+check('M17', '「独立バケット」が互換名である旨と独立性未証明が注記されている', m17)
+def m18():
+    """特記辞書がCSVとして同梱され、台帳の出現語を網羅していること（固定パス依存の回帰）"""
+    known = {r['特記語'] for r in tdict}
+    need = {'特記語','符号','条件種別','今日評価できるか','必要データまたは理由'}
+    return (need <= set(tdict[0]) and len(known) > 0,
+            f"辞書{len(known)}語 / 列={sorted(set(tdict[0]) & need)}")
+check('M18', '特記辞書がCSVで同梱され必要列を備えている', m18)
 
 w = max(len(n) for _, n, _, _ in results)
 print('=' * (w + 34)); print('本線7R 全頭評価台帳 受入テスト（ULMB条件台帳検査とは別）'); print('=' * (w + 34))
