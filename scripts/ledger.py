@@ -76,15 +76,20 @@ if KJ and os.path.exists(KJ):
 # 「検査氏名」が「検査氏名甲」と「検査氏名乙」の双方に同時一致しうる。
 # 同日STRIDEの racekey+馬番+馬名 で正式名を取り、完全一致で解く。
 # 解けない氏名は UNKNOWN にする（文字数の閾値では解決しない）。
+# 調教師の正式名は同日STRIDEの「厩舎」列にある（提供名。公式マスタとは未照合）。
 official_name = {}
 if SD and os.path.exists(SD):
     for r in csv.DictReader(open(SD, encoding='utf-8-sig')):
-        official_name[(r['開催場'], int(r['R']), int(r['馬番']))] = {
-            '馬名': (r.get('馬名') or '').strip(),
-            '騎手': (r.get('騎手') or '').strip(),
-            # 調教師の正式名は同日STRIDEに列がない。供給されるまで解決しない。
-            '調教師': (r.get('調教師') or '').strip(),
-        }
+        k = (r['開催場'], int(r['R']), int(r['馬番']))
+        v = {'馬名': (r.get('馬名') or '').strip(),
+             '騎手': (r.get('騎手') or '').strip(),
+             '調教師': (r.get('厩舎') or r.get('調教師') or '').strip(),
+             '衝突': False}
+        if k in official_name and official_name[k] != v:
+            # 同じキーに別の行が来たら上書きしない。結合が一意でないことを残す。
+            official_name[k]['衝突'] = True
+        else:
+            official_name[k] = v
 
 sire_line = {}
 if SJ and os.path.exists(SJ):
@@ -289,15 +294,24 @@ def evaluate(op, arg, r, hs, p, meta):
             return unk(f'{label}{want}', '条件側の氏名が空', '名', '[不足]', 'UNK_NAME_ABSENT_IN_RULE')
         if not b:
             return unk(f'{label}{want}', f'{label}欄が空欄', '名', '[不足]', 'UNK_NAME_ABSENT_IN_ENTRY')
-        # 同日の正式名で解決する。馬名が一致した行の正式名だけを使う。
-        # 正式名を先に見る。出走表は4文字で切られるため、切られた表記が条件名と
-        # 一致していても、正式名が別人(例: 4文字が同じで5文字目が違う)でありうる。
+        # 同日の正式名で解決する。正式名を先に見る。出走表は4文字で切られるため、
+        # 切られた表記が条件名と一致していても、正式名が別人(4文字が同じで5文字目が
+        # 違う)でありうる。
+        # 正式名が存在するのに結合キーが合わないときは、原略名の完全一致へ戻さず
+        # その場で止める(フォールバック禁止)。
         src = (meta.get('正式名') or {}).get(u) or {}
         full = nfkc(src.get(label, ''))
-        if full and nfkc(src.get('馬名', '')) == nfkc(r[COL['name']]):
+        if full:
+            if src.get('衝突'):
+                return unk(f'{label}{want}', f'{label}{got}(同一キーに複数の正式名行があり結合が一意でない)',
+                           '名', '[不足]', 'UNK_NAME_JOIN_NOT_UNIQUE')
+            if nfkc(src.get('馬名', '')) != nfkc(r[COL['name']]):
+                return unk(f'{label}{want}',
+                           f"{label}{got}(正式名行の馬名{src.get('馬名') or '(空)'}が出走表の馬名"
+                           f"{r[COL['name']] or '(空)'}と一致しない。結合キー不一致のため停止)",
+                           '名', '[不足]', 'UNK_NAME_JOIN_KEY_MISMATCH')
             # 出走表は4文字で切るため、外国人騎手は頭文字が落ちる（Ｍ．ミシェル→ミシェル）。
             # 前方一致に限らず、切られた表記が正式名に含まれていれば同一人とみなす。
-            # 馬名の一致が本来の保証で、この検査は取り違えの念のための確認。
             if not (full.startswith(b) or b in full):
                 return unk(f'{label}{want}', f'{label}{got}(正式名{src[label]}と出走表の表記が整合しない)',
                            '名', '[不足]', 'UNK_NAME_OFFICIAL_MISMATCH')

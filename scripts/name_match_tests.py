@@ -25,7 +25,7 @@ for node in tree.body:
 if 'evaluate' not in env:
     raise SystemExit('evaluate を隔離できない（補助関数へ依存している可能性）')
 
-def probe(op, want, got, official=None, horse='検査馬名', entry_horse='検査馬名'):
+def probe(op, want, got, official=None, horse='検査馬名', entry_horse='検査馬名', clash=False):
     """合成入力。実在の馬・騎手ではない。"""
     idx = 10 if op == 'jockey_eq' else 12
     r = [''] * 33
@@ -33,7 +33,8 @@ def probe(op, want, got, official=None, horse='検査馬名', entry_horse='検�
         r[i] = v
     meta = {'n_csv': 16}
     if official is not None:
-        meta['正式名'] = {1: {'馬名': horse, '騎手': official, '調教師': official}}
+        meta['正式名'] = {1: {'馬名': horse, '騎手': official, '調教師': official,
+                           '衝突': clash}}
     return env['evaluate'](op, want, r, None, None, meta)
 
 CASES = [
@@ -55,6 +56,13 @@ CASES = [
     # 切られた表記が条件名と一致しても、正式名が別人なら一致にしない
     ('切詰め同一_別人',  '検査氏名',   '検査氏名',   '検査氏名甲', 'FALSE'),
 ]
+# 結合キー(馬名)が合わないときは、原略名の完全一致へ戻さずその場で止める
+JOIN_CASES = [
+    ('結合_馬名一致',     '検査氏名', '検査氏名', '検査氏名甲', '照合対象馬', '照合対象馬', False, 'FALSE'),
+    ('結合_馬名不一致',   '検査氏名', '検査氏名', '検査氏名甲', '別の馬',     '照合対象馬', False, 'UNKNOWN'),
+    ('結合_正式名側が空', '検査氏名', '検査氏名', '',           '別の馬',     '照合対象馬', False, 'TRUE'),
+    ('結合_キーが一意でない', '検査氏名', '検査氏名', '検査氏名甲', '照合対象馬', '照合対象馬', True, 'UNKNOWN'),
+]
 
 results = []
 def check(no, name, ok, detail):
@@ -69,25 +77,43 @@ for op in ('jockey_eq', 'trainer_eq'):
               f'条件={want or "(空)"} 出走表={got or "(空)"} 正式名={official or "(未取得)"} '
               f'→ {v[0]}（期待{expected}） 理由={v[5]}')
 
+for op in ('jockey_eq', 'trainer_eq'):
+    for label, want, got, official, ohorse, ehorse, clash, expected in JOIN_CASES:
+        n += 1
+        v = probe(op, want, got, official, horse=ohorse, entry_horse=ehorse, clash=clash)
+        check(f'N{n:02d}', f'{op} {label}', v[0] == expected,
+              f'条件={want} 出走表={got} 正式名={official or "(空)"} '
+              f'正式名側の馬名={ohorse} 出走表の馬名={ehorse} 結合衝突={clash} '
+              f'→ {v[0]}（期待{expected}） 理由={v[5]}')
+
 # 実データ側: 前方一致だけでTRUE/FALSEにした行が残っていないこと
 if COND and os.path.exists(COND):
     rows = [r for r in csv.DictReader(open(COND, encoding='utf-8-sig'))
             if r['条件演算子'] in ('jockey_eq', 'trainer_eq')]
     bad = [r for r in rows if '前方一致' in r['観測値'] and r['判定'] != 'UNKNOWN']
     tags = collections.Counter(r['出所タグ'] for r in rows)
-    check('N29', '実データに前方一致で確定した氏名条件がない', not bad,
+    check(f'N{n+1:02d}', '実データに前方一致で確定した氏名条件がない', not bad,
           f'氏名条件{len(rows)}行 / 前方一致で確定={len(bad)} / 出所タグ={dict(tags)}')
 else:
-    check('N29', '実データに前方一致で確定した氏名条件がない', False, 'NM_COND_CSV 未設定（INPUT_HOLD）')
+    # 入力未受領は「検査していない(INPUT_HOLD)」。欠陥を検出したFAILとは区別する。
+    check(f'N{n+1:02d}', '実データに前方一致で確定した氏名条件がない', 'HOLD',
+          'NM_COND_CSV 未設定。条件別台帳が無いため実データ側は検査していない')
 
 w = max(len(x) for _, x, _, _ in results)
 print('=' * (w + 40))
 print('氏名照合 回帰検査（合成入力。実在の馬・騎手ではない）')
 print('=' * (w + 40))
-fail = 0
+fail = hold = 0
 for no, name, ok, detail in results:
-    if not ok: fail += 1
-    print(f"{no} {'PASS' if ok else '*FAIL*':<7} {name:<{w}}  {detail}")
+    if ok == 'HOLD':
+        hold += 1; mark = 'HOLD'
+    elif ok:
+        mark = 'PASS'
+    else:
+        fail += 1; mark = '*FAIL*'
+    print(f"{no} {mark:<7} {name:<{w}}  {detail}")
 print('-' * (w + 40))
-print(f'{len(results)}件中 PASS {len(results)-fail} / FAIL {fail}')
+print(f'{len(results)}件中 PASS {len(results)-fail-hold} / FAIL {fail} / INPUT_HOLD {hold}')
+if hold:
+    print('INPUT_HOLD は入力が未受領で検査していない項目。合格でも不合格でもない。')
 sys.exit(fail)
