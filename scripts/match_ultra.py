@@ -30,30 +30,16 @@ for r in csv.DictReader(open(f"{BASE}/course3/x/競馬場コース事典2_コー
 def io_of(h): return CD.get((h['venue'],h['sd'],h['dist']))
 
 # 当方が構造化したウルトラ条件(阪神のみ収録)。prev=前走要求、sire_line=父系判定要
-ULTRA=[
- dict(no='045', sd='芝', dists=[(1200,'内')], target=('父系','ストームキャット系'),
-      cur=[('umaban_range',(1,None))], prev=[], note='条件②「枠番が1〜6枠」', cur2=[('waku_range',(1,6))]),
- dict(no='046', sd='芝', dists=[(1400,None),(1600,None)], target=('父','ハービンジャー'),
-      cur=[('age_max',4)], prev=[], note='条件②「馬齢が4歳以下」'),
- dict(no='047', sd='芝', dists=[(1600,None),(1800,None)], target=('騎手','岩田望来'),
-      cur=[], prev=['前走馬体重480kg以上'], note='条件②が前走馬体重'),
- dict(no='048', sd='芝', dists=[(1800,'外')], target=('父系','ロベルト系'),
-      cur=[], prev=['前走10着以内'], note='条件②が前走着順'),
- dict(no='052', sd='ダ', dists=[(1400,None),(1600,None),(1800,None)], target=('父','シニスターミニスター'),
-      cur=[('umaban_range',(3,16)),('base','栗')], prev=[], note='条件②「馬番3〜16＋関西馬(栗東)」'),
- dict(no='053', sd='ダ', dists=[(1400,None),(1600,None),(1800,None)], target=('父','ドレフォン'),
-      cur=[], prev=['前走上がり3F順位4位以内'], note='条件②が前走上がり順位'),
- dict(no='054', sd='ダ', dists=[(1800,None)], target=('父','キズナ'),
-      cur=[('age_max',3)], prev=['前走馬体重480kg以上'], note='条件②「3歳以下＋前走馬体重480kg以上」'),
- dict(no='055', sd='ダ', dists=[(1800,None),(2000,None)], target=('騎手','武豊'),
-      cur=[('age_max',3),('sex_in',('牡','セ'))], prev=[], note='条件②「3歳以下＋性が牡・セ」'),
- dict(no='056', sd='ダ', dists=[(1800,None),(2000,None)], target=('騎手','M.デムーロ'),
-      cur=[('age_max',3)], prev=[], note='条件②「3歳以下」'),
- dict(no='057', sd='ダ', dists=[(1800,None),(2000,None)], target=('騎手','横山典弘'),
-      cur=[('umaban_range',(1,10)),('field_min',9)], prev=[], note='条件②「馬番1〜10＋9頭立て以上」'),
- dict(no='058', sd='ダ', dists=[(2000,None)], target=('騎手','松山弘平'),
-      cur=[], prev=['前走馬体重520kg未満'], note='条件②が前走馬体重'),
-]
+# 条件定義(阪神ウルトラ045〜058)はこのファイルに含めません。理由は nakayama_ultra.py と同じです。
+# 完全な定義は ChatGPT渡しパック `08_条件定義_阪神ウルトラ.py.txt` にあります。
+import os
+_def = os.environ.get('ULTRA_HANSHIN_FILE', '08_条件定義_阪神ウルトラ.py.txt')
+if not os.path.exists(_def):
+    raise SystemExit(f"条件定義ファイルがありません: {_def}\n"
+                     "非公開資料のためリポジトリには含まれていません。")
+_ns={'dict':dict}
+exec(open(_def,encoding='utf-8').read(), _ns)
+ULTRA=_ns['ULTRA']
 U46={u['no']:u for u in json.load(open(f"{BASE}/umb/ultra46.json"))}
 SIRE_LINES={'ストームキャット系','ロベルト系'}
 
