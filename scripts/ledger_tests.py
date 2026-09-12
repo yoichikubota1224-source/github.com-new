@@ -15,7 +15,8 @@ import csv, json, os, re, sys, collections, datetime
 D = os.environ.get('TEST_LEDGER_DIR', '.')
 E = os.environ.get('TEST_ENTRY')
 H = os.environ.get('TEST_HIST')
-TODAY = '2026-09-12'
+TODAY = os.environ.get('TEST_DATE', '2026-09-12')
+DATE_TAG = TODAY.replace('-', '')
 
 import glob
 def pick(*pats):
@@ -30,10 +31,10 @@ def rd(*pats):
         return list(csv.DictReader(f))
 def jf(*pats):
     return json.load(open(pick(*pats), encoding='utf-8'))
-cond  = rd('判定台帳_条件別_20260912.csv', '*ULMB判定台帳_条件別_*.csv')
-horse = rd('判定台帳_馬別_20260912.csv', '*ULMB判定台帳_馬別_*.csv')
-scope = jf('適用範囲ログ_20260912.json', '*適用範囲ログ_*.json')
-gates = jf('ゲートとレース台帳_20260912.json', '*ゲート状態_*.json', '*ゲートとレース台帳_*.json')
+cond  = rd(f'判定台帳_条件別_{DATE_TAG}.csv', '*ULMB判定台帳_条件別_*.csv')
+horse = rd(f'判定台帳_馬別_{DATE_TAG}.csv', '*ULMB判定台帳_馬別_*.csv')
+scope = jf(f'適用範囲ログ_{DATE_TAG}.json', '*適用範囲ログ_*.json')
+gates = jf(f'ゲートとレース台帳_{DATE_TAG}.json', '*ゲート状態_*.json', '*ゲートとレース台帳_*.json')
 entry = [r for r in csv.reader(open(E, encoding='cp932'))] if E else []
 
 results = []

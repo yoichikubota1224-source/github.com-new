@@ -18,6 +18,7 @@
   LEDGER_KINRYO 減量記号を持つCSV(任意)。JRDB IDM の「斤量」列に ☆★▲△◇ が入っている。
                 与えられた場合、減量条件は推定ではなく記号で判定する。
   LEDGER_STRIDE 同日スライド競馬新聞CSV(騎手の正式名。氏名照合の解決に使う)
+  LEDGER_DATE   対象日 YYYY-MM-DD(既定 2026-09-12)。前走の窓と出力名に使う
   LEDGER_OUT    出力ディレクトリ
 原本は読み取りのみ。値の書き戻しはしない。
 """
@@ -39,7 +40,9 @@ for _p in RJ.split(','):
     if not os.path.exists(_p.strip()):
         raise SystemExit(f"LEDGER_RULES の要素が存在しません: {_p!r}")
 
-TODAY = datetime.date(2026, 9, 12)
+# 対象日。LEDGER_DATE=YYYY-MM-DD で切り替える（既定は2026-09-12）。
+TODAY = datetime.date.fromisoformat(os.environ.get('LEDGER_DATE', '2026-09-12'))
+DATE_TAG = TODAY.strftime('%Y%m%d')
 COL = dict(date=0, venue=1, r=2, umaban=3, cond=4, sd=5, dist=6, name=7, sex=8, age=9,
            jockey=10, kin=11, trainer=12, base=13, waku=22, field=26, key=32)
 
@@ -157,7 +160,7 @@ def last_corner(h):
 
 prev = {}
 for r in rows:
-    hs = [h for h in hist.get(r[COL['name']].strip(), []) if h['日付'] < '2026-09-12']
+    hs = [h for h in hist.get(r[COL['name']].strip(), []) if h['日付'] < TODAY.isoformat()]
     if not hs:
         # 新馬戦の出走馬は初出走が確定する。前走条件は「入力不足」ではなく「充足不能」。
         debut = '新馬' in nfkc(r[COL['cond']])
@@ -505,9 +508,9 @@ def dump(path, data, fields):
         w = csv.DictWriter(f, fieldnames=fields); w.writeheader()
         for d in data: w.writerow(d)
     return path
-f1 = dump(os.path.join(OUT, '判定台帳_条件別_20260912.csv'), cond_rows, list(cond_rows[0].keys()))
-f2 = dump(os.path.join(OUT, '判定台帳_馬別_20260912.csv'), horse_rows, list(horse_rows[0].keys()))
-json.dump(scope_log, open(os.path.join(OUT, '適用範囲ログ_20260912.json'), 'w'),
+f1 = dump(os.path.join(OUT, f'判定台帳_条件別_{DATE_TAG}.csv'), cond_rows, list(cond_rows[0].keys()))
+f2 = dump(os.path.join(OUT, f'判定台帳_馬別_{DATE_TAG}.csv'), horse_rows, list(horse_rows[0].keys()))
+json.dump(scope_log, open(os.path.join(OUT, f'適用範囲ログ_{DATE_TAG}.json'), 'w'),
           ensure_ascii=False, indent=1)
 _gate_json = dict(必須ゲートの順序=MANDATORY_GATE_ORDER, 必須ゲート=GATES,
                   ゲートとは別に管理する状態=STATES,
@@ -522,7 +525,7 @@ json.dump(dict(**_gate_json, 確認済系統数=CONFIRMED_SYSTEMS,
                レース=[dict(レースID=f'{k[0]}{k[1]}R', 条件=m['cond'], 芝ダ=m['sd'], 距離=m['dist'],
                           CSV頭数=m['n_csv'], 列26頭数=m['n_decl'], 障害=m['jump'],
                           クラスコード=m['klass']) for k, m in sorted(race_meta.items())])
-          , open(os.path.join(OUT, 'ゲートとレース台帳_20260912.json'), 'w'), ensure_ascii=False, indent=1)
+          , open(os.path.join(OUT, f'ゲートとレース台帳_{DATE_TAG}.json'), 'w'), ensure_ascii=False, indent=1)
 
 # ---------- 標準出力の要約 ----------
 print('=' * 100)
