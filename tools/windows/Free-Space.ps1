@@ -61,7 +61,7 @@ param(
 
     [switch]$RestartExplorer,
 
-    [string]$LogDir = (Join-Path $env:USERPROFILE 'DesktopSortLogs')
+    [string]$LogDir = (Join-Path $env:USERPROFILE 'CleanupLogs')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -72,12 +72,16 @@ try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch { }
 # =====================================================================
 
 function Format-Size {
-    param([double]$Bytes)
-    if ($Bytes -ge 1TB) { return ('{0,8:N2} TB' -f ($Bytes / 1TB)) }
-    if ($Bytes -ge 1GB) { return ('{0,8:N2} GB' -f ($Bytes / 1GB)) }
-    if ($Bytes -ge 1MB) { return ('{0,8:N1} MB' -f ($Bytes / 1MB)) }
-    if ($Bytes -ge 1KB) { return ('{0,8:N0} KB' -f ($Bytes / 1KB)) }
-    return ('{0,8:N0} B ' -f $Bytes)
+    param($Bytes)
+    if ($null -eq $Bytes) { return '       - ' }
+    $v = [double]$Bytes
+    $sign = ''
+    if ($v -lt 0) { $sign = '-'; $v = [Math]::Abs($v) }
+    if ($v -ge 1TB) { return ($sign + ('{0:N2} TB' -f ($v / 1TB))).PadLeft(11) }
+    if ($v -ge 1GB) { return ($sign + ('{0:N2} GB' -f ($v / 1GB))).PadLeft(11) }
+    if ($v -ge 1MB) { return ($sign + ('{0:N1} MB' -f ($v / 1MB))).PadLeft(11) }
+    if ($v -ge 1KB) { return ($sign + ('{0:N0} KB' -f ($v / 1KB))).PadLeft(11) }
+    return ($sign + ('{0:N0} B' -f $v)).PadLeft(11)
 }
 
 function Get-FreeBytes {
@@ -360,6 +364,7 @@ $WR = $env:SystemRoot
 $FileTargets = @(
     # ---------------- Safe ----------------
     (New-Target '一時ファイル (LocalAppData\Temp)' 'Safe' (Join-Path $LA 'Temp') -MinAge 1)
+    (New-Target '一時ファイル (TEMP)'              'Safe' $env:TEMP -MinAge 1)
     (New-Target 'クラッシュダンプ'                 'Safe' (Join-Path $LA 'CrashDumps'))
     (New-Target 'エラー報告 (ユーザー)'            'Safe' (Join-Path $LA 'Microsoft\Windows\WER'))
     (New-Target 'DirectX シェーダーキャッシュ'     'Safe' (Join-Path $LA 'D3DSCache'))
@@ -411,7 +416,6 @@ $FileTargets = @(
     (New-Target 'Adobe 更新キャッシュ'             'Standard' (Join-Path $PD 'Adobe\ARM') -Admin $true -Close 'Acrobat.exe,AcroRd32.exe')
     (New-Target 'Chocolatey 失敗パッケージ残骸'    'Standard' (Join-Path $PD 'chocolatey\lib-bad') -Admin $true)
     (New-Target 'Chocolatey バックアップ残骸'      'Standard' (Join-Path $PD 'chocolatey\lib-bkp') -Admin $true)
-    (New-Target 'Chocolatey ダウンロードキャッシュ' 'Standard' (Join-Path $LA 'Temp\chocolatey'))
     # ブラウザ: HTTP/コード/GPU キャッシュのみ。Cookie・ログイン情報・ブックマークは対象外。
     (New-Target 'Chrome HTTPキャッシュ'            'Standard' (Join-Path $LA 'Google\Chrome\User Data\*\Cache') -Close 'chrome.exe')
     (New-Target 'Chrome Code Cache'                'Standard' (Join-Path $LA 'Google\Chrome\User Data\*\Code Cache') -Close 'chrome.exe')
@@ -455,13 +459,22 @@ $CommandTargets = @(
         Name = 'Windows Update ダウンロードキャッシュ'; Level = 'Standard'; Admin = $true
         Note = '必要な更新は次回スキャンで再取得されます'
         Script = {
-            Stop-Service -Name wuauserv, bits -Force -ErrorAction SilentlyContinue
+            if (-not $env:SystemRoot) { return }
             $d = Join-Path $env:SystemRoot 'SoftwareDistribution\Download'
-            if (Test-Path -LiteralPath $d) {
-                Get-ChildItem -LiteralPath $d -Force -ErrorAction SilentlyContinue |
-                    Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+            # 念のためパスの形を検証してから再帰削除する
+            if ($d -notlike '*\SoftwareDistribution\Download') { return }
+            if (-not (Test-Path -LiteralPath $d -PathType Container)) { return }
+            $svcNames = @('wuauserv', 'bits')
+            $wasRunning = @()
+            foreach ($n in $svcNames) {
+                $sv = Get-Service -Name $n -ErrorAction SilentlyContinue
+                if ($sv -and $sv.Status -eq 'Running') { $wasRunning += $n }
+                if ($sv) { Stop-Service -Name $n -Force -ErrorAction SilentlyContinue }
             }
-            Start-Service -Name wuauserv, bits -ErrorAction SilentlyContinue
+            Get-ChildItem -LiteralPath $d -Force -ErrorAction SilentlyContinue |
+                Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+            # 元から動いていたサービスだけ戻す（停止していたものを勝手に開始しない）
+            foreach ($n in $wasRunning) { Start-Service -Name $n -ErrorAction SilentlyContinue }
         }
     }
     [pscustomobject]@{
@@ -471,16 +484,20 @@ $CommandTargets = @(
             if (Get-Command Delete-DeliveryOptimizationCache -ErrorAction SilentlyContinue) {
                 Delete-DeliveryOptimizationCache -Force -ErrorAction SilentlyContinue
             } else {
-                Stop-Service -Name DoSvc -Force -ErrorAction SilentlyContinue
+                if (-not $env:SystemRoot) { return }
+                $sv = Get-Service -Name DoSvc -ErrorAction SilentlyContinue
+                $doWasRunning = ($sv -and $sv.Status -eq 'Running')
+                if ($sv) { Stop-Service -Name DoSvc -Force -ErrorAction SilentlyContinue }
                 $p1 = Join-Path $env:SystemRoot 'SoftwareDistribution\DeliveryOptimization'
                 $p2 = Join-Path $env:SystemRoot 'ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\Cache'
                 foreach ($p in @($p1, $p2)) {
-                    if (Test-Path -LiteralPath $p) {
-                        Get-ChildItem -LiteralPath $p -Force -ErrorAction SilentlyContinue |
-                            Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
-                    }
+                    # 念のためパスの形を検証してから再帰削除する
+                    if ($p -notlike '*\DeliveryOptimization*') { continue }
+                    if (-not (Test-Path -LiteralPath $p -PathType Container)) { continue }
+                    Get-ChildItem -LiteralPath $p -Force -ErrorAction SilentlyContinue |
+                        Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
                 }
-                Start-Service -Name DoSvc -ErrorAction SilentlyContinue
+                if ($doWasRunning) { Start-Service -Name DoSvc -ErrorAction SilentlyContinue }
             }
         }
     }
@@ -564,8 +581,7 @@ $CommandTargets = @(
 function Show-BigItemsReport {
     Write-Host ''
     Write-Host '【手動判断が必要な大物】（このスクリプトは触りません）' -ForegroundColor Yellow
-
-    $rows = @()
+    Write-Host '  計測中... OneDrive やダウンロードが大きいと数分かかることがあります' -ForegroundColor DarkGray
 
     function Add-Row { param([string]$Name, [double]$Bytes, [string]$How)
         if ($Bytes -gt 0) { $script:bigRows += [pscustomobject]@{ Name = $Name; Bytes = $Bytes; How = $How } }
@@ -577,10 +593,14 @@ function Show-BigItemsReport {
         return 0
     }
     function Get-DirBytes { param([string]$P)
+        # Offline 属性のファイル（OneDrive のクラウドのみ）は実ディスクを消費していないので数えない
         try {
             if (-not (Test-Path -LiteralPath $P)) { return 0 }
-            $m = Get-ChildItem -LiteralPath $P -Recurse -File -Force -ErrorAction SilentlyContinue | Measure-Object Length -Sum
-            return [double]($m.Sum)
+            $sum = 0.0
+            foreach ($f in (Get-ChildItem -LiteralPath $P -Recurse -File -Force -ErrorAction SilentlyContinue)) {
+                if (-not ($f.Attributes -band [System.IO.FileAttributes]::Offline)) { $sum += [double]$f.Length }
+            }
+            return $sum
         } catch { return 0 }
     }
 
@@ -607,10 +627,12 @@ function Show-BigItemsReport {
     Add-Row 'WSL ディストロの仮想ディスク' $wslBytes `
         'wsl --shutdown → diskpart の compact vdisk、または wsl --manage <Distro> --set-sparse true'
 
+    $iosBytes = 0.0
     foreach ($p in @(
         (Join-Path $env:APPDATA 'Apple Computer\MobileSync\Backup'),
         (Join-Path $env:USERPROFILE 'Apple\MobileSync\Backup')
-    )) { Add-Row 'iPhone/iPad バックアップ' (Get-DirBytes $p) 'iTunes / Apple デバイス アプリから不要な世代を削除' }
+    )) { $iosBytes += (Get-DirBytes $p) }
+    Add-Row 'iPhone/iPad バックアップ' $iosBytes 'iTunes / Apple デバイス アプリから不要な世代を削除'
 
     foreach ($od in @($env:OneDrive, $env:OneDriveCommercial, $env:OneDriveConsumer)) {
         if ($od -and (Test-Path -LiteralPath $od)) {
@@ -703,6 +725,26 @@ foreach ($t in ($FileTargets | Where-Object { $LevelRank[$_.Level] -le $want }))
         }
     }
 }
+
+# 同じ実体・入れ子の重複を排除（$env:TEMP と $LOCALAPPDATA\Temp が同一の環境で二重計上しないため）
+$byRoot = [ordered]@{}
+foreach ($p in $plan) {
+    $k = $p.Root.ToLowerInvariant()
+    if (-not $byRoot.Contains($k)) { $byRoot[$k] = $p }
+}
+$dedup = @()
+$dupCount = 0
+foreach ($k in $byRoot.Keys) {
+    $p = $byRoot[$k]
+    $isChild = $false
+    foreach ($k2 in $byRoot.Keys) {
+        if ($k -ne $k2 -and $k.StartsWith($k2 + '\')) { $isChild = $true; break }
+    }
+    if ($isChild) { $dupCount++ } else { $dedup += $p }
+}
+$dupCount += ($plan.Count - $byRoot.Count)
+if ($dupCount -gt 0) { Write-Verbose "重複／入れ子のため除外: $dupCount 件" }
+$plan = $dedup
 
 $cmds = @($CommandTargets | Where-Object { $LevelRank[$_.Level] -le $want })
 $cmdsRunnable = @($cmds | Where-Object { -not $_.Admin -or $script:IsAdmin })
@@ -830,7 +872,16 @@ Write-Host '============================================================' -Foreg
 if ($freeBefore -ne $null -and $freeAfter -ne $null) {
     Write-Host ('  実行前の空き : {0}' -f (Format-Size $freeBefore))
     Write-Host ('  実行後の空き : {0}' -f (Format-Size $freeAfter))
-    Write-Host ('  実際の増加   : {0}' -f (Format-Size ($freeAfter - $freeBefore))) -ForegroundColor Green
+    $delta = $freeAfter - $freeBefore
+    if ($delta -ge 0) {
+        Write-Host ('  実際の増加   : {0}' -f (Format-Size $delta)) -ForegroundColor Green
+    } else {
+        Write-Host ('  実際の増減   : {0}（削除中に他のプロセスが書き込んだため差引で減少）' -f (Format-Size $delta)) -ForegroundColor DarkYellow
+    }
+    if ($freedTotal -gt 0 -and $delta -lt ($freedTotal * 0.5)) {
+        Write-Host ('  ※ 削除できたファイルの合計は {0} ですが、実際の空き増加は上記の値です。' -f (Format-Size $freedTotal)) -ForegroundColor DarkGray
+        Write-Host ('     差が大きい場合、他プロセスの書き込み・ごみ箱・OneDrive の再同期が原因です。' ) -ForegroundColor DarkGray
+    }
     if ($totalBytes) {
         $pct = $freeAfter / $totalBytes * 100
         Write-Host ('  空き率       : {0:N1}%' -f $pct)
