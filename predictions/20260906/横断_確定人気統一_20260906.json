@@ -1,0 +1,398 @@
+{
+ "20260829": {
+  "n_race": 35,
+  "ALL": {
+   "label": "全R",
+   "n": 35,
+   "hit": 22,
+   "hit_rate": 62.9,
+   "hit_ci": [
+    46.3,
+    76.8
+   ],
+   "haran": 11,
+   "haran_rate": 31.4
+  },
+  "ryoritsu": {
+   "label": "両立(c1<=76∧P1-P3)",
+   "n": 4,
+   "hit": 1,
+   "hit_rate": 25.0,
+   "hit_ci": [
+    4.6,
+    69.9
+   ],
+   "haran": 1,
+   "haran_rate": 25.0
+  },
+  "P1_P3": {
+   "label": "P1-P3",
+   "n": 10,
+   "hit": 5,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    23.7,
+    76.3
+   ],
+   "haran": 4,
+   "haran_rate": 40.0
+  },
+  "P4_P6": {
+   "label": "P4-P6",
+   "n": 25,
+   "hit": 17,
+   "hit_rate": 68.0,
+   "hit_ci": [
+    48.4,
+    82.8
+   ],
+   "haran": 7,
+   "haran_rate": 28.0
+  },
+  "ONE_ge63": {
+   "label": "v21 ONE>=63",
+   "n": 18,
+   "hit": 13,
+   "hit_rate": 72.2,
+   "hit_ci": [
+    49.1,
+    87.5
+   ],
+   "haran": 7,
+   "haran_rate": 38.9
+  },
+  "ONE_lt63": {
+   "label": "v21 ONE<63",
+   "n": 17,
+   "hit": 9,
+   "hit_rate": 52.9,
+   "hit_ci": [
+    31.0,
+    73.8
+   ],
+   "haran": 4,
+   "haran_rate": 23.5
+  },
+  "c1_le76": {
+   "label": "c1<=76のみ",
+   "n": 8,
+   "hit": 4,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    21.5,
+    78.5
+   ],
+   "haran": 2,
+   "haran_rate": 25.0
+  },
+  "P1P3only": {
+   "label": "P1-P3のみ",
+   "n": 10,
+   "hit": 5,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    23.7,
+    76.3
+   ],
+   "haran": 4,
+   "haran_rate": 40.0
+  }
+ },
+ "20260830": {
+  "n_race": 35,
+  "ALL": {
+   "label": "全R",
+   "n": 35,
+   "hit": 15,
+   "hit_rate": 42.9,
+   "hit_ci": [
+    28.0,
+    59.1
+   ],
+   "haran": 12,
+   "haran_rate": 34.3
+  },
+  "ryoritsu": {
+   "label": "両立(c1<=76∧P1-P3)",
+   "n": 7,
+   "hit": 5,
+   "hit_rate": 71.4,
+   "hit_ci": [
+    35.9,
+    91.8
+   ],
+   "haran": 4,
+   "haran_rate": 57.1
+  },
+  "P1_P3": {
+   "label": "P1-P3",
+   "n": 13,
+   "hit": 8,
+   "hit_rate": 61.5,
+   "hit_ci": [
+    35.5,
+    82.3
+   ],
+   "haran": 7,
+   "haran_rate": 53.8
+  },
+  "P4_P6": {
+   "label": "P4-P6",
+   "n": 22,
+   "hit": 7,
+   "hit_rate": 31.8,
+   "hit_ci": [
+    16.4,
+    52.7
+   ],
+   "haran": 5,
+   "haran_rate": 22.7
+  },
+  "ONE_ge63": {
+   "label": "v21 ONE>=63",
+   "n": 19,
+   "hit": 10,
+   "hit_rate": 52.6,
+   "hit_ci": [
+    31.7,
+    72.7
+   ],
+   "haran": 9,
+   "haran_rate": 47.4
+  },
+  "ONE_lt63": {
+   "label": "v21 ONE<63",
+   "n": 16,
+   "hit": 5,
+   "hit_rate": 31.2,
+   "hit_ci": [
+    14.2,
+    55.6
+   ],
+   "haran": 3,
+   "haran_rate": 18.8
+  },
+  "c1_le76": {
+   "label": "c1<=76のみ",
+   "n": 12,
+   "hit": 8,
+   "hit_rate": 66.7,
+   "hit_ci": [
+    39.1,
+    86.2
+   ],
+   "haran": 7,
+   "haran_rate": 58.3
+  },
+  "P1P3only": {
+   "label": "P1-P3のみ",
+   "n": 13,
+   "hit": 8,
+   "hit_rate": 61.5,
+   "hit_ci": [
+    35.5,
+    82.3
+   ],
+   "haran": 7,
+   "haran_rate": 53.8
+  }
+ },
+ "20260905": {
+  "n_race": 35,
+  "ALL": {
+   "label": "全R",
+   "n": 35,
+   "hit": 13,
+   "hit_rate": 37.1,
+   "hit_ci": [
+    23.2,
+    53.7
+   ],
+   "haran": 13,
+   "haran_rate": 37.1
+  },
+  "ryoritsu": {
+   "label": "両立(c1<=76∧P1-P3)",
+   "n": 8,
+   "hit": 5,
+   "hit_rate": 62.5,
+   "hit_ci": [
+    30.6,
+    86.3
+   ],
+   "haran": 3,
+   "haran_rate": 37.5
+  },
+  "P1_P3": {
+   "label": "P1-P3",
+   "n": 18,
+   "hit": 9,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    29.0,
+    71.0
+   ],
+   "haran": 7,
+   "haran_rate": 38.9
+  },
+  "P4_P6": {
+   "label": "P4-P6",
+   "n": 17,
+   "hit": 4,
+   "hit_rate": 23.5,
+   "hit_ci": [
+    9.6,
+    47.3
+   ],
+   "haran": 6,
+   "haran_rate": 35.3
+  },
+  "ONE_ge63": {
+   "label": "v21 ONE>=63",
+   "n": 18,
+   "hit": 11,
+   "hit_rate": 61.1,
+   "hit_ci": [
+    38.6,
+    79.7
+   ],
+   "haran": 10,
+   "haran_rate": 55.6
+  },
+  "ONE_lt63": {
+   "label": "v21 ONE<63",
+   "n": 17,
+   "hit": 2,
+   "hit_rate": 11.8,
+   "hit_ci": [
+    3.3,
+    34.3
+   ],
+   "haran": 3,
+   "haran_rate": 17.6
+  },
+  "c1_le76": {
+   "label": "c1<=76のみ",
+   "n": 9,
+   "hit": 5,
+   "hit_rate": 55.6,
+   "hit_ci": [
+    26.7,
+    81.1
+   ],
+   "haran": 3,
+   "haran_rate": 33.3
+  },
+  "P1P3only": {
+   "label": "P1-P3のみ",
+   "n": 18,
+   "hit": 9,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    29.0,
+    71.0
+   ],
+   "haran": 7,
+   "haran_rate": 38.9
+  }
+ },
+ "20260906": {
+  "n_race": 35,
+  "ALL": {
+   "label": "全R",
+   "n": 35,
+   "hit": 18,
+   "hit_rate": 51.4,
+   "hit_ci": [
+    35.6,
+    67.0
+   ],
+   "haran": 14,
+   "haran_rate": 40.0
+  },
+  "ryoritsu": {
+   "label": "両立(c1<=76∧P1-P3)",
+   "n": 9,
+   "hit": 4,
+   "hit_rate": 44.4,
+   "hit_ci": [
+    18.9,
+    73.3
+   ],
+   "haran": 4,
+   "haran_rate": 44.4
+  },
+  "P1_P3": {
+   "label": "P1-P3",
+   "n": 18,
+   "hit": 9,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    29.0,
+    71.0
+   ],
+   "haran": 7,
+   "haran_rate": 38.9
+  },
+  "P4_P6": {
+   "label": "P4-P6",
+   "n": 17,
+   "hit": 9,
+   "hit_rate": 52.9,
+   "hit_ci": [
+    31.0,
+    73.8
+   ],
+   "haran": 7,
+   "haran_rate": 41.2
+  },
+  "ONE_ge63": {
+   "label": "v21 ONE>=63",
+   "n": 22,
+   "hit": 14,
+   "hit_rate": 63.6,
+   "hit_ci": [
+    43.0,
+    80.3
+   ],
+   "haran": 10,
+   "haran_rate": 45.5
+  },
+  "ONE_lt63": {
+   "label": "v21 ONE<63",
+   "n": 13,
+   "hit": 4,
+   "hit_rate": 30.8,
+   "hit_ci": [
+    12.7,
+    57.6
+   ],
+   "haran": 4,
+   "haran_rate": 30.8
+  },
+  "c1_le76": {
+   "label": "c1<=76のみ",
+   "n": 12,
+   "hit": 6,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    25.4,
+    74.6
+   ],
+   "haran": 6,
+   "haran_rate": 50.0
+  },
+  "P1P3only": {
+   "label": "P1-P3のみ",
+   "n": 18,
+   "hit": 9,
+   "hit_rate": 50.0,
+   "hit_ci": [
+    29.0,
+    71.0
+   ],
+   "haran": 7,
+   "haran_rate": 38.9
+  }
+ }
+}

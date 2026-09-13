@@ -1,0 +1,483 @@
+﻿日付,開催場,R,race_id,racekey,発走,番組表示,馬番,馬名,馬トク指数,IDM,激走指数,激印,激走要因1,激走要因2,激走要因3,基準単オッズ,基準人気,馬体重,増減,波乱度,1番人気信頼度,1番人気妙味度,source_url,source_status
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,1,ロマンス,41,26,45.51,0,,,,29,9,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,2,オーパパ,41,28,46.27,0,,,,69.4,12,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,3,ネイティヴプライド,50,35.1,51.85,4,,,,14,6,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,4,ダイヒョウカーク,38,25,46.19,0,,,,46.6,10,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,5,プリヴィマーク,48,21.8,40.99,0,,,,49,11,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,6,ガードオブオナー,63.3,40.9,56.73,0,,,,4.8,2,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,7,ゴールドプレイヤー,64.4,41.1,53.61,0,,,,3,1,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,8,エターナルホープ,54.3,35,51.57,0,,,,6.3,4,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,9,オウケンサクラコ,55,39,51.56,0,,,,21.6,8,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,10,マーゴットライズ,55.1,37,52.26,3,,,,14.6,7,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,11,アデルフィー,62.3,41,53.97,0,,,,5,3,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,12,ヌビアン,44,30,49.84,0,,,,117.1,15,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,13,バターショコラ,44,31,46.01,0,,,,70.8,13,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,14,ハチマン,31,20,40.96,0,,,,89.4,14,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,2,202604030302,04263302,10:15,2R ダ1800 ３歳未勝利 10:15,15,カシマライフウ,60.2,40,53.38,2,,,,6.4,5,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/04263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,1,マムダッドベル,44,25,49.46,0,,,,44.6,11,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,2,ノルトハウゼン,63.3,36.8,52.55,0,,,,5,3,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,3,ルクスマグナ,42,23,46.92,0,,,,15.4,7,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,4,ビスクヴィート,39,18,41.34,0,,,,28.8,10,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,5,アルアンダルス,57,33,53.66,2,,,,28.1,9,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,6,ホウオウビリーヴ,63.1,28,51.4,3,,,,6.7,4,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,7,レーゲンシャウアー,33,15,44.69,0,,,,26.4,8,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,8,アウアリイ,52.5,29.2,49.9,0,,,,3.6,2,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,9,パープルタウン,46.1,26,49.57,0,,,,14,6,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,10,サウンドシェリー,54.6,29,51.07,0,,,,3,1,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,3,202604030303,04263303,10:45,3R 芝1600 ２歳未勝利 10:45,11,キムケンシーサー,57.2,32,50.99,0,,,,7.1,5,,,S,D,AA,https://umatoku.hochi.co.jp/data/race/04263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,1,ポケットブック,44,20,40.8,0,,,,78.9,12,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,2,ジェイエルキール,45,21.7,45.67,0,,,,32.9,9,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,3,クラウンロムパイア,44,20,38.99,0,,,,99.2,16,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,4,エクラドリオン,84.7,47.1,59.09,5,,,,2.1,1,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,5,ショウナンバッカス,44,20.2,44.55,0,,,,19.8,7,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,6,ヨツバ,44,20,35.8,0,,,,109.5,18,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,7,タワーウマザンマイ,48,26.7,47.23,0,,,,40.6,11,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,8,チョトツモウシン,44,20.4,39,0,,,,108.7,17,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,9,ニシノムホウモノ,44,20,45.24,0,,,,28.3,8,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,10,レッドアバンドーネ,54.1,33.6,50.84,4,,,,12.1,5,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,11,アヴァンデセール,44,20,46.26,0,,,,85.4,15,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,12,セレスティナ,54.3,33.4,52.25,0,,,,5.3,2,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,13,イントリー,58.2,37.5,54.2,2,,,,9,4,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,14,イデアモッコス,44,20,40.53,0,,,,83.9,13,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,15,コメットサン,58.3,38.6,55.27,0,,,,5.8,3,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,16,ホワイトホール,51,29.5,49.72,0,,,,39.3,10,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,17,モチロンコクラ,44,20,44.78,0,,,,83.9,14,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,4,202604030304,04263304,11:15,4R 芝1400 ２歳新馬 11:15,18,ショウナンワンパク,54.1,34.6,50.9,3,,,,14,6,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,1,ローレルエース,45,33,47.29,0,,,,40.4,10,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,2,イクオクコウネン,63.2,45.6,57.62,0,,,,5,3,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,3,レイランディ,54,42.1,49.67,0,,,,64,11,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,4,ブリックアブラック,51,39,51.22,0,,,,64.5,12,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,5,ピクシーゲイル,41,28,36.32,0,,,,191,17,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,6,サヴマ,56.1,43,53.27,0,,,,12.4,6,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,7,ヤマメホープ,59.6,44,54.12,0,,,,2.7,1,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,8,ピグマリオン,34,23,35.49,0,,,,110.8,14,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,9,ゾネブルーム,63.4,43.3,54.94,0,,,,4.4,2,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,10,アルティマローネ,55.1,41.1,53.77,3,,,,20,9,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,11,キコリータ,55.1,40.1,52.94,0,,,,11.5,4,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,12,アージェンタイド,36,26,33.65,0,,,,119.6,16,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,13,ゴールドエンバー,58.1,41,53.4,4,,,,11.6,5,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,14,アティラン,41,29,41.5,0,,,,117.8,15,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,15,アンヴデット,59.1,42,53.83,2,,,,13.6,7,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,16,ルミナスレイナ,47,35,46.87,0,,,,104.6,13,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,17,ホウライブラック,31,20,31.5,0,,,,198.5,18,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,5,202604030305,04263305,11:45,5R 芝2200 ３歳未勝利 11:45,18,オレンジフィールド,51,39,52.84,0,,,,15.3,8,,,S,D,A,https://umatoku.hochi.co.jp/data/race/04263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,1,ボールドタワー,48,42.3,50.03,0,,,,21,7,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,2,コスモシェルベット,50,46.3,48.13,0,,,,34.7,12,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,3,ルーナディサングエ,81.7,57,55.38,5,,,,2.7,1,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,4,ヨドノタイヨウ,53.2,51,51.07,3,,,,7.5,5,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,5,トレベルオール,50.2,46,46.01,0,,,,6.8,3,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,6,ルシャルムール,58.3,53.4,55.26,0,,,,5.3,2,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,7,アバレリュウ,46,40.1,47.87,0,,,,24.5,9,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,8,アビヤント,56.2,48.6,54.39,2,,,,7,4,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,9,ゴットランド,44,36,46.42,0,,,,27.5,11,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,10,リアライズオーラム,44,33,48.67,0,,,,21.6,8,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,11,ヴェーヌドール,44,37,43.52,0,,,,79.1,15,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,12,サウジバラード,49,42,50.06,4,,,,26.5,10,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,13,マルカベント,42,34,36.59,0,,,,52.6,14,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,14,ジンガー,41,33,39.28,0,,,,36.2,13,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,6,202604030306,04263306,14:35,6R ダ1800 新発田城特別 1勝クラス 14:35,15,サトノラポール,44.1,38,47.23,0,,,,13.5,6,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/04263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,1,ハギノコラソン,40,48,46.34,0,,,,63.7,15,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,2,ボウウィンドウ,81.6,57,54.8,0,,,,2.6,1,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,3,バンフィエルド,40,48,38.65,0,,,,37.9,12,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,4,ツルマウカタチ,51,55.2,49.75,4,,,,47.3,13,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,5,ロールザダイス,34,43,46.33,0,,,,30.2,11,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,6,オリバナム,50,54.2,50.67,2,,,,14,6,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,7,ジャンビ,50,54,36.19,0,,,,73.5,16,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,8,ホウオウタイタン,59.4,57.2,53.41,0,,,,5.2,2,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,9,バガン,48,53,41.78,0,,,,27.7,10,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,10,ペッレグリーニ,54,56,50.04,3,,,,27.7,9,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,11,ティムール,46,52,50.54,0,,,,56.5,14,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,12,マイネルアズーロ,47.2,51.1,49.53,0,,,,10.6,4,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,13,エリーナストーム,50.1,54.1,49.21,0,,,,12.4,5,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,14,カフェアローロ,47,52,42.25,0,,,,102,17,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,15,スピンザブラッド,49,53.8,44.16,0,,,,22.4,8,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,16,ピエナフェーヴル,55.3,54.5,45.52,0,,,,5.2,3,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,7,202604030307,04263307,15:10,7R 芝2000 赤倉特別 2勝クラス WIN5 15:10,17,マイネルアレス,50.1,53.6,48.57,0,,,,15.5,7,,,S,AA,S,https://umatoku.hochi.co.jp/data/race/04263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,1,ピカピカサンダー,48.3,56,50.91,0,,,,6.2,3,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,2,アムールドパリ,52.2,58.2,52.06,2,,,,6.5,4,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,3,タガノバビロン,77.8,64,55.57,0,,,,2.2,1,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,4,フタイテンロック,51,60,46.49,0,,,,32.5,8,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,5,ショウナンライシン,48,58,49.24,0,,,,26.3,7,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,6,カズタンジャー,54.3,61,54.14,0,,,,3.9,2,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,7,メイショウズイウン,47.1,57,48.39,0,,,,16.6,6,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,8,ピースオブザライフ,40,52,43.9,0,,,,36.6,9,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,9,ハセドン,43,54,43.11,0,,,,41.7,10,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,10,ハビレ,49.2,58.1,50.9,3,,,,6.9,5,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,8,202604030308,04263308,15:45,8R ダ1800 ＢＳＮ賞 WIN5 15:45,11,ベルイストワール,42,54,48.5,0,,,,53.1,11,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/04263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,1,ダンシングアウェイ,39,30,31.35,0,,,,48.4,11,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,2,プレイザリード,59.4,45.8,52.05,0,,,,4.5,3,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,3,ディーンズリスター,49,45.4,48.68,0,,,,13.4,6,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,4,シャインフリーリー,47,42,50.52,0,,,,27.9,8,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,5,ノーマジック,39,31,41.05,0,,,,64.1,13,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,6,オプレントジュエル,51.1,48,52.92,3,,,,10.9,5,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,7,ミッドセンチュリー,51.1,48.2,50.63,0,,,,14.7,7,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,8,ゴンファロニエーレ,58.4,53,56.76,0,,,,3.9,2,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,9,コウセイケンタロス,32,21,38.88,0,,,,57.6,12,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,10,フォーグッド,44,38.2,41.22,0,,,,38.8,10,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,11,ランブルスコ,69.5,47.9,53.45,0,,,,3.1,1,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,12,テイキットイージー,51,48.1,50.61,0,,,,29.6,9,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,9,202604030309,04263309,16:25,9R 芝2200 ３歳上１勝クラス(無料開放レース) 16:25,13,マイネルリーヒム,60.3,54,53.84,2,,,,5.7,4,,,B,A,S,https://umatoku.hochi.co.jp/data/race/04263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,1,ビリオネアボーイ,39,30,41.35,0,,,,77.1,14,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,2,アルシャンティ,37,28,31.67,0,,,,112.6,17,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,3,キャトルエピス,48.1,39.8,51.94,0,,,,15,5,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,4,ソードスレイプニル,51,45,53.03,0,,,,18.3,7,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,5,メイリー,52.1,48,53.74,3,,,,13,4,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,6,タイセイフレッサ,60.5,50.1,57.34,0,,,,3.3,2,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,7,ベレーバスク,56.1,51,55.19,0,,,,11.4,3,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,8,フェーダーローター,48,43,51.4,0,,,,30.3,12,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,9,ライネリーベ,81.5,53,58.21,0,,,,2.5,1,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,10,ワカミヤイリオス,42,35,35.22,0,,,,103.3,16,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,11,ダイユウルミナス,50,45,50.6,0,,,,98.5,15,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,12,カシノリアーナ,44,37,43.1,0,,,,118.9,18,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,13,サーロー,45,39,49.22,0,,,,28.9,11,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,14,ホットゥトロット,43,35,46.92,0,,,,19.6,9,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,15,ディサイドオンミー,43,36,43.96,0,,,,73.3,13,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,16,リラベガ,54.1,48.1,53.04,0,,,,16.2,6,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,17,ガミーヌ,54,50,56.27,2,,,,28.7,10,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,10,202604030310,04263310,17:00,10R 芝1400 ３歳上１勝クラス 17:00,18,タイキオーベロン,54,49,53.24,4,,,,18.6,8,,,A,AA,AA,https://umatoku.hochi.co.jp/data/race/04263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,1,ウィズアツインクル,46,35,41.42,0,,,,61.4,16,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,2,ムーングレイル,58.2,43,54.41,2,,,,12.1,4,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,3,エリュグレイス,54.3,38.2,51.17,0,,,,5.6,2,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,4,ジーナグレイス,51,39.1,50.31,0,,,,34.2,12,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,5,グランフルス,47,35,49.35,0,,,,52.9,15,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,6,レインボーワールド,41,30,36.24,0,,,,170.1,17,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,7,ミリオングローリー,53,40,52.3,3,,,,20.9,6,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,8,スイートハイデン,45,34,47.6,0,,,,26.7,10,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,9,ヘルヴィッツ,48,37,46.48,0,,,,42.2,13,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,10,ノブステップ,39,29,40.98,0,,,,206,18,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,11,ヤマニンリンキング,60.3,44,52.98,0,,,,5.9,3,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,12,イベリスアマラ,47,32.9,50.21,0,,,,25.4,9,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,13,イノーマル,51.1,39,50.91,4,,,,14.7,5,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,14,マイネルアルゴー,44,33,44.68,0,,,,31.1,11,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,15,レッドレガリア,81.7,42,54.66,0,,,,2.1,1,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,16,トーアシチフクジン,34,24,41.99,0,,,,51,14,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,17,コスモアルペジオ,48,35.1,49.27,0,,,,22.9,8,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,11,202604030311,04263311,17:30,11R 芝2000 ３歳未勝利 17:30,18,ピースフルマインド,53.1,38,50.3,0,,,,22.8,7,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/04263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,1,ペイシャラム,44,19,45.14,0,,,,22.8,7,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,2,リベラル,42,15,41.78,0,,,,107.3,14,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,3,エリースノー,57.4,40,56.11,0,,,,3.5,2,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,4,チュラヴェール,50.2,30.1,50.7,0,,,,6,3,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,5,シカゴキャッツ,40,10,42.13,0,,,,117.2,15,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,6,ペイシャダンシング,48,27,50.23,0,,,,32,9,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,7,ロンバスブレス,81.7,44,59.16,5,,,,2.3,1,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,8,ブライティアロード,51,30,52.41,0,,,,19.7,6,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,9,サンシュノジンギ,44,18,46.59,0,,,,83.8,13,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,10,ガヤーズベース,50,29.9,53.35,4,,,,57.4,12,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,11,ケイツーキップ,49,29,50.43,0,,,,23.1,8,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,12,カフェオドヴィー,40,10,38.54,0,,,,35.9,10,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,13,テラシエスタ,46,23,44.88,0,,,,41.8,11,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,14,トリエンナーレ,53.1,32,54.79,3,,,,8.6,4,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,新潟,12,202604030312,04263312,18:05,12R ダ1200 ３歳未勝利 18:05,15,ライヴマティーニ,55.1,35,56.42,2,,,,12.2,5,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/04263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,1,エンルートフライト,57.6,31.1,54.18,0,,,,2.5,1,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,2,ブラックミューズ,67.3,31.2,49.94,0,,,,5.3,3,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,3,プッシュザリミット,34,19,38.08,0,,,,23.1,10,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,4,ディープナイト,42,24,45.12,0,,,,43.4,11,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,5,レイデアルマス,53,23,47.39,0,,,,12.5,5,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,6,ピュアノーブル,50.1,28,47.3,0,,,,11.4,4,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,7,マンナット,54.3,29,52.45,0,,,,4.1,2,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,8,ハルカカナタ,58.1,27,47.98,3,,,,13.4,7,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,9,ゴルディアス,40,20,44.26,0,,,,22.8,9,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,10,ホットロッドハート,40,23,46.59,0,,,,14.4,8,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,1,202607030301,07263301,09:50,1R 芝2000 ２歳未勝利 09:50,11,メモリアデルレ,55.1,31,52.07,2,,,,12.8,6,,,B,B,AA,https://umatoku.hochi.co.jp/data/race/07263301/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,1,ドリームオブコージ,42,14,43.18,0,,,,49.1,12,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,2,ボビーザグレート,54.1,26,53.25,2,,,,9.2,5,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,3,ダノンアズール,55.3,19,48.27,0,,,,4.1,2,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,4,ゴールドシューター,43,14,45.73,0,,,,34.1,11,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,5,バミューダブーケ,43,14,43.58,0,,,,13.8,6,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,6,ダヌラーサナ,49.1,18.9,49.58,0,,,,7.7,4,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,7,オーリエイト,78.6,33,56.41,5,,,,2.5,1,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,8,アンナモエ,42,14,42.24,0,,,,24.9,9,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,9,ルガルデ,47,20,50.62,3,,,,26.5,10,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,10,ミリオンカラー,44,14,45.3,0,,,,17.8,8,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,11,ソリドゥス,51.2,21,49.06,0,,,,7,3,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,2,202607030302,07263302,10:25,2R ダ1800 ２歳未勝利 10:25,12,ジュンヴァグネル,52,17.9,48.16,0,,,,14.5,7,,,C,S,S,https://umatoku.hochi.co.jp/data/race/07263302/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,1,クリノライジング,41,15.6,40.79,0,,,,30.8,10,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,2,ワンキャンパス,40,15,42.48,0,,,,40.6,11,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,3,パルフェクシオン,69.5,42.3,56.96,6,,,,3.2,1,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,4,リムリックアイル,58.5,34.3,53.99,0,,,,3.3,2,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,5,ビンチャリ,61.1,36.3,53.14,2,,,,8.2,4,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,6,ジーティーハルカゼ,50.1,26.5,48.12,0,,,,11.9,6,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,7,サルーミアモール,52.1,28.6,48.97,3,,,,9.2,5,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,8,インティサール,61.3,38.7,54.53,0,,,,4.2,3,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,9,マイフレダ,44,19.9,44.67,0,,,,21,7,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,10,ドリームリボン,46,19.6,44.81,0,,,,24.9,8,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,11,カラスアゲハ,40,15.1,40.39,0,,,,29.6,9,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,3,202607030303,07263303,10:55,3R 芝1400 ２歳新馬 10:55,12,ウルウノマーズ,40,15,38.91,0,,,,49.3,12,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263303/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,1,タイセイグローバル,46,36,48.65,0,,,,22.6,7,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,2,アメジストブリエ,46,36,45.29,0,,,,83.2,14,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,3,プロスト,60,45,54.91,2,,,,25.5,9,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,4,ヴィスメンティス,56,43.1,54.11,4,,,,17.2,6,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,5,ジュンヴァッテッド,57,33,40.87,0,,,,108.5,16,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,6,カパルア,28,20,41.94,0,,,,52.5,12,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,7,クールドリオン,61.1,38.2,48.96,0,,,,10.7,5,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,8,スクランプシャス,63.2,43,54.3,0,,,,6.7,3,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,9,サンタカタリナ,46,36,49.13,0,,,,25.4,8,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,10,テイエムプレミラン,48,37,54.34,3,,,,51.5,11,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,11,パシフィックドーン,40.1,28.1,43.14,0,,,,9.3,4,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,12,チュオンソン,47,36,49.45,0,,,,42.6,10,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,13,マイコンプリート,63.8,44,53.62,0,,,,1.9,1,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,14,マテンロウルクス,37,23,38.96,0,,,,68.7,13,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,15,レイアン,46,35,45.73,0,,,,91.3,15,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,4,202607030304,07263304,11:25,4R 芝2200 ３歳未勝利 11:25,16,ナムラヴンダー,54.2,38,50.81,0,,,,5.7,2,,,S,A,C,https://umatoku.hochi.co.jp/data/race/07263304/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,1,ワンダーデリエール,59.2,48,57.99,2,,,,8.5,4,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,2,リアライズアリス,49,39,51.24,0,,,,24.2,8,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,3,サンスベリア,38,19,38.53,0,,,,47.4,12,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,4,コスモフィレンツェ,58.4,42,54.19,0,,,,4.8,2,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,5,クランズクラウン,49.1,38.9,53.59,3,,,,14.5,6,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,6,パンキー,53.2,39.2,52.35,0,,,,7.3,3,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,7,スリーキズナヒメ,38,20,42.01,0,,,,35.1,10,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,8,ゴールデンテティス,54.1,40,52.31,0,,,,8.6,5,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,9,ウインリーブル,38,20,35.44,0,,,,40.6,11,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,10,ビクスバイト,73.6,39.3,52.91,0,,,,2,1,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,11,ラピス,49,38,49.64,0,,,,20.4,7,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,12,クラリノ,45,32,45.3,0,,,,34.5,9,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,5,202607030305,07263305,11:55,5R 芝2000 ３歳未勝利(無料開放レース) 11:55,13,プリティウーマン,45,32,46.15,0,,,,58.6,13,,,C,AA,B,https://umatoku.hochi.co.jp/data/race/07263305/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,1,フィドルファドル,60.3,51.2,52.9,0,,,,4.1,3,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,2,ザウリ,40,44,47.05,0,,,,23.3,7,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,3,オコタンペ,56,51,51.22,0,,,,30.1,9,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,4,シルフズミスチーフ,51.5,53,51.24,0,,,,3.6,1,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,5,ルクスレイモンド,57.4,50.1,49.74,0,,,,3.8,2,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,6,ダノンモンテローザ,54.1,50,48.92,0,,,,13,6,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,7,ローマンレイク,44,46,45.06,0,,,,27.8,8,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,8,ブルーノート,40,44,45.21,0,,,,35.2,11,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,9,シアター,47,47,43.56,0,,,,47.8,13,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,10,リードプリンシパル,60,52,51.94,3,,,,46.8,12,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,11,アオイレーギーナ,41.1,43.4,45.14,0,,,,8.7,5,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,12,バッハアルプゼー,67.3,54.3,53.1,2,,,,6,4,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,6,202607030306,07263306,15:00,6R ダ1200 清洲特別 2勝クラス WIN5 15:00,13,ゲーベル,33,40,39.58,0,,,,30.3,10,,,S,B,S,https://umatoku.hochi.co.jp/data/race/07263306/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,1,ボンヌソワレ,59.3,57,52.84,0,,,,4.1,2,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,2,ロードマイライフ,47,52,47.91,0,,,,46.7,14,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,3,ビップジーニー,46,50.8,49.83,0,,,,45.8,13,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,4,ブルクトーア,50,53.7,51.03,4,,,,19.8,7,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,5,チャンネルトンネル,61.3,58.9,53.11,0,,,,5.2,3,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,6,セシリエプラージュ,38,46,43.63,0,,,,24.1,9,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,7,コト,30,40,44.65,0,,,,23,8,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,8,ダークエクリプス,46,51.1,41.92,0,,,,45.4,12,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,9,モジャーリオ,47,51,49.86,0,,,,27.2,10,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,10,ポッドロワール,67.5,62,54.65,0,,,,3.1,1,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,11,フライングブレード,46,51,50.14,0,,,,32.9,11,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,12,ポエットリー,49,52.1,48.16,0,,,,67.1,15,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,13,ユハンヌス,45.1,50,49.91,0,,,,14.8,6,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,14,ガンマジーティーピ,55.1,56.1,51.5,3,,,,8.2,5,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,7,202607030307,07263307,15:35,7R 芝1400 長篠ステークス 3勝クラス WIN5 15:35,15,ユウファラオ,65.2,53.5,51.56,2,,,,7.9,4,,,B,C,S,https://umatoku.hochi.co.jp/data/race/07263307/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,1,カウンティフェア,49,55,50.68,0,,,,34.7,12,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,2,ツーネサーン,49.1,55,51.09,0,,,,17.5,7,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,3,サロニコス,46,50,47.1,0,,,,23.4,8,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,4,アムールリーベ,48,52.8,48.75,0,,,,28.7,9,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,5,サクラオーラ,46,53,40.98,0,,,,34.3,11,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,6,トライアンフパス,56.4,59.1,51.45,0,,,,5,2,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,7,リアライズ,51.2,55.4,46.93,0,,,,8.1,4,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,8,キャッスルレイク,53.1,59,52.34,3,,,,10.6,5,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,9,エーデルヴェーグ,53.2,57,50.61,0,,,,6.7,3,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,10,ワンコールアウェイ,51.1,55.8,52.52,2,,,,13.2,6,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,11,アスクキングコング,39,41,39.37,0,,,,63.5,14,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,12,サヴァビアン,43,48,41.72,0,,,,44,13,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,13,モンテディアーナ,38,43,40.33,0,,,,30.6,10,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,8,202607030308,07263308,16:10,8R 芝1400 桑名特別 2勝クラス 16:10,14,ダガーリング,80.7,59.2,47.77,0,,,,2.3,1,,,A,AA,B,https://umatoku.hochi.co.jp/data/race/07263308/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,1,ラグナトーレ,52,40,46.77,0,,,,18.9,9,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,2,ブラッドムーン,43.1,32,49.62,0,,,,11.3,6,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,3,コンテナライン,47,35.6,49.68,3,,,,11.8,7,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,4,セレーノ,51.3,34.4,51.48,0,,,,4.8,3,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,5,クラテロス,43,32,47.69,0,,,,11.2,5,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,6,ラテライト,48.1,36,50.68,2,,,,8.1,4,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,7,リアンクトワ,41,30,47.12,0,,,,15.5,8,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,8,シエーナカラー,55.4,41,53.04,0,,,,3.4,2,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,9,202607030309,07263309,16:45,9R ダ1800 ３歳上１勝クラス 16:45,9,メイショウアカリ,74.5,41.4,53.37,0,,,,2.9,1,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/07263309/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,1,ワイドグンサ,61.3,48.6,50.94,0,,,,4.5,2,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,2,パヴィーア,42,38,47.69,0,,,,16.7,8,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,3,ハッピーラブソング,34,30,34.75,0,,,,63.4,16,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,4,タイニーワンダー,69.4,57,56.02,6,,,,4.2,1,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,5,ヴィヴァシャス,44,38,43.02,0,,,,34.3,12,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,6,ジューンセクレタ,61.2,51,53.8,2,,,,6.5,4,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,7,ウォーターパラディ,46,39.4,47.54,0,,,,27.4,10,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,8,メイショウサトノヒ,44,39,45.05,0,,,,33.1,11,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,9,ピョイットハレルヤ,53,48,51.29,0,,,,22.8,9,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,10,リンゲルブルーメ,55.1,49,53.43,3,,,,14.4,6,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,11,アルプスオジョー,52,45.1,52.02,4,,,,36.7,13,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,12,マダムカマラード,38,33,45.67,0,,,,16,7,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,13,グランメドウ,47.1,42.3,51.11,0,,,,8.7,5,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,14,ハンザキ,42,35,44.89,0,,,,41,14,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,15,タイセイレグノ,46,41,47.6,0,,,,45.1,15,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,10,202607030310,07263310,17:15,10R ダ1400 ３歳上１勝クラス 17:15,16,ジャンヌドゥレーヴ,65.3,52.3,54.7,0,,,,4.9,3,,,S,C,S,https://umatoku.hochi.co.jp/data/race/07263310/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,1,オーバースタンド,58.1,52,53.03,2,,,,11.3,4,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,2,エンベッカ,45,44,48.66,0,,,,15.7,5,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,3,ファルカータ,67.7,58,54.81,0,,,,2.5,1,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,4,リアンマヒナ,59.4,51,53.01,0,,,,3.6,2,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,5,メイショウビストロ,45,44,48.32,0,,,,20.1,8,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,6,レッドリガーレ,50,49,49.54,0,,,,18.3,7,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,7,チャンピオンロード,32,34,38.86,0,,,,42.9,12,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,8,フレイムスター,43,44,48.68,0,,,,27,10,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,9,ヴォーカライズ,64.3,56,54.65,0,,,,5.1,3,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,10,エイズルブルーム,47,47,48.3,0,,,,25.6,9,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,11,ギザキズラヴ,42,42,43.14,0,,,,56.2,13,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,12,グローブアマランス,56,52.1,51.6,3,,,,16.1,6,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,11,202607030311,07263311,17:45,11R 芝1600 ３歳上１勝クラス 17:45,13,リオンプライム,43,43,45.12,0,,,,34,11,,,B,C,AA,https://umatoku.hochi.co.jp/data/race/07263311/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,1,クロレ,70.3,41,52.07,0,,,,5.4,3,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,2,ゴールデンドラゴン,61.6,37.1,53.67,0,,,,2.5,1,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,3,タガノランパート,68.4,40,55.61,0,,,,3.8,2,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,4,クリコバロー,46,30.1,49.36,0,,,,25.5,10,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,5,シャイニングスター,42,27,48.22,0,,,,17.7,7,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,6,ブクブクー,54,35,53.74,2,,,,15.4,5,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,7,ベルラフィネ,43,26,47.42,0,,,,36.9,12,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,8,シホノグラツィア,47.1,20.7,45.81,0,,,,13.1,4,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,9,クロームクロス,46,30.2,47.69,0,,,,37.3,13,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,10,ガラード,45,30,50.99,3,,,,22.2,8,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,11,メイショウハーブス,39,25,47.22,0,,,,22.6,9,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,12,トラッドロア,39,25,46.01,0,,,,36.3,11,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,13,サマーナジュム,54,34.9,52.26,0,,,,39.7,14,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,中京,12,202607030312,07263312,18:15,12R ダ1800 ３歳未勝利 18:15,14,メイショウジンソウ,46,29,49.67,0,,,,16.7,6,,,S,D,A,https://umatoku.hochi.co.jp/data/race/07263312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,1,アズライトアスール,40,31,45.12,0,,,,36.4,14,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,2,ロードステラート,51,38,53.76,3,,,,8.8,6,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,3,アスコットダンス,43,33,45.71,0,,,,23.1,12,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,4,ショウナンタヅナ,54.1,37.1,51.62,0,,,,8.7,5,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,5,フロムザムーン,40,31,47.2,0,,,,21.9,10,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,6,ワンダーアスク,59,42,53.16,0,,,,13.5,8,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,7,ダリアフレイバー,37,27,43.01,0,,,,23,11,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,8,アイムスティルミー,33,25,46.77,0,,,,27.2,13,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,9,ゴールデンダガー,58.2,39,52.18,0,,,,6.2,2,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,10,クールフィデル,53,37,51.45,0,,,,14.4,9,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,11,メイショウタイザン,54.1,40,53.09,0,,,,12.7,7,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,12,サンオブザサン,52.3,36,50.66,0,,,,3.9,1,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,13,ベルアズーロ,69.2,49,57.57,2,,,,7,4,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,1,202601020301,01262301,10:00,1R ダ1700 ３歳未勝利 10:00,14,アーデルブリックス,55.1,34,49.84,0,,,,6.7,3,,,S,D,S,https://umatoku.hochi.co.jp/data/race/01262301/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,1,セールデュクール,33,15,40.38,0,,,,46.4,13,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,2,ロゼハイスクール,35,16,38.24,0,,,,35.7,11,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,3,フォルトゥナロッサ,61.5,39,54.98,0,,,,2.6,1,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,4,セイレイカ,49.1,29,51.01,0,,,,7.9,5,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,5,タプティ,55.2,31,52.61,0,,,,5.7,2,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,6,ルギッドドランジュ,58.1,35,53.51,2,,,,7.3,4,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,7,コイゾラ,44,25,49.17,0,,,,35.4,10,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,8,リラカリス,47,28,49.3,0,,,,24.4,9,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,9,ソーハッピー,58.1,33,53.16,3,,,,8.3,6,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,10,アヴレディール,63.2,37,54.3,0,,,,6.4,3,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,11,ルイスイメル,38,20,43.75,0,,,,46.3,12,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,12,バタフライ,49.1,28,49.79,0,,,,12.9,7,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,2,202601020302,01262302,10:30,2R 芝1500 ２歳未勝利 10:30,13,サトノパラディ,59,26,45.7,0,,,,18.6,8,,,B,C,A,https://umatoku.hochi.co.jp/data/race/01262302/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,1,ダノンキューブ,75.6,41,57.43,5,,,,2,1,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,2,サンゴート,46,26,50.13,0,,,,31.7,10,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,3,エコロナイン,56.2,31.2,48.92,0,,,,5.3,3,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,4,アイアムツヨスギル,40,15,43.5,0,,,,18.7,7,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,5,ロマノヴェリテ,53.2,30,50.97,0,,,,5.2,2,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,6,チェッリーニ,47,29.1,50.82,0,,,,24.8,9,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,7,マシュマロデイズ,53.1,32,51.6,2,,,,8.9,4,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,8,トルネードサンダー,50,31,51.2,3,,,,15.5,6,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,9,イドム,51.1,29,50.81,0,,,,9.1,5,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,10,マイネルサリーレ,41,18,40.73,0,,,,24,8,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,3,202601020303,01262303,11:00,3R 芝1800 ２歳未勝利 11:00,11,シャイニーヒーロー,39,15,41.06,0,,,,44.1,11,,,B,AA,B,https://umatoku.hochi.co.jp/data/race/01262303/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,1,ニシノギャルズ,55.1,35,51.89,0,,,,13.3,5,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,2,ゲレイロ,51,29,55.01,3,,,,17.8,7,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,3,ハクサンレイホウ,51,30,50.07,0,,,,24.9,10,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,4,オスロクィーン,42,20,49.71,0,,,,25.8,11,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,5,アニマレイ,67.4,39,57.56,0,,,,3.2,2,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,6,ハイティー,51.4,20,47.37,0,,,,3.1,1,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,7,フェイスリフト,67.3,38.9,54.76,0,,,,4.4,3,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,8,ジューンマロン,42,15,39.61,0,,,,30.3,12,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,9,ディースカウ,32,10,39.41,0,,,,22.8,8,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,10,マッシブショット,46,26,52.28,0,,,,24.5,9,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,11,ミスマラッカ,47,26,47.25,0,,,,14.9,6,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,4,202601020304,01262304,11:30,4R ダ1000 ３歳未勝利 11:30,12,スマートコーラル,55.1,33,57.01,2,,,,11.8,4,,,S,D,A,https://umatoku.hochi.co.jp/data/race/01262304/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,1,ユーフォナイト,57.1,25.1,50.73,0,,,,6.3,3,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,2,ハイネスプラウド,41,10,44.99,0,,,,22,10,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,3,ロンバルディア,53.1,22.7,48.86,0,,,,9.4,5,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,4,ウィナーズクロノ,40,10,41.79,0,,,,24.8,12,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,5,フィールザウィル,41,10.2,43.61,0,,,,16.9,7,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,6,コスモセイント,42,10.1,41.18,0,,,,18.3,9,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,7,フクノブロッサム,42,10,40.34,0,,,,44.2,14,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,8,テンラッキーロード,61.1,27,52.85,2,,,,6.9,4,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,9,ハリケンライズ,50,17.7,46.62,0,,,,34,13,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,10,ゴーストミステリー,69.4,38,57.35,6,,,,3.4,1,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,11,モントリオール,66.2,27.8,52.3,0,,,,4.7,2,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,12,リュウノタキノボリ,46,15.3,47.92,0,,,,17.6,8,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,13,ルクシエル,40,10,42.77,0,,,,23.3,11,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,5,202601020305,01262305,12:20,5R ダ1700 ２歳新馬 12:20,14,ルボワ,52.1,22.4,50.41,3,,,,11.9,6,,,B,AA,S,https://umatoku.hochi.co.jp/data/race/01262305/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,1,ヒルノボローニャ,39,30,44.78,0,,,,29.3,11,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,2,フレンチブラッサム,44,36,51.06,0,,,,14.3,9,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,3,イトシサ,58,38,51.78,0,,,,11.4,5,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,4,ヒメヒオウギ,52,39,54.9,2,,,,14.1,8,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,5,グリニッジローズ,33,28,41.08,0,,,,50.1,14,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,6,エイシンキーンラン,58.1,42,53.86,0,,,,11.6,6,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,7,ランウェイミューズ,62.2,41,51.98,0,,,,6.5,3,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,8,サートゥルチェア,57.1,40,54.09,3,,,,8.8,4,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,9,ハイバーニアン,36,30,42.56,0,,,,33.2,12,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,10,ジャーナーリア,49,38,51.69,0,,,,16.6,10,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,11,ペカリーナ,64.3,45,55.4,0,,,,4.7,2,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,12,サウンドファミリエ,59.4,43,52.82,0,,,,3.3,1,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,13,シンデレラカラー,43,35,47.7,0,,,,46.9,13,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,6,202601020306,01262306,12:50,6R 芝1500 ３歳未勝利 12:50,14,ビロングトゥミー,47,34,50.3,0,,,,13.2,7,,,A,D,S,https://umatoku.hochi.co.jp/data/race/01262306/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,1,ハッピーラッキー,55.1,49.1,53.12,3,,,,8.6,5,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,2,プリュノワール,46.1,45,51.65,0,,,,8.9,7,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,3,レッドカメリア,45,46,43.02,0,,,,53.5,13,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,4,ニルマーネル,57.1,49,53.18,2,,,,8.6,6,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,5,グロリアスマーチ,51,47,52.83,0,,,,12.9,8,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,6,ロードヴェルテクス,31,40,45.21,0,,,,38.8,12,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,7,ミレニアルピンク,52,49.3,52.69,0,,,,24.4,10,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,8,ジーティーエスピ,55.1,48,51.25,0,,,,6.7,4,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,9,ラプランセス,65.3,52,54.47,0,,,,5.5,2,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,10,ハルヒメ,57.1,49.4,53.08,4,,,,14.1,9,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,11,ペガサスノース,43,45.1,41.83,0,,,,66.9,15,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,12,ペイシャアーサー,32,39,40.71,0,,,,72.7,16,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,13,ナンナンプー,45,45,39.96,0,,,,37.6,11,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,14,マグネシアブリック,57.1,50.2,50.65,0,,,,6.6,3,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,15,ツルノマイハシ,65.2,50,51.24,0,,,,4.3,1,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,7,202601020307,01262307,13:20,7R 芝1200 ３歳上１勝クラス 13:20,16,スプリングデイ,45,46,49.06,0,,,,56.1,14,,,S,B,S,https://umatoku.hochi.co.jp/data/race/01262307/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,1,エコロゼルダ,45,33,45.89,0,,,,22,9,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,2,ガビーズメロディ,41,25,44.42,0,,,,40.8,11,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,3,ロードアルディート,54.3,51,50.71,0,,,,3.3,2,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,4,エタンセル,50.1,44,52.84,3,,,,8,5,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,5,アチーヴァー,76.5,54,54.8,0,,,,3,1,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,6,レッドフロイデ,50.1,48,55.37,2,,,,7.7,4,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,7,グローリーバローズ,43,32,43.75,0,,,,17.4,7,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,8,ピエナオルカ,55.2,52,56.12,0,,,,5.5,3,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,9,スターオブロンドン,49.1,40.8,50.73,0,,,,12,6,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,10,ルージュエピック,41,30,44.35,0,,,,31,10,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,8,202601020308,01262308,13:50,8R ダ1700 ３歳上１勝クラス(無料開放レース) 13:50,11,ノリノドラゴン,44,36,47.74,0,,,,20,8,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262308/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,1,ミエノストロング,49.1,44,49.65,0,,,,8.6,4,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,2,マイバラード,49,45,51.56,3,,,,29.3,10,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,3,アイドクレース,69.5,51,52.43,0,,,,2.4,1,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,4,ウインイルネージュ,31,36,42.94,0,,,,36.7,12,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,5,カージオイド,55.1,46,52.19,2,,,,13.1,5,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,6,ブランドブラン,58.2,48,52.7,0,,,,6.8,3,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,7,グランセゾン,61.3,48.2,52.41,0,,,,3.7,2,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,8,キタノサリスカ,47,43,51.1,0,,,,22,8,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,9,カイシンパジェント,42,42,39.8,0,,,,29.8,11,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,10,エオアリイ,47,43,49.22,0,,,,13.8,6,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,11,エイトスターズ,40,40,45.87,0,,,,24.9,9,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,9,202601020309,01262309,14:20,9R 芝1800 ３歳上１勝クラス 14:20,12,コスモキャバリエ,52.1,46.1,50.15,0,,,,15.1,7,,,C,A,A,https://umatoku.hochi.co.jp/data/race/01262309/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,1,ルアシュエル,44,33,41.65,0,,,,13.3,7,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,2,ルベルグラン,43,32,40.84,0,,,,24.2,8,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,3,ワールドエンジェル,55.3,37,50.2,0,,,,4.5,2,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,4,スハッチェ,40,30,38.07,0,,,,32.2,12,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,5,ピンクゴールド,40,30,37.77,0,,,,26.9,11,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,6,トラデスカンティア,47,35,41.51,0,,,,25.2,9,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,7,ピクニックマーチ,45.1,33.1,47.87,0,,,,12.8,6,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,8,タイフーンナイン,57.2,40,51.06,0,,,,5.3,3,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,9,ムーンベリル,57,42,51.54,2,,,,12.5,5,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,10,ヌーンベルク,51.1,36,49.53,3,,,,7.1,4,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,11,ラビリンスティアラ,46,34,40.02,0,,,,25.2,10,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,10,202601020310,01262310,14:50,10R 芝1200 すずらん賞 オープン 14:50,12,ウインガラハッド,75.5,44,52,0,,,,2.7,1,,,C,AA,S,https://umatoku.hochi.co.jp/data/race/01262310/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,1,エボルヴィング,52.1,54,51.02,0,,,,13.6,9,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,2,マイネルバーテクス,47,52,45.52,0,,,,28.3,11,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,3,マイネルフォルツァ,52,56,51.2,3,,,,11.3,5,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,4,ウィルサヴァイブ,42.1,48,47.29,0,,,,10.7,4,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,5,ハニードレス,47,51.2,45.75,0,,,,36,13,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,6,アリスメティーク,81.5,60,54.31,0,,,,2.8,1,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,7,メイショウアイル,54.1,56.2,51.91,0,,,,7.1,3,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,8,レジェンドシップ,45.1,50,47.4,0,,,,12.2,6,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,9,ナグルファル,41,46,44.36,0,,,,34.5,12,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,10,ドッビアーコ,42,49,47.9,0,,,,43.5,14,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,11,フォルテフィオーレ,44,50,45.41,0,,,,21.7,10,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,12,バルティカ,56.2,57,50.66,0,,,,5.9,2,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,13,コリカンチャ,49,53,49.23,0,,,,12.3,7,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,11,202601020311,01262311,15:25,11R 芝2000 札幌日刊スポーツ杯 2勝クラス WIN5 15:25,14,バースライト,50,53.1,51.9,2,,,,13.2,8,,,A,AA,S,https://umatoku.hochi.co.jp/data/race/01262311/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,1,エンプレスフレーム,45,50,46.6,0,,,,32.4,10,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,2,ルージュマローネ,40,44,41.26,0,,,,22,8,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,3,ディアウス,58.1,58,52.78,0,,,,6.5,3,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,4,アラナコア,56.1,56,52.68,2,,,,12.2,6,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,5,ホレーショ,46.1,50.5,48.79,0,,,,11.8,5,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,6,レディゴディヴァ,43,45,42.38,0,,,,40.8,12,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,7,リメンバーヒム,51,51,50.25,3,,,,16.6,7,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,8,ヤコブセン,38,42,43.84,0,,,,34.5,11,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,9,マーゴットサンズ,53.1,52.3,49.99,0,,,,8.5,4,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,10,オンザムービー,69.6,65,56.7,0,,,,2.6,1,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,11,タガノエルー,62.3,59.2,53.58,0,,,,3.5,2,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON
+2026-08-29,札幌,12,202601020312,01262312,16:00,12R ダ1700 千歳特別 2勝クラス 16:00,12,シャンハイナイト,38,45,46.5,0,,,,23.7,9,,,C,A,AA,https://umatoku.hochi.co.jp/data/race/01262312/previous,PASS_EMBEDDED_JSON

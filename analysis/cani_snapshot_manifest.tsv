@@ -1,0 +1,7 @@
+# Cani PC新聞Excel (allnews.xlsx) スナップショットの来歴
+# 原本は本リポジトリに置かない（公開リポジトリのため）。Google Drive「アーカイブ／Cani_原本スナップショット」に保管する。
+# フォルダID: 1EHxLjpcnc-h0kwGNBR89SC6HGPnBtQSA
+# 本ファイルに記録するのは来歴メタデータ（指紋）のみであり、先方の内容は含まない。
+# 欠測週は行を立てて [不足] と記す。0や空欄で埋めない。
+取得日時_JST	Last-Modified_JST	bytes	sha256	保管先	取得元	備考
+2026-09-01 14:40:00	2026-08-29 17:47:59	1350840	3537f11da8afe905c23857d3a51be6bd43302a5f200cb85c800215e3e56e35c0	[不足] Driveへ未搬入	http://cani.fool.jp/S/excel/allnews.xlsx	当方コンテナ内に取得済み。当方からDriveへの直接搬入は不可（1.35MBのbase64が当方の1回の出力上限を超える）。羊一様のWindowsで snapshot.ps1 を実行して搬入いただく

@@ -1,0 +1,57 @@
+{
+ "date": "2026-08-22",
+ "races": 35,
+ "horses": 471,
+ "sha256_gate": "PASS (5指数すべて取得マニフェスト一致・不一致0)",
+ "source_data_mutation": "NO",
+ "restore_method": "エージェント生トランスクリプトからMCP Drive結果(base64)を直接抽出・多数決復元(モデル出力中継なし)。重複取得157件の異本衝突0件",
+ "de_mismatch": 0,
+ "jockey_change": 0,
+ "unsei_matched": 435,
+ "chokyo_matched": 301,
+ "unsei_missing_jockeys": [
+  "コレット",
+  "ナレドゥ",
+  "フーリー",
+  "ヘルナン",
+  "ロイド",
+  "宮内勇樹",
+  "木幡初也",
+  "泉谷楓真",
+  "菅原隆一",
+  "落合玄太",
+  "阿部龍"
+ ],
+ "time_index_missing": [
+  "新潟3R",
+  "中京2R",
+  "札幌5R"
+ ],
+ "known_insufficient": {
+  "ウルトラMB照合台帳": "[不足](未登録・識別力ゼロ)",
+  "細分化ROI×卍": "[不足]HOLD",
+  "JockeyROI DB": "[不足]",
+  "ROI AZ:BA/CB/CJ/DA": "[不足]HOLD",
+  "馬体重・増減(umatoku bataiju/zogen)": "[不足](当日発表・前日取得時点で未公表)"
+ },
+ "odds_basis": "前日8/21取得基準(当日オッズではない)",
+ "race_gate_status": "BLOCKED",
+ "purchase_status": "PROHIBITED",
+ "final_mark_confirmation": "NOT_AUTHORIZED",
+ "purchase_confirmation": "NOT_AUTHORIZED",
+ "nonempty_alerts": [
+  "idm_mark 43.9%(IDM印は上位馬のみ付与=仕様)",
+  "stride.lap_character 41.6%",
+  "stride.note3 42.7%",
+  "umatoku.bataiju 0%・zogen 0%=[不足](当日発表)"
+ ],
+ "watchlist_hits": [
+  {
+   "name": "プレデンシア",
+   "category": "8/8-9持ち越し(r2)",
+   "race": "中京5R",
+   "umaban": 6,
+   "pop": 4
+  }
+ ]
+}
