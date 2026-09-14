@@ -1,0 +1,13 @@
+﻿レース,系統,URL,HTTP,取得方法,備考
+中山4R,netkeiba,https://race.netkeiba.com/race/result.html?race_id=202606040404,200,curl→生HTMLを当方でパース,①除外・⑨中止
+中山7R,netkeiba,https://race.netkeiba.com/race/result.html?race_id=202606040407,200,同上,
+中山8R,netkeiba,https://race.netkeiba.com/race/result.html?race_id=202606040408,200,同上,
+阪神10R,netkeiba,https://race.netkeiba.com/race/result.html?race_id=202609040410,200,同上,
+中山11R,netkeiba,https://race.netkeiba.com/race/result.html?race_id=202606040411,200,同上,
+中山4R,競馬ブック,https://s.keibabook.co.jp/cyuou/seiseki/202604050404,200,curl→生HTMLを当方でパース,確定人気②⑯が5↔6（同オッズ9.2倍タイ）
+中山7R,競馬ブック,https://s.keibabook.co.jp/cyuou/seiseki/202604050407,200,同上,
+中山8R,競馬ブック,https://s.keibabook.co.jp/cyuou/seiseki/202604050408,200,同上,
+阪神10R,競馬ブック,https://s.keibabook.co.jp/cyuou/seiseki/202604010410,200,同上（場コード総当たりで特定）,
+中山11R,競馬ブック,https://s.keibabook.co.jp/cyuou/seiseki/202604050411,200,検索結果のURL,
+セントライト記念,JRA公式,https://www.jra.go.jp/datafile/seiseki/g2/st/result/st2026.html,403,WebFetch・curl とも拒否,取得不可
+JRAトップ,JRA公式,https://www.jra.go.jp/,200,curl,到達はするが結果ページは403

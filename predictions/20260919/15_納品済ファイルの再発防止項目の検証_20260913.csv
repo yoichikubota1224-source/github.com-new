@@ -1,0 +1,11 @@
+﻿ID,検証項目,由来,結果
+R1,xl/_rels/workbook.xml.rels の Relationship Id 一意性,9/12記録 r1(rId34重複でOPC不正),Relationship 38件すべて一意。新シートは rId38 / sheetId=35 / sheet35.xml（いずれも既存値の実測による空き番号）
+R1,全シートの解決（workbook→rels→実パート→Content-Type Override）,同上,35枚すべて解決。孤立ワークシートパート0件
+R1,sheetId・シート名の重複,同上,重複なし
+R2,記号セルの書式シグネチャ（塗り・フォント・配置・罫線）,8/22記録 r2/r3(記号と塗り色の不整合32/48),新シート72セルすべて参照シートの同記号セルと完全一致。不整合0/72
+R2,◎◎ の塗り,同上,solid / rgb FFFF0000 ← 文書ルール FFFF0000 と一致
+R2,◎ の塗り,同上,solid / rgb FFFF7C80 ← 文書ルール FFFF7C80 と一致
+R2,○ の塗り,同上,solid / rgb FFFFCCCC ← 文書ルール FFFFCCCC と一致
+R2,△ の塗り,同上,solid / theme0 tint -0.15 ← 文書ルール theme0 tint-0.15 と一致
+R2,× の塗り,同上,solid / theme0 tint -0.5 ← 文書ルール theme0 tint-0.5 と一致
+結論,納品済 騎手運勢2026.09.19.xlsx の再発行,-,不要（R1・R2ともに合格）
